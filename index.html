@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>그로비안 스트래티지 — Grovian Strategy</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600&family=Noto+Sans+KR:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--deep:#2C3E35;--forest:#3D5A4A;--canopy:#4A7C59;--shield:#7AB38A;--leaf:#B8D4BE;--mist:#B8D4BF;--slate:#5B7280;--cloud:#E8EDF0;--birch:#F0F4F1;--offwh:#F7FAF8;--white:#FFFFFF;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'Noto Sans KR','DM Sans',sans-serif;color:var(--deep);background:var(--white);overflow-x:hidden;word-break:keep-all;}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;height:70px;background:rgba(44,62,53,0.97);backdrop-filter:blur(8px);}
+nav img{height:36px;cursor:pointer;}
+.nav-links{display:flex;align-items:center;gap:1.6rem;}
+.nav-links a{color:var(--mist);text-decoration:none;font-size:13px;cursor:pointer;transition:color .2s;}
+.nav-links a:hover,.nav-links a.active{color:var(--white);}
+.nav-cta{background:var(--shield);color:var(--deep)!important;font-weight:500!important;padding:7px 18px;border-radius:4px;}
+.lang-btn{background:transparent;border:1px solid var(--mist);color:var(--mist);padding:5px 12px;border-radius:4px;font-size:12px;cursor:pointer;font-family:inherit;transition:all .2s;}
+.lang-btn:hover{border-color:var(--white);color:var(--white);}
+.page{display:none;min-height:100vh;padding-top:70px;}
+.page.active{display:block;}
+.hero{min-height:calc(100vh - 70px);background:var(--deep);display:flex;align-items:center;padding:80px 5vw;position:relative;overflow:hidden;}
+.hero.short{min-height:52vh;}
+.hero::before{content:'';position:absolute;width:600px;height:600px;border-radius:50%;background:var(--forest);opacity:.5;top:-150px;right:-100px;}
+.hero::after{content:'';position:absolute;width:350px;height:350px;border-radius:50%;background:var(--canopy);opacity:.25;bottom:-80px;right:200px;}
+.hero-content{position:relative;z-index:1;max-width:720px;}
+.eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--shield);margin-bottom:1.5rem;display:flex;align-items:center;gap:12px;}
+.eyebrow::before{content:'';display:block;width:32px;height:1px;background:var(--shield);}
+h1{font-family:'Noto Serif KR','Cormorant Garamond',serif;font-size:clamp(2.4rem,5vw,4.2rem);font-weight:600;line-height:1.25;color:var(--white);margin-bottom:1.5rem;}
+h1 em{color:var(--shield);font-style:italic;}
+.hero-p{font-size:1.05rem;line-height:1.9;color:var(--mist);max-width:540px;margin-bottom:2.5rem;font-weight:300;}
+.hero-btns{display:flex;gap:1rem;flex-wrap:wrap;}
+.btn-p{background:var(--shield);color:var(--deep);padding:14px 32px;border-radius:4px;font-size:14px;font-weight:500;cursor:pointer;border:none;font-family:inherit;transition:background .2s;}
+.btn-p:hover{background:var(--leaf);}
+.btn-o{border:1px solid var(--mist);color:var(--mist);padding:14px 32px;border-radius:4px;font-size:14px;cursor:pointer;background:none;font-family:inherit;transition:all .2s;}
+.btn-o:hover{border-color:var(--white);color:var(--white);}
+.sec{padding:100px 5vw;}
+.sec.gray{background:var(--birch);}
+.sec.dark{background:var(--deep);}
+.sec-label{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--shield);margin-bottom:1rem;display:flex;align-items:center;gap:12px;}
+.sec-label::before{content:'';display:block;width:24px;height:1px;background:var(--shield);}
+h2{font-family:'Noto Serif KR','Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:600;line-height:1.3;margin-bottom:1.5rem;}
+h2.w{color:var(--white);}
+.lead{font-size:1rem;line-height:1.9;color:var(--slate);font-weight:300;margin-bottom:1.5rem;}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;}
+.g2p{display:grid;grid-template-columns:repeat(2,1fr);gap:2rem;}
+.card{background:var(--offwh);border-radius:8px;padding:2rem;border-left:3px solid var(--shield);transition:transform .2s,box-shadow .2s;}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(44,62,53,.08);}
+.card h3{font-size:1rem;font-weight:500;color:var(--deep);margin-bottom:.75rem;}
+.card p{font-size:.875rem;line-height:1.8;color:var(--slate);font-weight:300;}
+.dc{background:rgba(61,90,74,.5);border:none;border-top:3px solid var(--canopy);border-radius:8px;padding:2rem;}
+.dc .sn{font-family:'Noto Serif KR',serif;font-size:2.8rem;color:var(--canopy);opacity:.6;line-height:1;margin-bottom:.5rem;}
+.dc h3{font-size:1.1rem;font-weight:500;color:var(--white);margin-bottom:.4rem;}
+.dc .ss{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--shield);margin-bottom:.75rem;}
+.dc p{font-size:.85rem;line-height:1.7;color:var(--mist);font-weight:300;}
+.stat-card{background:var(--white);border-radius:8px;padding:1.25rem 1.5rem;display:flex;align-items:center;gap:1.5rem;border-left:3px solid var(--shield);margin-bottom:1rem;}
+.sn2{font-family:'Noto Serif KR',serif;font-size:2rem;font-weight:600;color:var(--canopy);white-space:nowrap;}
+.sd{font-size:.9rem;color:var(--slate);font-weight:300;}
+.dl{display:flex;flex-direction:column;gap:1.2rem;}
+.di{display:flex;gap:1rem;align-items:flex-start;}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--shield);flex-shrink:0;margin-top:7px;}
+.di p{font-size:.95rem;line-height:1.8;color:var(--slate);font-weight:300;}
+.quote{font-family:'Noto Serif KR','Cormorant Garamond',serif;font-size:1.35rem;line-height:1.9;font-style:italic;color:var(--forest);border-left:3px solid var(--shield);padding-left:1.5rem;}
+.ec{background:var(--white);border-radius:8px;padding:2rem;border-top:3px solid var(--canopy);}
+.ec.ft{background:var(--deep);border-top-color:var(--shield);}
+.el{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--shield);margin-bottom:.5rem;}
+.ec h3{font-size:1.2rem;font-weight:500;color:var(--deep);margin-bottom:.4rem;}
+.ec.ft h3{color:var(--white);}
+.ed{font-size:12px;font-style:italic;color:var(--slate);margin-bottom:1rem;}
+.ec.ft .ed{color:var(--shield);}
+.ediv{height:1px;background:var(--cloud);margin:1rem 0;}
+.ec.ft .ediv{background:var(--forest);}
+.ec p{font-size:.875rem;line-height:1.8;color:var(--slate);font-weight:300;}
+.ec.ft p{color:var(--mist);}
+.pc{background:var(--offwh);border-radius:12px;overflow:hidden;border:.5px solid var(--cloud);transition:transform .2s,box-shadow .2s;}
+.pc:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(44,62,53,.1);}
+.pi{height:180px;background:var(--forest);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}
+.pi::before{content:'';position:absolute;width:200px;height:200px;border-radius:50%;background:var(--canopy);opacity:.3;top:-40px;right:-40px;}
+.pt{position:absolute;top:14px;left:14px;background:var(--shield);color:var(--deep);font-size:11px;font-weight:500;padding:4px 12px;border-radius:20px;}
+.pico{font-size:2.5rem;opacity:.7;}
+.pb{padding:1.75rem;}
+.pb h3{font-size:1.1rem;font-weight:500;color:var(--deep);margin-bottom:.5rem;}
+.pco{font-size:12px;color:var(--shield);margin-bottom:1rem;font-weight:500;}
+.pb p{font-size:.875rem;line-height:1.8;color:var(--slate);font-weight:300;margin-bottom:1.2rem;}
+.prs{display:flex;gap:1.5rem;flex-wrap:wrap;}
+.pr{text-align:center;}
+.prn{font-family:'Noto Serif KR',serif;font-size:1.4rem;font-weight:600;color:var(--canopy);}
+.prl{font-size:11px;color:var(--slate);}
+.ph-box{text-align:center;padding:3rem 2rem;background:var(--birch);border-radius:12px;border:2px dashed var(--mist);margin-top:2rem;}
+.ctbox{background:var(--birch);border-radius:12px;padding:2.5rem;}
+.fg{display:flex;flex-direction:column;gap:.4rem;margin-bottom:1rem;}
+.fg label{font-size:13px;font-weight:500;color:var(--deep);}
+.fg input,.fg textarea,.fg select{border:1px solid var(--cloud);border-radius:6px;padding:10px 14px;font-size:14px;font-family:inherit;background:var(--white);color:var(--deep);outline:none;transition:border-color .2s;width:100%;}
+.fg input:focus,.fg textarea:focus,.fg select:focus{border-color:var(--shield);}
+.fg textarea{resize:vertical;min-height:120px;}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+.accentbar{height:4px;background:var(--canopy);}
+.tagf{font-family:'Noto Serif KR',serif;font-style:italic;color:var(--shield);font-size:1.1rem;margin-top:1.5rem;}
+footer{background:var(--forest);padding:2rem 5vw;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;}
+footer span,footer a{font-size:12px;color:var(--mist);font-weight:300;text-decoration:none;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+.hero-content>*{animation:fadeUp .7s ease both;}
+.eyebrow{animation-delay:.1s}.hero-content h1{animation-delay:.2s}.hero-p{animation-delay:.35s}.hero-btns{animation-delay:.5s}
+@media(max-width:768px){.g2,.g3,.g4,.g2p{grid-template-columns:1fr;}.nav-links .np{display:none;}.fr{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+
+<div id="nav-root"></div>
+
+<!-- HOME -->
+<div class="page active" id="pg-home">
+  <div class="hero">
+    <div class="hero-content">
+      <div class="eyebrow" id="h-ey"></div>
+      <h1 id="h-h1"></h1>
+      <p class="hero-p" id="h-p"></p>
+      <div class="hero-btns">
+        <button class="btn-p" id="h-b1" onclick="go('contact')"></button>
+        <button class="btn-o" id="h-b2" onclick="go('services')"></button>
+      </div>
+    </div>
+  </div>
+  <div class="sec gray">
+    <div class="g2">
+      <div><div class="sec-label" id="h-wl"></div><blockquote class="quote" id="h-wq"></blockquote></div>
+      <div>
+        <h2 id="h-wh"></h2><p class="lead" id="h-wp"></p>
+        <div class="dl">
+          <div class="di"><div class="dot"></div><p><strong id="h-s1t"></strong><span id="h-s1p"></span></p></div>
+          <div class="di"><div class="dot"></div><p><strong id="h-s2t"></strong><span id="h-s2p"></span></p></div>
+          <div class="di"><div class="dot"></div><p><strong id="h-s3t"></strong><span id="h-s3p"></span></p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sec-label" id="h-sl"></div><h2 id="h-sh"></h2>
+    <div class="g3" style="margin-top:2rem" id="h-sc"></div>
+  </div>
+  <div class="sec dark">
+    <div class="sec-label" id="h-gl"></div><h2 class="w" id="h-gh"></h2>
+    <p class="lead" style="color:var(--mist)" id="h-gs"></p>
+    <div class="g4" id="h-gc"></div>
+  </div>
+  <div class="sec gray">
+    <div class="g2">
+      <div>
+        <div class="stat-card"><div class="sn2">$1.8T</div><div class="sd" id="h-k1"></div></div>
+        <div class="stat-card"><div class="sn2">Top 5</div><div class="sd" id="h-k2"></div></div>
+        <div class="stat-card"><div class="sn2">87%</div><div class="sd" id="h-k3"></div></div>
+        <div class="stat-card"><div class="sn2" id="h-k4n"></div><div class="sd" id="h-k4"></div></div>
+      </div>
+      <div>
+        <div class="sec-label" id="h-kl"></div><h2 id="h-kh"></h2>
+        <div class="dl" id="h-kd"></div>
+      </div>
+    </div>
+  </div>
+  <div class="sec dark" style="text-align:center">
+    <h2 class="w" id="h-cth"></h2>
+    <p style="color:var(--mist);max-width:520px;margin:.75rem auto 2rem;font-weight:300" id="h-ctp"></p>
+    <button class="btn-p" id="h-ctb" onclick="go('contact')"></button>
+    <div class="tagf">Deep roots. Market reach.</div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div class="page" id="pg-about">
+  <div class="hero short">
+    <div class="hero-content">
+      <div class="eyebrow" id="a-ey"></div>
+      <h1 id="a-h1"></h1>
+      <p class="hero-p" id="a-p"></p>
+    </div>
+  </div>
+  <div class="accentbar"></div>
+  <div class="sec">
+    <div class="g2">
+      <div>
+        <div class="sec-label" id="a-sl"></div><h2 id="a-sh"></h2>
+        <p class="lead" id="a-sp1"></p>
+        <p style="color:var(--slate);font-weight:300;line-height:1.9" id="a-sp2"></p>
+      </div>
+      <div style="background:var(--birch);border-radius:12px;padding:3rem;display:flex;align-items:center;justify-content:center">
+        <blockquote class="quote" id="a-q"></blockquote>
+      </div>
+    </div>
+  </div>
+  <div class="sec gray">
+    <div class="sec-label" id="a-vl"></div><h2 id="a-vh"></h2>
+    <div class="g3" style="margin-top:2rem" id="a-vc"></div>
+  </div>
+  <div class="sec">
+    <div class="sec-label" id="a-stl"></div><h2 id="a-sth"></h2>
+    <div class="dl" style="max-width:680px;margin-top:2rem">
+      <div class="di"><div class="dot"></div><p><strong id="a-d1t"></strong> — <span id="a-d1p"></span></p></div>
+      <div class="di"><div class="dot"></div><p><strong id="a-d2t"></strong> — <span id="a-d2p"></span></p></div>
+      <div class="di"><div class="dot"></div><p><strong id="a-d3t"></strong> — <span id="a-d3p"></span></p></div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<div class="page" id="pg-services">
+  <div class="hero short">
+    <div class="hero-content">
+      <div class="eyebrow" id="s-ey"></div>
+      <h1 id="s-h1"></h1>
+      <p class="hero-p" id="s-p"></p>
+    </div>
+  </div>
+  <div class="accentbar"></div>
+  <div class="sec">
+    <div class="sec-label" id="s-sl"></div><h2 id="s-sh"></h2>
+    <div class="g3" style="margin-top:2rem" id="s-sc"></div>
+  </div>
+  <div class="sec dark">
+    <div class="sec-label" id="s-gl"></div><h2 class="w" id="s-gh"></h2>
+    <p class="lead" style="color:var(--mist)" id="s-gs"></p>
+    <div class="g4" id="s-gc"></div>
+  </div>
+  <div class="sec gray">
+    <div class="sec-label" id="s-el"></div><h2 id="s-eh"></h2>
+    <div class="g3" style="margin-top:2rem" id="s-ec"></div>
+  </div>
+</div>
+
+<!-- PORTFOLIO -->
+<div class="page" id="pg-portfolio">
+  <div class="hero short">
+    <div class="hero-content">
+      <div class="eyebrow" id="p-ey"></div>
+      <h1 id="p-h1"></h1>
+      <p class="hero-p" id="p-p"></p>
+    </div>
+  </div>
+  <div class="accentbar"></div>
+  <div class="sec">
+    <div class="g2p" id="p-cards"></div>
+    <div class="ph-box" id="p-ph">
+      <div style="font-size:2rem">🌱</div>
+      <h3 style="margin-top:.75rem;color:var(--deep)" id="p-ph-t"></h3>
+      <p style="color:var(--slate);margin-top:.5rem;font-weight:300" id="p-ph-p"></p>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div class="page" id="pg-contact">
+  <div class="hero short">
+    <div class="hero-content">
+      <div class="eyebrow" id="c-ey"></div>
+      <h1 id="c-h1"></h1>
+      <p class="hero-p" id="c-p"></p>
+    </div>
+  </div>
+  <div class="accentbar"></div>
+  <div class="sec">
+    <div class="g2" style="align-items:start;gap:60px">
+      <div>
+        <div style="display:flex;flex-direction:column;gap:1rem;margin-bottom:2.5rem">
+          <a href="mailto:contact@grovianstrategy.com" style="color:var(--deep);font-size:1rem;font-weight:500;display:flex;align-items:center;gap:.5rem;text-decoration:none"><span style="color:var(--shield)">✦</span>contact@grovianstrategy.com</a>
+          <a href="https://grovianstrategy.com" style="color:var(--deep);font-size:1rem;display:flex;align-items:center;gap:.5rem;text-decoration:none"><span style="color:var(--shield)">✦</span>grovianstrategy.com</a>
+          <span style="color:var(--slate);display:flex;align-items:center;gap:.5rem"><span style="color:var(--shield)">✦</span><span id="c-loc"></span></span>
+        </div>
+        <h3 style="font-size:1rem;font-weight:500;color:var(--deep);margin-bottom:1rem" id="c-engt"></h3>
+        <div style="display:flex;flex-direction:column;gap:.75rem" id="c-engl"></div>
+      </div>
+      <div class="ctbox">
+        <div class="fr">
+          <div class="fg"><label id="fl-n"></label><input type="text" id="fi-n"></div>
+          <div class="fg"><label id="fl-c"></label><input type="text" id="fi-c"></div>
+        </div>
+        <div class="fr">
+          <div class="fg"><label id="fl-e"></label><input type="email" id="fi-e"></div>
+          <div class="fg"><label id="fl-ph"></label><input type="tel" id="fi-ph"></div>
+        </div>
+        <div class="fg">
+          <label id="fl-sv"></label>
+          <select id="fi-sv"><option id="fo1"></option><option id="fo2"></option><option id="fo3"></option><option id="fo4"></option><option id="fo5"></option><option id="fo6"></option></select>
+        </div>
+        <div class="fg"><label id="fl-m"></label><textarea id="fi-m"></textarea></div>
+        <button class="btn-p" id="f-sub" onclick="submitForm()" style="width:100%"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <span>© 2025 Grovian Strategy. All rights reserved.</span>
+  <div style="display:flex;gap:2rem"><a href="mailto:contact@grovianstrategy.com">contact@grovianstrategy.com</a><span>grovianstrategy.com</span></div>
+</footer>
+
+<script>
+const KO={"nav": ["홈", "소개", "서비스", "포트폴리오", "문의"], "home_eyebrow": "B2B 마케팅 & 컨설팅 · 서울, 대한민국", "home_h1": "전략이 뿌리내리는 곳,<br><em>그로비안입니다.</em>", "home_p": "한국과 아시아에서 B2B 테크 기업의 시장 지배력을 강화합니다. 포지셔닝부터 GTM 실행까지, 지속 성장하는 전략적 생태계를 구축합니다.", "home_btn1": "지금 상담하기", "home_btn2": "서비스 보기", "why_label": "그로비안이란", "why_quote": "\"하나의 나무도 아니고,<br>통제되지 않는 숲도 아닙니다.<br>의도적으로 설계된 성장입니다.\"<br><br><small>— The Grovian Philosophy</small>", "why_h2": "왜 그로비안인가요?", "why_p": "'그로비안'은 서로 뿌리가 얽혀 함께 성장하는 나무들의 군락, 'Grove'에서 유래됩니다. 포지셔닝·메시징·수요창출·영업 활성화가 유기적으로 연결된 전략적 생태계를 구축합니다.", "svc_label": "서비스", "svc_h2": "B2B 마케팅 풀서비스.", "grove_label": "방법론", "grove_h2": "그로브 모델", "grove_sub": "단편적인 캠페인이 아닌, 복리로 성장하는 B2B 마케팅 생태계를 구축합니다.", "contact_btn": "문의하기", "about_hero_label": "회사 소개", "about_hero_h2": "전략적 성장의<br>생태계를 설계합니다.", "about_hero_p": "그로비안은 한국과 아시아에서 B2B 테크 기업의 지속 가능한 성장을 지원하는 마케팅 & 컨설팅 에이전시입니다.", "about_story_label": "우리의 이야기", "about_story_h2": "Grove에서 시작된 전략", "about_story_p1": "그로비안은 단순한 마케팅 대행사가 아닙니다. 한국의 B2B 시장을 깊이 이해하고, 글로벌 스탠다드의 전략을 현지 맥락에 맞게 실행하는 전략적 파트너입니다.", "about_story_p2": "우리의 이름처럼, 하나의 나무(단편적 캠페인)가 아닌 뿌리가 얽혀 함께 성장하는 숲(전략적 생태계)을 만드는 것이 목표입니다.", "about_val_label": "핵심 가치", "about_val_h2": "우리가 믿는 것들", "strength_label": "강점", "strength_h2": "그로비안만의 차별점", "svc_hero_label": "서비스", "svc_hero_h2": "브랜드 구축부터<br>매출 성장까지.", "svc_hero_p": "B2B 마케팅의 전 영역을 커버하는 통합 서비스를 제공합니다.", "engage_label": "참여 방식", "engage_h2": "유연한 협업 모델", "port_hero_label": "포트폴리오", "port_hero_h2": "실제 성과로<br>증명합니다.", "port_hero_p": "그로비안과 함께한 기업들의 실제 프로젝트 결과입니다.", "port_coming": "케이스 스터디 준비 중", "port_coming_p": "현재 클라이언트 프로젝트 진행 중입니다. 곧 업데이트됩니다.", "contact_hero_label": "문의하기", "contact_hero_h2": "함께 성장합시다.", "contact_hero_p": "한국과 아시아에서 시장 지배력을 구축할 준비가 되셨나요? 목표를 들려주세요.", "form_name": "성함", "form_company": "회사명", "form_email": "이메일", "form_phone": "연락처 (선택)", "form_service": "관심 서비스", "form_msg": "문의 내용", "form_submit": "문의 보내기", "form_placeholder_msg": "프로젝트에 대해 간략히 소개해주세요..."};
+const EN={"nav": ["Home", "About", "Services", "Portfolio", "Contact"], "home_eyebrow": "B2B Marketing & Consulting · Seoul, Korea", "home_h1": "Where strategy<br><em>takes root.</em>", "home_p": "We help tech companies build market position in Korea and across Asia — from positioning and messaging to full GTM execution.", "home_btn1": "Start a conversation", "home_btn2": "Our services", "why_label": "Why Grovian", "why_quote": "\"A grove isn't a single tree,<br>and it isn't a wilderness.<br>It's intentional growth.\"<br><br><small>— The Grovian Philosophy</small>", "why_h2": "Why Grovian?", "why_p": "The name Grovian comes from 'grove' — trees growing together, roots intertwined. We build integrated marketing ecosystems where every element compounds your market position over time.", "svc_label": "Services", "svc_h2": "Full-spectrum B2B marketing.", "grove_label": "Methodology", "grove_h2": "The Grove Model", "grove_sub": "Not one-off campaigns, but a compounding B2B marketing ecosystem.", "contact_btn": "Contact us", "about_hero_label": "About", "about_hero_h2": "We design ecosystems<br>for strategic growth.", "about_hero_p": "Grovian Strategy is a Seoul-based B2B marketing & consulting agency helping tech companies grow sustainably in Korea and Asia.", "about_story_label": "Our story", "about_story_h2": "Strategy rooted in the Grove", "about_story_p1": "Grovian is not a typical marketing agency. We are a strategic partner with deep roots in Korean B2B market dynamics and global strategic fluency.", "about_story_p2": "Like our name, our goal is not one tree (a single campaign) but an interconnected grove — an intentional ecosystem where every element supports sustainable growth.", "about_val_label": "Core values", "about_val_h2": "What we believe in", "strength_label": "Our edge", "strength_h2": "What sets Grovian apart", "svc_hero_label": "Services", "svc_hero_h2": "From brand building<br>to revenue growth.", "svc_hero_p": "We cover the full spectrum of B2B marketing with integrated services.", "engage_label": "Engagement", "engage_h2": "Flexible collaboration", "port_hero_label": "Portfolio", "port_hero_h2": "Proven results,<br>real impact.", "port_hero_p": "Real project outcomes from companies that grew with Grovian.", "port_coming": "Case studies coming soon", "port_coming_p": "Currently working on client projects. Updates coming soon.", "contact_hero_label": "Contact", "contact_hero_h2": "Let's grow together.", "contact_hero_p": "Ready to build your market position in Korea and Asia? We'd love to hear about your goals.", "form_name": "Name", "form_company": "Company", "form_email": "Email", "form_phone": "Phone (optional)", "form_service": "Service of interest", "form_msg": "Message", "form_submit": "Send message", "form_placeholder_msg": "Tell us about your project..."};
+const SVCS_KO=[["브랜드 & 포지셔닝", "시장 포지셔닝, 메시지 프레임워크, 브랜드 내러티브, 경쟁 차별화 전략을 수립합니다."], ["콘텐츠 전략", "사고 리더십, 백서, 케이스 스터디, 한국어·영어 로컬라이즈 콘텐츠를 제작합니다."], ["수요 창출", "인바운드, ABM, 유료 광고, SEO/SEM을 한국 B2B 구매 사이클에 맞게 최적화합니다."], ["GTM 전략", "시장 진출 기획, ICP 정의, 채널 전략, 런치 로드맵을 수립합니다."], ["영업 지원", "배틀카드, 피치덱, 이메일 시퀀스, CRM 연동으로 영업 파이프라인을 강화합니다."], ["마케팅 컨설팅", "Fractional CMO, 팀 감사, 테크 스택 검토, 성과 프레임워크를 제공합니다."]];
+const SVCS_EN=[["Brand & Positioning", "Market positioning, messaging frameworks, brand narrative, and competitive differentiation."], ["Content Strategy", "Thought leadership, whitepapers, case studies, and localized Korean & English content."], ["Demand Generation", "Inbound, ABM, paid media, and SEO/SEM calibrated for Korean B2B buying cycles."], ["Go-to-Market Strategy", "GTM planning, ICP definition, channel strategy, and launch roadmaps."], ["Sales Enablement", "Battlecards, pitch decks, email sequences, and CRM alignment to build pipeline."], ["Marketing Consulting", "Fractional CMO, team audits, tech stack reviews, and performance frameworks."]];
+const STEPS_KO=[["1", "뿌리 (Roots)", "Understand", "시장 조사, 경쟁 분석, ICP 정의. 추측하지 않습니다."], ["2", "줄기 (Trunk)", "Position", "포지셔닝, 메시지 프레임워크, GTM 전략의 핵심을 구축합니다."], ["3", "가지 (Branches)", "Activate", "콘텐츠, 수요 창출, 영업 지원 전반을 실행합니다."], ["4", "수관 (Canopy)", "Scale", "측정, 최적화, 확장. 복리로 성장하는 시스템을 만듭니다."]];
+const STEPS_EN=[["1", "Roots", "Understand", "Deep market research, competitive audit, ICP definition. We don't guess."], ["2", "Trunk", "Position", "Build the strategic core: positioning, messaging, GTM framework."], ["3", "Branches", "Activate", "Execute across channels: content, demand gen, sales enablement."], ["4", "Canopy", "Scale", "Measure, optimize, expand. Build a compounding system."]];
+const VALS_KO=[["뿌리 깊은 전문성", "한국 B2B 시장의 복잡한 의사결정 구조를 깊이 이해합니다."], ["글로벌 유창함", "글로벌 스탠다드 전략을 한국 시장 맥락에 맞게 실행합니다."], ["통합적 시각", "마케팅과 영업을 분리하지 않고, 매출 전체 관점에서 접근합니다."], ["실행 가능한 통찰", "아이디어에 그치지 않고, 측정 가능한 결과를 만들어냅니다."], ["파트너십", "대행사가 아닌 고객사의 성장을 함께 책임지는 전략 파트너입니다."], ["복리 성장", "단발성 캠페인이 아닌, 시간이 지날수록 강해지는 시스템을 구축합니다."]];
+const VALS_EN=[["Deep Expertise", "We deeply understand the complex decision-making structures of Korean B2B markets."], ["Global Fluency", "We execute global-standard strategy in the Korean market context."], ["Integrated Vision", "We approach everything from a full revenue perspective, not siloed marketing."], ["Actionable Insight", "We don't stop at ideas — we create measurable outcomes."], ["Partnership", "We're not an agency. We're a strategic partner who shares responsibility for your growth."], ["Compounding Growth", "We build systems that get stronger over time, not one-off campaigns."]];
+const ENGS_KO=[["전략 스프린트", "빠른 전략 수립", "4~6주 집중 프로젝트", false, "포지셔닝, GTM 프레임워크, 90일 실행 계획을 집중적으로 수립합니다."], ["성장 파트너", "가장 인기 있는 모델", "월정액 리테이너", true, "전략·콘텐츠·캠페인·리포팅을 포함한 풀스택 마케팅 지원. 그로비안이 고객사의 마케팅 팀이 됩니다."], ["어드바이저리", "시니어 전략 자문", "유연한 계약", false, "Fractional CMO 또는 시니어 어드바이저 모델. 전략적 방향성과 이사회 수준의 인사이트를 제공합니다."]];
+const ENGS_EN=[["Strategy Sprint", "Fast clarity", "4-6 week intensive", false, "Positioning, GTM framework, and 90-day action plan. Ideal for new market entry or pre-launch."], ["Growth Partner", "Most popular", "Ongoing retainer", true, "Full-stack marketing support: strategy, content, campaigns, reporting. We become your marketing team."], ["Advisory", "Senior guidance", "Flexible", false, "Fractional CMO or senior advisor model. Strategic oversight, team coaching, board-level marketing input."]];
+const PORT_KO=[["블라인드 B2B 광고 캠페인", "글로벌 SaaS 기업", "B2B 리드 광고", "블라인드 앱을 활용한 국내 IT/금융업계 타겟 피드 광고 캠페인 기획 및 실행. ABM 접근으로 타겟 계정 인지도 및 리드를 확보했습니다.", ["CTR +180%", "리드 +230%", "CPL -35%"]], ["한국 시장 GTM 전략", "미국 HR테크 스타트업", "GTM 전략", "한국 엔터프라이즈 HR 시장 진출을 위한 포지셔닝, ICP 정의, 채널 전략, 파트너십 로드맵을 수립했습니다.", ["3개월 내 POC", "파트너 5개사", "파이프라인 ₩2.4B"]]];
+const PORT_EN=[["Blind B2B Ad Campaign", "Global SaaS Company", "B2B Lead Advertising", "Planned and executed a feed ad campaign targeting Korean IT/finance professionals on the Blind app using an ABM approach to build awareness and capture qualified leads.", ["CTR +180%", "Leads +230%", "CPL -35%"]], ["Korea GTM Strategy", "US HR-Tech Startup", "GTM Strategy", "Developed positioning, ICP definition, channel strategy, and partnership roadmap for entering the Korean enterprise HR market.", ["POC in 3 months", "5 partners", "Pipeline ₩2.4B"]]];
+const NAV_B64="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";
+
+let lang='ko',curPage='home';
+const PAGES=['home','about','services','portfolio','contact'];
+
+function go(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.getElementById('pg-'+id).classList.add('active');
+  curPage=id;
+  renderNav();
+  window.scrollTo(0,0);
+}
+function toggleLang(){lang=lang==='ko'?'en':'ko';render();}
+
+function s(id,v){const e=document.getElementById(id);if(e)e.innerHTML=v;}
+function ph(id,v){const e=document.getElementById(id);if(e)e.placeholder=v;}
+
+function renderNav(){
+  const t=lang==='ko'?KO:EN;
+  document.getElementById('nav-root').innerHTML=
+    '<nav><img src="data:image/jpeg;base64,'+NAV_B64+'" alt="Grovian" onclick="go(\'home\')">'+
+    '<div class="nav-links">'+
+    PAGES.map((p,i)=>'<a onclick="go(\''+p+'\')" class="np'+(p===curPage?' active':'')+'">'+t.nav[i]+'</a>').join('')+
+    '<a onclick="go(\'contact\')" class="nav-cta">'+t.contact_btn+'</a>'+
+    '<button class="lang-btn" onclick="toggleLang()">'+(lang==='ko'?'EN':'한')+'</button>'+
+    '</div></nav>';
+}
+
+function card(h,p){return '<div class="card"><h3>'+h+'</h3><p>'+p+'</p></div>';}
+function dcCard(n,h,ss,p){return '<div class="dc"><div class="sn">'+n+'</div><h3>'+h+'</h3><div class="ss">'+ss+'</div><p>'+p+'</p></div>';}
+function engCard(e){return '<div class="ec'+(e[3]?' ft':'')+'"><div class="el">'+e[1]+'</div><h3>'+e[0]+'</h3><div class="ed">'+e[2]+'</div><div class="ediv"></div><p>'+e[4]+'</p></div>';}
+function portCard(p){
+  const rs=p[4].map(r=>{const pts=r.split(' ');return '<div class="pr"><div class="prn">'+pts[0]+'</div><div class="prl">'+pts.slice(1).join(' ')+'</div></div>';}).join('');
+  return '<div class="pc"><div class="pi"><span class="pt">'+p[2]+'</span><div class="pico">🌱</div></div><div class="pb"><h3>'+p[0]+'</h3><div class="pco">'+p[1]+'</div><p>'+p[3]+'</p><div class="prs">'+rs+'</div></div></div>';
+}
+
+function render(){
+  const t=lang==='ko'?KO:EN;
+  const svcs=lang==='ko'?SVCS_KO:SVCS_EN;
+  const steps=lang==='ko'?STEPS_KO:STEPS_EN;
+  const vals=lang==='ko'?VALS_KO:VALS_EN;
+  const engs=lang==='ko'?ENGS_KO:ENGS_EN;
+  const ports=lang==='ko'?PORT_KO:PORT_EN;
+  renderNav();
+
+  // HOME
+  s('h-ey',t.home_eyebrow);s('h-h1',t.home_h1);s('h-p',t.home_p);
+  s('h-b1',t.home_btn1);s('h-b2',t.home_btn2);
+  s('h-wl',t.why_label);s('h-wq',t.why_quote);s('h-wh',t.why_h2);s('h-wp',t.why_p);
+  const str=lang==='ko'?[['B2B 전문가',' — 의사결정 구조가 복잡한 B2B 비즈니스를 완벽히 이해합니다.'],['통합적 접근',' — 마케팅과 영업을 분리하지 않고 매출 전체 관점에서 전략을 제안합니다.'],['Fractional CMO',' — 단순 대행사를 넘어, 고객사의 전략 파트너로서 실행 가능한 통찰을 제공합니다.']]:
+    [['B2B Specialists',' — We deeply understand the complex mechanics of B2B business.'],['Holistic Approach',' — We propose strategy from a full revenue perspective, not silos.'],['Fractional CMO',' — Beyond agency work — actionable insights as your strategic partner.']];
+  s('h-s1t',str[0][0]);s('h-s1p',str[0][1]);s('h-s2t',str[1][0]);s('h-s2p',str[1][1]);s('h-s3t',str[2][0]);s('h-s3p',str[2][1]);
+  s('h-sl',t.svc_label);s('h-sh',t.svc_h2);
+  s('h-sc',svcs.slice(0,3).map(x=>card(x[0],x[1])).join(''));
+  s('h-gl',t.grove_label);s('h-gh',t.grove_h2);s('h-gs',t.grove_sub);
+  s('h-gc',steps.map(x=>dcCard(x[0],x[1],x[2],x[3])).join(''));
+  const ks=lang==='ko'?['한국 GDP — 글로벌 12위 경제 대국','글로벌 반도체·디스플레이 기술 허브','인터넷 보급률 — OECD 최고 수준','2020년 대비 B2B SaaS 성장률','3배','한국 시장','로컬 전문성.<br>글로벌 역량.']:
+    ['Korea GDP — 12th largest economy globally','Global semiconductor & display tech hub','Internet penetration — highest in OECD','B2B SaaS growth rate vs. 2020 in Korea','3×','Korea Market','Local expertise.<br>Global fluency.'];
+  s('h-k1',ks[0]);s('h-k2',ks[1]);s('h-k3',ks[2]);s('h-k4',ks[3]);s('h-k4n',ks[4]);s('h-kl',ks[5]);s('h-kh',ks[6]);
+  const kd=lang==='ko'?['한국 엔터프라이즈 구매 문화는 <strong>신뢰 우선</strong>입니다. 관계(関係)가 진정한 GTM 채널입니다.','로컬 시장 이해 없이 진입하는 글로벌 브랜드는 신뢰도를 잃습니다. 한국에서만 통하는 접근법이 있습니다.','그로비안은 글로벌 B2B 전략과 한국 시장 현실을 연결합니다. 서울 기반, 글로벌 트레이닝.']:
+    ['Korean enterprise buying culture requires <strong>trust-first, features-second</strong>. Relationships are the true GTM channel.','Global brands entering Korea without local context risk damaging credibility.','Grovian bridges global B2B strategy with Korean market reality. Seoul-based, globally trained.'];
+  s('h-kd',kd.map(d=>'<div class="di"><div class="dot"></div><p>'+d+'</p></div>').join(''));
+  s('h-cth',lang==='ko'?'함께 성장합시다.':'Let\'s grow together.');
+  s('h-ctp',lang==='ko'?'한국과 아시아에서 시장 지배력을 구축할 준비가 되셨나요?':'Ready to build your market position in Korea and Asia?');
+  s('h-ctb',lang==='ko'?'지금 문의하기':'Get in touch');
+
+  // ABOUT
+  s('a-ey',t.about_hero_label);s('a-h1',t.about_hero_h2);s('a-p',t.about_hero_p);
+  s('a-sl',t.about_story_label);s('a-sh',t.about_story_h2);s('a-sp1',t.about_story_p1);s('a-sp2',t.about_story_p2);
+  s('a-q',t.why_quote);s('a-vl',t.about_val_label);s('a-vh',t.about_val_h2);
+  s('a-vc',vals.map(x=>card(x[0],x[1])).join(''));
+  s('a-stl',t.strength_label);s('a-sth',t.strength_h2);
+  const ds=lang==='ko'?[['B2B 전문가','의사결정 구조가 복잡한 B2B 비즈니스 메커니즘을 완벽히 이해합니다.'],['통합적 접근','마케팅과 영업을 분리하지 않고, 전체 매출 관점에서 전략을 제안합니다.'],['Fractional CMO','단순 대행사를 넘어 고객사의 전략 파트너로서 실행 가능한 통찰력을 제공합니다.']]:
+    [['B2B Specialists','We deeply understand the complex mechanics of B2B business decision-making.'],['Holistic Approach','We don\'t separate marketing and sales — full revenue perspective always.'],['Fractional CMO','Beyond agency work — actionable insights as your strategic partner.']];
+  s('a-d1t',ds[0][0]);s('a-d1p',ds[0][1]);s('a-d2t',ds[1][0]);s('a-d2p',ds[1][1]);s('a-d3t',ds[2][0]);s('a-d3p',ds[2][1]);
+
+  // SERVICES
+  s('s-ey',t.svc_hero_label);s('s-h1',t.svc_hero_h2);s('s-p',t.svc_hero_p);
+  s('s-sl',t.svc_label);s('s-sh',t.svc_h2);s('s-sc',svcs.map(x=>card(x[0],x[1])).join(''));
+  s('s-gl',t.grove_label);s('s-gh',t.grove_h2);s('s-gs',t.grove_sub);
+  s('s-gc',steps.map(x=>dcCard(x[0],x[1],x[2],x[3])).join(''));
+  s('s-el',t.engage_label);s('s-eh',t.engage_h2);
+  s('s-ec',engs.map(e=>engCard(e)).join(''));
+
+  // PORTFOLIO
+  s('p-ey',t.port_hero_label);s('p-h1',t.port_hero_h2);s('p-p',t.port_hero_p);
+  s('p-cards',ports.map(p=>portCard(p)).join(''));
+  s('p-ph-t',t.port_coming);s('p-ph-p',t.port_coming_p);
+
+  // CONTACT
+  s('c-ey',t.contact_hero_label);s('c-h1',t.contact_hero_h2);s('c-p',t.contact_hero_p);
+  s('c-loc',lang==='ko'?'서울, 대한민국':'Seoul, Korea');
+  s('c-engt',lang==='ko'?'협업 방식':'Engagement Models');
+  s('c-engl',engs.map(e=>'<div style="display:flex;gap:.75rem;align-items:flex-start"><div class="dot" style="margin-top:5px"></div><div><strong style="color:var(--deep);font-size:.95rem">'+e[0]+'</strong><span style="color:var(--slate);font-size:.875rem"> — '+e[2]+'</span></div></div>').join(''));
+  s('fl-n',t.form_name);s('fl-c',t.form_company);s('fl-e',t.form_email);s('fl-ph',t.form_phone);
+  s('fl-sv',t.form_service);s('fl-m',t.form_msg);s('f-sub',t.form_submit);
+  ph('fi-m',t.form_placeholder_msg);
+  const opts=lang==='ko'?['브랜드 & 포지셔닝','콘텐츠 전략','수요 창출','GTM 전략','영업 지원','마케팅 컨설팅']:
+    ['Brand & Positioning','Content Strategy','Demand Generation','GTM Strategy','Sales Enablement','Marketing Consulting'];
+  for(let i=1;i<=6;i++)s('fo'+i,opts[i-1]||'');
+}
+
+function submitForm(){
+  alert(lang==='ko'?'문의가 접수되었습니다. 빠른 시일 내 연락드리겠습니다! 🌱':'Thank you! We will get back to you soon. 🌱');
+}
+
+render();
+</script>
+</body>
+</html>
