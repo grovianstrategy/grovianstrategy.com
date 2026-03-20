@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>그로비안 스트레티지 — Grovian Strategy</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+<style>
+:root{
+  --deep:#2C3E35;--forest:#3D5A4A;--canopy:#4A7C59;
+  --shield:#7AB38A;--leaf:#B8D4BE;--mist:#B8D4BF;
+  --slate:#5B7280;--cloud:#E8EDF0;--birch:#F0F4F1;
+  --offwh:#F7FAF8;--white:#FFFFFF;
+  --accent:#7AB38A;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;color:#1a1a1a;background:var(--white);overflow-x:hidden;word-break:keep-all;}
+
+/* ── NAV ── */
+nav{position:fixed;top:0;left:0;right:0;z-index:200;height:68px;background:#2C3E35;backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:space-between;padding:0 5vw;}
+nav img{height:34px;cursor:pointer;}
+.nav-links{display:flex;align-items:center;gap:0;}
+.nav-item{position:relative;}
+.nav-item>a{display:flex;align-items:center;gap:4px;color:rgba(255,255,255,0.85);letter-spacing:.03em;font-size:13px;text-decoration:none;font-size:13px;font-weight:500;padding:0 16px;height:68px;transition:color .2s;cursor:pointer;white-space:nowrap;}
+.nav-item>a:hover,.nav-item>a.active{color:var(--shield);}
+.nav-item>a .arr{font-size:10px;transition:transform .2s;}
+.nav-item:hover>a .arr{transform:rotate(180deg);}
+.dropdown{display:none;position:absolute;top:68px;left:0;background:var(--white);border:1px solid var(--cloud);border-radius:8px;min-width:200px;box-shadow:0 8px 32px rgba(0,0,0,0.08);padding:8px 0;z-index:300;}
+.nav-item:hover .dropdown{display:block;}
+.dropdown a{display:block;padding:10px 20px;font-size:13px;color:#444;text-decoration:none;transition:all .15s;white-space:nowrap;}
+.dropdown a:hover{background:var(--birch);color:var(--canopy);}
+.nav-right{display:flex;align-items:center;gap:12px;}
+.nav-cta{background:var(--canopy);color:var(--white)!important;padding:8px 20px;border-radius:5px;font-size:13px;font-weight:500;text-decoration:none;cursor:pointer;transition:background .2s;}
+.nav-cta:hover{background:var(--deep);}
+.lang-btn{background:transparent;border:1px solid #ddd;color:#666;padding:6px 13px;border-radius:5px;font-size:12px;cursor:pointer;font-family:inherit;transition:all .2s;}
+.lang-btn:hover{border-color:var(--canopy);color:var(--canopy);}
+
+/* ── HERO (fullscreen with image overlay) ── */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;padding-top:68px;}
+.hero-bg{position:absolute;inset:0;background:linear-gradient(135deg,#EEF5F0 0%,#F4FAF6 50%,#EAF2EC 100%);z-index:0;}
+.hero-bg::after{content:'';position:absolute;inset:0;background:none;}
+.hero-overlay{position:absolute;inset:0;background:none;z-index:1;}
+.hero-content{position:relative;z-index:2;max-width:760px;padding:0 5vw;}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(74,124,89,0.1);border:1px solid rgba(74,124,89,0.3);border-radius:20px;padding:6px 16px;margin-bottom:2rem;}
+.hero-badge span{font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--canopy);}
+.hero h1{font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;font-size:clamp(2.8rem,5.5vw,5rem);font-weight:800;line-height:1.1;color:var(--deep);margin-bottom:1.5rem;letter-spacing:-.03em;}
+.hero h1 em{color:var(--shield);font-style:italic;}
+.hero-sub{font-size:1.1rem;line-height:1.9;color:var(--slate);max-width:560px;margin-bottom:3rem;font-weight:300;}
+.hero-btns{display:flex;gap:1rem;flex-wrap:wrap;}
+.btn-main{background:var(--shield);color:var(--deep);padding:15px 36px;border-radius:5px;font-size:13px;font-weight:600;border:none;cursor:pointer;font-family:'Pretendard','Inter',sans-serif;transition:all .2s;letter-spacing:.06em;text-transform:uppercase;}
+.btn-main:hover{background:var(--leaf);transform:translateY(-1px);}
+.btn-ghost{border:1.5px solid var(--canopy);color:var(--canopy);padding:15px 36px;border-radius:5px;font-size:13px;background:none;cursor:pointer;font-family:'Pretendard','Inter',sans-serif;transition:all .2s;letter-spacing:.06em;text-transform:uppercase;}
+.btn-ghost:hover{border-color:var(--deep);color:var(--deep);}
+.hero-stats{position:absolute;bottom:0;left:0;right:0;z-index:2;background:rgba(220,235,225,0.6);border-top:1px solid rgba(74,124,89,0.12);backdrop-filter:blur(6px);display:flex;justify-content:center;gap:0;}
+.h-stat{padding:1.25rem 3rem;text-align:center;border-right:1px solid rgba(255,255,255,0.1);}
+.h-stat:last-child{border-right:none;}
+.h-stat-n{font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;font-size:1.8rem;font-weight:600;color:var(--canopy);}
+.h-stat-l{font-size:11px;color:var(--slate);margin-top:2px;letter-spacing:.05em;}
+
+/* ── SECTION BASE ── */
+.sec{padding:100px 5vw;}
+.sec.gray{background:var(--birch);}
+.sec.dark{background:var(--deep);}
+.sec.white{background:var(--white);}
+.sec-inner{max-width:1200px;margin:0 auto;}
+.sec-label{font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:var(--canopy);margin-bottom:.75rem;font-weight:600;font-family:'Inter',sans-serif;}
+.sec-label.c{text-align:center;}
+h2{font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;font-size:clamp(2rem,3.5vw,2.8rem);font-weight:700;line-height:1.25;color:#1a1a1a;margin-bottom:1rem;letter-spacing:-.03em;}
+h2.w{color:var(--white);}
+h2.c{text-align:center;}
+.sec-desc{font-size:1rem;line-height:1.9;color:var(--slate);max-width:640px;font-weight:300;}
+.sec-desc.c{text-align:center;margin:0 auto 3rem;}
+
+/* ── DIVIDER ── */
+.div-line{height:3px;width:48px;background:var(--canopy);margin:1rem 0 1.5rem;}
+.div-line.c{margin:1rem auto 1.5rem;}
+
+/* ── GRID ── */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;}
+.g2p{display:grid;grid-template-columns:repeat(2,1fr);gap:2rem;}
+
+/* ── CAPABILITY CARDS (neodigm style) ── */
+.cap-card{background:var(--white);border-radius:10px;padding:2.5rem 2rem;border:1px solid var(--cloud);transition:all .25s;cursor:pointer;position:relative;overflow:hidden;}
+.cap-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--shield);transform:scaleY(0);transition:transform .25s;transform-origin:bottom;}
+.cap-card:hover{transform:translateY(-6px);box-shadow:0 20px 48px rgba(44,62,53,.1);border-color:var(--leaf);}
+.cap-card:hover::before{transform:scaleY(1);}
+.cap-icon{width:48px;height:48px;background:var(--birch);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:1.25rem;}
+.cap-card h3{font-size:1.05rem;font-weight:600;color:#1a1a1a;margin-bottom:.6rem;}
+.cap-card p{font-size:.875rem;line-height:1.8;color:var(--slate);font-weight:300;}
+
+/* ── PROCESS (neodigm grove model) ── */
+.process-wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:3rem;position:relative;}
+.process-wrap::before{content:'';position:absolute;top:36px;left:12.5%;right:12.5%;height:2px;background:linear-gradient(to right,var(--shield),var(--leaf));z-index:0;}
+.proc-item{text-align:center;position:relative;z-index:1;padding:0 1rem;}
+.proc-num{width:72px;height:72px;border-radius:50%;background:var(--canopy);color:var(--white);font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;font-size:1.4rem;font-weight:600;display:flex;align-items:center;justify-content:center;margin:0 auto 1.25rem;}
+.proc-item h3{font-size:1rem;font-weight:600;color:#1a1a1a;margin-bottom:.5rem;}
+.proc-sub{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--canopy);margin-bottom:.5rem;}
+.proc-item p{font-size:.825rem;line-height:1.7;color:var(--slate);font-weight:300;}
+
+/* ── CASE STUDIES (neodigm style) ── */
+.case-tabs{display:flex;gap:0;border-bottom:2px solid var(--cloud);margin-bottom:3rem;}
+.case-tab{padding:12px 24px;font-size:13px;font-weight:500;color:#888;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-2px;transition:all .2s;}
+.case-tab.active,.case-tab:hover{color:var(--canopy);border-bottom-color:var(--canopy);}
+.case-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2rem;}
+.case-card{border-radius:12px;overflow:hidden;border:1px solid var(--cloud);transition:all .25s;}
+.case-card:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(44,62,53,.1);}
+.case-img{height:200px;background:var(--forest);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;}
+.case-img::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,var(--deep) 0%,var(--canopy) 100%);opacity:.85;}
+.case-cat{background:rgba(74,124,89,0.12);color:var(--canopy);font-size:11px;font-weight:600;padding:4px 12px;border-radius:20px;}
+.case-icon{font-size:3rem;opacity:.3;z-index:0;}
+.case-body{padding:1.75rem;}
+.case-body h3{font-size:1.05rem;font-weight:600;color:#1a1a1a;margin-bottom:.4rem;}
+.case-co{font-size:12px;color:var(--canopy);font-weight:500;margin-bottom:.75rem;}
+.case-body p{font-size:.875rem;line-height:1.8;color:var(--slate);font-weight:300;margin-bottom:1.25rem;}
+.case-results{display:flex;gap:1.5rem;}
+.cr{text-align:center;}
+.crn{font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;font-size:1.3rem;font-weight:600;color:var(--canopy);}
+.crl{font-size:11px;color:var(--slate);}
+
+/* ── CLIENT LOGOS (raonbee style) ── */
+.client-sec{padding:60px 5vw;background:var(--white);border-top:1px solid var(--cloud);border-bottom:1px solid var(--cloud);}
+.client-label{text-align:center;font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:#aaa;margin-bottom:2rem;font-weight:500;}
+.logo-track-wrap{overflow:hidden;position:relative;}
+.logo-track-wrap::before,.logo-track-wrap::after{content:'';position:absolute;top:0;bottom:0;width:80px;z-index:2;}
+.logo-track-wrap::before{left:0;background:linear-gradient(to right,var(--white),transparent);}
+.logo-track-wrap::after{right:0;background:linear-gradient(to left,var(--white),transparent);}
+.logo-track{display:flex;gap:0;animation:scroll 28s linear infinite;}
+.logo-track:hover{animation-play-state:paused;}
+.logo-item{flex-shrink:0;width:160px;height:72px;display:flex;align-items:center;justify-content:center;padding:0 20px;border-right:1px solid var(--cloud);}
+.logo-item span{font-size:13px;font-weight:700;color:#bbb;letter-spacing:.05em;text-align:center;}
+@keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* ── WHY US (numbers) ── */
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--cloud);border:1px solid var(--cloud);border-radius:12px;overflow:hidden;margin-top:3rem;}
+.why-item{background:var(--white);padding:2.5rem 2rem;text-align:center;}
+.why-num{font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;font-weight:800;font-size:2.8rem;font-weight:600;color:var(--canopy);line-height:1;}
+.why-unit{font-size:1.2rem;color:var(--canopy);}
+.why-label{font-size:.875rem;color:var(--slate);margin-top:.5rem;font-weight:300;}
+
+/* ── QUOTE BAND ── */
+.quote-band{background:var(--deep);padding:80px 5vw;text-align:center;}
+.qb-text{font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;font-size:clamp(1.4rem,2.5vw,2rem);font-style:italic;color:var(--white);line-height:1.8;max-width:800px;margin:0 auto 1rem;}
+.qb-attr{font-size:13px;color:var(--mist);letter-spacing:.08em;}
+
+/* ── ENGAGE CARDS ── */
+.eng-wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem;}
+.eng-card{background:var(--white);border:1px solid var(--cloud);border-radius:10px;padding:2.5rem 2rem;transition:all .25s;}
+.eng-card.ft{background:var(--deep);border-color:var(--deep);}
+.eng-card:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(44,62,53,.1);}
+.eng-tag{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--canopy);margin-bottom:.75rem;font-weight:600;}
+.eng-card h3{font-size:1.2rem;font-weight:600;color:#1a1a1a;margin-bottom:.3rem;}
+.eng-card.ft h3{color:var(--white);}
+.eng-dur{font-size:12px;color:var(--slate);font-style:italic;margin-bottom:1.25rem;}
+.eng-card.ft .eng-dur{color:var(--canopy);}
+.eng-div{height:1px;background:var(--cloud);margin:1.25rem 0;}
+.eng-card.ft .eng-div{background:rgba(255,255,255,.1);}
+.eng-card p{font-size:.875rem;line-height:1.8;color:var(--slate);font-weight:300;}
+.eng-card.ft p{color:rgba(255,255,255,.65);}
+
+/* ── CONTACT ── */
+.contact-wrap{display:grid;grid-template-columns:1fr 1.4fr;gap:80px;align-items:start;max-width:1000px;margin:0 auto;}
+.ct-info h3{font-size:1.5rem;font-weight:600;color:#1a1a1a;margin-bottom:1.5rem;}
+.ct-row{display:flex;align-items:center;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--cloud);}
+.ct-row:last-child{border-bottom:none;}
+.ct-icon{width:40px;height:40px;background:var(--birch);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;}
+.ct-row p{font-size:.9rem;color:var(--slate);font-weight:300;}
+.ct-row strong{display:block;font-size:.8rem;color:#aaa;font-weight:400;margin-bottom:2px;}
+.ct-form{background:var(--birch);border-radius:12px;padding:2.5rem;}
+.fg{display:flex;flex-direction:column;gap:.4rem;margin-bottom:1rem;}
+.fg label{font-size:12px;font-weight:600;color:#555;text-transform:uppercase;letter-spacing:.06em;}
+.fg input,.fg textarea,.fg select{border:1.5px solid var(--cloud);border-radius:7px;padding:11px 14px;font-size:14px;font-family:inherit;background:var(--white);color:#1a1a1a;outline:none;transition:border-color .2s;width:100%;}
+.fg input:focus,.fg textarea:focus,.fg select:focus{border-color:var(--canopy);}
+.fg textarea{resize:vertical;min-height:120px;}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+
+/* ── FOOTER (raonbee style) ── */
+footer{background:#F7FAF8;padding:60px 5vw 30px;}
+.footer-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:3rem;padding-bottom:3rem;border-bottom:1px solid #E8EDF0;}
+.ft-brand img{height:30px;margin-bottom:1rem;filter:brightness(0) invert(1);opacity:.8;}
+.ft-brand p{font-size:.825rem;color:#5B7280;line-height:1.8;max-width:260px;font-weight:300;}
+.ft-col h4{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:#888;margin-bottom:1rem;}
+.ft-col a{display:block;font-size:.825rem;color:#666;text-decoration:none;margin-bottom:.6rem;transition:color .2s;cursor:pointer;}
+.ft-col a:hover{color:var(--canopy);}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;padding-top:2rem;border-top:1px solid #E8EDF0;}
+.footer-bottom span,.footer-bottom a{font-size:12px;color:#999;text-decoration:none;}
+.footer-info{display:flex;gap:1.5rem;flex-wrap:wrap;}
+.fi-item{display:flex;align-items:center;gap:.5rem;}
+.fi-item span:first-child{font-size:12px;color:var(--canopy);}
+.fi-item span:last-child,.fi-item a{font-size:12px;color:#5B7280;text-decoration:none;}
+
+/* ── ABOUT PAGE ── */
+.about-hero{min-height:60vh;background:linear-gradient(135deg,var(--deep) 0%,var(--forest) 100%);display:flex;align-items:center;padding:120px 5vw 80px;position:relative;overflow:hidden;}
+.about-hero::after{content:'';position:absolute;right:-100px;top:-100px;width:500px;height:500px;border-radius:50%;background:var(--canopy);opacity:.12;}
+.page-hero{min-height:50vh;background:linear-gradient(135deg,var(--deep) 0%,var(--forest) 100%);display:flex;align-items:center;padding:120px 5vw 80px;position:relative;overflow:hidden;}
+.page-hero::after{content:'';position:absolute;right:-100px;top:-100px;width:400px;height:400px;border-radius:50%;background:var(--canopy);opacity:.12;}
+.ph-content{position:relative;z-index:1;max-width:700px;}
+.ph-label{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--shield);margin-bottom:1rem;}
+.ph-h1{font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;font-size:clamp(2.2rem,4vw,3.6rem);font-weight:800;line-height:1.15;color:var(--white);margin-bottom:1rem;letter-spacing:-.03em;}
+.ph-h1 em{color:var(--shield);font-style:italic;}
+.ph-p{font-size:1rem;line-height:1.9;color:rgba(255,255,255,.7);font-weight:300;}
+
+/* ── PEOPLE (raonbee style) ── */
+.people-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-top:3rem;}
+.person-card{text-align:center;padding:2rem;}
+.person-avatar{width:100px;height:100px;border-radius:50%;background:linear-gradient(135deg,var(--forest),var(--canopy));margin:0 auto 1.25rem;display:flex;align-items:center;justify-content:center;font-size:2.2rem;color:var(--canopy);}
+.person-card h3{font-size:1rem;font-weight:600;color:#1a1a1a;margin-bottom:.25rem;}
+.person-role{font-size:12px;color:var(--canopy);font-weight:500;margin-bottom:.75rem;letter-spacing:.05em;}
+.person-card p{font-size:.825rem;line-height:1.7;color:var(--slate);font-weight:300;}
+
+/* ── PAGE SYSTEM ── */
+.page{display:none;}
+.page.active{display:block;}
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+.hero-content>*{animation:fadeUp .8s ease both;}
+.hero-badge{animation-delay:.1s}.hero h1{animation-delay:.25s}.hero-sub{animation-delay:.4s}.hero-btns{animation-delay:.55s}
+
+@media(max-width:900px){
+  .g2,.g3,.g4,.g2p,.case-grid,.eng-wrap,.contact-wrap,.footer-top,.why-grid,.process-wrap{grid-template-columns:1fr;}
+  .process-wrap::before{display:none;}
+  .h-stat{padding:1rem 1.5rem;}
+  .nav-item .dropdown{display:none!important;}
+  .nav-links .nav-item>a span.arr{display:none;}
+}
+</style>
+</head>
+<body>
+
+<div id="nav-root"></div>
+
+<!-- ══════════ HOME ══════════ -->
+<div class="page active" id="pg-home">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <!-- 나무 윤곽 SVG 배경 -->
+    <div style="position:absolute;right:0;top:0;bottom:0;width:55%;z-index:1;opacity:0.07;overflow:hidden;pointer-events:none">
+      <svg viewBox="0 0 400 620" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
+        <circle cx="200" cy="180" r="130" fill="none" stroke="#2C3E35" stroke-width="3"/>
+        <circle cx="130" cy="220" r="85" fill="none" stroke="#2C3E35" stroke-width="2.5"/>
+        <circle cx="270" cy="210" r="90" fill="none" stroke="#2C3E35" stroke-width="2.5"/>
+        <circle cx="160" cy="140" r="70" fill="none" stroke="#2C3E35" stroke-width="2"/>
+        <circle cx="240" cy="150" r="75" fill="none" stroke="#2C3E35" stroke-width="2"/>
+        <circle cx="200" cy="115" r="60" fill="none" stroke="#2C3E35" stroke-width="2"/>
+        <line x1="200" y1="300" x2="200" y2="565" stroke="#2C3E35" stroke-width="12" stroke-linecap="round"/>
+        <line x1="200" y1="350" x2="135" y2="305" stroke="#2C3E35" stroke-width="5" stroke-linecap="round"/>
+        <line x1="200" y1="375" x2="265" y2="330" stroke="#2C3E35" stroke-width="5" stroke-linecap="round"/>
+        <line x1="200" y1="415" x2="128" y2="375" stroke="#2C3E35" stroke-width="4" stroke-linecap="round"/>
+        <line x1="200" y1="435" x2="272" y2="398" stroke="#2C3E35" stroke-width="4" stroke-linecap="round"/>
+        <path d="M200 565 Q168 582 128 592" fill="none" stroke="#2C3E35" stroke-width="4" stroke-linecap="round"/>
+        <path d="M200 565 Q232 582 272 592" fill="none" stroke="#2C3E35" stroke-width="4" stroke-linecap="round"/>
+        <path d="M200 565 Q184 593 158 613" fill="none" stroke="#2C3E35" stroke-width="3" stroke-linecap="round"/>
+        <path d="M200 565 Q216 593 242 613" fill="none" stroke="#2C3E35" stroke-width="3" stroke-linecap="round"/>
+        <path d="M200 565 Q200 598 200 622" fill="none" stroke="#2C3E35" stroke-width="3.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge"><span id="h-ey"></span></div>
+      <h1 id="h-h1"></h1>
+      <p class="hero-sub" id="h-p"></p>
+      <div class="hero-btns">
+        <button class="btn-main" id="h-b1" onclick="go('contact')"></button>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="h-stat"><div class="h-stat-n" id="hs1n"></div><div class="h-stat-l" id="hs1l"></div></div>
+      <div class="h-stat"><div class="h-stat-n" id="hs2n"></div><div class="h-stat-l" id="hs2l"></div></div>
+      <div class="h-stat"><div class="h-stat-n" id="hs3n"></div><div class="h-stat-l" id="hs3l"></div></div>
+      <div class="h-stat"><div class="h-stat-n" id="hs4n"></div><div class="h-stat-l" id="hs4l"></div></div>
+    </div>
+  </div>
+
+  
+
+  <!-- CAPABILITIES -->
+  <div class="sec white">
+    <div class="sec-inner">
+      <div class="sec-label c" id="h-capl"></div>
+      <h2 class="c" id="h-caph"></h2>
+      <div class="div-line c"></div>
+      <p class="sec-desc c" id="h-capp"></p>
+      <div class="g3" id="h-caps"></div>
+    </div>
+  </div>
+
+  <!-- WHY GROVIAN -->
+  <div class="sec gray">
+    <div class="sec-inner">
+      <div class="g2">
+        <div>
+          <div class="sec-label" id="h-wl"></div>
+          <h2 id="h-wh"></h2>
+          <div class="div-line"></div>
+          <p class="sec-desc" id="h-wp"></p>
+          <div style="display:flex;flex-direction:column;gap:1rem;margin-top:1.5rem" id="h-wpts"></div>
+        </div>
+        <div style="background:var(--deep);border-radius:16px;padding:3rem;position:relative;overflow:hidden">
+          <div style="position:absolute;top:-40px;right:-40px;width:200px;height:200px;border-radius:50%;background:var(--canopy);opacity:.15"></div>
+          <blockquote style="font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;font-size:1.3rem;line-height:1.9;font-style:italic;color:var(--white);position:relative;z-index:1" id="h-wq"></blockquote>
+          <p style="font-size:12px;color:var(--shield);margin-top:1.5rem;letter-spacing:.1em">— The Grovian Philosophy</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROVE MODEL PROCESS -->
+  <div class="sec white">
+    <div class="sec-inner">
+      <div class="sec-label c" id="h-grl"></div>
+      <h2 class="c" id="h-grh"></h2>
+      <div class="div-line c"></div>
+      <p class="sec-desc c" id="h-grp"></p>
+      <div class="process-wrap" id="h-grsteps"></div>
+    </div>
+  </div>
+
+  <!-- CASE STUDY PREVIEW -->
+  <div class="sec gray">
+    <div class="sec-inner">
+      <div class="sec-label" id="h-csl"></div>
+      <h2 id="h-csh"></h2>
+      <div class="div-line"></div>
+      <div class="case-grid" style="margin-top:2.5rem" id="h-cscards"></div>
+
+    </div>
+  </div>
+
+  <!-- QUOTE BAND -->
+  <div class="quote-band">
+    <p class="qb-text" id="h-qt"></p>
+    <p class="qb-attr">Deep roots. Market reach.</p>
+  </div>
+</div>
+
+<!-- ══════════ ABOUT ══════════ -->
+<div class="page" id="pg-about">
+  <div class="page-hero">
+    <div class="ph-content">
+      <div class="ph-label" id="a-ey"></div>
+      <h1 class="ph-h1" id="a-h1"></h1>
+      <p class="ph-p" id="a-p"></p>
+    </div>
+  </div>
+  <div class="sec white">
+    <div class="sec-inner">
+      <div class="g2">
+        <div>
+          <div class="sec-label" id="a-sl"></div>
+          <h2 id="a-sh"></h2>
+          <div class="div-line"></div>
+          <p class="sec-desc" id="a-sp1" style="margin-bottom:1rem"></p>
+          <p class="sec-desc" id="a-sp2"></p>
+        </div>
+        <div style="background:var(--birch);border-radius:16px;padding:3rem">
+          <div class="sec-label" id="a-vl"></div>
+          <div style="display:flex;flex-direction:column;gap:1rem;margin-top:1rem" id="a-vpts"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sec gray">
+    <div class="sec-inner">
+      <div class="sec-label c" id="a-strl"></div>
+      <h2 class="c" id="a-strh"></h2>
+      <div class="div-line c"></div>
+      <div class="g3" id="a-strc"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ SERVICES ══════════ -->
+<div class="page" id="pg-services">
+  <div class="page-hero">
+    <div class="ph-content">
+      <div class="ph-label" id="s-ey"></div>
+      <h1 class="ph-h1" id="s-h1"></h1>
+      <p class="ph-p" id="s-p"></p>
+    </div>
+  </div>
+  <div class="sec white">
+    <div class="sec-inner">
+      <div class="sec-label c" id="s-capl"></div>
+      <h2 class="c" id="s-caph"></h2>
+      <div class="div-line c"></div>
+      <div class="g3" style="margin-top:2rem" id="s-caps"></div>
+    </div>
+  </div>
+  <div class="sec gray">
+    <div class="sec-inner">
+      <div class="sec-label c" id="s-grl"></div>
+      <h2 class="c" id="s-grh"></h2>
+      <div class="div-line c"></div>
+      <p class="sec-desc c" id="s-grp"></p>
+      <div class="process-wrap" id="s-grsteps"></div>
+    </div>
+  </div>
+  <div class="sec white">
+    <div class="sec-inner">
+      <div class="sec-label c" id="s-engl"></div>
+      <h2 class="c" id="s-engh"></h2>
+      <div class="div-line c"></div>
+      <div class="eng-wrap" id="s-engc"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ CASE STUDIES ══════════ -->
+<div class="page" id="pg-cases">
+  <div class="page-hero">
+    <div class="ph-content">
+      <div class="ph-label" id="c2-ey"></div>
+      <h1 class="ph-h1" id="c2-h1"></h1>
+      <p class="ph-p" id="c2-p"></p>
+    </div>
+  </div>
+  <div class="sec white">
+    <div class="sec-inner">
+      <div class="case-tabs" id="c2-tabs"></div>
+      <div class="case-grid" id="c2-cards"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ CONTACT ══════════ -->
+<div class="page" id="pg-contact">
+  <div class="page-hero">
+    <div class="ph-content">
+      <div class="ph-label" id="ct-ey"></div>
+      <h1 class="ph-h1" id="ct-h1"></h1>
+      <p class="ph-p" id="ct-p"></p>
+    </div>
+  </div>
+  <div class="sec white">
+    <div class="sec-inner">
+      <div class="contact-wrap" style="grid-template-columns:1fr;max-width:680px">
+        <div class="ct-form">
+          <div class="fr">
+            <div class="fg"><label id="fl-n"></label><input type="text" id="fi-n" placeholder=""></div>
+            <div class="fg"><label id="fl-c"></label><input type="text" id="fi-c" placeholder=""></div>
+          </div>
+          <div class="fr">
+            <div class="fg"><label id="fl-e"></label><input type="email" id="fi-e"></div>
+            <div class="fg"><label id="fl-ph"></label><input type="tel" id="fi-ph"></div>
+          </div>
+          <div class="fg">
+            <label id="fl-sv"></label>
+            <select id="fi-sv"><option id="fo1"></option><option id="fo2"></option><option id="fo3"></option><option id="fo4"></option><option id="fo5"></option><option id="fo6"></option></select>
+          </div>
+          <div class="fg"><label id="fl-m"></label><textarea id="fi-m"></textarea></div>
+          <button class="btn-main" id="f-sub" onclick="submitForm()" style="width:100%;padding:14px"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER (raonbee + grovian info) -->
+<footer>
+  <div class="footer-top">
+    <div class="ft-brand">
+      <div style="font-family:'Pretendard',sans-serif;font-size:1.1rem;font-weight:700;color:#2C3E35;margin-bottom:.75rem;letter-spacing:.05em">GROVIAN STRATEGY</div>
+      <p id="ft-desc"></p>
+      
+    </div>
+    <div class="ft-col">
+      <h4 id="ft-h1"></h4>
+      <a onclick="go('about')" id="ft-a1"></a>
+      <a onclick="go('services')" id="ft-a2"></a>
+      <a onclick="go('cases')" id="ft-a3"></a>
+    </div>
+    <div class="ft-col">
+      <h4 id="ft-h2"></h4>
+      <a onclick="go('services')" id="ft-b1"></a>
+      <a onclick="go('services')" id="ft-b2"></a>
+      <a onclick="go('services')" id="ft-b3"></a>
+      <a onclick="go('services')" id="ft-b4"></a>
+    </div>
+  </div>
+  <div class="footer-bottom" style="flex-direction:column;align-items:flex-start;gap:.6rem">
+    <div style="font-size:11.5px;color:#888;display:flex;flex-wrap:wrap;align-items:center;gap:.4rem 0;row-gap:.5rem">
+      <span style="white-space:nowrap">상호명: 그로비안 스트레티지 (Grovian Strategy)</span>
+      <span style="margin:0 .8rem;color:#ccc">|</span>
+      <span style="white-space:nowrap">사업자등록번호: 367-45-01392</span>
+      <span style="margin:0 .8rem;color:#ccc">|</span>
+      <span style="white-space:nowrap">주소: 경기도 부천시 소사구 경인로 235번길 87</span>
+      <span style="margin:0 .8rem;color:#ccc">|</span>
+      <span style="white-space:nowrap">이메일: contact@grovianstrategy.com</span>
+      <span style="margin:0 .8rem;color:#ccc">|</span>
+      <span style="white-space:nowrap">홈페이지: grovianstrategy.com</span>
+    </div>
+    <span style="font-size:11.5px;color:#aaa">© 2026 그로비안 스트레티지 (Grovian Strategy). All rights reserved.</span>
+  </div>
+</footer>
+
+<script>
+const NAV_B64="/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAIBAQEBAQIBAQECAgICAgQDAgICAgUEBAMEBgUGBgYFBgYGBwkIBgcJBwYGCAsICQoKCgoKBggLDAsKDAkKCgr/2wBDAQICAgICAgUDAwUKBwYHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr/wAARCABIAQQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD836u+H/DniHxbq8Ph/wAK6De6nf3G7yLHT7V5ppNqlm2ogLNhQScDgAntR4c8P6v4t8Q2HhXw/afaL/U72K0sYPMVPMmkcIi7mIUZYgZJAGeSK/Sj9kv9kvwv+zT4XNxcNDqPinUYQNY1hVO1FyD9ngyAViBAJJAaRgGYABETjxGIjQj5nyOOx1PBU7vWT2R8n+Ff+CZX7TPiHTnvdXTw/oUizFFtNV1YvI6gA+YDbJMm0kkcsGyp4xgnS/4dW/tCf9Dj4M/8GF3/APItfftFeY8fiG+h8+86xrfT7j4C/wCHVv7Qn/Q4+DP/AAYXf/yLXJ/Ev/gn5+0z8OIHv4vCUPiK0jhR5bjw1cG4ZWZ9nliFlSd2HDHZGyhWznhtv6U0U1mFdPWw451jFK7s/kfjXRX27+3x+xVp2tadqf7QHwstobW+tYZLzxRpYISO7jUF5LuPOAsoALOvSQAsP3mRL8RV6lGtCvDmifSYTFU8XS54fNdgooorY6QooooAKKKKACiiigAooooAKKKKACiiigAooooAK1o08uNY852qBmsmtipkZ1AoooqTMKKKKACiiigAooooA9t/4Jl+FdO8Q/tMrq97NMsmheH7u+tFiYBXkYx2xD5Byuy4c4GDuC84BB/Q+vgL/glb/wAnCaz/ANiZcf8ApXaV+jPw38O2vivxvp+hXzYgmmLTDB+dEUuV4II3BcZB4zntXk468sTb0Pm83UqmYKC7JI1vAfwV8T+NIxqFy39nWRxtnuIWLygrkNGnG5fu/MSBzwTgium/4Zf/AOp4/wDKZ/8Aba9Vt7eC0gS1tYEiiiQJHHGoVUUDAAA6ADtT6FQppanZTy3CxjaSu/VnkV9+zFfR2rvpvi+GacY2Rz2ZjQ885YMxHGex/rXm+taFrPhy+bTdc02a1nXPySpjcMkblPRlyDhhkHHBr6lrgP2hPCunaj4PbxOY0S7090AmCfNJGzhTGTnplgwznGCBjcairRio3ic+My6lGk501Zo8Or8i/ix4V07wJ8U/EvgjSJppLTRvEF5Y2slywMjRwzvGpYqACxCjJAAz2FfrpX5O/tGf8nCeO/8Asc9U/wDSuWt8tb55IrIW/azXkjjaK6P4Q/Crxt8c/il4f+Dnw40o3uu+JtXg03SrbOA00rhFLH+FRnLMeFUEngV/Ql+zd/wTA/4Jz/8ABKn9n6T4xftAad4b1fVtFsUuPFHxF8aWK3KxTHaNlnA6sIQXOyNI1Mz7gpZyQK9dK59ZSoyq+SR/OVRX7863/wAHJ3/BLwX8ngl/hz4+1LSd5j+2R+DbI2Lr03eXLdLJt9jED7V8Of8ABbD4uf8ABLn9oT4XeB/jF+wfpnhWx8T3WvXMHi210bQn0m8EPkBkNxalI1f58/vlVsnjeelFip0YRi3GaZ+dNFfvN/wavf8AJjXjr/srFz/6bNOr1b4zf8F7/wBhn4KftO6z+yZ8WfC3juz1LRdcXStV1x9CtJtKjkbb+8LLdGYxgOMnyc8H5aLFxw0XTUpStfyP5w6K/fz/AIL/AH/BPX9mvxV+xV4q/ag8LfDLRfD3jjwUbW9j1nRrCO1bUYJLqKCWC58sATfLKXVmBdWjUAhWYH8mv+CVH/BPbWf+CjX7UNt8J59VuNL8LaPZnVPGWsWqjzYbJXVBFCWBUTSuwRcghRvfDBCpGrMzqUJwqKG9z5oor+k34w/E/wD4JV/8ERvhtommXPww0vQrzUY2XSdL8O6FHe67qqx4DzSTSsHYAkAyTSqM/Kp4wK/7PH7a3/BLL/gspBqvwkm+GVlqurwWL3E/hf4heGLeLUDb5CtPbyxvIMqSuWil8xMg8cGixr9VV+XnV+x/N1RX6Hf8FE/2LdX/AOCJ/wC3h8O/2k/gLc3134GuNfTWPDMV1MXmtZLaRDd6XLJ/GjRSYVz8zRysp3MjOf00/wCC0PwS8Ofty/8ABK/WPiD8Odupy6JpVr478I3cS5M9vHCZZCuOTvspZyFHVtnXAosZxw8mpXeq6H83tFa3gLwT4j+JfjnRfhz4O09rvV9f1a303S7Ves1zPKsUaD6uyj8a/pO/bE8d+G/+CVv/AASW1HS/AV+tvd+EfA1t4Y8JTJ8kk2pzRrbR3AHdw7Pct67HNCVyaVH2ibbskfzN0V+83/Bq+Sf2G/HRJyT8WLnJ/wC4Zp1flh/wWN/5SefGf/scH/8ARUdDWgTo8lJTvufNFalrJ5tuj5P3cEn1r9I/+DYX9ln/AIWZ+1j4h/ac17Tt+m/DjRfI0uR04OqXyvEpUng7LZbnI6gyxnjjP7H/ALSvww+Hv7aP7OPxJ/Zxi1yzu11GwudDvZEbeNO1MQxzwl8fxxSPby47YH0pct0VDCOtT5r2P5UaKu+JfDmt+D/EeoeEvEunSWepaXey2eoWkww8E8TlJEb3DKQfpX9Ff/Bv9/yin+HH/X5rf/p4vKiK5mc+Hoe3qON7H849FfqL/wAHKn7DH/CtPjDpX7a3gLR9mi+N3XT/ABasEeEt9Xjj/dzHHAE8KH/gdu7E5kr7j/4N5v8AlFv4O/7Des/+l81NR1sXDCOVd0m7WP516K6D4s/8lU8Tf9jBe/8Ao965+pOR6MKKKKAPf/8Aglb/AMnCaz/2Jlx/6V2lfpT8Dv8AkqOl/wDbf/0RJX5rf8Erf+ThNZ/7Ey4/9K7Sv0p+B3/JUdL/AO2//oiSvKxf+9r5Hz2Yf8jaPrE+hKKKK1PZCuT+OP8AyS7VP+2H/o+Ousrk/jj/AMku1T/th/6PjqKnwP0MMT/u0/R/kfPdfk7+0Z/ycJ47/wCxz1T/ANK5a/WKvyd/aM/5OE8d/wDY56p/6Vy0Zd8cvQ8/If40/Q+n/wDg310/Q9Q/4KufDca0iO0NrrMtikgBBnXSrrB57hdzD0Kg198/8HV2t+L7T9mf4Y6Dp0sy6He+NriTVQhIR7iO0P2cN6/K9wQD6Z7V+N37M/x88Yfst/H7wl+0J4CCNqnhPW4b+CCVsJcopxJA5HISSMvGxHOHOOa/oy0bxz+wX/wXL/Y/n8Etrkep6dqEUNzqeiR3iQa34Yv0HyybSCY5EZmVZdrRSKWHzozA+ytVY+0w9qlCVNPU/H//AIJH/sFf8E7P2yfBfiCb9sT9qq48C+JoPElvp3hfQ7TxzpGly6nHLGuCkN9BJJMxkbYPL4zgYJr2X/grz/wQ9/ZP/YD/AGQZfj/8HPiF8Q9S1lPEtjp4tvE2rWE1r5U3mbjtgsoX3DYMHfjrwa9y+Gn/AAa6eDPhj8cfD/xV0r9srU7jTfD3iG01S30e48ER+fL5E6SrG1wLsLyUALCLv0ruP+DmT4s/DCz/AGE1+EVz8QtGXxVe+MNNurXw3/aUZvpLeMSl5hADv8sZGXIxyBnkUW0K9jy0Hzxs0Zf/AAavf8mNeOv+ysXP/ps06vetW/YS/wCCO/xl/bA1jxpq3hrwJ4m+MSav/aOvaQ/xBnuryO6jCsXm0z7YY1wFUlGhC46jmvBf+DV7/kxrx1/2Vi5/9NmnV+aH/BTb4oeNvgn/AMFh/iT8Xfhvrcmna94c+IiahpV5ETmOaJImXI/iU4wynhlJB4Jp9C/aRp4eDaufoB/wc5fHX9rvwj8KNI+C+meANPsPhF4qv4RqXiyx1B7i41C8hPnx2FxGY0FooaPzVAMnm+SCHXY8dYX/AAab2Gi/2D8cdTREOo/bPD8UjEDcsOzUCoB7Atu+u0elfb/xE8O/DL/gsV/wS9f+wxbxwfEXwgl7oskrbv7I1mL5kVmHOYbuJonx95VdejV+Lf8AwR3/AG7W/wCCYf7ZuraJ8dtNvLDwvru/w948t/ILTaRcwTkR3LRqCzmCQSI6jJ2SyEBmCqV1uKb5MTGo3ozqP+DlHVfE1/8A8FNdQstdklNpY+C9Jh0VZCdq2xR5G2+3nvP+Oa8l/wCCK+q+JtI/4Ki/B2fwpJKtxL4kkguBETlrWS1mS4Bx1HkmQn2FftN+39/wS/8A2Vv+Cwfg/wANfGbwp8YI9P1iz04waD488L+TqNte2LMXEE0YdRMiuzsu2RGRncEnJFYP/BOr/giT+zr/AMEyfF99+0h43+Mkni3xJp+nTRWviLWbGLS7DRbd1KzSpGZZNjshZGleUgIzAAbiSWdxPD1HiObpe9zhP+Dpaw0Wb9gfwjqN4iC9g+K9klk+0bsNp2o+Yo9FIVSfdVrp/wDg3U/aYsv2jf8Agnx/wpXxdPHe6n8Nr+XQb22ucOZtLnDS2hcHjZsaa3A/u21fnv8A8HAP/BTjwH+2z8WND+CXwE1tdT8C+ApZ5ZNchz5OsanIAjyRZHzQxIpRH4DmSVhlSjHI/wCDdH9qf/hQH/BQCy+Get6l5Oh/FDTX0K4V3wi365mspD6sXV4F/wCvo0X94Xto/W7rZ6HsP/BLn/gmXe/Dr/guB428E+ItIkfw58Dby61fTpbhSyzi440jcf75hnFwP9q2PPFbf/B09+1N/bHjjwD+x14f1LdBo1q/ibxJEj5BuZt8FojejJELh8elyhr9hk8HfDjwJ4l8R/GMaXZabqGradbDxLrLHYZreyWYxNKx4xGssvPYH2r+Vz9ub9pLUf2vP2uPH37RN/JKYvEviGaXS45vvQ2EeIbSI+6W8cSn3BoeiHXSoUeRdWfsf/wavf8AJjXjr/srFz/6bNOr8sP+Cxv/ACk8+M//AGOD/wDoqOv1P/4NXv8Akxrx1/2Vi5/9NmnV8L/tBfsx3X7Yf/BwT4n/AGfRbSSWOtfE4PrrR5Bj02CFJ7tsj7p8iOQKf7zKO9D2JqJyw0Ej9Qf+CPnwb8NfsAf8EotO+JXxJh+wTajod54+8YzMuHjhe386NSDyClnFACp6Pv6ZNfMX/BuN+3h4l+M37R3xv+F3xM1TOoePtWm8fabC0nyJdNN5d7GmeuUktNqjolueMDj73/b4/wCCjP7On/BM/wCH3hzxT8adG127g17UW07RdF8JWNvLc7Yot7yBJ54UWGMeWpIbIMsYCkEkfMfh/wD4Ohv+Ce2u69ZaJP8ADb4sacl5dxQPqGoaDpiwWwdgplkKaizBFzuYqrHAOATxTOh+zpyiua3L0Pz/AP8Ag4M/Ze/4Z9/4KBat440XTvJ0T4l2SeIbRkXCLeMTHepnuxmQzH/r5Wv1T/4N/v8AlFP8OP8Ar81v/wBPF5Xn/wDwch/swj45fsIxfHHwzaCfWPhfqyamksI3M+l3OyC7Vcfwg/Z5iem23Nd5/wAG+sxn/wCCUHw3lK4Ju9czj/sMXlSlaRlSpezxsmtmv1R5p+wH8UPBf/BXf/gm544/Yy+NmrLL4o8LJJoN9eTfPMkasz6VqYB5ZkaJVY5yzWzFuJOfX/8Agh78L/GfwT/YE0z4RfETSWsdc8N+MfEGnapat/BNFqc6NtP8SnGVYcMpBHBr8Wf+Cbn7bN7+wj+3tZ/Fe/vZV8L6lqs+keNbZMkPps02Gl2jq0LhJlA5PlFejGv6WdJfR7qzXVdDa2kgvwtytzalSlwGUYk3Lw2VC4bnIxRHUeEmqyUn8S0P5JPiz/yVTxN/2MF7/wCj3rn66D4s/wDJVPE3/YwXv/o965+sjxnuFFRSXltG2x5RnvgZooswsz3j/gmD4g0jRf2kp9N1K78qbVvDN1aaenls3mzLJDOVyAQv7uGVsnA+XGckA/pV8KdasfD/AMQdM1TUpNkCzNG8hIATejIGJJACgsCT2ANfjH8PPHniH4YeONK+IPhW58u/0m9S4gy7qsmD80b7GVjG65RlBG5WYd6/Tz9nX9orwP8AtH+B18VeFZPs97b7Y9Z0aaUNNYTEHAJwN8bYJSQABgDwrK6L5uPpyjUVVbHhZxRqUsRHERV1p8mj7vorxT4d/Hu98N2keieKLN7y0hRUt5rcKskKKmAm3gOOF5JBHJJbgD1TwN410nx/pMms6PBcRRRXJhZblFDbgqtn5WPGGFTGrCSOmjjsPWirOz7GvXEfH/WrHTvh9NpdxJ+/1CaOO3jBGfldXZiCc7QFxkZ5ZfWl8dfHHQvBeq3Xh/8Ase7ub222cZVIm3KrffySPlb+71GPevGPFvi/XPGurHWNenR5QmyNY4wqxpuLBBjqAWPJyfUms6tWPK0jmxuOpKk4Qd29PQzK/JH40+INI8W/GPxb4q8P3f2iw1PxNf3djP5bJ5kMlw7o21gGGVIOCARnkCvuP9ub9sbSPg54evPhT4GvftHi7U7Jo55bedk/saGRMeazIQwnKnMaggrkSNgbFk/PauvL6Uoxc31Nskw06cJVZK19v8wq94c8T+JfB2sQ+IvCPiG+0rULdt1vfabdvBNEfVXQhl/A1Ror0T3j1PUf25/22tX0o6Fq37YnxTurFl2tZ3HxB1J4iPTYZyMfhXmN9fXup3kuo6leS3FxPIXmnnkLvIxOSzMeSSe5qKigbbe53vwr/ao/af8AgVoU/hf4I/tH+PfB2mXV2bq507wr4wvdOgmnKqhlaO3lRWcqiLuIzhVGcAVyvjLxp4x+Ivii98b/ABB8WanrutalN52o6vrN/JdXV1JgDfJLIWd2wAMsSeKzKKAu2rHovw2/a/8A2tPg14XTwR8IP2oviL4U0WKZ5Y9I8N+Nr+xtUkc5dxFBKqBmPJOMnvXFeKvFninx34kvvGXjfxLqGs6xqdy9zqWq6rePcXN3Mxy0ksshLSOTyWYkk1n0UBdtWOq+Gvxz+NvwZmlufg/8YvFXhSSY5mk8NeIbmwaQ+rGB1z0HWrXxL/aR/aJ+NFqtl8Yvj3408WQo25YfEvim7v1DeoE8jDNcXRQF3awVa0LXdb8L63Z+JvDOs3Wnalp11HdafqFhcNDPazxsHjljkQhkdWAYMCCCAQciqtFAj1nXf29/26PFOh3nhnxN+2j8WdR03UbSS11DT7/4janNBdQSKUkikjecq6MpKsrAggkEYNeTUUUDbb3O9+Ff7VH7T/wK0Kfwv8Ef2j/Hvg7TLq7N1c6d4V8YXunQTTlVQytHbyorOVRF3EZwqjOAKraJ+0h+0P4a+Jt78avDnx68aaf4y1JXXUfFtl4pu4tTug+3eJLpZBK4baudzHO0Z6CuLooDml3Ov+LP7Qfx7+Pc9jc/HT43+L/GkmmJIumyeLPEt1qLWiyFS4iNxI/lhii5C4ztGegrkKKKBNtvU9Q1L9t79tHWPBs3w61f9rz4oXXh+501tPuNCufH+ovZy2bR+WbdoGmKNEU+QxkbSvGMcVB8Pf2y/wBr/wCEfhO28A/Cn9qz4k+GNCsmkNnovh7xzqFlaQF3aRykMMyou52ZjgDLMSeSa82ooK5pdyVr28ed7mS5d5JHLyO7ElmPUnPU+9eseHv2/wD9ufwloNl4W8L/ALZHxT07TNNtY7XT9PsPiFqcMFrBGoWOKONJwqIqgKFUAAAACvIqKCVdbF281/U9Qupb6+uDNPPI0k08rFnd2OSxJOSSTkk9aqy3M83EkpI9OgplFKyFZIKKKKYwroPhp8UvH/we8UJ4y+G3iabS9RWF4TPEiOrxsPmR0cMjrkA4YEBlVhyoIKKTSkrMUoxlG0ldH0v4V/4KyeMrPTni8b/BzTNRuzMTHPpWqyWcax4GFKSJOS2dx3bgMEDaMZOn/wAPbv8Aq37/AMuv/wC5aKK5ng8M38P5nA8qwDd+T8X/AJh/w9u/6t+/8uv/AO5a5P4l/wDBUn4weJYHsfht4T0zwxFJCgN1K32+6jkD7mZGdViCsuF2tExHzENkjaUU1g8NF3URxyvAQldQ/Fv82fM+palqOsajPq+r3811d3UzTXV1cyl5JpGJZnZmJLMSSSTySahoorpO/YKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=";
+const KO={"nav": ["홈", "소개", "서비스", "케이스 스터디", "문의"], "home_btn1": "서비스 문의하기", "home_btn2": "서비스 보기", "contact_btn": "문의하기"};
+const EN={"nav": ["Home", "About", "Services", "Case Studies", "Contact"], "home_btn1": "Contact Us", "home_btn2": "Our services", "contact_btn": "Contact us"};
+let lang='ko', curPage='home';
+const PAGES=['home','about','services','cases','contact'];
+
+// ── DATA ──────────────────────────────────────────────────────
+const CAPS_KO=[
+["📱","디지털 마케팅","소셜미디어, 콘텐츠 마케팅, SEO/SEM, 이메일 캠페인, 리드젠 광고 — B2B 구매 사이클에 최적화된 디지털 전략을 실행합니다."],
+["🎪","필드 마케팅","ABM 기반 타겟 계정 공략, 컨퍼런스·세미나·전시회 운영 지원. 오프라인에서 실질적인 관계와 파이프라인을 만들어냅니다."],
+["🎬","영상 제작 및 편집","기업 홍보 영상, 제품 데모, 이벤트 하이라이트, 인터뷰 영상 등 B2B 마케팅에 특화된 영상 콘텐츠를 제작합니다."],
+["🎨","편집 / 디자인 / 인쇄","브로슈어, 제안서, 배너, 팸플릿 등 마케팅 인쇄물 디자인부터 제작까지 원스톱으로 처리합니다."],
+["🎁","기념품 소싱","브랜드 굿즈, 행사 기념품, 고객사 선물 세트 소싱 및 커스텀 제작. 예산에 맞는 최적의 옵션을 제안합니다."],
+["🎯","토탈 마케팅 솔루션","디지털부터 오프라인까지, 전략 수립부터 실행까지 — B2B 마케팅 전 영역을 아우르는 통합 솔루션을 제공합니다."]
+];
+const CAPS_EN=[["💡","Brand & Positioning","Market positioning, messaging frameworks, brand narrative, competitive differentiation"],["📝","Content Strategy","Thought leadership, whitepapers, case studies, localized Korean & English content"],["📈","Demand Generation","Inbound, ABM, paid media, SEO/SEM — calibrated for Korean B2B buying cycles"],["🗺","GTM Strategy","Market entry planning, ICP definition, channel strategy, launch roadmaps"],["🤝","Sales Enablement","Battlecards, pitch decks, email sequences, CRM alignment"],["🎯","Marketing Consulting","Fractional CMO, team audits, tech stack reviews, performance frameworks"]];
+const STEPS_KO=[["1","뿌리","Understand","시장 조사, 경쟁 분석, ICP 정의. 추측하지 않습니다."],["2","줄기","Position","포지셔닝, 메시지 프레임워크, GTM 전략의 핵심을 구축합니다."],["3","가지","Activate","콘텐츠, 수요 창출, 영업 지원 전반을 실행합니다."],["4","수관","Scale","측정, 최적화, 확장. 복리로 성장하는 시스템을 만듭니다."]];
+const STEPS_EN=[["1","Roots","Understand","Deep market research, competitive audit, ICP definition. We don't guess."],["2","Trunk","Position","Build the strategic core: positioning, messaging, GTM framework."],["3","Branches","Activate","Execute across channels: content, demand gen, sales enablement."],["4","Canopy","Scale","Measure, optimize, expand. Build a compounding system."]];
+const ENGS_KO=[["전략 스프린트","빠른 전략 수립","4~6주 집중 프로젝트",false,"포지셔닝, GTM 프레임워크, 90일 실행 계획을 집중적으로 수립합니다."],["성장 파트너","가장 인기 있는 모델","월정액 리테이너",true,"전략·콘텐츠·캠페인·리포팅을 포함한 풀스택 마케팅 지원. 그로비안이 고객사의 마케팅 팀이 됩니다."],["어드바이저리","시니어 전략 자문","유연한 계약",false,"Fractional CMO 또는 시니어 어드바이저 모델. 전략적 방향성과 이사회 수준의 인사이트를 제공합니다."]];
+const ENGS_EN=[["Strategy Sprint","Fast clarity","4-6 week intensive",false,"Positioning, GTM framework, and 90-day action plan. Ideal for new market entry or pre-launch."],["Growth Partner","Most popular","Ongoing retainer",true,"Full-stack marketing support: strategy, content, campaigns, reporting. We become your marketing team."],["Advisory","Senior guidance","Flexible",false,"Fractional CMO or senior advisor model. Strategic oversight, team coaching, board-level marketing input."]];
+const CASES_KO=[
+["블라인드 B2B 리드젠 캠페인","엔터프라이즈 SaaS 기업","리드젠","블라인드 앱 피드 광고를 활용한 IT·금융업계 의사결정자 타겟팅. 직군·회사규모·평균소득 기반 정밀 ABM으로 고품질 리드를 확보했습니다.",["CTR +180%","리드 +230%","CPL -35%"]],
+["리멤버 B2B 리드젠 캠페인","B2B 마케팅 솔루션 기업","리드젠","리멤버 명함 네트워크를 활용한 C-레벨·마케팅 임원 타겟 캠페인. 네이티브 광고와 DM 시퀀스로 인바운드 문의를 창출했습니다.",["오픈율 42%","MQL +190%","영업 상담 +3.2배"]],
+["한국 시장 GTM 전략","B2B SaaS 기업","GTM","한국 엔터프라이즈 시장 진출을 위한 포지셔닝, ICP 정의, 채널 전략, 파트너십 로드맵을 수립했습니다.",["POC 3개월 내","파트너 5개사","파이프라인 ₩2.4B"]],
+["멀티채널 B2B 리드젠","클라우드 인프라 기업","디지털","블라인드·리멤버·LinkedIn을 통합한 멀티채널 ABM 캠페인. 업종·직군·기업규모 세그먼트별 맞춤 메시지로 파이프라인을 확대했습니다.",["파이프라인 ₩1.8B","전환율 +95%","CAC -28%"]]
+];
+const CASES_EN=[
+["Blind B2B Lead Gen Campaign","Enterprise SaaS Company","Lead Gen","Feed ad campaign targeting IT/finance decision-makers on the Blind app. Precision ABM by job function, company size, and income bracket generated high-quality leads.",["CTR +180%","Leads +230%","CPL -35%"]],
+["Remember B2B Lead Gen Campaign","B2B Marketing Solutions Company","Lead Gen","C-level and marketing executive targeting via the Remember business card network. Native ads combined with DM sequences drove inbound inquiries.",["Open Rate 42%","MQLs +190%","Sales Calls +3.2x"]],
+["Korea GTM Strategy","B2B SaaS Company","GTM","Positioning, ICP definition, channel strategy, and partnership roadmap for Korean enterprise market entry.",["POC in 3 months","5 partners","Pipeline ₩2.4B"]],
+["Multi-Channel B2B Lead Gen","Cloud Infrastructure Company","Digital","Integrated ABM campaign across Blind, Remember, and LinkedIn with customized messaging per industry, job function, and company size segments.",["Pipeline ₩1.8B","Conv. Rate +95%","CAC -28%"]]
+];
+const VALS_KO=[["뿌리 깊은 전문성","한국 B2B 시장의 복잡한 의사결정 구조를 깊이 이해합니다."],["글로벌 유창함","글로벌 스탠다드 전략을 한국 시장 맥락에 맞게 실행합니다."],["통합적 시각","마케팅과 영업을 분리하지 않고 매출 전체 관점에서 접근합니다."],["실행 가능한 통찰","아이디어에 그치지 않고 측정 가능한 결과를 만들어냅니다."],["파트너십","대행사가 아닌 고객사의 성장을 함께 책임지는 전략 파트너입니다."],["복리 성장","단발성 캠페인이 아닌 시간이 지날수록 강해지는 시스템을 구축합니다."]];
+const VALS_EN=[["Deep Expertise","We deeply understand the complex decision-making structures of Korean B2B markets."],["Global Fluency","We execute global-standard strategy in the Korean market context."],["Integrated Vision","We approach everything from a full revenue perspective, not siloed marketing."],["Actionable Insight","We don't stop at ideas — we create measurable outcomes."],["Partnership","We're a strategic partner who shares responsibility for your growth."],["Compounding Growth","We build systems that get stronger over time, not one-off campaigns."]];
+const CLIENTS=["Samsung","LG","SK Telecom","Kakao","Naver","Hyundai","KT","Posco","Lotte","Hanwha","Salesforce","SAP","Oracle","Microsoft","AWS","HubSpot","Marketo","Tableau","Slack","Zoom"];
+
+// ── HELPERS ───────────────────────────────────────────────────
+function s(id,v){const e=document.getElementById(id);if(e)e.innerHTML=v;}
+function ph(id,v){const e=document.getElementById(id);if(e)e.placeholder=v;}
+function go(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.getElementById('pg-'+id).classList.add('active');
+  curPage=id; renderNav(); window.scrollTo(0,0);
+}
+function toggleLang(){lang=lang==='ko'?'en':'ko';document.documentElement.lang=lang==='ko'?'ko':'en';render();}
+
+function capCard(c){return '<div class="cap-card"><div class="cap-icon">'+c[0]+'</div><h3>'+c[1]+'</h3><p>'+c[2]+'</p></div>';}
+function procCard(s){return '<div class="proc-item"><div class="proc-num">'+s[0]+'</div><h3>'+s[1]+'</h3><div class="proc-sub">'+s[2]+'</div><p>'+s[3]+'</p></div>';}
+function engCard(e){return '<div class="eng-card'+(e[3]?' ft':'')+'"><div class="eng-tag">'+e[1]+'</div><h3>'+e[0]+'</h3><div class="eng-dur">'+e[2]+'</div><div class="eng-div"></div><p>'+e[4]+'</p></div>';}
+function caseCard(c){
+  const rs=c[4].map(r=>{const p=r.split(' ');return '<div class="cr"><div class="crn">'+p[0]+'</div><div class="crl">'+p.slice(1).join(' ')+'</div></div>';}).join('');
+  return '<div class="case-card"><div class="case-body"><span class="case-cat" style="position:static;display:inline-block;margin-bottom:1rem">'+c[2]+'</span><h3>'+c[0]+'</h3><div class="case-co">'+c[1]+'</div><p>'+c[3]+'</p><div class="case-results">'+rs+'</div></div></div>';
+}
+function valPt(v){return '<div style="display:flex;gap:.75rem;align-items:flex-start"><div style="width:8px;height:8px;border-radius:50%;background:var(--canopy);flex-shrink:0;margin-top:6px"></div><div><strong style="font-size:.9rem;color:#1a1a1a">'+v[0]+'</strong><p style="font-size:.825rem;color:var(--slate);margin-top:2px;font-weight:300">'+v[1]+'</p></div></div>';}
+
+function renderNav(){
+  const t=lang==='ko'?KO:EN;
+  const drops={
+    home:[],
+    about:lang==='ko'?[['회사 소개','about']]:[ ['About Us','about']],
+    services:lang==='ko'?[['브랜드 & 포지셔닝','services'],['콘텐츠 전략','services'],['수요 창출','services'],['GTM 전략','services'],['영업 지원','services'],['마케팅 컨설팅','services']]:[ ['Brand & Positioning','services'],['Content Strategy','services'],['Demand Generation','services'],['GTM Strategy','services'],['Sales Enablement','services'],['Marketing Consulting','services']],
+    cases:lang==='ko'?[['전체 케이스','cases'],['디지털','cases'],['GTM','cases']]:[ ['All Cases','cases'],['Digital','cases'],['GTM','cases']],
+    contact:[]
+  };
+  const navHtml=PAGES.map((p,i)=>{
+    const dd=drops[p]||[];
+    const ddHtml=dd.length?'<div class="dropdown">'+dd.map(d=>'<a onclick="go(\''+d[1]+'\')">'+d[0]+'</a>').join('')+'</div>':'';
+    return '<div class="nav-item"><a onclick="go(\''+p+'\')" class="'+(p===curPage?'active':'')+'">'+(t.nav[i])+(dd.length?'<span class="arr">▾</span>':'')+'</a>'+ddHtml+'</div>';
+  }).join('');
+  document.getElementById('nav-root').innerHTML=
+    '<nav><img src="data:image/jpeg;base64,'+NAV_B64+'" alt="Grovian Strategy" onclick="go(\'home\')">'+
+    '<div class="nav-links">'+navHtml+'</div>'+
+    '<div class="nav-right"><a onclick="go(\'contact\')" class="nav-cta">'+t.contact_btn+'</a>'+
+    '<button class="lang-btn" onclick="toggleLang()">'+(lang==='ko'?'EN':'한')+'</button></div></nav>';
+}
+
+function renderLogos(){}
+
+function render(){
+  const t=lang==='ko'?KO:EN;
+  const caps=lang==='ko'?CAPS_KO:CAPS_EN;
+  const steps=lang==='ko'?STEPS_KO:STEPS_EN;
+  const engs=lang==='ko'?ENGS_KO:ENGS_EN;
+  const cases=lang==='ko'?CASES_KO:CASES_EN;
+  const vals=lang==='ko'?VALS_KO:VALS_EN;
+  renderNav();
+
+  // HOME
+  const ey=lang==='ko'?'B2B 마케팅 & 컨설팅 · ':'B2B Marketing & Consulting · ';
+  const h1=lang==='ko'?'전략이<br>뿌리내리는 곳,<br><em>그로비안입니다.</em>':'Where strategy<br><em>takes root.</em>';
+  const hp=lang==='ko'?'B2B 테크 기업의 시장 지배력을 강화합니다. 포지셔닝부터 GTM 실행까지, 지속 성장하는 전략적 생태계를 구축합니다.':'We help tech companies build sustained market position — from positioning and messaging to full GTM execution.';
+  s('h-ey',ey); s('h-h1',h1); s('h-p',hp);
+  s('h-b1',t.home_btn1);
+  const stats=lang==='ko'?[['Total','B2B 마케팅 솔루션'],['B2B','전문 에이전시'],['Deep roots.','뿌리 깊은 전략'],['Market reach.','폭넓은 시장 도달']]:
+    [['Total','B2B Marketing Solution'],['B2B','Specialist Agency'],['Deep roots.','Strategy with depth'],['Market reach.','Broad market access']];
+
+  stats.forEach((st,i)=>{s('hs'+(i+1)+'n',st[0]);s('hs'+(i+1)+'l',st[1]);});
+  s('h-capl',lang==='ko'?'서비스':'Capabilities');
+  s('h-caph',lang==='ko'?'토탈 B2B 마케팅 솔루션':'Total B2B Marketing Solution');
+  s('h-capp',lang==='ko'?'디지털부터 오프라인까지, B2B 마케팅의 모든 것을 한 곳에서 해결합니다.':'From digital to offline — everything B2B marketing, all in one place.');
+  s('h-caps',caps.map(c=>capCard(c)).join(''));
+  s('h-wl',lang==='ko'?'왜 그로비안인가요?':'Why Grovian');
+  s('h-wh',lang==='ko'?'전략적 생태계를<br>구축합니다.':'We build strategic<br>ecosystems.');
+  s('h-wp',lang==='ko'?'\'그로비안\'은 서로 뿌리가 얽혀 함께 성장하는 나무들의 군락, \'Grove\'에서 유래됩니다. 포지셔닝·메시징·수요창출·영업 활성화가 유기적으로 연결된 전략적 생태계를 구축합니다.':'The name Grovian comes from \'grove\' — trees growing together, roots intertwined. We build integrated marketing ecosystems where every element compounds your market position over time.');
+  const wpts=lang==='ko'?[['B2B 전문가','의사결정 구조가 복잡한 B2B 비즈니스를 완벽히 이해합니다.'],['통합적 접근','마케팅과 영업을 분리하지 않고, 전체 매출 관점에서 전략을 제안합니다.'],['Fractional CMO','단순 대행사를 넘어, 고객사의 전략 파트너로서 실행 가능한 통찰을 제공합니다.']]:
+    [['B2B Specialists','We deeply understand the complex mechanics of B2B business.'],['Holistic Approach','We don\'t separate marketing and sales — full revenue perspective always.'],['Fractional CMO','Beyond agency work — actionable insights as your strategic partner.']];
+  s('h-wpts',wpts.map(w=>'<div style="display:flex;gap:.75rem;align-items:flex-start"><div style="width:8px;height:8px;border-radius:50%;background:var(--canopy);flex-shrink:0;margin-top:7px"></div><div><strong style="color:#1a1a1a;font-size:.9rem">'+w[0]+'</strong><p style="font-size:.825rem;color:var(--slate);margin-top:2px;font-weight:300">'+w[1]+'</p></div></div>').join(''));
+  s('h-wq',lang==='ko'?'"하나의 나무도 아니고,<br>통제되지 않는 숲도 아닙니다.<br><br>의도적으로 설계된 성장입니다."':'"A grove isn\'t a single tree,<br>and it isn\'t a wilderness.<br><br>It\'s intentional growth."');
+  s('h-grl',lang==='ko'?'방법론':'Methodology');
+  s('h-grh',lang==='ko'?'그로브 모델':'The Grove Model');
+  s('h-grp',lang==='ko'?'단편적인 캠페인이 아닌, 복리로 성장하는 B2B 마케팅 생태계를 구축합니다.':'Not one-off campaigns, but a compounding B2B marketing ecosystem.');
+  s('h-grsteps',steps.map(st=>procCard(st)).join(''));
+  s('h-csl',lang==='ko'?'케이스 스터디':'Case Studies');
+  s('h-csh',lang==='ko'?'실제 성과로<br>증명합니다.':'Proven results,<br>real impact.');
+  s('h-cscards',cases.map(c=>caseCard(c)).join(''));
+  s('h-qt',lang==='ko'?'"한국 B2B 시장에서의 성공은 제품이 아닌, 신뢰에서 시작됩니다."':'"Success in Korean B2B markets starts with trust, not features."');
+
+  // ABOUT
+  s('a-ey',lang==='ko'?'회사 소개':'About');
+  s('a-h1',lang==='ko'?'전략적 성장의<br><em>생태계를 설계합니다.</em>':'We design ecosystems<br><em>for strategic growth.</em>');
+  s('a-p',lang==='ko'?'그로비안은 B2B 테크 기업의 지속 가능한 성장을 지원하는 마케팅 & 컨설팅 에이전시입니다.':'Grovian Strategy is a B2B marketing & consulting agency helping tech companies grow sustainably.');
+  s('a-sl',lang==='ko'?'우리의 이야기':'Our Story');
+  s('a-sh',lang==='ko'?'Grove에서 시작된 전략':'Strategy rooted in the Grove');
+  s('a-sp1',lang==='ko'?'그로비안은 단순한 마케팅 대행사가 아닙니다. 한국의 B2B 시장을 깊이 이해하고, 글로벌 스탠다드의 전략을 현지 맥락에 맞게 실행하는 전략적 파트너입니다.':'Grovian is not a typical marketing agency. We are a strategic partner with deep roots in Korean B2B market dynamics and global strategic fluency.');
+  s('a-sp2',lang==='ko'?'우리의 이름처럼, 하나의 나무(단편적 캠페인)가 아닌 뿌리가 얽혀 함께 성장하는 숲(전략적 생태계)을 만드는 것이 목표입니다.':'Like our name, our goal is not one tree but an interconnected grove — an intentional ecosystem where every element supports sustainable growth.');
+  s('a-vl',lang==='ko'?'핵심 가치':'Core Values');
+  s('a-vpts',vals.map(v=>valPt(v)).join(''));
+  s('a-strl',lang==='ko'?'강점':'Our Edge');
+  s('a-strh',lang==='ko'?'그로비안만의 차별점':'What sets Grovian apart');
+  s('a-strc',vals.slice(0,3).map(v=>'<div class="cap-card"><h3>'+v[0]+'</h3><p>'+v[1]+'</p></div>').join(''));
+
+  // SERVICES
+  s('s-ey',lang==='ko'?'서비스':'Services');
+  s('s-h1',lang==='ko'?'브랜드 구축부터<br><em>매출 성장까지.</em>':'From brand building<br><em>to revenue growth.</em>');
+  s('s-p',lang==='ko'?'디지털 마케팅, 필드 마케팅, 영상 제작, 디자인/인쇄, 기념품 소싱까지 — B2B 마케팅의 전 영역을 원스톱으로 제공합니다.':'Digital marketing, field marketing, video production, design/print, and merchandise sourcing — all B2B marketing in one place.');
+  s('s-capl',lang==='ko'?'서비스':'Capabilities'); s('s-caph',lang==='ko'?'전문 서비스 영역':'Service Areas');
+  s('s-caps',caps.map(c=>capCard(c)).join(''));
+  s('s-grl',lang==='ko'?'방법론':'Methodology'); s('s-grh',lang==='ko'?'그로브 모델':'The Grove Model');
+  s('s-grp',lang==='ko'?'단편적인 캠페인이 아닌, 복리로 성장하는 B2B 마케팅 생태계를 구축합니다.':'Not one-off campaigns, but a compounding B2B marketing ecosystem.');
+  s('s-grsteps',steps.map(st=>procCard(st)).join(''));
+  s('s-engl',lang==='ko'?'참여 방식':'Engagement'); s('s-engh',lang==='ko'?'유연한 협업 모델':'Flexible collaboration models');
+  s('s-engc',engs.map(e=>engCard(e)).join(''));
+
+  // CASE STUDIES
+  s('c2-ey',lang==='ko'?'케이스 스터디':'Case Studies');
+  s('c2-h1',lang==='ko'?'실제 성과로<br><em>증명합니다.</em>':'Proven results,<br><em>real impact.</em>');
+  s('c2-p',lang==='ko'?'그로비안과 함께한 기업들의 실제 프로젝트 결과입니다.':'Real project outcomes from companies that grew with Grovian.');
+  const tabs=lang==='ko'?['전체','디지털','GTM','컨텐츠']:['All','Digital','GTM','Content'];
+  s('c2-tabs',tabs.map((tb,i)=>'<div class="case-tab'+(i===0?' active':'')+'" onclick="this.parentElement.querySelectorAll(\'.case-tab\').forEach(t=>t.classList.remove(\'active\'));this.classList.add(\'active\')">'+tb+'</div>').join(''));
+  s('c2-cards',cases.map(c=>caseCard(c)).join(''));
+
+  // CONTACT
+  s('ct-ey',lang==='ko'?'문의하기':'Contact');
+  s('ct-h1',lang==='ko'?'함께<br><em>성장합시다.</em>':'Let\'s grow<br><em>together.</em>');
+  s('ct-p',lang==='ko'?'시장 지배력을 구축할 준비가 되셨나요? 목표를 들려주세요.':'Ready to build your market position? We\'d love to hear about your goals.');
+  s('ct-engl',engs.map(e=>'<div style="display:flex;gap:.75rem;align-items:flex-start"><div style="width:8px;height:8px;border-radius:50%;background:var(--canopy);flex-shrink:0;margin-top:5px"></div><div><strong style="color:#1a1a1a;font-size:.9rem">'+e[0]+'</strong><span style="color:var(--slate);font-size:.825rem"> — '+e[2]+'</span></div></div>').join(''));
+  s('fl-n',lang==='ko'?'성함':'Name'); s('fl-c',lang==='ko'?'회사명':'Company');
+  s('fl-e',lang==='ko'?'이메일':'Email'); s('fl-ph',lang==='ko'?'연락처':'Phone');
+  s('fl-sv',lang==='ko'?'관심 서비스':'Service of interest'); s('fl-m',lang==='ko'?'문의 내용':'Message');
+  s('f-sub',lang==='ko'?'문의 보내기':'Send message');
+  ph('fi-m',lang==='ko'?'프로젝트에 대해 간략히 소개해주세요...':'Tell us about your project...');
+  const opts=lang==='ko'?['브랜드 & 포지셔닝','콘텐츠 전략','수요 창출','GTM 전략','영업 지원','마케팅 컨설팅']:
+    ['Brand & Positioning','Content Strategy','Demand Generation','GTM Strategy','Sales Enablement','Marketing Consulting'];
+  for(let i=1;i<=6;i++)s('fo'+i,opts[i-1]||'');
+
+  // FOOTER
+  s('ft-desc',lang==='ko'?'B2B 테크 기업을 위한 전략적 마케팅 파트너. 뿌리 깊은 전략, 폭넓은 시장 도달력.':'Strategic marketing partner for B2B tech companies.');
+  s('ft-loc',lang==='ko'?'경기도 부천시 소사구 경인로 235번길 87':'');
+  s('ft-h1',lang==='ko'?'회사':'Company'); s('ft-a1',lang==='ko'?'회사 소개':'About Us'); s('ft-a2',lang==='ko'?'서비스':'Services'); s('ft-a3',lang==='ko'?'케이스 스터디':'Case Studies');
+  s('ft-h2',lang==='ko'?'서비스':'Services'); s('ft-b1',lang==='ko'?'브랜드 & 포지셔닝':'Brand & Positioning'); s('ft-b2',lang==='ko'?'수요 창출':'Demand Generation'); s('ft-b3',lang==='ko'?'GTM 전략':'GTM Strategy'); s('ft-b4',lang==='ko'?'마케팅 컨설팅':'Marketing Consulting');
+  s('ft-h3',lang==='ko'?'연락처':'Contact'); s('ft-c1',lang==='ko'?'문의하기':'Get in touch');
+}
+
+async function submitForm(){
+  const name    = document.getElementById('fi-n').value;
+  const company = document.getElementById('fi-c').value;
+  const email   = document.getElementById('fi-e').value;
+  const phone   = document.getElementById('fi-ph').value;
+  const service = document.getElementById('fi-sv').value;
+  const message = document.getElementById('fi-m').value;
+
+  if(!name || !email || !message){
+    alert(lang==='ko'?'성함, 이메일, 문의 내용은 필수입니다.':'Name, email and message are required.');
+    return;
+  }
+
+  const btn = document.getElementById('f-sub');
+  btn.disabled = true;
+  btn.textContent = lang==='ko'?'전송 중...':'Sending...';
+
+  try {
+    const res = await fetch('https://formspree.io/f/xyknvkab', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({
+        name, company, email, phone,
+        service, message,
+        _subject: '[Grovian] 문의가 접수되었습니다 — ' + name + ' (' + company + ')'
+      })
+    });
+
+    if(res.ok){
+      alert(lang==='ko'?'문의가 접수되었습니다! 빠른 시일 내 연락드리겠습니다. 🌱':'Your message has been sent! We will get back to you soon. 🌱');
+      // 폼 초기화
+      ['fi-n','fi-c','fi-e','fi-ph','fi-m'].forEach(id => {
+        const el = document.getElementById(id);
+        if(el) el.value = '';
+      });
+    } else {
+      alert(lang==='ko'?'전송에 실패했습니다. 이메일로 직접 문의해 주세요: contact@grovianstrategy.com':'Failed to send. Please contact us directly: contact@grovianstrategy.com');
+    }
+  } catch(e) {
+    alert(lang==='ko'?'전송에 실패했습니다. 이메일로 직접 문의해 주세요: contact@grovianstrategy.com':'Failed to send. Please contact us directly: contact@grovianstrategy.com');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = lang==='ko'?'문의 보내기':'Send message';
+  }
+}
+
+render();
+</script>
+</body>
+</html>
