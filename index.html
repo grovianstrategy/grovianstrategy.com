@@ -15,8 +15,8 @@
   --accent:#7AB38A;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-html{scroll-behavior:smooth;}
-body{font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;color:#1a1a1a;background:var(--white);overflow-x:hidden;word-break:keep-all;}
+html{scroll-behavior:smooth;overflow-x:hidden;max-width:100%;}
+body{font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;color:#1a1a1a;background:var(--white);overflow-x:hidden;word-break:keep-all;max-width:100vw;}
 
 /* ── NAV ── */
 nav{position:fixed;top:0;left:0;right:0;z-index:200;height:68px;background:#2C3E35;backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:space-between;padding:0 5vw;}
@@ -38,7 +38,7 @@ nav img{height:34px;cursor:pointer;}
 .lang-btn:hover{border-color:var(--canopy);color:var(--canopy);}
 
 /* ── HERO (fullscreen with image overlay) ── */
-.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;padding-top:68px;}
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;padding-top:68px;max-width:100%;}
 .hero-bg{position:absolute;inset:0;background:linear-gradient(135deg,#EEF5F0 0%,#F4FAF6 50%,#EAF2EC 100%);z-index:0;}
 .hero-bg::after{content:'';position:absolute;inset:0;background:none;}
 .hero-overlay{position:absolute;inset:0;background:none;z-index:1;}
@@ -53,7 +53,7 @@ nav img{height:34px;cursor:pointer;}
 .btn-main:hover{background:var(--leaf);transform:translateY(-1px);}
 .btn-ghost{border:1.5px solid var(--canopy);color:var(--canopy);padding:15px 36px;border-radius:5px;font-size:13px;background:none;cursor:pointer;font-family:'Pretendard','Inter',sans-serif;transition:all .2s;letter-spacing:.06em;text-transform:uppercase;}
 .btn-ghost:hover{border-color:var(--deep);color:var(--deep);}
-.hero-stats{position:absolute;bottom:0;left:0;right:0;z-index:2;background:rgba(44,62,53,0.08);border-top:1px solid rgba(74,124,89,0.15);backdrop-filter:blur(4px);display:flex;justify-content:center;gap:0;}
+.hero-stats{position:absolute;bottom:0;left:0;right:0;z-index:2;background:rgba(220,235,225,0.6);border-top:1px solid rgba(74,124,89,0.12);backdrop-filter:blur(6px);display:flex;justify-content:center;gap:0;}
 .h-stat{padding:1.25rem 3rem;text-align:center;border-right:1px solid rgba(255,255,255,0.1);}
 .h-stat:last-child{border-right:none;}
 .h-stat-n{font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;font-size:1.8rem;font-weight:600;color:var(--canopy);}
@@ -94,10 +94,10 @@ h2.c{text-align:center;}
 
 /* ── PROCESS (neodigm grove model) ── */
 .process-wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:3rem;position:relative;}
-.process-wrap::before{content:'';position:absolute;top:36px;left:12.5%;right:12.5%;height:2px;background:linear-gradient(to right,var(--shield),var(--leaf));z-index:0;}
+.process-wrap::before{content:'';position:absolute;top:18px;left:12.5%;right:12.5%;height:2px;background:linear-gradient(to right,var(--shield),var(--leaf));z-index:0;}
 .proc-item{text-align:center;position:relative;z-index:1;padding:0 1rem;}
-.proc-num{width:72px;height:72px;border-radius:50%;background:var(--canopy);color:var(--white);font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;font-size:1.4rem;font-weight:600;display:flex;align-items:center;justify-content:center;margin:0 auto 1.25rem;}
-.proc-item h3{font-size:1rem;font-weight:600;color:#1a1a1a;margin-bottom:.5rem;}
+.proc-num{width:36px;height:36px;border-radius:50%;background:var(--canopy);color:var(--white);font-family:'Pretendard','Plus Jakarta Sans','Inter',sans-serif;font-size:.75rem;font-weight:600;display:flex;align-items:center;justify-content:center;margin:0 auto 1.25rem;}
+.proc-item h3{font-size:1.25rem;font-weight:700;color:#1a1a1a;margin-bottom:.5rem;}
 .proc-sub{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--canopy);margin-bottom:.5rem;}
 .proc-item p{font-size:.825rem;line-height:1.7;color:var(--slate);font-weight:300;}
 
@@ -220,13 +220,22 @@ footer{background:#F7FAF8;padding:60px 5vw 30px;}
 .hero-content>*{animation:fadeUp .8s ease both;}
 .hero-badge{animation-delay:.1s}.hero h1{animation-delay:.25s}.hero-sub{animation-delay:.4s}.hero-btns{animation-delay:.55s}
 
-@media(max-width:900px){
-  .g2,.g3,.g4,.g2p,.case-grid,.eng-wrap,.contact-wrap,.footer-top,.why-grid,.process-wrap{grid-template-columns:1fr;}
+@media(max-width:900px){*{max-width:100%;}
+  .g2,.g3,.g4,.g2p,.case-grid,.eng-wrap,.contact-wrap,.footer-top,.why-grid,.process-wrap{grid-template-columns:1fr;width:100%;}
+  .sec{padding:60px 4vw;}
+  .sec-inner{width:100%;overflow:hidden;}
+  .case-card,.cap-card,.eng-card,.dc{width:100%;}
+  .hero-content{padding:0 4vw;width:100%;}
   .process-wrap::before{display:none;}
   .h-stat{padding:1rem 1.5rem;}
   .nav-item .dropdown{display:none!important;}
   .nav-links .nav-item>a span.arr{display:none;}
 }
+
+.mm-node ellipse { transition: all 0.25s; }
+.mm-node:hover ellipse:first-child { opacity: 0.85; transform-origin: center; }
+.mm-node:hover { filter: drop-shadow(0 6px 16px rgba(44,62,53,0.25)); }
+
 </style>
 </head>
 <body>
@@ -286,7 +295,111 @@ footer{background:#F7FAF8;padding:60px 5vw 30px;}
       <h2 class="c" id="h-caph"></h2>
       <div class="div-line c"></div>
       <p class="sec-desc c" id="h-capp"></p>
-      <div class="g3" id="h-caps"></div>
+      
+<div id="mindmap-wrap" style="width:100%;max-width:900px;margin:2rem auto 0;position:relative;">
+<svg id="mindmap-svg" viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;filter:drop-shadow(0 8px 32px rgba(44,62,53,0.10));">
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <circle cx="3" cy="3" r="1.5" fill="#7AB38A"/>
+    </marker>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="900" height="620" rx="18" fill="#F7FAF8"/>
+
+  <!-- 연결선 -->
+  <!-- 디지털 마케팅 -->
+  <path d="M450,310 Q360,240 220,175" stroke="#7AB38A" stroke-width="2" fill="none" stroke-dasharray="5,3" opacity="0.7"/>
+  <!-- 필드 마케팅 -->
+  <path d="M450,310 Q390,240 310,175" stroke="#7AB38A" stroke-width="2" fill="none" stroke-dasharray="5,3" opacity="0.7"/>
+  <!-- 영상 제작 -->
+  <path d="M450,310 Q440,220 440,168" stroke="#7AB38A" stroke-width="2" fill="none" stroke-dasharray="5,3" opacity="0.7"/>
+  <!-- 편집/디자인 -->
+  <path d="M450,310 Q470,420 450,460" stroke="#4A7C59" stroke-width="2" fill="none" stroke-dasharray="5,3" opacity="0.7"/>
+  <!-- 기념품 소싱 -->
+  <path d="M450,310 Q520,390 590,445" stroke="#4A7C59" stroke-width="2" fill="none" stroke-dasharray="5,3" opacity="0.7"/>
+  <!-- 토탈 솔루션 -->
+  <path d="M450,310 Q600,360 700,310" stroke="#4A7C59" stroke-width="2" fill="none" stroke-dasharray="5,3" opacity="0.7"/>
+
+  <!-- 중앙 노드 -->
+  <ellipse cx="450" cy="310" rx="92" ry="58" fill="#2C3E35"/>
+  <ellipse cx="450" cy="310" rx="92" ry="58" fill="none" stroke="#7AB38A" stroke-width="2.5"/>
+  <text x="450" y="304" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">GROVIAN</text>
+  <text x="450" y="324" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="11" fill="#7AB38A">토탈 B2B 마케팅</text>
+
+  <!-- ① 디지털 마케팅 (좌상) -->
+  <g class="mm-node" style="cursor:pointer">
+    <ellipse cx="175" cy="148" rx="78" ry="42" fill="#3D5A4A"/>
+    <ellipse cx="175" cy="148" rx="78" ry="42" fill="none" stroke="#7AB38A" stroke-width="1.5"/>
+    <text x="175" y="143" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" class="mm-ko">📱 디지털 마케팅</text>
+    <text x="175" y="143" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" class="mm-en" style="display:none">📱 Digital Marketing</text>
+    <text x="175" y="160" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-ko">소셜 · 리드젠 · eDM</text>
+    <text x="175" y="160" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-en" style="display:none">Social · Lead Gen · eDM</text>
+  </g>
+
+  <!-- ② 필드 마케팅 (중상) -->
+  <g class="mm-node" style="cursor:pointer">
+    <ellipse cx="320" cy="148" rx="78" ry="42" fill="#3D5A4A"/>
+    <ellipse cx="320" cy="148" rx="78" ry="42" fill="none" stroke="#7AB38A" stroke-width="1.5"/>
+    <text x="320" y="143" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" class="mm-ko">🎪 필드 마케팅</text>
+    <text x="320" y="143" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" class="mm-en" style="display:none">🎪 Field Marketing</text>
+    <text x="320" y="160" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-ko">ABM · 컨퍼런스 · 세미나</text>
+    <text x="320" y="160" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-en" style="display:none">ABM · Conference · Seminar</text>
+  </g>
+
+  <!-- ③ 영상 제작 (우상) -->
+  <g class="mm-node" style="cursor:pointer">
+    <ellipse cx="460" cy="108" rx="78" ry="42" fill="#3D5A4A"/>
+    <ellipse cx="460" cy="108" rx="78" ry="42" fill="none" stroke="#7AB38A" stroke-width="1.5"/>
+    <text x="460" y="103" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" class="mm-ko">🎬 영상 제작 및 편집</text>
+    <text x="460" y="103" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" class="mm-en" style="display:none">🎬 Video Production</text>
+    <text x="460" y="120" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-ko">홍보 · 데모 · 하이라이트</text>
+    <text x="460" y="120" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-en" style="display:none">Promo · Demo · Highlights</text>
+  </g>
+
+  <!-- ④ 편집/디자인/인쇄 (하) -->
+  <g class="mm-node" style="cursor:pointer">
+    <ellipse cx="450" cy="500" rx="82" ry="42" fill="#2C3E35"/>
+    <ellipse cx="450" cy="500" rx="82" ry="42" fill="none" stroke="#4A7C59" stroke-width="1.5"/>
+    <text x="450" y="495" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" class="mm-ko">🎨 편집 / 디자인 / 인쇄</text>
+    <text x="450" y="495" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" class="mm-en" style="display:none">🎨 Design / Print</text>
+    <text x="450" y="512" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-ko">브로슈어 · 배너 · 팸플릿</text>
+    <text x="450" y="512" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-en" style="display:none">Brochure · Banner · Print</text>
+  </g>
+
+  <!-- ⑤ 기념품 소싱 (우하) -->
+  <g class="mm-node" style="cursor:pointer">
+    <ellipse cx="610" cy="480" rx="78" ry="42" fill="#2C3E35"/>
+    <ellipse cx="610" cy="480" rx="78" ry="42" fill="none" stroke="#4A7C59" stroke-width="1.5"/>
+    <text x="610" y="475" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" class="mm-ko">🎁 기념품 소싱</text>
+    <text x="610" y="475" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" class="mm-en" style="display:none">🎁 Merchandise</text>
+    <text x="610" y="492" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-ko">굿즈 · 기념품 · 선물세트</text>
+    <text x="610" y="492" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-en" style="display:none">Goods · Swag · Gift Sets</text>
+  </g>
+
+  <!-- ⑥ 토탈 솔루션 (우) -->
+  <g class="mm-node" style="cursor:pointer">
+    <ellipse cx="735" cy="310" rx="86" ry="46" fill="#4A7C59"/>
+    <ellipse cx="735" cy="310" rx="86" ry="46" fill="none" stroke="#7AB38A" stroke-width="2"/>
+    <text x="735" y="303" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" class="mm-ko">🎯 토탈</text>
+    <text x="735" y="303" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" class="mm-en" style="display:none">🎯 Total Solution</text>
+    <text x="735" y="320" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" class="mm-ko">마케팅 솔루션</text>
+    <text x="735" y="333" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#E8F5EE" class="mm-ko">전략 · 실행 · 결과 일원화</text>
+    <text x="735" y="333" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#E8F5EE" class="mm-en" style="display:none">Strategy · Execute · Result</text>
+  </g>
+
+  <!-- 장식 점들 -->
+  <circle cx="80" cy="60" r="4" fill="#B8D4BE" opacity="0.4"/>
+  <circle cx="820" cy="80" r="6" fill="#7AB38A" opacity="0.3"/>
+  <circle cx="60" cy="540" r="5" fill="#4A7C59" opacity="0.3"/>
+  <circle cx="840" cy="560" r="4" fill="#B8D4BE" opacity="0.4"/>
+  <circle cx="450" cy="20" r="3" fill="#7AB38A" opacity="0.5"/>
+
+  <!-- 하단 태그라인 -->
+  <text x="450" y="590" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="10" fill="#7AB38A" opacity="0.7" font-style="italic">Deep roots. Market reach.</text>
+</svg>
+</div>
+
     </div>
   </div>
 
@@ -328,9 +441,7 @@ footer{background:#F7FAF8;padding:60px 5vw 30px;}
       <h2 id="h-csh"></h2>
       <div class="div-line"></div>
       <div class="case-grid" style="margin-top:2.5rem" id="h-cscards"></div>
-      <div style="text-align:center;margin-top:2.5rem">
-        <button class="btn-main" id="h-csmore" onclick="go('cases')" style="background:var(--deep)"></button>
-      </div>
+
     </div>
   </div>
 
@@ -339,22 +450,6 @@ footer{background:#F7FAF8;padding:60px 5vw 30px;}
     <p class="qb-text" id="h-qt"></p>
     <p class="qb-attr">Deep roots. Market reach.</p>
   </div>
-
-  <!-- KOREA MARKET STATS -->
-  <div class="sec white">
-    <div class="sec-inner">
-      <div class="sec-label c" id="h-kl"></div>
-      <h2 class="c" id="h-kh"></h2>
-      <div class="div-line c"></div>
-      <div class="why-grid">
-        <div class="why-item"><div class="why-num">$1.8<span class="why-unit">T</span></div><div class="why-label" id="h-k1"></div></div>
-        <div class="why-item"><div class="why-num">Top<span class="why-unit">5</span></div><div class="why-label" id="h-k2"></div></div>
-        <div class="why-item"><div class="why-num">87<span class="why-unit">%</span></div><div class="why-label" id="h-k3"></div></div>
-        <div class="why-item"><div class="why-num">3<span class="why-unit">×</span></div><div class="why-label" id="h-k4"></div></div>
-      </div>
-    </div>
-  </div>
-
 </div>
 
 <!-- ══════════ ABOUT ══════════ -->
@@ -407,7 +502,111 @@ footer{background:#F7FAF8;padding:60px 5vw 30px;}
       <div class="sec-label c" id="s-capl"></div>
       <h2 class="c" id="s-caph"></h2>
       <div class="div-line c"></div>
-      <div class="g3" style="margin-top:2rem" id="s-caps"></div>
+      
+<div id="mindmap-wrap" style="width:100%;max-width:900px;margin:2rem auto 0;position:relative;">
+<svg id="mindmap-svg" viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;filter:drop-shadow(0 8px 32px rgba(44,62,53,0.10));">
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <circle cx="3" cy="3" r="1.5" fill="#7AB38A"/>
+    </marker>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="900" height="620" rx="18" fill="#F7FAF8"/>
+
+  <!-- 연결선 -->
+  <!-- 디지털 마케팅 -->
+  <path d="M450,310 Q360,240 220,175" stroke="#7AB38A" stroke-width="2" fill="none" stroke-dasharray="5,3" opacity="0.7"/>
+  <!-- 필드 마케팅 -->
+  <path d="M450,310 Q390,240 310,175" stroke="#7AB38A" stroke-width="2" fill="none" stroke-dasharray="5,3" opacity="0.7"/>
+  <!-- 영상 제작 -->
+  <path d="M450,310 Q440,220 440,168" stroke="#7AB38A" stroke-width="2" fill="none" stroke-dasharray="5,3" opacity="0.7"/>
+  <!-- 편집/디자인 -->
+  <path d="M450,310 Q470,420 450,460" stroke="#4A7C59" stroke-width="2" fill="none" stroke-dasharray="5,3" opacity="0.7"/>
+  <!-- 기념품 소싱 -->
+  <path d="M450,310 Q520,390 590,445" stroke="#4A7C59" stroke-width="2" fill="none" stroke-dasharray="5,3" opacity="0.7"/>
+  <!-- 토탈 솔루션 -->
+  <path d="M450,310 Q600,360 700,310" stroke="#4A7C59" stroke-width="2" fill="none" stroke-dasharray="5,3" opacity="0.7"/>
+
+  <!-- 중앙 노드 -->
+  <ellipse cx="450" cy="310" rx="92" ry="58" fill="#2C3E35"/>
+  <ellipse cx="450" cy="310" rx="92" ry="58" fill="none" stroke="#7AB38A" stroke-width="2.5"/>
+  <text x="450" y="304" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">GROVIAN</text>
+  <text x="450" y="324" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="11" fill="#7AB38A">토탈 B2B 마케팅</text>
+
+  <!-- ① 디지털 마케팅 (좌상) -->
+  <g class="mm-node" style="cursor:pointer">
+    <ellipse cx="175" cy="148" rx="78" ry="42" fill="#3D5A4A"/>
+    <ellipse cx="175" cy="148" rx="78" ry="42" fill="none" stroke="#7AB38A" stroke-width="1.5"/>
+    <text x="175" y="143" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" class="mm-ko">📱 디지털 마케팅</text>
+    <text x="175" y="143" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" class="mm-en" style="display:none">📱 Digital Marketing</text>
+    <text x="175" y="160" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-ko">소셜 · 리드젠 · eDM</text>
+    <text x="175" y="160" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-en" style="display:none">Social · Lead Gen · eDM</text>
+  </g>
+
+  <!-- ② 필드 마케팅 (중상) -->
+  <g class="mm-node" style="cursor:pointer">
+    <ellipse cx="320" cy="148" rx="78" ry="42" fill="#3D5A4A"/>
+    <ellipse cx="320" cy="148" rx="78" ry="42" fill="none" stroke="#7AB38A" stroke-width="1.5"/>
+    <text x="320" y="143" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" class="mm-ko">🎪 필드 마케팅</text>
+    <text x="320" y="143" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" class="mm-en" style="display:none">🎪 Field Marketing</text>
+    <text x="320" y="160" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-ko">ABM · 컨퍼런스 · 세미나</text>
+    <text x="320" y="160" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-en" style="display:none">ABM · Conference · Seminar</text>
+  </g>
+
+  <!-- ③ 영상 제작 (우상) -->
+  <g class="mm-node" style="cursor:pointer">
+    <ellipse cx="460" cy="108" rx="78" ry="42" fill="#3D5A4A"/>
+    <ellipse cx="460" cy="108" rx="78" ry="42" fill="none" stroke="#7AB38A" stroke-width="1.5"/>
+    <text x="460" y="103" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" class="mm-ko">🎬 영상 제작 및 편집</text>
+    <text x="460" y="103" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" class="mm-en" style="display:none">🎬 Video Production</text>
+    <text x="460" y="120" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-ko">홍보 · 데모 · 하이라이트</text>
+    <text x="460" y="120" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-en" style="display:none">Promo · Demo · Highlights</text>
+  </g>
+
+  <!-- ④ 편집/디자인/인쇄 (하) -->
+  <g class="mm-node" style="cursor:pointer">
+    <ellipse cx="450" cy="500" rx="82" ry="42" fill="#2C3E35"/>
+    <ellipse cx="450" cy="500" rx="82" ry="42" fill="none" stroke="#4A7C59" stroke-width="1.5"/>
+    <text x="450" y="495" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" class="mm-ko">🎨 편집 / 디자인 / 인쇄</text>
+    <text x="450" y="495" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" class="mm-en" style="display:none">🎨 Design / Print</text>
+    <text x="450" y="512" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-ko">브로슈어 · 배너 · 팸플릿</text>
+    <text x="450" y="512" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-en" style="display:none">Brochure · Banner · Print</text>
+  </g>
+
+  <!-- ⑤ 기념품 소싱 (우하) -->
+  <g class="mm-node" style="cursor:pointer">
+    <ellipse cx="610" cy="480" rx="78" ry="42" fill="#2C3E35"/>
+    <ellipse cx="610" cy="480" rx="78" ry="42" fill="none" stroke="#4A7C59" stroke-width="1.5"/>
+    <text x="610" y="475" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" class="mm-ko">🎁 기념품 소싱</text>
+    <text x="610" y="475" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" class="mm-en" style="display:none">🎁 Merchandise</text>
+    <text x="610" y="492" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-ko">굿즈 · 기념품 · 선물세트</text>
+    <text x="610" y="492" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#B8D4BE" class="mm-en" style="display:none">Goods · Swag · Gift Sets</text>
+  </g>
+
+  <!-- ⑥ 토탈 솔루션 (우) -->
+  <g class="mm-node" style="cursor:pointer">
+    <ellipse cx="735" cy="310" rx="86" ry="46" fill="#4A7C59"/>
+    <ellipse cx="735" cy="310" rx="86" ry="46" fill="none" stroke="#7AB38A" stroke-width="2"/>
+    <text x="735" y="303" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" class="mm-ko">🎯 토탈</text>
+    <text x="735" y="303" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" class="mm-en" style="display:none">🎯 Total Solution</text>
+    <text x="735" y="320" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" class="mm-ko">마케팅 솔루션</text>
+    <text x="735" y="333" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#E8F5EE" class="mm-ko">전략 · 실행 · 결과 일원화</text>
+    <text x="735" y="333" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="9.5" fill="#E8F5EE" class="mm-en" style="display:none">Strategy · Execute · Result</text>
+  </g>
+
+  <!-- 장식 점들 -->
+  <circle cx="80" cy="60" r="4" fill="#B8D4BE" opacity="0.4"/>
+  <circle cx="820" cy="80" r="6" fill="#7AB38A" opacity="0.3"/>
+  <circle cx="60" cy="540" r="5" fill="#4A7C59" opacity="0.3"/>
+  <circle cx="840" cy="560" r="4" fill="#B8D4BE" opacity="0.4"/>
+  <circle cx="450" cy="20" r="3" fill="#7AB38A" opacity="0.5"/>
+
+  <!-- 하단 태그라인 -->
+  <text x="450" y="590" text-anchor="middle" font-family="'Pretendard','Inter',sans-serif" font-size="10" fill="#7AB38A" opacity="0.7" font-style="italic">Deep roots. Market reach.</text>
+</svg>
+</div>
+
     </div>
   </div>
   <div class="sec gray">
@@ -560,7 +759,10 @@ function ph(id,v){const e=document.getElementById(id);if(e)e.placeholder=v;}
 function go(id){
   document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
   document.getElementById('pg-'+id).classList.add('active');
-  curPage=id; renderNav(); window.scrollTo(0,0);
+  curPage=id; renderNav();
+  // 마인드맵 한/영 전환
+  document.querySelectorAll('.mm-ko').forEach(el => el.style.display = lang==='ko' ? '' : 'none');
+  document.querySelectorAll('.mm-en').forEach(el => el.style.display = lang==='en' ? '' : 'none'); window.scrollTo(0,0);
 }
 function toggleLang(){lang=lang==='ko'?'en':'ko';document.documentElement.lang=lang==='ko'?'ko':'en';render();}
 
@@ -606,18 +808,15 @@ function render(){
   renderNav();
 
   // HOME
-  const ey=lang==='ko'?'B2B 마케팅 & 컨설팅 · ':'B2B Marketing & Consulting · ';
-  const h1=lang==='ko'?'전략이<br>뿌리내리는 곳,<br><em>그로비안입니다.</em>':'Where strategy<br><em>takes root.</em>';
+  const ey=lang==='ko'?'· B2B 마케팅 & 컨설팅 ·':'· B2B Marketing & Consulting ·';
+  const h1=lang==='ko'?'<span style="font-weight:700">전략이<br>뿌리내리는 곳,</span><br><span style="font-weight:800;font-style:normal;color:#4A7C59">그로비안</span>':'<span style="font-weight:700">Where strategy</span><br><span style="font-weight:800;font-style:normal;color:#4A7C59">takes root.</span>';
   const hp=lang==='ko'?'B2B 테크 기업의 시장 지배력을 강화합니다. 포지셔닝부터 GTM 실행까지, 지속 성장하는 전략적 생태계를 구축합니다.':'We help tech companies build sustained market position — from positioning and messaging to full GTM execution.';
   s('h-ey',ey); s('h-h1',h1); s('h-p',hp);
   s('h-b1',t.home_btn1);
-  const stats=lang==='ko'?[['$1.8T','GDP 규모'],['87%','인터넷 보급률'],['Top 5','반도체 허브'],['3×','B2B SaaS 성장']]:
-    [['$1.8T','GDP Scale'],['87%','Internet Penetration'],['Top 5','Tech Hub'],['3×','B2B SaaS Growth']];
+  const stats=lang==='ko'?[['Total','B2B 마케팅 솔루션'],['B2B','전문 에이전시'],['Deep roots.','뿌리 깊은 전략'],['Market reach.','폭넓은 시장 도달']]:
+    [['Total','B2B Marketing Solution'],['B2B','Specialist Agency'],['Deep roots.','Strategy with depth'],['Market reach.','Broad market access']];
+
   stats.forEach((st,i)=>{s('hs'+(i+1)+'n',st[0]);s('hs'+(i+1)+'l',st[1]);});
-  s('h-capl',lang==='ko'?'서비스':'Capabilities');
-  s('h-caph',lang==='ko'?'토탈 B2B 마케팅 솔루션':'Total B2B Marketing Solution');
-  s('h-capp',lang==='ko'?'디지털부터 오프라인까지, B2B 마케팅의 모든 것을 한 곳에서 해결합니다.':'From digital to offline — everything B2B marketing, all in one place.');
-  s('h-caps',caps.map(c=>capCard(c)).join(''));
   s('h-wl',lang==='ko'?'왜 그로비안인가요?':'Why Grovian');
   s('h-wh',lang==='ko'?'전략적 생태계를<br>구축합니다.':'We build strategic<br>ecosystems.');
   s('h-wp',lang==='ko'?'\'그로비안\'은 서로 뿌리가 얽혀 함께 성장하는 나무들의 군락, \'Grove\'에서 유래됩니다. 포지셔닝·메시징·수요창출·영업 활성화가 유기적으로 연결된 전략적 생태계를 구축합니다.':'The name Grovian comes from \'grove\' — trees growing together, roots intertwined. We build integrated marketing ecosystems where every element compounds your market position over time.');
@@ -632,14 +831,7 @@ function render(){
   s('h-csl',lang==='ko'?'케이스 스터디':'Case Studies');
   s('h-csh',lang==='ko'?'실제 성과로<br>증명합니다.':'Proven results,<br>real impact.');
   s('h-cscards',cases.map(c=>caseCard(c)).join(''));
-  s('h-csmore',lang==='ko'?'케이스 스터디 더 보기':'View all case studies');
   s('h-qt',lang==='ko'?'"한국 B2B 시장에서의 성공은 제품이 아닌, 신뢰에서 시작됩니다."':'"Success in Korean B2B markets starts with trust, not features."');
-  s('h-kl',lang==='ko'?'시장 현황':'Market Insights');
-  s('h-kh',lang==='ko'?'왜 지금인가요?':'Why now.');
-  s('h-k1',lang==='ko'?'GDP 규모':'GDP Scale');
-  s('h-k2',lang==='ko'?'첨단 기술 허브':'Tech Hub');
-  s('h-k3',lang==='ko'?'인터넷 보급률':'Internet Penetration');
-  s('h-k4',lang==='ko'?'B2B SaaS 성장률':'B2B SaaS Growth');
 
   // ABOUT
   s('a-ey',lang==='ko'?'회사 소개':'About');
@@ -659,8 +851,7 @@ function render(){
   s('s-ey',lang==='ko'?'서비스':'Services');
   s('s-h1',lang==='ko'?'브랜드 구축부터<br><em>매출 성장까지.</em>':'From brand building<br><em>to revenue growth.</em>');
   s('s-p',lang==='ko'?'디지털 마케팅, 필드 마케팅, 영상 제작, 디자인/인쇄, 기념품 소싱까지 — B2B 마케팅의 전 영역을 원스톱으로 제공합니다.':'Digital marketing, field marketing, video production, design/print, and merchandise sourcing — all B2B marketing in one place.');
-  s('s-capl',lang==='ko'?'서비스':'Capabilities'); s('s-caph',lang==='ko'?'전문 서비스 영역':'Service Areas');
-  s('s-caps',caps.map(c=>capCard(c)).join(''));
+  s('s-capl',lang==='ko'?'서비스':'Capabilities');
   s('s-grl',lang==='ko'?'방법론':'Methodology'); s('s-grh',lang==='ko'?'그로브 모델':'The Grove Model');
   s('s-grp',lang==='ko'?'단편적인 캠페인이 아닌, 복리로 성장하는 B2B 마케팅 생태계를 구축합니다.':'Not one-off campaigns, but a compounding B2B marketing ecosystem.');
   s('s-grsteps',steps.map(st=>procCard(st)).join(''));
