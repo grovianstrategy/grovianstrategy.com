@@ -1,11 +1,12 @@
 {
-  "updated": "2026-07-26T11:32:53.445Z",
+  "updated": "2026-07-26T12:09:11.230Z",
   "news": [
     {
       "title": "BarkleyOKRP Names Brandon Cooke Chief Marketing and Growth Officer",
       "summary": "BarkleyOKRP Names Brandon Cooke Chief Marketing and Growth Officeradweek.com",
       "source": "Adweek",
       "date": "Jul 24, 2026",
+      "image": "blog-images/news_0.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/adweek-wire/barkleyokrp-names-brandon-cooke-chief-marketing-and-growth-officer/"
@@ -15,24 +16,17 @@
       "summary": "CMO hires, promotions, exits, and more",
       "source": "Adweek",
       "date": "Jul 24, 2026",
+      "image": "blog-images/news_1.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/5-marketer-moves-to-know-about-behr-gm-johnson-outdoors-and-more/"
-    },
-    {
-      "title": "Which SEO tools are worth it for small businesses?",
-      "summary": "There are an abundance of SEO tools for small businesses. But, with limited resources and budget, small businesses can face an added challenge: finding the right tech stack that does everything they n",
-      "source": "Hubspot.com",
-      "date": "Jul 24, 2026",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://blog.hubspot.com/marketing/seo-tools-for-small-business"
     },
     {
       "title": "Meet 22 VCs on the hunt for the next breakout startup in social media",
       "summary": "From dating apps to new takes on the social network for the AI era, meet 22 VC firms backing innovative internet startups.",
       "source": "Business Insider",
       "date": "Jul 23, 2026",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/meet-vcs-backing-ai-native-social-vibe-coding-dating-apps-2026-7#article"
@@ -42,285 +36,288 @@
       "summary": "CEO Mark Zuckerberg unveiled a film on Facebook that kicks off a broader paid and earned campaign around Meta's AI vision.",
       "source": "Adweek",
       "date": "Jul 23, 2026",
+      "image": "blog-images/news_3.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/creativity/meta-pushes-back-on-ai-fears-with-an-optimistic-pitch/"
     },
     {
-      "title": "Scrunch vs Ahrefs: AI visibility tracking comparison",
-      "summary": "Scrunch and Ahrefs Brand Radar both track brand visibility in AI answers, but they solve different problems. Scrunch is purpose-built for AEO: it monitors AI citations, audits AI crawlability, and act",
-      "source": "Hubspot.com",
+      "title": "3 'boring' investments could protect portfolios from the latest inflation threat",
+      "summary": "Wells Fargo highlighted a variety of less flashy fixed income investments to consider as interest rates look poised to remain elevated through 2026.",
+      "source": "Business Insider",
       "date": "Jul 23, 2026",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://blog.hubspot.com/marketing/scrunch-vs-ahrefs"
+      "url": "https://www.businessinsider.com/investing-advice-inflation-protection-interest-rates-bonds-economy-wells-fargo-2026-7#article"
+    },
+    {
+      "title": "How Amazon weaned Alexa off Anthropic's pricey models to slash AI costs",
+      "summary": "Internal documents show Amazon worked to lower Alexa+ AI costs by reducing the use of Anthropic models and getting more work from every GPU.",
+      "source": "Business Insider",
+      "date": "Jul 23, 2026",
+      "image": "blog-images/news_5.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/amazon-push-lower-alexa-ai-costs-use-anthropic-models-less-2026-7#article"
+    },
+    {
+      "title": "Warning: this one mistake could keep your smoke detector from sounding in a real fire",
+      "summary": "You test your smoke detector every month. You press the button, you hear the loud chirp, you nod, and you move on with your day. It feels responsible. It feels like enough. It might not be. There’s on",
+      "source": "Trendir.com",
+      "date": "Jul 25, 2026",
+      "image": "blog-images/news_6.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.trendir.com/warning-this-one-mistake-could-keep-your-smoke-detector-from-sounding-in-a-real-fire/"
+    },
+    {
+      "title": "Amazon Paying $2,500,000,000 Over Allegations Prime Customers Were Enrolled Without Consent – Here Are the Eligibility Requirements",
+      "summary": "Amazon Prime customers who may qualify for a payment from the company’s $2.5 billion settlement with the Federal Trade Commission (FTC) have until Monday, July 27th, to submit a claim. The settlement",
+      "source": "The Daily Hodl",
+      "date": "Jul 25, 2026",
+      "image": "blog-images/news_7.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://dailyhodl.com/2026/07/25/amazon-paying-2500000000-over-allegations-prime-customers-were-enrolled-without-consent-here-are-the-eligibility-requirements/"
+    },
+    {
+      "title": "The 5 Best RVs & Motorhomes of July 2026",
+      "summary": "The 5 Best RVs & Motorhomes of July 2026The RV market has never asked more interesting questions of itself. Whether you are planning your first camping trip or refining years of experience on...",
+      "source": "Yanko Design",
+      "date": "Jul 25, 2026",
+      "image": "blog-images/news_8.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.yankodesign.com/2026/07/25/the-5-best-rvs-motorhomes-of-july-2026/"
+    }
+  ],
+  "trends": [
+    {
+      "title": "Wayfair shopping tips: 7 hacks for finding high",
+      "summary": "Here's how to shop Wayfair like a pro. Avoid low-quality furniture, reverse image search for lower prices, and find the best pieces with these tips.",
+      "source": "Business Insider",
+      "date": "Jul 25, 2026",
+      "image": "blog-images/trends_0.jpg",
+      "category": "Trends",
+      "emoji": "📈",
+      "url": "https://www.businessinsider.com/guides/home/wayfair-shopping-tips#article"
+    },
+    {
+      "title": "Mary Carole McDonnell built a true",
+      "summary": "Bellum Entertainment head Mary Carole McDonnell told people she was an heiress. Then she vanished, leaving a trail of lawsuits behind. The FBI believes she's in Dubai.",
+      "source": "Business Insider",
+      "date": "Jul 25, 2026",
+      "image": "blog-images/trends_1.jpg",
+      "category": "Trends",
+      "emoji": "📈",
+      "url": "https://www.businessinsider.com/mary-carole-mcdonnell-fbi-most-wanted-bellum-entertainment-2026-7#article"
+    },
+    {
+      "title": "AI is good, we swear! Trust us!",
+      "summary": "A new wave of ads from Meta and Anthropic puts AI companies on the defensive. Can they win back trust?",
+      "source": "Business Insider",
+      "date": "Jul 25, 2026",
+      "image": "blog-images/trends_2.jpg",
+      "category": "Trends",
+      "emoji": "📈",
+      "url": "https://www.businessinsider.com/meta-anthropic-ads-trust-us-defensive-2026-7#article"
+    },
+    {
+      "title": "BarkleyOKRP Names Brandon Cooke Chief Marketing and Growth Officer",
+      "summary": "BarkleyOKRP Names Brandon Cooke Chief Marketing and Growth Officeradweek.com",
+      "source": "Adweek",
+      "date": "Jul 24, 2026",
+      "image": "blog-images/trends_3.png",
+      "category": "Trends",
+      "emoji": "📈",
+      "url": "https://www.adweek.com/adweek-wire/barkleyokrp-names-brandon-cooke-chief-marketing-and-growth-officer/"
+    },
+    {
+      "title": "Hanes embraces risqué marketing in creative shakeup for basics brand",
+      "summary": "Getting caught with one’s pants down becomes cool in a series of bold new ads from the over 125-year-old company.",
+      "source": "Marketing Dive",
+      "date": "Jul 24, 2026",
+      "image": "blog-images/trends_4.jpg",
+      "category": "Trends",
+      "emoji": "📈",
+      "url": "https://www.marketingdive.com/news/hanes-embraces-risque-marketing-in-creative-shakeup-for-basics-brand/825871/"
+    },
+    {
+      "title": "An innovation theorist says AI could squeeze out the weird ideas that change the world",
+      "summary": "Innovation theorist John Nosta said AI risks squeezing out the outlier thinking behind major breakthroughs.",
+      "source": "Business Insider",
+      "date": "Jul 24, 2026",
+      "image": "blog-images/trends_5.jpg",
+      "category": "Trends",
+      "emoji": "📈",
+      "url": "https://www.businessinsider.com/ai-could-squeeze-out-original-thinking-innovation-theorist-2026-7#article"
     },
     {
       "title": "AI Style Transfer in 2026: 25 Real",
       "summary": "Explore AI Style Transfer in 2026: 25 Real-World Use Cases for Business, Marketing, and more, with practical workflows, tool comparisons, and key risks.",
       "source": "Flaex.ai",
       "date": "Jul 25, 2026",
-      "category": "Industry News",
-      "emoji": "📰",
+      "image": "blog-images/trends_6.jpg",
+      "category": "Trends",
+      "emoji": "📈",
       "url": "https://www.flaex.ai/blog/ai-style-transfer-in-2026-25-real-world-use-cases-for-business-marketing"
     },
     {
-      "title": "Top 12 AI",
-      "summary": "AI-Powered Marketing Tools: A brutally honest breakdown of which tools actually move revenue — not which ones have the best demo videos or the catchiest .....",
-      "source": "Aiearnerhub.com",
+      "title": "The Golf GTI and I both turn 50 this year: Only one of us got a 325 horsepower birthday present",
+      "summary": "The car that never asked you to compromise. It carried the shopping all week and then, on the right road on a Sunday, it made you feel like a rally driver.",
+      "source": "TheJournal.ie",
       "date": "Jul 25, 2026",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.aiearnerhub.com/ai-powered-marketing-tools/"
+      "image": "blog-images/trends_7.jpg",
+      "category": "Trends",
+      "emoji": "📈",
+      "url": "https://www.thejournal.ie/readme/gti-at-50-volkswagen-golf-gti-7112087-Jul2026/"
     },
     {
-      "title": "Lit Hub Weekly: July 20 – 24, 2026",
-      "summary": "“Classical culture is a lot of things including, literally, rape culture.” Rebecca Solnit on the Odyssey and the Western literary tradition of silencing women. | Lit Hub Criticism From Dr. Abdul El-Sa",
-      "source": "Lithub.com",
+      "title": "Manufacturing Digital Marketing Stats (2026)",
+      "summary": "Manufacturing digital marketing statistics for 2026: budget trends (9.5% of revenue), SEO and PPC benchmarks, content marketing data, and AI adoption rates.",
+      "source": "Webtonic.io",
       "date": "Jul 25, 2026",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://lithub.com/lit-hub-weekly-july-20-24-2026/"
+      "image": "blog-images/trends_8.jpg",
+      "category": "Trends",
+      "emoji": "📈",
+      "url": "https://www.webtonic.io/blog/manufacturing-digital-marketing-statistics"
     }
   ],
   "jobs": [
     {
-      "title": "Brevo Makes Structural Bet on Where Senior Marketing Leadership is Headed in the AI Era",
-      "summary": "The company has named Inken Kuhlmann-Rhinow Chief Marketing Officer and General Manager, Self-Serve. The company has named Inken Kuhlmann-Rhinow Chief Marketing Officer and General Manager, Self-Serve",
-      "source": "GlobeNewswire",
+      "title": "2027 Marketing Budgets: Why New Categories Beat Bigger AI Line Items via @sejournal, @gregjarboe",
+      "summary": "AI visibility, trust verification, distribution engineering, human oversight, measurement rebuild: the five budget lines that should replace your legacy channel buckets in 2027.\nThe post 2027 Marketin",
+      "source": "Search Engine Journal",
+      "date": "Jul 21, 2026",
+      "image": "blog-images/jobs_0.png",
+      "category": "Jobs",
+      "emoji": "💼",
+      "url": "https://www.searchenginejournal.com/2027-marketing-budgets-why-new-categories-beat-bigger-ai-line-items/582688/"
+    },
+    {
+      "title": "Best Digital Marketing Institute in Delhi – Learn Advanced Digital Marketing Skills for a Successful Career",
+      "summary": "0   0  ❤️ 0 · Best Digital Marketing Institute in Delhi – Learn Advanced Digital Marketing Skills for a Successful Career · In today’s digital world, businesses are rapidly shifting from traditi…",
+      "source": "Tumblr.com",
+      "date": "Jul 13, 2026",
+      "image": "blog-images/jobs_1.png",
+      "category": "Jobs",
+      "emoji": "💼",
+      "url": "https://www.tumblr.com/digishifa/822010130437636096/best-digital-marketing-institute-in-delhi-learn"
+    },
+    {
+      "title": "Social Media Marketing for Law Firms 2026 Guide",
+      "summary": "Social media for lawyers is a great tool for attracting new clients and building your online presence. Promote your firm today.",
+      "source": "Growlaw.co",
       "date": "Jul 1, 2026",
+      "image": "blog-images/jobs_2.jpg",
       "category": "Jobs",
       "emoji": "💼",
-      "url": "https://www.globenewswire.com/news-release/2026/07/01/3320920/0/en/Brevo-Makes-Structural-Bet-on-Where-Senior-Marketing-Leadership-is-Headed-in-the-AI-Era.html"
-    },
-    {
-      "title": "Rigel Appoints Board Member Alison L. Hannah, M.D. as Chief Medical Officer",
-      "summary": "Dr. Hannah has decades of oncology drug development experience and has served on Rigel's Board of Directors since 2021 She has resigned from Rigel's Board of Directors to join the company SOUTH SAN FR",
-      "source": "PRNewswire",
-      "date": "Jul 1, 2026",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://www.prnewswire.com/news-releases/rigel-appoints-board-member-alison-l-hannah-md-as-chief-medical-officer-302815365.html"
-    },
-    {
-      "title": "Step Pharma announces the appointment of Neil Gallagher as Non",
-      "summary": "Saint-Genis-Pouilly, France, 1 July 2026 – Step Pharma (“the Company”), the global leader in CTPS1 inhibition for targeted cancer treatment, today announces the appointment of Neil J. Gallagher, MD, P",
-      "source": "GlobeNewswire",
-      "date": "Jul 1, 2026",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://www.globenewswire.com/news-release/2026/07/01/3320493/0/en/Step-Pharma-announces-the-appointment-of-Neil-Gallagher-as-Non-Executive-Director.html"
-    },
-    {
-      "title": "George Medicines appoints Brendan Walsh as Senior Vice President of Supply Chain & Technical Operations",
-      "summary": "London, UK, Boston, MA, 29 June 2026 – George Medicines, a late-stage biopharmaceutical company focused on addressing significant unmet needs in cardiometabolic disease, today announces the appointmen",
-      "source": "GlobeNewswire",
-      "date": "Jun 29, 2026",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://www.globenewswire.com/news-release/2026/06/29/3318813/0/en/George-Medicines-appoints-Brendan-Walsh-as-Senior-Vice-President-of-Supply-Chain-Technical-Operations.html"
-    },
-    {
-      "title": "Medicenna Therapeutics Reports Fiscal Year 2026 Financial Results and Operational Highlights",
-      "summary": "MDNA11, as a single agent or in combination with pembrolizumab, continues to demonstrate compelling anti-tumor activity in patients with advanced or metastatic cutaneous melanoma, endometrial cancer a",
-      "source": "Associated Press",
-      "date": "Jun 26, 2026",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://apnews.com/press-release/globenewswire-mobile/press-release-297478ef6ca3ea0464f0021c15ef7bfd"
-    },
-    {
-      "title": "I'm 55 and have applied to over 300 jobs. I never expected my 32 years of experience to work against me.",
-      "summary": "After being laid off, a 55-year-old communications professional applied to more than 300 jobs. She feels defeated and is lowering her expectations.",
-      "source": "Business Insider",
-      "date": "Jul 24, 2026",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://www.businessinsider.com/job-search-55-experience-is-liability-2026-7"
-    },
-    {
-      "title": "The creator economy has a new middle class",
-      "summary": "Young workers now see social media influencing as a plausible career pivot.  This shift allows them to earn income through brand deals and personal content.  Microinfluencers with smaller audiences ar",
-      "source": "The Times of India",
-      "date": "Jul 24, 2026",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://economictimes.indiatimes.com/industry/media/entertainment/the-creator-economy-has-a-new-middle-class/articleshow/132602523.cms"
-    },
-    {
-      "title": "Social Media Growth Lead (DeFi) at Gyld Finance",
-      "summary": "As decentralized finance (DeFi) continues to attract institutional investors and crypto-native users, projects need experienced marketing...",
-      "source": "Afrocareer.com",
-      "date": "Jul 23, 2026",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://www.afrocareer.com/2026/07/social-media-growth-lead-defi-at-gyld.html"
-    },
-    {
-      "title": "Cross",
-      "summary": "Which LLM models write alike? A heat map built from their words alone.",
-      "source": "Typebulb.com",
-      "date": "Jul 23, 2026",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://typebulb.com/u/lab/you-re-relatively-right/full"
+      "url": "https://growlaw.co/blog/social-media-for-lawyers-a-complete-guide"
     }
   ],
   "tools": [
     {
-      "title": "Which SEO tools are worth it for small businesses?",
-      "summary": "There are an abundance of SEO tools for small businesses. But, with limited resources and budget, small businesses can face an added challenge: finding the right tech stack that does everything they n",
-      "source": "Hubspot.com",
-      "date": "Jul 24, 2026",
+      "title": "For Hershey, the battle for Halloween starts now",
+      "summary": "Hershey is conjuring up a new Halloween playbook, carving the holiday into distinct micro-seasons that start months before October 31.",
+      "source": "Business Insider",
+      "date": "Jul 22, 2026",
+      "image": "blog-images/tools_0.jpg",
       "category": "Tools & Tech",
       "emoji": "🛠",
-      "url": "https://blog.hubspot.com/marketing/seo-tools-for-small-business"
+      "url": "https://www.businessinsider.com/how-hershey-turned-halloween-into-a-four-month-season-2026-7#article"
     },
     {
-      "title": "HubSpot AEO vs SE Ranking: Features, pricing, and fit",
-      "summary": "You’ve probably noticed it yourself: buyers aren’t just Googling anymore. They’re asking ChatGPT, Gemini, and Perplexity questions and trusting whatever answers they get. If your brand isn’t named in",
-      "source": "Hubspot.com",
-      "date": "Jul 20, 2026",
+      "title": "Small businesses hired AI to save money. Now they're budgeting for its bad habits.",
+      "summary": "AI has been a boon for many small businesses. It's also led to accidental spending and awkward encounters.",
+      "source": "Business Insider",
+      "date": "Jul 6, 2026",
+      "image": "blog-images/tools_1.jpg",
       "category": "Tools & Tech",
       "emoji": "🛠",
-      "url": "https://blog.hubspot.com/marketing/hubspot-vs-se-ranking"
+      "url": "https://www.businessinsider.com/ai-transforms-small-businesses-but-challenges-persist-2026-7#article"
     },
     {
-      "title": "Sales operations platforms: Our top picks for revenue teams",
-      "summary": "Sales reps spend an average of only 30% of their time actually selling. The rest? It’s eaten up by administrative tasks and chasing down information that should already be at their fingertips.",
-      "source": "Hubspot.com",
+      "title": "Popular TV-tracking app TV Time is shutting down as company focuses on AI",
+      "summary": "TV Time, the popular TV tracking app, is shutting down on July 15 as parent company Whip Media pivots toward enterprise AI products.",
+      "source": "TechCrunch",
+      "date": "Jul 2, 2026",
+      "image": "blog-images/tools_2.jpg",
+      "category": "Tools & Tech",
+      "emoji": "🛠",
+      "url": "https://techcrunch.com/2026/07/02/popular-tv-tracking-app-tv-time-is-shutting-down-as-company-focuses-on-ai/"
+    },
+    {
+      "title": "The case of the missing Tesla fatal crash data",
+      "summary": "A fatal Tesla Autopilot crash led to a yearslong fight over missing data, becoming one of the most consequential lawsuits in self-driving history.",
+      "source": "Business Insider",
       "date": "Jul 1, 2026",
+      "image": "blog-images/tools_3.jpg",
       "category": "Tools & Tech",
       "emoji": "🛠",
-      "url": "https://blog.hubspot.com/sales/sales-operations-platform"
+      "url": "https://www.businessinsider.com/tesla-autopilot-failure-fatal-crash-missing-data-2026-7#article"
     },
     {
-      "title": "AI Style Transfer in 2026: 25 Real",
-      "summary": "Explore AI Style Transfer in 2026: 25 Real-World Use Cases for Business, Marketing, and more, with practical workflows, tool comparisons, and key risks.",
-      "source": "Flaex.ai",
+      "title": "contextbase-plugin",
+      "summary": "Salesforce plugin for ContextBase (PyAirbyte-backed)",
+      "source": "Pypi.org",
       "date": "Jul 25, 2026",
+      "image": null,
       "category": "Tools & Tech",
       "emoji": "🛠",
-      "url": "https://www.flaex.ai/blog/ai-style-transfer-in-2026-25-real-world-use-cases-for-business-marketing"
+      "url": "https://pypi.org/project/contextbase-plugin-salesforce/0.5.12/"
     },
     {
-      "title": "Top 12 AI",
-      "summary": "AI-Powered Marketing Tools: A brutally honest breakdown of which tools actually move revenue — not which ones have the best demo videos or the catchiest .....",
-      "source": "Aiearnerhub.com",
+      "title": "Warning: this one mistake could keep your smoke detector from sounding in a real fire",
+      "summary": "You test your smoke detector every month. You press the button, you hear the loud chirp, you nod, and you move on with your day. It feels responsible. It feels like enough. It might not be. There’s on",
+      "source": "Trendir.com",
       "date": "Jul 25, 2026",
+      "image": "blog-images/tools_5.png",
       "category": "Tools & Tech",
       "emoji": "🛠",
-      "url": "https://www.aiearnerhub.com/ai-powered-marketing-tools/"
+      "url": "https://www.trendir.com/warning-this-one-mistake-could-keep-your-smoke-detector-from-sounding-in-a-real-fire/"
     },
     {
-      "title": "Anti",
-      "summary": "Building bot-free alternatives may require lefties, libertarians, and culture warriors to share code",
-      "source": "Theregister.com",
+      "title": "Amazon Paying $2,500,000,000 Over Allegations Prime Customers Were Enrolled Without Consent – Here Are the Eligibility Requirements",
+      "summary": "Amazon Prime customers who may qualify for a payment from the company’s $2.5 billion settlement with the Federal Trade Commission (FTC) have until Monday, July 27th, to submit a claim. The settlement",
+      "source": "The Daily Hodl",
       "date": "Jul 25, 2026",
+      "image": "blog-images/tools_6.jpg",
       "category": "Tools & Tech",
       "emoji": "🛠",
-      "url": "https://www.theregister.com/ai-and-ml/2026/07/25/anti-ai-open-source-has-an-enemy-in-common-but-almost-nothing-else/5278275"
+      "url": "https://dailyhodl.com/2026/07/25/amazon-paying-2500000000-over-allegations-prime-customers-were-enrolled-without-consent-here-are-the-eligibility-requirements/"
     },
     {
-      "title": "Show HN: The TERSE state language and protocol",
-      "summary": "# Hello World(valid terse; for Show HN)I'm terse(greetings)## Container\"A container may have one text block, single or multi-line\"Object(Semi-colon separated attributes; variables_like: 123; \"Traditio",
-      "source": "Github.com",
+      "title": "The 5 Best RVs & Motorhomes of July 2026",
+      "summary": "The 5 Best RVs & Motorhomes of July 2026The RV market has never asked more interesting questions of itself. Whether you are planning your first camping trip or refining years of experience on...",
+      "source": "Yanko Design",
       "date": "Jul 25, 2026",
+      "image": "blog-images/tools_7.jpg",
       "category": "Tools & Tech",
       "emoji": "🛠",
-      "url": "https://github.com/terse-lang/terse"
-    },
-    {
-      "title": "From Marketing Playbook To Cyber Weapon: How Claude AI Agents Are Redefining Offensive Security And IT Automation + Video",
-      "summary": "From Marketing Playbook to Cyber Weapon: How Claude AI Agents Are Redefining Offensive Security and IT Automation + Video - \"Undercode Testing\": Monitor",
-      "source": "Undercodetesting.com",
-      "date": "Jul 25, 2026",
-      "category": "Tools & Tech",
-      "emoji": "🛠",
-      "url": "https://undercodetesting.com/from-marketing-playbook-to-cyber-weapon-how-claude-ai-agents-are-redefining-offensive-security-and-it-automation-video/"
+      "url": "https://www.yankodesign.com/2026/07/25/the-5-best-rvs-motorhomes-of-july-2026/"
     }
   ],
   "events": [
     {
-      "title": "She wasn't supposed to survive. Her fight saved thousands",
-      "summary": "Nothing in Susan Newman's life prepared her for the possibility of contracting HIV. But once she did, she turned her diagnosis into a battle that saved countless lives",
-      "source": "Haaretz",
-      "date": "Jul 24, 2026",
-      "category": "Events",
-      "emoji": "🎪",
-      "url": "https://www.haaretz.com/science-and-health/2026-07-24/ty-article-magazine/she-wasnt-supposed-to-survive-her-fight-saved-thousands/0000019f-8ef4-de9f-afdf-aef62daf0000"
-    },
-    {
-      "title": "IAB Global Creator Week Launches to Standardize Creator Marketing",
-      "summary": "IAB unveils Global Creator Week, a multi‑market program and digital hub that aims to bring standards, measurement and transparency",
-      "source": "Adtechedge.com",
-      "date": "Jul 24, 2026",
-      "category": "Events",
-      "emoji": "🎪",
-      "url": "https://adtechedge.com/news/iab-global-creator-week-unites-17-markets-to-accelerate-creator-centric-marketing/"
-    },
-    {
-      "title": "Twenty West Media Named Official Media Partner of the Americas Food & Beverage Show 30th Anniversary",
-      "summary": "North America’s results-driven digital marketing agency to attend and meet with exhibitors and attendees at the milestone September event in Miami Beach MIAMI BEACH, Fla. — Twenty West Media, a result",
-      "source": "Financial Post",
-      "date": "Jul 24, 2026",
-      "category": "Events",
-      "emoji": "🎪",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/twenty-west-media-named-official-media-partner-of-the-americas-food-beverage-show-30th-anniversary"
-    },
-    {
-      "title": "Okuma America Corporation to Exhibit at IMTS 2026 with Comprehensive Lineup",
-      "summary": "Newly Designed Machines, Open-architecture CNC Control, Multiple Automation Systems, Intelligent Technologies, World-Class Services, Sustainable Initiatives, & More to be Featured CHARLOTTE, N.C., Jul",
+      "title": "Global Wellness Summit Announces Speakers and Topics-",
+      "summary": "Innovators in wellness will gather in Thailand this November for a 20th- anniversary Summit that will explore the future of a $6.8 trillion industry at a critical inflection point BANGKOK, July 24, 20",
       "source": "PRNewswire",
       "date": "Jul 24, 2026",
+      "image": "blog-images/events_0.jpg",
       "category": "Events",
       "emoji": "🎪",
-      "url": "https://www.prnewswire.com/news-releases/okuma-america-corporation-to-exhibit-at-imts-2026-with-comprehensive-lineup-302834361.html"
-    },
-    {
-      "title": "Grit Marketing and Mira Home CEO John Taylor Expands Community Involvement in Utah County",
-      "summary": "LINDON, Utah, July 24, 2026 /PRNewswire/ -- John Taylor, who leads both Grit Marketing and Mira Home from Lindon, Utah, expanded his companies' community involvement in Utah County this year, taking p",
-      "source": "PRNewswire",
-      "date": "Jul 24, 2026",
-      "category": "Events",
-      "emoji": "🎪",
-      "url": "https://www.prnewswire.com/news-releases/grit-marketing-and-mira-home-ceo-john-taylor-expands-community-involvement-in-utah-county-302834202.html"
-    },
-    {
-      "title": "The man who owns 120 Citroëns",
-      "summary": "Visiting his collection is like traveling through time and a must for all Citroën fans\n\nThe company-owned Citroën Conservatoire in Paris has serious competition.\r\n\n\r\n\nOver the course of 40 years, Fren",
-      "source": "Autocar",
-      "date": "Jul 25, 2026",
-      "category": "Events",
-      "emoji": "🎪",
-      "url": "https://www.autocar.co.uk/car-news/slideshow/man-who-owns-120-citro%C3%ABns-74"
+      "url": "https://www.prnewswire.com/news-releases/global-wellness-summit-announces-speakers-and-topicsincluding-the-latest-in-longevity-medicine-womens-health-wellness-travel-and-neuroaesthetics-302833550.html"
     },
     {
       "title": "Marketing Vanguard at Cannes: The Smart Ring That Made Wellness More Useful ft. Doug Sweeny of Ōura",
       "summary": "Framing a personal health product as a performance tool for anyone who has to show up at their best.",
       "source": "Adweek",
       "date": "Jul 24, 2026",
+      "image": "blog-images/events_1.png",
       "category": "Events",
       "emoji": "🎪",
       "url": "https://www.adweek.com/brand-marketing/marketing-vanguard-at-cannes-the-smart-ring-that-made-wellness-more-useful-ft-doug-sweeny-of-oura/"
-    },
-    {
-      "title": "Future of Marketing Briefing: The case for and against the death of the big brand ad",
-      "summary": "Marketing has a new favorite argument: is it still smarter to talk to a million people at once, or to find the thousand people they already trust?",
-      "source": "Digiday",
-      "date": "Jul 24, 2026",
-      "category": "Events",
-      "emoji": "🎪",
-      "url": "http://digiday.com/marketing/future-of-marketing-briefing-the-case-for-and-against-the-death-of-the-big-brand-ad/"
-    },
-    {
-      "title": "Venice Head Talks Studio Absence; Dearth Of Female Golden Lion Contenders & Why Neon Nixed Festival Bow For Luca Guadagnino’s ‘Artificial’",
-      "summary": "Venice Film Festival artistic director Alberto Barbera unveiled the lineup for its 83rd edition on Thursday, his 19th selection over two stints in the role, firstly from 1998 to 2001, and most recentl",
-      "source": "Deadline",
-      "date": "Jul 23, 2026",
-      "category": "Events",
-      "emoji": "🎪",
-      "url": "http://deadline.com/2026/07/venice-head-studio-absence-women-neon-artificial-1237001760/"
     }
   ]
 }
