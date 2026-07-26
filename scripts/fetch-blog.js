@@ -1,17 +1,43 @@
 // scripts/fetch-blog.js
-// GitHub Actions 매일 자동 실행 — NewsAPI로 글로벌 마케팅 콘텐츠 수집 → blog-data.json 저장
+const fs   = require('fs');
+const path = require('path');
+const https = require('https');
+const http  = require('http');
 
-const fs = require('fs');
 const NEWS_API_KEY = process.env.NEWS_API_KEY;
 
 const MARKETING_DOMAINS = [
   'marketingweek.com','adweek.com','thedrum.com','marketingdive.com',
   'campaignlive.co.uk','econsultancy.com','searchengineland.com',
-  'contentmarketinginstitute.com','marketingtechnews.net','hubspot.com',
+  'contentmarketinginstitute.com','marketingtechnews.net',
   'techcrunch.com','bloomberg.com','businessinsider.com'
 ].join(',');
 
+// 이미지 저장 폴더
+const IMG_DIR = 'blog-images';
+if (!fs.existsSync(IMG_DIR)) fs.mkdirSync(IMG_DIR);
+
 function delay(ms){ return new Promise(r=>setTimeout(r,ms)); }
+
+// 이미지 다운로드 → 로컬 저장
+function downloadImage(url, filename){
+  return new Promise((resolve) => {
+    if(!url){ resolve(null); return; }
+    const dest = path.join(IMG_DIR, filename);
+    const proto = url.startsWith('https') ? https : http;
+    const req = proto.get(url, { headers:{ 'User-Agent':'Mozilla/5.0' }, timeout:8000 }, res => {
+      if(res.statusCode !== 200){ resolve(null); return; }
+      const ext = res.headers['content-type']?.includes('png') ? '.png' : '.jpg';
+      const finalDest = dest + ext;
+      const file = fs.createWriteStream(finalDest);
+      res.pipe(file);
+      file.on('finish', () => { file.close(); resolve(IMG_DIR+'/'+filename+ext); });
+      file.on('error', () => { resolve(null); });
+    });
+    req.on('error', () => resolve(null));
+    req.on('timeout', () => { req.destroy(); resolve(null); });
+  });
+}
 
 async function fetchNews(query, category, emoji, options={}){
   const params = new URLSearchParams({
@@ -27,80 +53,96 @@ async function fetchNews(query, category, emoji, options={}){
       .filter(a => a.title && a.title!=='[Removed]' && a.url)
       .slice(0, options.pageSize||9)
       .map(a => ({
-        title:    a.title.replace(/\s*[-|]\s*[^-|]+$/, '').trim(),
-        summary:  (a.description||'').slice(0,200).trim() || 'Click to read the full article.',
-        source:   a.source?.name || '',
+        title:    a.title.replace(/\s*[-|]\s*[^-|]+$/,'').trim(),
+        summary:  (a.description||'').slice(0,200).trim()||'Click to read the full article.',
+        source:   a.source?.name||'',
         date:     a.publishedAt
           ? new Date(a.publishedAt).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})
           : '',
+        imageUrl: a.urlToImage||null,   // 원본 URL (다운로드용)
+        image:    null,                  // 로컬 경로 (다운로드 후 채워짐)
         category, emoji, url: a.url
       }));
   }catch(e){ console.warn(`fetch failed [${category}]:`, e.message); return []; }
 }
 
 function dedupe(arr){
-  const seen = new Set();
-  return arr.filter(a => {
-    const k = a.title.slice(0,50).toLowerCase();
-    if(seen.has(k)) return false;
-    seen.add(k); return true;
+  const seen=new Set();
+  return arr.filter(a=>{
+    const k=a.title.slice(0,50).toLowerCase();
+    if(seen.has(k)) return false; seen.add(k); return true;
   });
 }
 
-async function main(){
-  console.log('Fetching global marketing content via NewsAPI...\n');
-  const result = { updated: new Date().toISOString(), news:[], jobs:[], tools:[], events:[] };
+// 기사 배열의 이미지 일괄 다운로드
+async function downloadImages(articles, prefix){
+  for(let i=0;i<articles.length;i++){
+    const a = articles[i];
+    if(a.imageUrl){
+      const filename = `${prefix}_${i}`;
+      a.image = await downloadImage(a.imageUrl, filename);
+      if(a.image) console.log(`  img: ${a.image}`);
+    }
+    delete a.imageUrl; // 원본 URL 제거
+    await delay(200);
+  }
+  return articles;
+}
 
-  // 1. News — 글로벌 마케팅 전문 매체
-  const n1 = await fetchNews(
-    'digital marketing OR B2B marketing OR marketing strategy',
-    'Industry News','📰',{domains:MARKETING_DOMAINS, pageSize:6});
+async function main(){
+  console.log('Fetching global marketing content...\n');
+  const result = { updated: new Date().toISOString(), news:[], trends:[], jobs:[], tools:[], events:[] };
+
+  // 1. News
+  const n1 = await fetchNews('digital marketing OR B2B marketing OR marketing strategy','Industry News','📰',{domains:MARKETING_DOMAINS,pageSize:6});
   await delay(800);
-  const n2 = await fetchNews(
-    'marketing campaign OR brand strategy OR advertising 2026',
-    'Industry News','📰',{pageSize:5});
+  const n2 = await fetchNews('marketing campaign OR brand marketing OR advertising','Industry News','📰',{pageSize:5});
   result.news = dedupe([...n1,...n2]).slice(0,9);
+  await downloadImages(result.news,'news');
   console.log(`✓ news: ${result.news.length}`);
   await delay(800);
 
-  // 2. Jobs — 글로벌 마케팅 채용
-  const j1 = await fetchNews(
-    'CMO hire OR VP marketing OR marketing director appointment 2026',
-    'Jobs','💼',{pageSize:5});
+  // 2. Trends
+  const t1 = await fetchNews('marketing trends OR martech OR marketing technology OR AI marketing','Trends','📈',{domains:MARKETING_DOMAINS,pageSize:6});
   await delay(800);
-  const j2 = await fetchNews(
-    'marketing jobs remote 2026 OR digital marketing hiring OR marketing career',
-    'Jobs','💼',{pageSize:5});
-  result.jobs = dedupe([...j1,...j2]).slice(0,9);
+  const t2 = await fetchNews('content marketing trends OR influencer marketing OR social media marketing 2026','Trends','📈',{pageSize:5});
+  result.trends = dedupe([...t1,...t2]).slice(0,9);
+  await downloadImages(result.trends,'trends');
+  console.log(`✓ trends: ${result.trends.length}`);
+  await delay(800);
+
+  // 3. Jobs — 마케팅 구인공고만
+  const j1 = await fetchNews('"marketing manager" OR "marketing director" OR "content marketer" OR "growth marketer" job','Jobs','💼',{pageSize:5});
+  await delay(800);
+  const j2 = await fetchNews('"digital marketing" job opening OR "B2B marketing" vacancy OR "CMO" hire 2026','Jobs','💼',{pageSize:5});
+  result.jobs = dedupe([...j1,...j2])
+    .filter(a=>/market|brand|content|growth|advertis|campaign|seo|social media/i.test(a.title))
+    .slice(0,9);
+  await downloadImages(result.jobs,'jobs');
   console.log(`✓ jobs: ${result.jobs.length}`);
   await delay(800);
 
-  // 3. Tools — 마케팅 툴/플랫폼
-  const t1 = await fetchNews(
-    'marketing software launch 2026 OR martech platform OR marketing automation tool',
-    'Tools & Tech','🛠',{domains:MARKETING_DOMAINS, pageSize:5});
+  // 4. Tools
+  const to1 = await fetchNews('marketing software OR martech platform OR marketing automation tool 2026','Tools & Tech','🛠',{domains:MARKETING_DOMAINS,pageSize:5});
   await delay(800);
-  const t2 = await fetchNews(
-    'HubSpot OR Salesforce marketing OR Marketo OR marketing AI tool 2026',
-    'Tools & Tech','🛠',{pageSize:5});
-  result.tools = dedupe([...t1,...t2]).slice(0,9);
+  const to2 = await fetchNews('HubSpot OR Salesforce marketing OR Marketo OR "marketing AI tool"','Tools & Tech','🛠',{pageSize:5});
+  result.tools = dedupe([...to1,...to2]).slice(0,9);
+  await downloadImages(result.tools,'tools');
   console.log(`✓ tools: ${result.tools.length}`);
   await delay(800);
 
-  // 4. Events — 마케팅 컨퍼런스/이벤트
-  const e1 = await fetchNews(
-    'marketing conference 2026 OR marketing summit OR advertising event',
-    'Events','🎪',{pageSize:5});
+  // 5. Events
+  const e1 = await fetchNews('marketing conference 2026 OR marketing summit 2026 OR marketing event','Events','🎪',{pageSize:5});
   await delay(800);
-  const e2 = await fetchNews(
-    'Cannes Lions OR SXSW marketing OR Advertising Week OR Content Marketing World',
-    'Events','🎪',{pageSize:5});
-  result.events = dedupe([...e1,...e2]).slice(0,9);
+  const e2 = await fetchNews('Cannes Lions OR "Advertising Week" OR "Content Marketing World" OR "SXSW" marketing','Events','🎪',{pageSize:5});
+  result.events = dedupe([...e1,...e2])
+    .filter(a=>/conference|summit|event|festival|expo|forum|award|cannes|sxsw|advertising week/i.test(a.title+' '+a.summary))
+    .slice(0,9);
+  await downloadImages(result.events,'events');
   console.log(`✓ events: ${result.events.length}`);
 
   fs.writeFileSync('blog-data.json', JSON.stringify(result, null, 2));
-  console.log('\n✅ blog-data.json saved successfully!');
-  console.log(`Total: news(${result.news.length}) jobs(${result.jobs.length}) tools(${result.tools.length}) events(${result.events.length})`);
+  console.log('\n✅ blog-data.json + images saved!');
 }
 
-main().catch(err => { console.error('Fatal error:', err); process.exit(1); });
+main().catch(err=>{ console.error('Fatal:', err); process.exit(1); });
