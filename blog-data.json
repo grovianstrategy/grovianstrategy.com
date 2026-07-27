@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T13:31:48.379Z",
+  "updated": "2026-07-27T01:52:35.228Z",
   "news": [
     {
       "title": "BarkleyOKRP Names Brandon Cooke Chief Marketing and Growth Officer",
@@ -62,34 +62,34 @@
       "url": "https://www.businessinsider.com/amazon-push-lower-alexa-ai-costs-use-anthropic-models-less-2026-7#article"
     },
     {
-      "title": "Nike Music Exec Indicted For Stealing A Milli From The Swoosh Brand",
-      "summary": "Over the past few years, Nike has gone to rather extreme legal lengths to protect its brand and ensure no one outside the company can make any kind of bank off the iconic name, but now, we’re learning",
-      "source": "Hip-Hop Wired",
-      "date": "Jul 25, 2026",
+      "title": "CHMP Recommends Marketing Authorization for Obicetrapib in EU",
+      "summary": "CHMP recommends marketing authorization for obicetrapib in the EU, with Phase 3 trials showing up to 50% LDL-C reductions in hypercholesterolemia patients.",
+      "source": "Clinicaltrialvanguard.com",
+      "date": "Jul 26, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://hiphopwired.com/3060341/nike-music-exec-indicted-for-stealing-a-milli-from-the-swoosh-brand/"
+      "url": "https://www.clinicaltrialvanguard.com/news/chmp-recommends-marketing-authorization-for-obicetrapib-in-eu/"
     },
     {
-      "title": "Teladoc CEO Is Leading a Virtual Health Care Revolution",
-      "summary": "In the mid-’90s, it was hard to imagine using the Internet to order pet food or calling a nurse on a mobile phone to talk about whether or not an emergency room visit was needed. Two decades later man",
-      "source": "Institutional Investor",
-      "date": "Jul 25, 2026",
-      "image": "blog-images/news_7.jpg",
+      "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+      "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "source": "TechCrunch",
+      "date": "Jul 26, 2026",
+      "image": "blog-images/news_7.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.institutionalinvestor.com/article/2bsxys6mogzztxemjgmbk/portfolio/teladoc-ceo-is-leading-a-virtual-health-care-revolution"
+      "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"
     },
     {
-      "title": "Arizona State U. Offers New Major in How to Become a Social Media Influencer",
-      "summary": "“They will have a platform of their choice with real content and real followers and a real audience behind them”\nThe post Arizona State U. Offers New Major in How to Become a Social Media Influencer f",
-      "source": "Legalinsurrection.com",
-      "date": "Jul 25, 2026",
+      "title": "DropPR.ai Gives Marketing Agencies a Scalable Way to Add PR and AI Search Visibility to Client Accounts",
+      "summary": "DropPR.ai Gives Marketing Agencies a Scalable Way to Add PR and AI Search Visibility to Client Accountsdelawareonline.com",
+      "source": "The News Journal",
+      "date": "Jul 26, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://legalinsurrection.com/2026/07/arizona-state-u-offers-new-major-in-how-to-become-a-social-media-influencer/"
+      "url": "https://delawareonline.com/press-release/story/171646/droppr-ai-gives-marketing-agencies-a-scalable-way-to-add-pr-and-ai-search-visibility-to-client-accounts/"
     }
   ],
   "jobs": [
@@ -101,7 +101,8 @@
       "image": "blog-images/jobs_0.png",
       "category": "Jobs",
       "emoji": "💼",
-      "url": "https://www.searchenginejournal.com/2027-marketing-budgets-why-new-categories-beat-bigger-ai-line-items/582688/"
+      "url": "https://www.searchenginejournal.com/2027-marketing-budgets-why-new-categories-beat-bigger-ai-line-items/582688/",
+      "showSource": true
     },
     {
       "title": "Best Digital Marketing Institute in Delhi – Learn Advanced Digital Marketing Skills for a Successful Career",
@@ -111,7 +112,8 @@
       "image": "blog-images/jobs_1.png",
       "category": "Jobs",
       "emoji": "💼",
-      "url": "https://www.tumblr.com/digishifa/822010130437636096/best-digital-marketing-institute-in-delhi-learn"
+      "url": "https://www.tumblr.com/digishifa/822010130437636096/best-digital-marketing-institute-in-delhi-learn",
+      "showSource": true
     },
     {
       "title": "Social Media Marketing for Law Firms 2026 Guide",
@@ -121,29 +123,20 @@
       "image": "blog-images/jobs_2.jpg",
       "category": "Jobs",
       "emoji": "💼",
-      "url": "https://growlaw.co/blog/social-media-for-lawyers-a-complete-guide"
-    }
-  ],
-  "events": [
-    {
-      "title": "Global Wellness Summit Announces Speakers and Topics-",
-      "summary": "Innovators in wellness will gather in Thailand this November for a 20th- anniversary Summit that will explore the future of a $6.8 trillion industry at a critical inflection point BANGKOK, July 24, 20",
-      "source": "PRNewswire",
-      "date": "Jul 24, 2026",
-      "image": "blog-images/events_0.jpg",
-      "category": "Events",
-      "emoji": "🎪",
-      "url": "https://www.prnewswire.com/news-releases/global-wellness-summit-announces-speakers-and-topicsincluding-the-latest-in-longevity-medicine-womens-health-wellness-travel-and-neuroaesthetics-302833550.html"
+      "url": "https://growlaw.co/blog/social-media-for-lawyers-a-complete-guide",
+      "showSource": true
     },
     {
-      "title": "Marketing Vanguard at Cannes: The Smart Ring That Made Wellness More Useful ft. Doug Sweeny of Ōura",
-      "summary": "Framing a personal health product as a performance tool for anyone who has to show up at their best.",
-      "source": "Adweek",
-      "date": "Jul 24, 2026",
-      "image": "blog-images/events_1.png",
-      "category": "Events",
-      "emoji": "🎪",
-      "url": "https://www.adweek.com/brand-marketing/marketing-vanguard-at-cannes-the-smart-ring-that-made-wellness-more-useful-ft-doug-sweeny-of-oura/"
+      "title": "Social Media Growth Lead (DeFi) at Gyld Finance",
+      "summary": "As decentralized finance (DeFi) continues to attract institutional investors and crypto-native users, projects need experienced marketing...",
+      "source": "Afrocareer.com",
+      "date": "Jul 23, 2026",
+      "image": "blog-images/jobs_3.png",
+      "category": "Jobs",
+      "emoji": "💼",
+      "url": "https://www.afrocareer.com/2026/07/social-media-growth-lead-defi-at-gyld.html",
+      "showSource": true
     }
-  ]
+  ],
+  "events": []
 }
