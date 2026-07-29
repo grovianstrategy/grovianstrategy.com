@@ -1,12 +1,22 @@
 {
-  "updated": "2026-07-28T01:27:30.201Z",
+  "updated": "2026-07-29T01:27:45.239Z",
   "news": [
+    {
+      "title": "Ticker: Cecilia Vega Says She Wasn’t Given a Reason for 60 Minutes Dismissal",
+      "summary": "Paramount Skydance’s acquisition of Warner Bros. Discovery could be delayed until June 2027.",
+      "source": "Adweek",
+      "date": "Jul 27, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/tvnewser/ticker-cecilia-vega-says-she-wasnt-given-a-reason-for-60-minutes-dismissal/"
+    },
     {
       "title": "BarkleyOKRP Names Brandon Cooke Chief Marketing and Growth Officer",
       "summary": "BarkleyOKRP Names Brandon Cooke Chief Marketing and Growth Officeradweek.com",
       "source": "Adweek",
       "date": "Jul 24, 2026",
-      "image": "blog-images/news_0.png",
+      "image": "blog-images/news_1.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/adweek-wire/barkleyokrp-names-brandon-cooke-chief-marketing-and-growth-officer/"
@@ -16,7 +26,7 @@
       "summary": "CMO hires, promotions, exits, and more",
       "source": "Adweek",
       "date": "Jul 24, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_2.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/5-marketer-moves-to-know-about-behr-gm-johnson-outdoors-and-more/"
@@ -26,7 +36,7 @@
       "summary": "From dating apps to new takes on the social network for the AI era, meet 22 VC firms backing innovative internet startups.",
       "source": "Business Insider",
       "date": "Jul 23, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/meet-vcs-backing-ai-native-social-vibe-coding-dating-apps-2026-7#article"
@@ -36,7 +46,7 @@
       "summary": "CEO Mark Zuckerberg unveiled a film on Facebook that kicks off a broader paid and earned campaign around Meta's AI vision.",
       "source": "Adweek",
       "date": "Jul 23, 2026",
-      "image": "blog-images/news_3.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/creativity/meta-pushes-back-on-ai-fears-with-an-optimistic-pitch/"
@@ -46,59 +56,60 @@
       "summary": "Wells Fargo highlighted a variety of less flashy fixed income investments to consider as interest rates look poised to remain elevated through 2026.",
       "source": "Business Insider",
       "date": "Jul 23, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/investing-advice-inflation-protection-interest-rates-bonds-economy-wells-fargo-2026-7#article"
     },
     {
-      "title": "How Amazon weaned Alexa off Anthropic's pricey models to slash AI costs",
-      "summary": "Internal documents show Amazon worked to lower Alexa+ AI costs by reducing the use of Anthropic models and getting more work from every GPU.",
-      "source": "Business Insider",
-      "date": "Jul 23, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/amazon-push-lower-alexa-ai-costs-use-anthropic-models-less-2026-7#article"
-    },
-    {
-      "title": "Knick Knacks: Ranking the Knicks’ 5 biggest threats for the 2027 title",
-      "summary": "I left killer bees out ‘cuz they’re so obvious",
-      "source": "Posting and Toasting",
-      "date": "Jul 27, 2026",
+      "title": "San Diego Comic-Con clean",
+      "summary": "Restaurants and bars downtown were packed throughout the weekend and busier than in recent years, according to the Gaslamp Quarter Association.",
+      "source": "KPBS",
+      "date": "Jul 28, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.postingandtoasting.com/knicks-features-profiles/88311/knick-knacks-ranking-the-knicks-5-biggest-threats-for-the-2027-title"
+      "url": "https://www.kpbs.org/news/arts-culture/2026/07/27/san-diego-comic-con-clean-up-begins-as-gaslamp-businesses-report-massive-weekend"
     },
     {
-      "title": "mmm",
-      "summary": "Bayesian Marketing Mix Modeling framework with causal calibration, pressure testing, and an adaptive measurement loop",
-      "source": "Pypi.org",
-      "date": "Jul 27, 2026",
-      "image": null,
+      "title": "Comic",
+      "summary": "Restaurants and bars downtown were packed throughout the convention, with business owners reporting a stronger year than recent Comic-Con weekends, according to the Gaslamp Quarter Association.",
+      "source": "KPBS",
+      "date": "Jul 28, 2026",
+      "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://pypi.org/project/mmm-framework/1.3.1/"
+      "url": "https://www.kpbs.org/news/arts-culture/2026/07/27/comic-con-cleanup-begins-as-gaslamp-businesses-report-a-strong-weekend"
     },
     {
-      "title": "Community",
-      "summary": "Community-led marketing delivers higher review rates when you treat the community as a source of friction data, not just content. For a ceramics and tableware Shopify brand, the fastest wins come from",
-      "source": "Zigpoll.com",
-      "date": "Jul 27, 2026",
+      "title": "Top 5 Influencer Marketing Firms for B2B SaaS Companies in 2026",
+      "summary": "Most B2B SaaS brands that try influencer marketing end up disappointed, and it’s usually not the product’s fault. Influencer Marketing Firms vary wildly in how well they understand technical audiences",
+      "source": "The Ritz Herald",
+      "date": "Jul 28, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "http://www.zigpoll.com/content/building-effective-community-marketing-strategies-strategy-getting-started"
+      "url": "https://ritzherald.com/top-5-influencer-marketing-firms-for-b2b-saas-companies-in-2026/"
     }
   ],
   "jobs": [
+    {
+      "title": "Social Media Marketing Agency UK: Closing the Commercial Gap in 2026",
+      "summary": "Social Media Marketing Agency UK: Closing the Commercial Gap in 2026Tired of social media that doesn't deliver? Find a social media marketing agency UK that closes the commercial gap and drives real r",
+      "source": "Brinqq.com",
+      "date": "Jul 27, 2026",
+      "image": "blog-images/jobs_0.png",
+      "category": "Jobs",
+      "emoji": "💼",
+      "url": "https://brinqq.com/blog/social-media-marketing-agency-uk-closing-the-commercial-gap-in-2026",
+      "showSource": true
+    },
     {
       "title": "2027 Marketing Budgets: Why New Categories Beat Bigger AI Line Items via @sejournal, @gregjarboe",
       "summary": "AI visibility, trust verification, distribution engineering, human oversight, measurement rebuild: the five budget lines that should replace your legacy channel buckets in 2027.\nThe post 2027 Marketin",
       "source": "Search Engine Journal",
       "date": "Jul 21, 2026",
-      "image": "blog-images/jobs_0.png",
+      "image": "blog-images/jobs_1.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.searchenginejournal.com/2027-marketing-budgets-why-new-categories-beat-bigger-ai-line-items/582688/",
@@ -109,7 +120,7 @@
       "summary": "0   0  ❤️ 0 · Best Digital Marketing Institute in Delhi – Learn Advanced Digital Marketing Skills for a Successful Career · In today’s digital world, businesses are rapidly shifting from traditi…",
       "source": "Tumblr.com",
       "date": "Jul 13, 2026",
-      "image": "blog-images/jobs_1.png",
+      "image": "blog-images/jobs_2.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.tumblr.com/digishifa/822010130437636096/best-digital-marketing-institute-in-delhi-learn",
@@ -120,7 +131,7 @@
       "summary": "Social media for lawyers is a great tool for attracting new clients and building your online presence. Promote your firm today.",
       "source": "Growlaw.co",
       "date": "Jul 1, 2026",
-      "image": "blog-images/jobs_2.jpg",
+      "image": "blog-images/jobs_3.jpg",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://growlaw.co/blog/social-media-for-lawyers-a-complete-guide",
@@ -131,7 +142,7 @@
       "summary": "As decentralized finance (DeFi) continues to attract institutional investors and crypto-native users, projects need experienced marketing...",
       "source": "Afrocareer.com",
       "date": "Jul 23, 2026",
-      "image": "blog-images/jobs_3.png",
+      "image": "blog-images/jobs_4.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.afrocareer.com/2026/07/social-media-growth-lead-defi-at-gyld.html",
