@@ -1,12 +1,22 @@
 {
-  "updated": "2026-07-29T01:27:45.239Z",
+  "updated": "2026-07-30T01:20:34.058Z",
   "news": [
+    {
+      "title": "How to Market With Gen Z, Not To Them",
+      "summary": "Marketers must evolve as basic audience profiles and content delivery no longer suffices. Active listening and co-creation are steps in the right direction, but brands must translate these insights in",
+      "source": "Adweek",
+      "date": "Jul 28, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/how-to-market-with-gen-z-not-to-them/"
+    },
     {
       "title": "Ticker: Cecilia Vega Says She Wasn’t Given a Reason for 60 Minutes Dismissal",
       "summary": "Paramount Skydance’s acquisition of Warner Bros. Discovery could be delayed until June 2027.",
       "source": "Adweek",
       "date": "Jul 27, 2026",
-      "image": "blog-images/news_0.png",
+      "image": "blog-images/news_1.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/tvnewser/ticker-cecilia-vega-says-she-wasnt-given-a-reason-for-60-minutes-dismissal/"
@@ -16,7 +26,7 @@
       "summary": "BarkleyOKRP Names Brandon Cooke Chief Marketing and Growth Officeradweek.com",
       "source": "Adweek",
       "date": "Jul 24, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_2.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/adweek-wire/barkleyokrp-names-brandon-cooke-chief-marketing-and-growth-officer/"
@@ -26,7 +36,7 @@
       "summary": "CMO hires, promotions, exits, and more",
       "source": "Adweek",
       "date": "Jul 24, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_3.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/5-marketer-moves-to-know-about-behr-gm-johnson-outdoors-and-more/"
@@ -36,7 +46,7 @@
       "summary": "From dating apps to new takes on the social network for the AI era, meet 22 VC firms backing innovative internet startups.",
       "source": "Business Insider",
       "date": "Jul 23, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/meet-vcs-backing-ai-native-social-vibe-coding-dating-apps-2026-7#article"
@@ -46,50 +56,40 @@
       "summary": "CEO Mark Zuckerberg unveiled a film on Facebook that kicks off a broader paid and earned campaign around Meta's AI vision.",
       "source": "Adweek",
       "date": "Jul 23, 2026",
-      "image": "blog-images/news_4.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/creativity/meta-pushes-back-on-ai-fears-with-an-optimistic-pitch/"
     },
     {
-      "title": "3 'boring' investments could protect portfolios from the latest inflation threat",
-      "summary": "Wells Fargo highlighted a variety of less flashy fixed income investments to consider as interest rates look poised to remain elevated through 2026.",
-      "source": "Business Insider",
-      "date": "Jul 23, 2026",
-      "image": "blog-images/news_5.jpg",
+      "title": "FCC Blocks New Robot and Power Inverter Imports Over Security Risks",
+      "summary": "The Federal Communications Commission (FCC) has blocked the importation, marketing or sale of new foreign-produced mobile robots and connected power inverters.\nThese products were added to the FCC’s C",
+      "source": "Biztoc.com",
+      "date": "Jul 29, 2026",
+      "image": "blog-images/news_6.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/investing-advice-inflation-protection-interest-rates-bonds-economy-wells-fargo-2026-7#article"
+      "url": "https://biztoc.com/x/b7064c6627221d4b"
     },
     {
-      "title": "San Diego Comic-Con clean",
-      "summary": "Restaurants and bars downtown were packed throughout the weekend and busier than in recent years, according to the Gaslamp Quarter Association.",
-      "source": "KPBS",
-      "date": "Jul 28, 2026",
-      "image": "blog-images/news_6.jpg",
+      "title": "Dangote, Zenith, others make 2026 Top 50 Companies of Impact list",
+      "summary": "By Juliet Umeh Dangote Industries Limited, Zenith Bank Plc, Wema Bank Plc and several other organisations have been named among The Industry Newspaper’s 2026 Top 50 Nigerian Companies of Impact for th",
+      "source": "Vanguard",
+      "date": "Jul 29, 2026",
+      "image": "blog-images/news_7.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.kpbs.org/news/arts-culture/2026/07/27/san-diego-comic-con-clean-up-begins-as-gaslamp-businesses-report-massive-weekend"
+      "url": "https://www.vanguardngr.com/2026/07/dangote-zenith-others-make-2026-top-50-companies-of-impact-list/"
     },
     {
-      "title": "Comic",
-      "summary": "Restaurants and bars downtown were packed throughout the convention, with business owners reporting a stronger year than recent Comic-Con weekends, according to the Gaslamp Quarter Association.",
-      "source": "KPBS",
-      "date": "Jul 28, 2026",
-      "image": "blog-images/news_7.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.kpbs.org/news/arts-culture/2026/07/27/comic-con-cleanup-begins-as-gaslamp-businesses-report-a-strong-weekend"
-    },
-    {
-      "title": "Top 5 Influencer Marketing Firms for B2B SaaS Companies in 2026",
-      "summary": "Most B2B SaaS brands that try influencer marketing end up disappointed, and it’s usually not the product’s fault. Influencer Marketing Firms vary wildly in how well they understand technical audiences",
-      "source": "The Ritz Herald",
-      "date": "Jul 28, 2026",
+      "title": "Elon Musk Calls Anne Hathaway a 'Marionette' for 2018 LGBTQ+ Rights Speech",
+      "summary": "Elon Musk is criticizing Anne Hathaway for a 2018 speech she gave in support of the gay and trans community. “She’s just a marionette. Whoever wrote her speech is the real douchebag,” Musk, 55, wrote",
+      "source": "Us Weekly",
+      "date": "Jul 29, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://ritzherald.com/top-5-influencer-marketing-firms-for-b2b-saas-companies-in-2026/"
+      "url": "https://www.usmagazine.com/celebrity-news/news/elon-musk-calls-anne-hathaway-marionette-after-trans-speech/"
     }
   ],
   "jobs": [
