@@ -1,12 +1,42 @@
 {
-  "updated": "2026-07-31T01:47:04.194Z",
+  "updated": "2026-08-01T01:48:17.337Z",
   "news": [
+    {
+      "title": "Decent Holding Advances AI",
+      "summary": "Decent Holding Advances AI-Powered Health Data Infrastructure Alongside Community Healthcare Network Expansionbusinessinsider.com",
+      "source": "Business Insider",
+      "date": "Jul 30, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://markets.businessinsider.com/news/stocks/decent-holding-advances-ai-powered-health-data-infrastructure-alongside-community-healthcare-network-expansion-1036385564"
+    },
+    {
+      "title": "Marketing Vanguard at Cannes: Why Joy Makes Better Marketing ft. Todd Kaplan of Kraft Heinz",
+      "summary": "How Kraft Heinz turns culture into brand momentum.",
+      "source": "Adweek",
+      "date": "Jul 30, 2026",
+      "image": "blog-images/news_1.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/marketing-vanguard-at-cannes-why-joy-makes-better-marketing-ft-todd-kaplan-of-kraft-heinz/"
+    },
+    {
+      "title": "I left college to be an AI content creator for older adults. Now I make six",
+      "summary": "A 19-year-old content creator shares how he built a seven-figure career by talking about AI and his strategies for growing his platform.",
+      "source": "Business Insider",
+      "date": "Jul 30, 2026",
+      "image": "blog-images/news_2.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/college-dropout-ai-content-creator-strategy-2026-7#article"
+    },
     {
       "title": "Streaming Platforms Are Looking For Their Wordle",
       "summary": "Netflix, LG, and Samsung are betting that free, low-friction gaming could provide a valuable boost to engagement.",
       "source": "Adweek",
       "date": "Jul 29, 2026",
-      "image": "blog-images/news_0.png",
+      "image": "blog-images/news_3.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/streaming-platforms-gaming-wordle-netflix-lg-samsung/"
@@ -16,7 +46,7 @@
       "summary": "XR Extreme Reach and AdImpact have partnered to deliver deeper data and insights across local TV and digital channels for political campaigns. The partnership brings together AdImpact&#8217;s measurem",
       "source": "Adweek",
       "date": "Jul 29, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/adweek-wire/xr-and-adimpact-partner-to-bring-cross-channel-measurement-to-political-campaigns/"
@@ -26,70 +56,40 @@
       "summary": "The agency has tapped Nneka Enurah Lee to grow the practice, reflecting how central creators have become to social strategy.",
       "source": "Adweek",
       "date": "Jul 29, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/agencies/saylor-creator-studio-fleet/"
     },
     {
-      "title": "How to Market With Gen Z, Not To Them",
-      "summary": "Marketers must evolve as basic audience profiles and content delivery no longer suffices. Active listening and co-creation are steps in the right direction, but brands must translate these insights in",
-      "source": "Adweek",
-      "date": "Jul 28, 2026",
-      "image": "blog-images/news_3.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/how-to-market-with-gen-z-not-to-them/"
-    },
-    {
-      "title": "Ticker: Cecilia Vega Says She Wasn’t Given a Reason for 60 Minutes Dismissal",
-      "summary": "Paramount Skydance’s acquisition of Warner Bros. Discovery could be delayed until June 2027.",
-      "source": "Adweek",
-      "date": "Jul 27, 2026",
-      "image": "blog-images/news_4.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/tvnewser/ticker-cecilia-vega-says-she-wasnt-given-a-reason-for-60-minutes-dismissal/"
-    },
-    {
-      "title": "BarkleyOKRP Names Brandon Cooke Chief Marketing and Growth Officer",
-      "summary": "BarkleyOKRP Names Brandon Cooke Chief Marketing and Growth Officeradweek.com",
-      "source": "Adweek",
-      "date": "Jul 24, 2026",
-      "image": "blog-images/news_5.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/adweek-wire/barkleyokrp-names-brandon-cooke-chief-marketing-and-growth-officer/"
-    },
-    {
-      "title": "Liverpool 1, Wrexham 0 – Match Recap: Spiritually 0",
-      "summary": "Was it pretty? No. Was it good? Sometimes. Pre-season, baby.",
-      "source": "SB Nation",
-      "date": "Jul 30, 2026",
-      "image": "blog-images/news_6.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://liverpooloffside.sbnation.com/liverpool-preseason-coverage/82232/liverpool-1-wrexham-0-match-recap-spiritually-0-0-but-funny"
-    },
-    {
-      "title": "TWFG, Inc. To Announce Second Quarter 2026 Financial Results on Wednesday, August 5, 2026",
-      "summary": "THE WOODLANDS, Texas, July 29, 2026 (GLOBE NEWSWIRE) -- TWFG, Inc. (NASDAQ: TWFG), a leading independent insurance distribution platform, announced today that it will release its financial results for",
-      "source": "GlobeNewswire",
-      "date": "Jul 30, 2026",
-      "image": "blog-images/news_7.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.globenewswire.com/news-release/2026/07/30/3335701/0/en/TWFG-Inc-To-Announce-Second-Quarter-2026-Financial-Results-on-Wednesday-August-5-2026.html"
-    },
-    {
-      "title": "ImmunityBio Receives United Arab Emirates (UAE) Marketing Authorization for ANKTIVA® Across BCG-Unresponsive Non-Muscle Invasive Bladder Cancer for CIS and Papillary Disease and Metastatic Non",
-      "summary": "The UAE authorization further expands ANKTIVA’s global regulatory footprint to 34 countries. The BCG-unresponsive non-muscle invasive bladder cancer (NMIBC) authorization is the first worldwide to spa",
-      "source": "Immunitybio.com",
-      "date": "Jul 30, 2026",
+      "title": "meiyigeovideopower 1.6.10",
+      "summary": "AI-powered video generation for industrial instrument marketing — intelligent script generation, multi-dimensional clip matching, and automated video assembly.",
+      "source": "Pypi.org",
+      "date": "Jul 31, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://ir.immunitybio.com/news-releases/news-release-details/immunitybio-receives-united-arab-emirates-uae-marketing"
+      "url": "https://pypi.org/project/meiyigeovideopower/1.6.10/"
+    },
+    {
+      "title": "New York Theatre Ballet seeks Executive Director",
+      "summary": "New York Theatre Ballet seeks an Executive Director to lead the organization’s strategic direction, drive fundraising and revenue growth, and oversee operational and artistic functions.",
+      "source": "Artsjournal.com",
+      "date": "Jul 31, 2026",
+      "image": null,
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.artsjournal.com/2026/07/new-york-theatre-ballet-seeks-executive-director.html"
+    },
+    {
+      "title": "Paid Media & Advertising Services",
+      "summary": "Data-driven Google, Meta, and TikTok ad management with in-house creative. Average 4.2x ROAS across managed campaigns. Book a free strategy call.",
+      "source": "Vainermarketing.com",
+      "date": "Jul 31, 2026",
+      "image": "blog-images/news_8.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://vainermarketing.com/services/paid-media"
     }
   ],
   "jobs": [
