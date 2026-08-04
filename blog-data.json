@@ -1,12 +1,22 @@
 {
-  "updated": "2026-08-03T01:47:21.543Z",
+  "updated": "2026-08-04T01:23:07.241Z",
   "news": [
+    {
+      "title": "He turned a side hustle into a video game resale business that's brought in $4 million this year",
+      "summary": "Caleb Ashton said he used $500 worth of birthday and Christmas money to launch QuickFlips, a video game resale platform that now makes millions.",
+      "source": "Business Insider",
+      "date": "Aug 2, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/side-hustle-video-game-resale-business-quickflips-caleb-ashton-2026-8#article"
+    },
     {
       "title": "Decent Holding Advances AI",
       "summary": "Decent Holding Advances AI-Powered Health Data Infrastructure Alongside Community Healthcare Network Expansionbusinessinsider.com",
       "source": "Business Insider",
       "date": "Jul 30, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://markets.businessinsider.com/news/stocks/decent-holding-advances-ai-powered-health-data-infrastructure-alongside-community-healthcare-network-expansion-1036385564"
@@ -16,7 +26,7 @@
       "summary": "How Kraft Heinz turns culture into brand momentum.",
       "source": "Adweek",
       "date": "Jul 30, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_2.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/marketing-vanguard-at-cannes-why-joy-makes-better-marketing-ft-todd-kaplan-of-kraft-heinz/"
@@ -26,7 +36,7 @@
       "summary": "A 19-year-old content creator shares how he built a seven-figure career by talking about AI and his strategies for growing his platform.",
       "source": "Business Insider",
       "date": "Jul 30, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/college-dropout-ai-content-creator-strategy-2026-7#article"
@@ -36,7 +46,7 @@
       "summary": "Netflix, LG, and Samsung are betting that free, low-friction gaming could provide a valuable boost to engagement.",
       "source": "Adweek",
       "date": "Jul 29, 2026",
-      "image": "blog-images/news_3.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/streaming-platforms-gaming-wordle-netflix-lg-samsung/"
@@ -46,50 +56,40 @@
       "summary": "XR Extreme Reach and AdImpact have partnered to deliver deeper data and insights across local TV and digital channels for political campaigns. The partnership brings together AdImpact&#8217;s measurem",
       "source": "Adweek",
       "date": "Jul 29, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/adweek-wire/xr-and-adimpact-partner-to-bring-cross-channel-measurement-to-political-campaigns/"
     },
     {
-      "title": "Saylor Launches Creator Studio Fleet, Led by Former Amazon Ads Exec",
-      "summary": "The agency has tapped Nneka Enurah Lee to grow the practice, reflecting how central creators have become to social strategy.",
-      "source": "Adweek",
-      "date": "Jul 29, 2026",
-      "image": "blog-images/news_5.png",
+      "title": "WILY",
+      "summary": "Activate your audience securely.\nWILY Global is an enterprise marketing middleware that improves marketing activations with secure SPRY platform.",
+      "source": "Wilyglobal.com",
+      "date": "Aug 3, 2026",
+      "image": "blog-images/news_6.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.adweek.com/agencies/saylor-creator-studio-fleet/"
+      "url": "https://wilyglobal.com/home"
     },
     {
-      "title": "Car Wash Marketing Checklist: What to Fix When Membership Signups Slow Down",
-      "summary": "Practical car wash marketing checklist for deciding what to fix before buying more leads: Maps visibility, proof, service clarity, and the conversion path.",
-      "source": "Seog.ai",
-      "date": "Aug 2, 2026",
-      "image": "blog-images/news_6.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://seog.ai/blog/car-wash-marketing-checklist-membership-signups"
-    },
-    {
-      "title": "Infantino faces crisis as UEFA, CONCACAF declare lost confidence over scrapped FIFA World Cup deal",
-      "summary": "FIFA President Gianni Infantino is under intense scrutiny following a failed proposal for commercial rights that has eroded trust among regional confederations such as UEFA and CONCACAF. This situatio",
+      "title": "Social Stock Exchange: How it works and why investors should care",
+      "summary": "Every SSE listing goes through months of due diligence, financial and social audits.",
       "source": "The Times of India",
-      "date": "Aug 2, 2026",
+      "date": "Aug 3, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/news/sports/football/infantino-faces-crisis-as-uefa-concacaf-declare-lost-confidence-over-scrapped-fifa-world-cup-deal/articleshow/132798965.cms"
+      "url": "https://economictimes.indiatimes.com/wealth/invest/social-stock-exchange-how-it-works-and-why-investors-should-care/articleshow/132779688.cms"
     },
     {
-      "title": "Bare Knuckle Boxing, BKB, Knocking Out The Competition And Just Getting Started",
-      "summary": "With so much political drama in boxing, and with the UFC not always having the best fight the best, bare-knuckle boxing is quickly rising the combat sports ladder, with the Bare Knuckle Boxing (BKB) o",
-      "source": "Yahoo Entertainment",
-      "date": "Aug 2, 2026",
-      "image": "blog-images/news_8.jpg",
+      "title": "Specialised Investment Funds: How to evaluate strategy, risk, derivatives and red flags before investing in SIFs",
+      "summary": "A guide to the objective, strategy, risk band and red flags that separate a good SIF from a risky bet.",
+      "source": "The Times of India",
+      "date": "Aug 3, 2026",
+      "image": "blog-images/news_8.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://sports.yahoo.com/articles/bare-knuckle-boxing-bkb-knocking-013530299.html"
+      "url": "https://economictimes.indiatimes.com/wealth/invest/specialised-investment-funds-how-to-evaluate-strategy-risk-derivatives-and-red-flags-before-investing-in-sifs/articleshow/132780365.cms"
     }
   ],
   "jobs": [
