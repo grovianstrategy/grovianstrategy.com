@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T01:23:07.241Z",
+  "updated": "2026-08-05T01:28:47.038Z",
   "news": [
     {
       "title": "He turned a side hustle into a video game resale business that's brought in $4 million this year",
@@ -62,34 +62,34 @@
       "url": "https://www.adweek.com/adweek-wire/xr-and-adimpact-partner-to-bring-cross-channel-measurement-to-political-campaigns/"
     },
     {
-      "title": "WILY",
-      "summary": "Activate your audience securely.\nWILY Global is an enterprise marketing middleware that improves marketing activations with secure SPRY platform.",
-      "source": "Wilyglobal.com",
-      "date": "Aug 3, 2026",
-      "image": "blog-images/news_6.png",
+      "title": "Dodgers stand above rest as one seller nails it, Yankees flop in trade deadline fallout",
+      "summary": "A lot happened on deadline day, but nothing to knock the perennially superb Dodgers off the top spot of our annual winners list. And if form holds, that’s the way this season and World Series may play",
+      "source": "New York Post",
+      "date": "Aug 4, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://wilyglobal.com/home"
+      "url": "https://nypost.com/2026/08/03/sports/2026-mlb-trade-deadline-winners-losers-dodgers-stand-above-rest/"
     },
     {
-      "title": "Social Stock Exchange: How it works and why investors should care",
-      "summary": "Every SSE listing goes through months of due diligence, financial and social audits.",
-      "source": "The Times of India",
-      "date": "Aug 3, 2026",
+      "title": "Lagos ready to host 2026 CAF Awards – Sanwo",
+      "summary": "Lagos State Governor Babajide Sanwo-Olu confirms Lagos is fully prepared to host the 2026 CAF Awards, promising a brilliant show for African football.\n\nRead More: https://punchng.com/lagos-ready-to-ho",
+      "source": "The Punch",
+      "date": "Aug 4, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/wealth/invest/social-stock-exchange-how-it-works-and-why-investors-should-care/articleshow/132779688.cms"
+      "url": "https://punchng.com/lagos-ready-to-host-2026-caf-awards-sanwo-olu/"
     },
     {
-      "title": "Specialised Investment Funds: How to evaluate strategy, risk, derivatives and red flags before investing in SIFs",
-      "summary": "A guide to the objective, strategy, risk band and red flags that separate a good SIF from a risky bet.",
-      "source": "The Times of India",
-      "date": "Aug 3, 2026",
-      "image": "blog-images/news_8.png",
+      "title": "Third Point Q2 2026 Investor Letter",
+      "summary": "Third Point reports a 7.7% return for Q2 2026, highlighting growth in AI infrastructure and strategic shifts in Block and Flex. Read the full analysis for more details.",
+      "source": "Seeking Alpha",
+      "date": "Aug 4, 2026",
+      "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/wealth/invest/specialised-investment-funds-how-to-evaluate-strategy-risk-derivatives-and-red-flags-before-investing-in-sifs/articleshow/132780365.cms"
+      "url": "https://seekingalpha.com/article/4929706-third-point-q2-2026-investor-letter"
     }
   ],
   "jobs": [
@@ -127,11 +127,22 @@
       "showSource": true
     },
     {
+      "title": "[Podcast] Creative Leadership & The Future of Branding with Ekaterina Solomeina",
+      "summary": "Ekaterina shares her perspective on what separates talented creatives from true creative leaders, why many businesses still underestimate design, and how creatives can better communicate their value i",
+      "source": "Justcreative.com",
+      "date": "Aug 3, 2026",
+      "image": "blog-images/jobs_3.png",
+      "category": "Jobs",
+      "emoji": "💼",
+      "url": "https://justcreative.com/creative-leadership/",
+      "showSource": true
+    },
+    {
       "title": "Social Media Growth Lead (DeFi) at Gyld Finance",
       "summary": "As decentralized finance (DeFi) continues to attract institutional investors and crypto-native users, projects need experienced marketing...",
       "source": "Afrocareer.com",
       "date": "Jul 23, 2026",
-      "image": "blog-images/jobs_3.png",
+      "image": "blog-images/jobs_4.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.afrocareer.com/2026/07/social-media-growth-lead-defi-at-gyld.html",
