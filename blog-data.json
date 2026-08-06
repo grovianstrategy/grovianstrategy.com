@@ -1,95 +1,95 @@
 {
-  "updated": "2026-08-05T01:28:47.038Z",
+  "updated": "2026-08-06T01:25:34.756Z",
   "news": [
+    {
+      "title": "McDonald's is facing slowing sales. Its under $3 value menu shows why",
+      "summary": "McDonald's new Under $3 menu didn't meet expectations, slowing US sales growth. CEO Chris Kempczinski acknowledged issues with franchise adoption.",
+      "source": "Business Insider",
+      "date": "Aug 4, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/mcdonalds-value-menu-slows-us-sales-ceo-assesses-impact-2026-8#article"
+    },
+    {
+      "title": "Heads-Up and Hands",
+      "summary": "Chief business officer Ajit Mohan on the convergence of AR and conversational AI.",
+      "source": "Adweek",
+      "date": "Aug 4, 2026",
+      "image": "blog-images/news_1.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/heads-up-and-hands-free-snaps-play-beyond-the-smartphone/"
+    },
+    {
+      "title": "Stanley introduces wisecracking toolbox character amid construction slowdown",
+      "summary": "“All Build. No Bull” shows off a reformulated product line aimed at small business construction workers and is set to run across five markets.",
+      "source": "Marketing Dive",
+      "date": "Aug 4, 2026",
+      "image": "blog-images/news_2.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.marketingdive.com/news/stanley-introduces-wisecracking-toolbox-character-amid-construction-slowdow/826897/"
+    },
+    {
+      "title": "Morgan Stanley says to snatch up these 24 AI",
+      "summary": "Morgan Stanley says the market's attention is shifting toward AI-driven efficiency. These 24 stocks are among the top AI adopters, the bank said.",
+      "source": "Business Insider",
+      "date": "Aug 4, 2026",
+      "image": "blog-images/news_3.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/ai-stocks-to-buy-now-companies-adopting-profit-margins-productivity-2026-8#article"
+    },
+    {
+      "title": "Creators Are the New Media Moguls. But Scaling a Face Is Harder Than It Looks",
+      "summary": "The biggest names in the creator economy are hiring CEOs, launching product lines, and courting Wall Street—provided they can avoid the pitfalls along the way.",
+      "source": "Adweek",
+      "date": "Aug 4, 2026",
+      "image": "blog-images/news_4.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/media/creators-new-media-moguls-scaling-social-media-star-challenges/"
+    },
     {
       "title": "He turned a side hustle into a video game resale business that's brought in $4 million this year",
       "summary": "Caleb Ashton said he used $500 worth of birthday and Christmas money to launch QuickFlips, a video game resale platform that now makes millions.",
       "source": "Business Insider",
       "date": "Aug 2, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/side-hustle-video-game-resale-business-quickflips-caleb-ashton-2026-8#article"
     },
     {
-      "title": "Decent Holding Advances AI",
-      "summary": "Decent Holding Advances AI-Powered Health Data Infrastructure Alongside Community Healthcare Network Expansionbusinessinsider.com",
-      "source": "Business Insider",
-      "date": "Jul 30, 2026",
-      "image": "blog-images/news_1.jpg",
+      "title": "Flockler Blogs",
+      "summary": "Read the latest guides, tutorials, and insights on social media aggregation, user-generated content marketing, and digital engagement from the experts at Flockler.",
+      "source": "Flockler.com",
+      "date": "Aug 5, 2026",
+      "image": "blog-images/news_6.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://markets.businessinsider.com/news/stocks/decent-holding-advances-ai-powered-health-data-infrastructure-alongside-community-healthcare-network-expansion-1036385564"
+      "url": "https://flockler.com/fr/blog/?48c0e442_page=9"
     },
     {
-      "title": "Marketing Vanguard at Cannes: Why Joy Makes Better Marketing ft. Todd Kaplan of Kraft Heinz",
-      "summary": "How Kraft Heinz turns culture into brand momentum.",
-      "source": "Adweek",
-      "date": "Jul 30, 2026",
-      "image": "blog-images/news_2.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/marketing-vanguard-at-cannes-why-joy-makes-better-marketing-ft-todd-kaplan-of-kraft-heinz/"
-    },
-    {
-      "title": "I left college to be an AI content creator for older adults. Now I make six",
-      "summary": "A 19-year-old content creator shares how he built a seven-figure career by talking about AI and his strategies for growing his platform.",
-      "source": "Business Insider",
-      "date": "Jul 30, 2026",
-      "image": "blog-images/news_3.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/college-dropout-ai-content-creator-strategy-2026-7#article"
-    },
-    {
-      "title": "Streaming Platforms Are Looking For Their Wordle",
-      "summary": "Netflix, LG, and Samsung are betting that free, low-friction gaming could provide a valuable boost to engagement.",
-      "source": "Adweek",
-      "date": "Jul 29, 2026",
-      "image": "blog-images/news_4.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/convergent-tv/streaming-platforms-gaming-wordle-netflix-lg-samsung/"
-    },
-    {
-      "title": "XR and AdImpact Partner to Bring Cross",
-      "summary": "XR Extreme Reach and AdImpact have partnered to deliver deeper data and insights across local TV and digital channels for political campaigns. The partnership brings together AdImpact&#8217;s measurem",
-      "source": "Adweek",
-      "date": "Jul 29, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/adweek-wire/xr-and-adimpact-partner-to-bring-cross-channel-measurement-to-political-campaigns/"
-    },
-    {
-      "title": "Dodgers stand above rest as one seller nails it, Yankees flop in trade deadline fallout",
-      "summary": "A lot happened on deadline day, but nothing to knock the perennially superb Dodgers off the top spot of our annual winners list. And if form holds, that’s the way this season and World Series may play",
-      "source": "New York Post",
-      "date": "Aug 4, 2026",
-      "image": "blog-images/news_6.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://nypost.com/2026/08/03/sports/2026-mlb-trade-deadline-winners-losers-dodgers-stand-above-rest/"
-    },
-    {
-      "title": "Lagos ready to host 2026 CAF Awards – Sanwo",
-      "summary": "Lagos State Governor Babajide Sanwo-Olu confirms Lagos is fully prepared to host the 2026 CAF Awards, promising a brilliant show for African football.\n\nRead More: https://punchng.com/lagos-ready-to-ho",
-      "source": "The Punch",
-      "date": "Aug 4, 2026",
+      "title": "Cannabis Is Marketed as Stress Relief, and a New Cortisol Study Adds to a Thin Evidence Base",
+      "summary": "Frequent cannabis users woke with higher cortisol than nonusers in a new Oregon State study, adding nuance to widely marketed stress relief claims.",
+      "source": "Medical Daily",
+      "date": "Aug 5, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://punchng.com/lagos-ready-to-host-2026-caf-awards-sanwo-olu/"
+      "url": "https://www.medicaldaily.com/cannabis-stress-relief-evidence-cortisol-study-2026-476853"
     },
     {
-      "title": "Third Point Q2 2026 Investor Letter",
-      "summary": "Third Point reports a 7.7% return for Q2 2026, highlighting growth in AI infrastructure and strategic shifts in Block and Flex. Read the full analysis for more details.",
-      "source": "Seeking Alpha",
-      "date": "Aug 4, 2026",
-      "image": "blog-images/news_8.jpg",
+      "title": "GoldMine – Let AI agents run your content, SEO, and outreach while you build",
+      "summary": "Let AI agents run your content, SEO, and outreach while you build",
+      "source": "Betalist.com",
+      "date": "Aug 5, 2026",
+      "image": "blog-images/news_8.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://seekingalpha.com/article/4929706-third-point-q2-2026-investor-letter"
+      "url": "https://betalist.com/startups/goldmine"
     }
   ],
   "jobs": [
