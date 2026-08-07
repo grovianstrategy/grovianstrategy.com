@@ -1,12 +1,42 @@
 {
-  "updated": "2026-08-06T01:25:34.756Z",
+  "updated": "2026-08-07T02:04:23.912Z",
   "news": [
+    {
+      "title": "McDonald's is rethinking its value menu. We want your take.",
+      "summary": "McDonald highlighted challenges with its value menu, impacting sales and prompting reassessment. We want your take on the fast food chain.",
+      "source": "Business Insider",
+      "date": "Aug 5, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/mcdonalds-rethinks-value-menu-amid-sales-growth-slowdown-survey-2026-8#article"
+    },
+    {
+      "title": "I pitched Tinder the job I wanted to do — and ended up getting hired full",
+      "summary": "Ryan Stewart said he made an effort throughout his internship to work with different teams and fill the gaps he saw.",
+      "source": "Business Insider",
+      "date": "Aug 5, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/tinder-intern-pitched-job-hired-fulltime-2026-8#article"
+    },
+    {
+      "title": "Read Disney CEO Josh D'Amaro's memo to employees after a strong quarter",
+      "summary": "Disney CEO Josh D'Amaro said the company's strong quarter \"reflects the strength of our businesses\" and \"the extraordinary work you do every day.\"",
+      "source": "Business Insider",
+      "date": "Aug 5, 2026",
+      "image": "blog-images/news_2.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/disney-ceo-josh-damaro-read-the-memo-employees-strong-quarter-2026-8#article"
+    },
     {
       "title": "McDonald's is facing slowing sales. Its under $3 value menu shows why",
       "summary": "McDonald's new Under $3 menu didn't meet expectations, slowing US sales growth. CEO Chris Kempczinski acknowledged issues with franchise adoption.",
       "source": "Business Insider",
       "date": "Aug 4, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/mcdonalds-value-menu-slows-us-sales-ceo-assesses-impact-2026-8#article"
@@ -16,80 +46,50 @@
       "summary": "Chief business officer Ajit Mohan on the convergence of AR and conversational AI.",
       "source": "Adweek",
       "date": "Aug 4, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/heads-up-and-hands-free-snaps-play-beyond-the-smartphone/"
     },
     {
-      "title": "Stanley introduces wisecracking toolbox character amid construction slowdown",
-      "summary": "“All Build. No Bull” shows off a reformulated product line aimed at small business construction workers and is set to run across five markets.",
-      "source": "Marketing Dive",
-      "date": "Aug 4, 2026",
-      "image": "blog-images/news_2.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.marketingdive.com/news/stanley-introduces-wisecracking-toolbox-character-amid-construction-slowdow/826897/"
-    },
-    {
-      "title": "Morgan Stanley says to snatch up these 24 AI",
-      "summary": "Morgan Stanley says the market's attention is shifting toward AI-driven efficiency. These 24 stocks are among the top AI adopters, the bank said.",
-      "source": "Business Insider",
-      "date": "Aug 4, 2026",
-      "image": "blog-images/news_3.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/ai-stocks-to-buy-now-companies-adopting-profit-margins-productivity-2026-8#article"
-    },
-    {
-      "title": "Creators Are the New Media Moguls. But Scaling a Face Is Harder Than It Looks",
-      "summary": "The biggest names in the creator economy are hiring CEOs, launching product lines, and courting Wall Street—provided they can avoid the pitfalls along the way.",
-      "source": "Adweek",
-      "date": "Aug 4, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/media/creators-new-media-moguls-scaling-social-media-star-challenges/"
-    },
-    {
-      "title": "He turned a side hustle into a video game resale business that's brought in $4 million this year",
-      "summary": "Caleb Ashton said he used $500 worth of birthday and Christmas money to launch QuickFlips, a video game resale platform that now makes millions.",
-      "source": "Business Insider",
-      "date": "Aug 2, 2026",
+      "title": "KANEBO selects Eastman Cristal™ One IM812 for luxury overcap packaging",
+      "summary": "Premium cosmetics brand chose recyclable material for an overcap that delivers aesthetics, strength and sustainability. KINGSPORT, Tenn., Aug. 6, 2026 /PRNewswire/ -- Prestigious Japanese cosmetics br",
+      "source": "PRNewswire",
+      "date": "Aug 6, 2026",
       "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/side-hustle-video-game-resale-business-quickflips-caleb-ashton-2026-8#article"
+      "url": "https://www.prnewswire.com/news-releases/kanebo-selects-eastman-cristal-one-im812-for-luxury-overcap-packaging-302843917.html"
     },
     {
-      "title": "Flockler Blogs",
-      "summary": "Read the latest guides, tutorials, and insights on social media aggregation, user-generated content marketing, and digital engagement from the experts at Flockler.",
-      "source": "Flockler.com",
-      "date": "Aug 5, 2026",
-      "image": "blog-images/news_6.png",
+      "title": "オプト、インハウス化時代の新たな広告運用モデル「アド・インフラパック(TM)」の提供を開始",
+      "summary": "[株式会社デジタルホールディングス]\n[画像1: https://prcdn.freetls.fastly.net/release_image/14848/1070/14848-1070-9f0cf9685c6ddaea2e5585c6e9bac597-1200x630.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds..",
+      "source": "Prtimes.jp",
+      "date": "Aug 6, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://flockler.com/fr/blog/?48c0e442_page=9"
+      "url": "https://prtimes.jp/main/html/rd/p/000001070.000014848.html"
     },
     {
-      "title": "Cannabis Is Marketed as Stress Relief, and a New Cortisol Study Adds to a Thin Evidence Base",
-      "summary": "Frequent cannabis users woke with higher cortisol than nonusers in a new Oregon State study, adding nuance to widely marketed stress relief claims.",
-      "source": "Medical Daily",
-      "date": "Aug 5, 2026",
+      "title": "What Champions are doing differently with segmentation, send strategy, and list health",
+      "summary": "Key lessons from our first Klaviyo Community Office Hours sessionFor our inaugural Klaviyo Community Office Hours session, digital marketers brought real-world questions about email and SMS segmentati",
+      "source": "Klaviyo.com",
+      "date": "Aug 6, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.medicaldaily.com/cannabis-stress-relief-evidence-cortisol-study-2026-476853"
+      "url": "https://community.klaviyo.com/strategic-advice-27/what-champions-are-doing-differently-with-segmentation-send-strategy-and-list-health-19622"
     },
     {
-      "title": "GoldMine – Let AI agents run your content, SEO, and outreach while you build",
-      "summary": "Let AI agents run your content, SEO, and outreach while you build",
-      "source": "Betalist.com",
-      "date": "Aug 5, 2026",
+      "title": "PTE Request for WordPress.org, Theme…",
+      "summary": "PTE Request for WordPress.org, Theme Directory, and Plugin Directory (bn_BD) Hello Polyglots Team, I would like to request Project Translation Editor (PTE) permissions for the following projects in th",
+      "source": "Wordpress.org",
+      "date": "Aug 6, 2026",
       "image": "blog-images/news_8.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://betalist.com/startups/goldmine"
+      "url": "https://make.wordpress.org/polyglots/2026/08/06/pte-request-for-wordpress-org-theme/"
     }
   ],
   "jobs": [
