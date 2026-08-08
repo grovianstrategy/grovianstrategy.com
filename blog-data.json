@@ -1,12 +1,52 @@
 {
-  "updated": "2026-08-07T02:04:23.912Z",
+  "updated": "2026-08-08T00:48:24.628Z",
   "news": [
+    {
+      "title": "The Trade Desk CEO Jeff Green Says Sluggish 3% Revenue Growth ‘Not a Reflection’ of the Company",
+      "summary": "The adtech company's quarterly revenue growth fell to its lowest rate since its pandemic-era crash.",
+      "source": "Adweek",
+      "date": "Aug 6, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/programmatic/the-trade-desk-ceo-jeff-green-says-sluggish-3-revenue-growth-not-a-reflection-of-the-company/"
+    },
+    {
+      "title": "Cable TV is dying — and can still be a very good business.",
+      "summary": "Turning cable TV businesses like MS NOW and CNBC into something else is difficult task.",
+      "source": "Business Insider",
+      "date": "Aug 6, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/versant-earnings-strategy-cable-tv-decline-digital-growth-buyback-2026-8#article"
+    },
+    {
+      "title": "Papa Johns changes CMOs, ramps up mass marketing amid struggles",
+      "summary": "CMO Jenna Bromberg will depart as the chain appoints a global marketer and plans to rebalance its media mix and continue to invest in marketing co-ops.",
+      "source": "Marketing Dive",
+      "date": "Aug 6, 2026",
+      "image": "blog-images/news_2.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.marketingdive.com/news/papa-johns-changes-cmo-role-ramps-up-mass-marketing-amid-struggles/827203/"
+    },
+    {
+      "title": "AI’s volatile power demand is damaging its own data centers",
+      "summary": "Power increments equivalent to the consumption of factories, towns or even cities can appear and disappear within seconds, creating repeated shocks that connected equipment struggles to absorb",
+      "source": "Bloomberg",
+      "date": "Aug 6, 2026",
+      "image": "blog-images/news_3.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/data-centers-are-being-damaged-by-ai-s-volatile-power-demand"
+    },
     {
       "title": "McDonald's is rethinking its value menu. We want your take.",
       "summary": "McDonald highlighted challenges with its value menu, impacting sales and prompting reassessment. We want your take on the fast food chain.",
       "source": "Business Insider",
       "date": "Aug 5, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/mcdonalds-rethinks-value-menu-amid-sales-growth-slowdown-survey-2026-8#article"
@@ -16,80 +56,40 @@
       "summary": "Ryan Stewart said he made an effort throughout his internship to work with different teams and fill the gaps he saw.",
       "source": "Business Insider",
       "date": "Aug 5, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/tinder-intern-pitched-job-hired-fulltime-2026-8#article"
     },
     {
-      "title": "Read Disney CEO Josh D'Amaro's memo to employees after a strong quarter",
-      "summary": "Disney CEO Josh D'Amaro said the company's strong quarter \"reflects the strength of our businesses\" and \"the extraordinary work you do every day.\"",
-      "source": "Business Insider",
-      "date": "Aug 5, 2026",
-      "image": "blog-images/news_2.jpg",
+      "title": "Affiliate Marketing Tutorial 2026",
+      "summary": "Affiliate Marketing Tutorial 2026 | Affiliate Product Ko FREE Me Promote Kaise Kareyoutube.com",
+      "source": "YouTube",
+      "date": "Aug 7, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/disney-ceo-josh-damaro-read-the-memo-employees-strong-quarter-2026-8#article"
+      "url": "https://www.youtube.com/supported_browsers?next_url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DH9H-U5H20x0"
     },
     {
-      "title": "McDonald's is facing slowing sales. Its under $3 value menu shows why",
-      "summary": "McDonald's new Under $3 menu didn't meet expectations, slowing US sales growth. CEO Chris Kempczinski acknowledged issues with franchise adoption.",
-      "source": "Business Insider",
-      "date": "Aug 4, 2026",
-      "image": "blog-images/news_3.jpg",
+      "title": "Extra Free Month of Kayo (ultra)",
+      "summary": "Hey Guys - Got an email from Jameson Whisky about an extra month of Kayo after the Dans (assume dans footy) code expired. Original url for offer …",
+      "source": "Ozbargain.com.au",
+      "date": "Aug 7, 2026",
+      "image": "blog-images/news_7.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/mcdonalds-value-menu-slows-us-sales-ceo-assesses-impact-2026-8#article"
+      "url": "https://www.ozbargain.com.au/node/970528"
     },
     {
-      "title": "Heads-Up and Hands",
-      "summary": "Chief business officer Ajit Mohan on the convergence of AR and conversational AI.",
-      "source": "Adweek",
-      "date": "Aug 4, 2026",
-      "image": "blog-images/news_4.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/heads-up-and-hands-free-snaps-play-beyond-the-smartphone/"
-    },
-    {
-      "title": "KANEBO selects Eastman Cristal™ One IM812 for luxury overcap packaging",
-      "summary": "Premium cosmetics brand chose recyclable material for an overcap that delivers aesthetics, strength and sustainability. KINGSPORT, Tenn., Aug. 6, 2026 /PRNewswire/ -- Prestigious Japanese cosmetics br",
-      "source": "PRNewswire",
-      "date": "Aug 6, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.prnewswire.com/news-releases/kanebo-selects-eastman-cristal-one-im812-for-luxury-overcap-packaging-302843917.html"
-    },
-    {
-      "title": "オプト、インハウス化時代の新たな広告運用モデル「アド・インフラパック(TM)」の提供を開始",
-      "summary": "[株式会社デジタルホールディングス]\n[画像1: https://prcdn.freetls.fastly.net/release_image/14848/1070/14848-1070-9f0cf9685c6ddaea2e5585c6e9bac597-1200x630.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds..",
+      "title": "BAPE(R) × MEDICOM TOY 30TH ANNIVERSARY",
+      "summary": "[株式会社 ノーウェア]\n[画像1: https://prcdn.freetls.fastly.net/release_image/8762/749/8762-749-af6d36acbe195626a2d969943bde2344-2048x1366.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&am...",
       "source": "Prtimes.jp",
-      "date": "Aug 6, 2026",
-      "image": "blog-images/news_6.jpg",
+      "date": "Aug 7, 2026",
+      "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://prtimes.jp/main/html/rd/p/000001070.000014848.html"
-    },
-    {
-      "title": "What Champions are doing differently with segmentation, send strategy, and list health",
-      "summary": "Key lessons from our first Klaviyo Community Office Hours sessionFor our inaugural Klaviyo Community Office Hours session, digital marketers brought real-world questions about email and SMS segmentati",
-      "source": "Klaviyo.com",
-      "date": "Aug 6, 2026",
-      "image": "blog-images/news_7.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://community.klaviyo.com/strategic-advice-27/what-champions-are-doing-differently-with-segmentation-send-strategy-and-list-health-19622"
-    },
-    {
-      "title": "PTE Request for WordPress.org, Theme…",
-      "summary": "PTE Request for WordPress.org, Theme Directory, and Plugin Directory (bn_BD) Hello Polyglots Team, I would like to request Project Translation Editor (PTE) permissions for the following projects in th",
-      "source": "Wordpress.org",
-      "date": "Aug 6, 2026",
-      "image": "blog-images/news_8.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://make.wordpress.org/polyglots/2026/08/06/pte-request-for-wordpress-org-theme/"
+      "url": "https://prtimes.jp/main/html/rd/p/000000749.000008762.html"
     }
   ],
   "jobs": [
