@@ -1,12 +1,22 @@
 {
-  "updated": "2026-08-08T00:48:24.628Z",
+  "updated": "2026-08-09T00:51:48.050Z",
   "news": [
+    {
+      "title": "Ticker: David Ellison Believes CNN Plays a Role in Paramount",
+      "summary": "A court date has been set in 2027 for the cases seeking to block the Paramount Skydance-Warner Bros. Discovery merger",
+      "source": "Adweek",
+      "date": "Aug 7, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/tvnewser/ticker-david-ellison-believes-cnn-plays-a-role-in-paramount-wbd-merger-delay/"
+    },
     {
       "title": "The Trade Desk CEO Jeff Green Says Sluggish 3% Revenue Growth ‘Not a Reflection’ of the Company",
       "summary": "The adtech company's quarterly revenue growth fell to its lowest rate since its pandemic-era crash.",
       "source": "Adweek",
       "date": "Aug 6, 2026",
-      "image": "blog-images/news_0.png",
+      "image": "blog-images/news_1.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/programmatic/the-trade-desk-ceo-jeff-green-says-sluggish-3-revenue-growth-not-a-reflection-of-the-company/"
@@ -16,7 +26,7 @@
       "summary": "Turning cable TV businesses like MS NOW and CNBC into something else is difficult task.",
       "source": "Business Insider",
       "date": "Aug 6, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/versant-earnings-strategy-cable-tv-decline-digital-growth-buyback-2026-8#article"
@@ -26,7 +36,7 @@
       "summary": "CMO Jenna Bromberg will depart as the chain appoints a global marketer and plans to rebalance its media mix and continue to invest in marketing co-ops.",
       "source": "Marketing Dive",
       "date": "Aug 6, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.marketingdive.com/news/papa-johns-changes-cmo-role-ramps-up-mass-marketing-amid-struggles/827203/"
@@ -36,7 +46,7 @@
       "summary": "Power increments equivalent to the consumption of factories, towns or even cities can appear and disappear within seconds, creating repeated shocks that connected equipment struggles to absorb",
       "source": "Bloomberg",
       "date": "Aug 6, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.bloomberg.com/news/articles/2026-08-06/data-centers-are-being-damaged-by-ai-s-volatile-power-demand"
@@ -46,50 +56,40 @@
       "summary": "McDonald highlighted challenges with its value menu, impacting sales and prompting reassessment. We want your take on the fast food chain.",
       "source": "Business Insider",
       "date": "Aug 5, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/mcdonalds-rethinks-value-menu-amid-sales-growth-slowdown-survey-2026-8#article"
     },
     {
-      "title": "I pitched Tinder the job I wanted to do — and ended up getting hired full",
-      "summary": "Ryan Stewart said he made an effort throughout his internship to work with different teams and fill the gaps he saw.",
-      "source": "Business Insider",
-      "date": "Aug 5, 2026",
-      "image": "blog-images/news_5.jpg",
+      "title": "GTA 6 Netflix Extended Look: Take-Two CEO shares info on “must",
+      "summary": "On August 27, Netflix will showcase an extended look at GTA 6 exclusively. Take-Two CEO Strauss Zelnick spoke with Bloomberg’s Jason Schreier and shared some more information about the event.",
+      "source": "Notebookcheck.net",
+      "date": "Aug 8, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/tinder-intern-pitched-job-hired-fulltime-2026-8#article"
+      "url": "https://www.notebookcheck.net/GTA-6-Netflix-Extended-Look-Take-Two-CEO-shares-info-on-must-see-event.1363238.0.html"
     },
     {
-      "title": "Affiliate Marketing Tutorial 2026",
-      "summary": "Affiliate Marketing Tutorial 2026 | Affiliate Product Ko FREE Me Promote Kaise Kareyoutube.com",
-      "source": "YouTube",
-      "date": "Aug 7, 2026",
-      "image": null,
+      "title": "PalmPay cites court order in N750m debit dispute",
+      "summary": "PalmPay denies unlawfully debiting N750m from Kudiwave, stating the transfer complied with a Federal High Court order. Get the full details on the PalmPay\n\nRead More: https://punchng.com/palmpay-cites",
+      "source": "The Punch",
+      "date": "Aug 8, 2026",
+      "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.youtube.com/supported_browsers?next_url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DH9H-U5H20x0"
+      "url": "https://punchng.com/palmpay-cites-court-order-in-n750m-debit-dispute/"
     },
     {
-      "title": "Extra Free Month of Kayo (ultra)",
-      "summary": "Hey Guys - Got an email from Jameson Whisky about an extra month of Kayo after the Dans (assume dans footy) code expired. Original url for offer …",
-      "source": "Ozbargain.com.au",
-      "date": "Aug 7, 2026",
-      "image": "blog-images/news_7.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.ozbargain.com.au/node/970528"
-    },
-    {
-      "title": "BAPE(R) × MEDICOM TOY 30TH ANNIVERSARY",
-      "summary": "[株式会社 ノーウェア]\n[画像1: https://prcdn.freetls.fastly.net/release_image/8762/749/8762-749-af6d36acbe195626a2d969943bde2344-2048x1366.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&am...",
-      "source": "Prtimes.jp",
-      "date": "Aug 7, 2026",
+      "title": "ChatGPT Ads Are Here. Now Comes the Hard Part.",
+      "summary": "If you’ve been wondering whether ChatGPT advertising is ready for your media plan, the answer is more complicated than a simple yes or no. On this episode of Inside the Stack, AdExchanger speaks with",
+      "source": "AdExchanger",
+      "date": "Aug 8, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://prtimes.jp/main/html/rd/p/000000749.000008762.html"
+      "url": "http://www.adexchanger.com/inside-the-stack/chatgpt-ads-are-here-now-comes-the-hard-part/"
     }
   ],
   "jobs": [
