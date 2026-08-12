@@ -1,12 +1,32 @@
 {
-  "updated": "2026-08-11T00:53:23.157Z",
+  "updated": "2026-08-12T01:00:09.315Z",
   "news": [
+    {
+      "title": "AI agents, IRL socializing, and vibe coding: Where top consumer investors are placing bets",
+      "summary": "Top consumer VCs are betting on AI apps that make the internet more social. They told us the trends they are watching.",
+      "source": "Business Insider",
+      "date": "Aug 10, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/next-big-bets-consumer-tech-according-to-top-vcs-2026-8#article"
+    },
+    {
+      "title": "BCG is betting that the best AI leaders know how to lead people, too",
+      "summary": "With new roles for Amanda Luther, Silvio Palumbo, and Natasha Taylor, BCG is betting on leaders with people skills to bridge the AI divide.",
+      "source": "Business Insider",
+      "date": "Aug 10, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/bcg-leadership-ai-transformation-people-skills-2026-8#article"
+    },
     {
       "title": "Ticker: David Ellison Believes CNN Plays a Role in Paramount",
       "summary": "A court date has been set in 2027 for the cases seeking to block the Paramount Skydance-Warner Bros. Discovery merger",
       "source": "Adweek",
       "date": "Aug 7, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/tvnewser/ticker-david-ellison-believes-cnn-plays-a-role-in-paramount-wbd-merger-delay/"
@@ -16,7 +36,7 @@
       "summary": "The adtech company's quarterly revenue growth fell to its lowest rate since its pandemic-era crash.",
       "source": "Adweek",
       "date": "Aug 6, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_3.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/programmatic/the-trade-desk-ceo-jeff-green-says-sluggish-3-revenue-growth-not-a-reflection-of-the-company/"
@@ -26,7 +46,7 @@
       "summary": "Turning cable TV businesses like MS NOW and CNBC into something else is difficult task.",
       "source": "Business Insider",
       "date": "Aug 6, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/versant-earnings-strategy-cable-tv-decline-digital-growth-buyback-2026-8#article"
@@ -36,60 +56,40 @@
       "summary": "CMO Jenna Bromberg will depart as the chain appoints a global marketer and plans to rebalance its media mix and continue to invest in marketing co-ops.",
       "source": "Marketing Dive",
       "date": "Aug 6, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.marketingdive.com/news/papa-johns-changes-cmo-role-ramps-up-mass-marketing-amid-struggles/827203/"
     },
     {
-      "title": "AI’s volatile power demand is damaging its own data centers",
-      "summary": "Power increments equivalent to the consumption of factories, towns or even cities can appear and disappear within seconds, creating repeated shocks that connected equipment struggles to absorb",
-      "source": "Bloomberg",
-      "date": "Aug 6, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-06/data-centers-are-being-damaged-by-ai-s-volatile-power-demand"
-    },
-    {
-      "title": "McDonald's is rethinking its value menu. We want your take.",
-      "summary": "McDonald highlighted challenges with its value menu, impacting sales and prompting reassessment. We want your take on the fast food chain.",
-      "source": "Business Insider",
-      "date": "Aug 5, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/mcdonalds-rethinks-value-menu-amid-sales-growth-slowdown-survey-2026-8#article"
-    },
-    {
-      "title": "Chicago Sales & Marketing Jobs With Multiple $100K+ Roles",
-      "summary": "Chicago’s sales and marketing scene is packed with data-driven, client-facing roles right now—from entry-level field sales to executive analytics and AI-po",
-      "source": "Newsbreak.com",
-      "date": "Aug 10, 2026",
+      "title": "How Spider",
+      "summary": "Spider-Man: Brand New Day is the newest film in the Marvel Cinematic Universe, but how does it compare to the rest of the MCU?",
+      "source": "ComicBook.com",
+      "date": "Aug 11, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.newsbreak.com/chicago-il-daily-brief-373188216/4818754788218-chicago-sales-marketing-jobs-with-multiple-100k-roles"
+      "url": "http://comicbook.com/marvel/list/how-spider-man-brand-new-day-compares-to-every-other-movie-in-the-mcu-multiverse-saga/"
     },
     {
-      "title": "Does an eagle represent strength?",
-      "summary": "Eagles: A Symbol of Enduring Strength The eagle undeniably embodies strength across cultures and history; therefore, does an eagle represent strength? Absolutely. Its image is synonymous with power, f",
-      "source": "Lifesciencesworld.com",
-      "date": "Aug 10, 2026",
-      "image": null,
+      "title": "IPO Rush: 34 companies race to launch issues worth Rs 45,000 crore by September 30",
+      "summary": "As September 30 approaches, thirty-four companies are hustling to roll out their initial public offerings to bypass further regulatory hurdles. The goal is to raise around ₹45,000 crore from these off",
+      "source": "The Times of India",
+      "date": "Aug 11, 2026",
+      "image": "blog-images/news_7.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.lifesciencesworld.com/does-an-eagle-represent-strength/"
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-rush-34-companies-race-to-launch-issues-worth-rs-45000-crore-by-september-30/articleshow/133139967.cms"
     },
     {
-      "title": "Oil import FX demand jumps 115% despite local production",
-      "summary": "Nigeria’s foreign exchange demand for oil sector imports surged by 115% in 2025, as revealed by the CBN. Discover the impact of this oil import FX jump.\n\nRead More: https://punchng.com/oil-import-fx-d",
-      "source": "The Punch",
-      "date": "Aug 10, 2026",
+      "title": "What If You Could Prove the Government is Ripping Us Off?",
+      "summary": "by Braden Kelley and Art Inteligencia We are living through a crisis of civic experience. People can feel that they’re being ripped off by their elected and administrative officials, but yet they lack",
+      "source": "Bradenkelley.com",
+      "date": "Aug 11, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://punchng.com/oil-import-fx-demand-jumps-115-despite-local-production/"
+      "url": "https://bradenkelley.com/2026/08/civic-value-comparison-government-spending/"
     }
   ],
   "jobs": [
