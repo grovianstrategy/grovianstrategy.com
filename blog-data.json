@@ -1,12 +1,42 @@
 {
-  "updated": "2026-08-12T01:00:09.315Z",
+  "updated": "2026-08-13T01:01:28.524Z",
   "news": [
+    {
+      "title": "TikTok is for the creator middle class, but top earners favor Instagram",
+      "summary": "Overall, creators rank TikTok first for brand posts, but say Instagram has more earning potential, according to a new survey from CreatorIQ.",
+      "source": "Business Insider",
+      "date": "Aug 11, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/platform-divide-creator-middle-class-favors-tiktok-top-earners-instagram-2026-8#article"
+    },
+    {
+      "title": "Why Creators Are Becoming the New Marketing Operating System",
+      "summary": "From viral moments to lasting brand growth with Creo's Kevin Blazaitis and dentsu's Chrissie Hanson.",
+      "source": "Adweek",
+      "date": "Aug 11, 2026",
+      "image": "blog-images/news_1.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/why-creators-are-becoming-the-new-marketing-operating-system/"
+    },
+    {
+      "title": "Twitch Names Former Google Exec Christine Cassis Chief Marketing Officer",
+      "summary": "The marketing executive aims to capitalize on the growing demand for live programming.",
+      "source": "Adweek",
+      "date": "Aug 11, 2026",
+      "image": "blog-images/news_2.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/media/twitch-christine-cassis-chief-marketing-officer/"
+    },
     {
       "title": "AI agents, IRL socializing, and vibe coding: Where top consumer investors are placing bets",
       "summary": "Top consumer VCs are betting on AI apps that make the internet more social. They told us the trends they are watching.",
       "source": "Business Insider",
       "date": "Aug 10, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/next-big-bets-consumer-tech-according-to-top-vcs-2026-8#article"
@@ -16,7 +46,7 @@
       "summary": "With new roles for Amanda Luther, Silvio Palumbo, and Natasha Taylor, BCG is betting on leaders with people skills to bridge the AI divide.",
       "source": "Business Insider",
       "date": "Aug 10, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/bcg-leadership-ai-transformation-people-skills-2026-8#article"
@@ -26,70 +56,40 @@
       "summary": "A court date has been set in 2027 for the cases seeking to block the Paramount Skydance-Warner Bros. Discovery merger",
       "source": "Adweek",
       "date": "Aug 7, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/tvnewser/ticker-david-ellison-believes-cnn-plays-a-role-in-paramount-wbd-merger-delay/"
     },
     {
-      "title": "The Trade Desk CEO Jeff Green Says Sluggish 3% Revenue Growth ‘Not a Reflection’ of the Company",
-      "summary": "The adtech company's quarterly revenue growth fell to its lowest rate since its pandemic-era crash.",
-      "source": "Adweek",
-      "date": "Aug 6, 2026",
-      "image": "blog-images/news_3.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/programmatic/the-trade-desk-ceo-jeff-green-says-sluggish-3-revenue-growth-not-a-reflection-of-the-company/"
-    },
-    {
-      "title": "Cable TV is dying — and can still be a very good business.",
-      "summary": "Turning cable TV businesses like MS NOW and CNBC into something else is difficult task.",
-      "source": "Business Insider",
-      "date": "Aug 6, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/versant-earnings-strategy-cable-tv-decline-digital-growth-buyback-2026-8#article"
-    },
-    {
-      "title": "Papa Johns changes CMOs, ramps up mass marketing amid struggles",
-      "summary": "CMO Jenna Bromberg will depart as the chain appoints a global marketer and plans to rebalance its media mix and continue to invest in marketing co-ops.",
-      "source": "Marketing Dive",
-      "date": "Aug 6, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.marketingdive.com/news/papa-johns-changes-cmo-role-ramps-up-mass-marketing-amid-struggles/827203/"
-    },
-    {
-      "title": "How Spider",
-      "summary": "Spider-Man: Brand New Day is the newest film in the Marvel Cinematic Universe, but how does it compare to the rest of the MCU?",
-      "source": "ComicBook.com",
-      "date": "Aug 11, 2026",
+      "title": "Trackhouse Eyes A Homegrown American MotoGP Star",
+      "summary": "Justin Marks has a long-term ambition for Trackhouse, and it runs deeper than growing MotoGP's audience in the United States. The team owner wants an American on the grid winning races again, and he's",
+      "source": "Motorcycle.com",
+      "date": "Aug 12, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "http://comicbook.com/marvel/list/how-spider-man-brand-new-day-compares-to-every-other-movie-in-the-mcu-multiverse-saga/"
+      "url": "https://www.motorcycle.com/bikes/news/trackhouse-eyes-a-homegrown-american-motogp-star-44669350?utm_medium=auto&amp;amp;utm_source=rss&amp;amp;utm_campaign=all_full"
     },
     {
-      "title": "IPO Rush: 34 companies race to launch issues worth Rs 45,000 crore by September 30",
-      "summary": "As September 30 approaches, thirty-four companies are hustling to roll out their initial public offerings to bypass further regulatory hurdles. The goal is to raise around ₹45,000 crore from these off",
+      "title": "Jennifer Bailey to Retire After Leading Apple Pay Since 2014 Launch",
+      "summary": "Jennifer Bailey, the Apple executive who oversaw the launch of Apple Pay, led the development of Apple Wallet and oversaw the development of Apple Card, is retiring, Bloomberg reported Tuesday (Aug. 1",
+      "source": "pymnts.com",
+      "date": "Aug 12, 2026",
+      "image": "blog-images/news_7.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.pymnts.com/apple/apple-pay-tracker/2026/jennifer-bailey-to-retire-after-leading-apple-pay-since-2014-launch/"
+    },
+    {
+      "title": "Can Shiprocket IPO deliver long-term growth for high",
+      "summary": "Shiprocket is gearing up to secure ₹885 crore through fresh equity aimed at bolstering expansion and addressing debt obligations. Additionally, the company plans to raise ₹732 crore via an offer for s",
       "source": "The Times of India",
-      "date": "Aug 11, 2026",
-      "image": "blog-images/news_7.png",
+      "date": "Aug 12, 2026",
+      "image": "blog-images/news_8.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-rush-34-companies-race-to-launch-issues-worth-rs-45000-crore-by-september-30/articleshow/133139967.cms"
-    },
-    {
-      "title": "What If You Could Prove the Government is Ripping Us Off?",
-      "summary": "by Braden Kelley and Art Inteligencia We are living through a crisis of civic experience. People can feel that they’re being ripped off by their elected and administrative officials, but yet they lack",
-      "source": "Bradenkelley.com",
-      "date": "Aug 11, 2026",
-      "image": "blog-images/news_8.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://bradenkelley.com/2026/08/civic-value-comparison-government-spending/"
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/can-shiprocket-ipo-deliver-long-term-growth-for-high-risk-investors/articleshow/133167448.cms"
     }
   ],
   "jobs": [
@@ -116,22 +116,11 @@
       "showSource": true
     },
     {
-      "title": "Best Digital Marketing Institute in Delhi – Learn Advanced Digital Marketing Skills for a Successful Career",
-      "summary": "0   0  ❤️ 0 · Best Digital Marketing Institute in Delhi – Learn Advanced Digital Marketing Skills for a Successful Career · In today’s digital world, businesses are rapidly shifting from traditi…",
-      "source": "Tumblr.com",
-      "date": "Jul 13, 2026",
-      "image": "blog-images/jobs_2.png",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://www.tumblr.com/digishifa/822010130437636096/best-digital-marketing-institute-in-delhi-learn",
-      "showSource": true
-    },
-    {
       "title": "Chicago Sales & Marketing Jobs With Multiple $100K+ Roles",
       "summary": "Chicago’s sales and marketing scene is packed with data-driven, client-facing roles right now—from entry-level field sales to executive analytics and AI-po",
       "source": "Newsbreak.com",
       "date": "Aug 10, 2026",
-      "image": "blog-images/jobs_3.jpg",
+      "image": "blog-images/jobs_2.jpg",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.newsbreak.com/chicago-il-daily-brief-373188216/4818754788218-chicago-sales-marketing-jobs-with-multiple-100k-roles",
@@ -142,7 +131,7 @@
       "summary": "Ekaterina shares her perspective on what separates talented creatives from true creative leaders, why many businesses still underestimate design, and how creatives can better communicate their value i",
       "source": "Justcreative.com",
       "date": "Aug 3, 2026",
-      "image": "blog-images/jobs_4.png",
+      "image": "blog-images/jobs_3.jpg",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://justcreative.com/creative-leadership/",
