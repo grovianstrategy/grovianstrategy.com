@@ -1,12 +1,32 @@
 {
-  "updated": "2026-08-15T00:35:54.970Z",
+  "updated": "2026-08-16T00:37:56.162Z",
   "news": [
+    {
+      "title": "Josh D’Amaro’s vision for a Disney+ super app is taking shape — but comes with clear risks",
+      "summary": "Disney+ may soon be home to games and merchandise, but some analysts are skeptical that it can supercharge Disney's business.",
+      "source": "Business Insider",
+      "date": "Aug 14, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/disney-plus-superapp-streaming-josh-damaro-games-merchandise-shortform-video-2026-8#article"
+    },
+    {
+      "title": "The Journey Is the Destination: Reinventing Travel Marketing",
+      "summary": "Why values-driven travel is reshaping destination marketing.",
+      "source": "Adweek",
+      "date": "Aug 14, 2026",
+      "image": "blog-images/news_1.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/the-journey-is-the-destination-reinventing-travel-marketing/"
+    },
     {
       "title": "Wall Street banks' newest investment focus: American economic security",
       "summary": "Bank of America is the latest Wall Street firm to announce an investment in American infrastructure.",
       "source": "Business Insider",
       "date": "Aug 13, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/bofa-jpmorgan-morgan-stanley-wall-street-america-infrastructure-security-2026-8#article"
@@ -16,7 +36,7 @@
       "summary": "The media company, now known as Paradium.AI, is pivoting toward a contributor model, amplified by AI, in response to declining traffic and revenues.",
       "source": "Adweek",
       "date": "Aug 12, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_3.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/media/arena-group-paradium-ai-rebrand/"
@@ -26,7 +46,7 @@
       "summary": "Overall, creators rank TikTok first for brand posts, but say Instagram has more earning potential, according to a new survey from CreatorIQ.",
       "source": "Business Insider",
       "date": "Aug 11, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/platform-divide-creator-middle-class-favors-tiktok-top-earners-instagram-2026-8#article"
@@ -36,60 +56,40 @@
       "summary": "From viral moments to lasting brand growth with Creo's Kevin Blazaitis and dentsu's Chrissie Hanson.",
       "source": "Adweek",
       "date": "Aug 11, 2026",
-      "image": "blog-images/news_3.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/why-creators-are-becoming-the-new-marketing-operating-system/"
     },
     {
-      "title": "Twitch Names Former Google Exec Christine Cassis Chief Marketing Officer",
-      "summary": "The marketing executive aims to capitalize on the growing demand for live programming.",
-      "source": "Adweek",
-      "date": "Aug 11, 2026",
-      "image": "blog-images/news_4.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/media/twitch-christine-cassis-chief-marketing-officer/"
-    },
-    {
-      "title": "AI agents, IRL socializing, and vibe coding: Where top consumer investors are placing bets",
-      "summary": "Top consumer VCs are betting on AI apps that make the internet more social. They told us the trends they are watching.",
-      "source": "Business Insider",
-      "date": "Aug 10, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/next-big-bets-consumer-tech-according-to-top-vcs-2026-8#article"
-    },
-    {
-      "title": "Standard Chartered trains 600 Nigerians in digital skills",
-      "summary": "Standard Chartered partners with Junior Achievement Nigeria to provide digital skills training to over 600 young Nigerians, boosting employability and entr\n\nRead More: https://punchng.com/standard-cha",
-      "source": "The Punch",
-      "date": "Aug 14, 2026",
+      "title": "Masters of the Universe: Tales from Eternia S01E09: A Common Foe",
+      "summary": "Welcome back to our weekly look at Mattel Studios' Masters of the Universe: Tales from Eternia, the new 2D animated series currently running on the Mattel Adventures YouTube channel. In S01E09: \"He-Ma",
+      "source": "Bleeding Cool News",
+      "date": "Aug 15, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://punchng.com/standard-chartered-trains-600-nigerians-in-digital-skills/"
+      "url": "https://bleedingcool.com/tv/masters-of-the-universe-tales-from-eternia-s01e09-a-common-foe/"
     },
     {
-      "title": "Banks spend N76.5bn on marketing in three months",
-      "summary": "Nigerian banks increased marketing spend by 5.35% to N76.5bn in Q1 2026, despite tighter CBN regulations. Discover which banks spent the most.\n\nRead More: https://punchng.com/banks-spend-n76-5bn-on-ma",
-      "source": "The Punch",
-      "date": "Aug 14, 2026",
+      "title": "‘The Shards’ Fashion Play: Bringing Back the Dark Glam of ’80s LA",
+      "summary": "WrapStyle: Plus, The Makeup Archive gives Marilyn Monroe's lipstick and more beauty treasures the museum treatment\nThe post ‘The Shards’ Fashion Play: Bringing Back the Dark Glam of ’80s LA appeared f",
+      "source": "TheWrap",
+      "date": "Aug 15, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://punchng.com/banks-spend-n76-5bn-on-marketing-in-three-months/"
+      "url": "https://www.thewrap.com/culture-lifestyle/fashion/the-shards-fashion-breakdown-fx/"
     },
     {
-      "title": "Revealed: The World's Closest Residential Complex To A Disney Theme Park",
-      "summary": "New research has revealed that an upcoming real estate development is expected to be home to the world's closest residential complex to a Disney theme park.",
-      "source": "Forbes",
-      "date": "Aug 14, 2026",
+      "title": "Kaia Gerber may be as beautiful as her mother. But she's just outed an ugly secret at the heart of America's most photogenic family that insiders are now scrambling to explain away",
+      "summary": "Kaia Gerber is part of a family unit that must be a strong contender for most photogenic family in America. Yet all that glitters is not always gold.",
+      "source": "Dailymail.com",
+      "date": "Aug 15, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.forbes.com/sites/carolinereid/2026/08/13/revealed-the-worlds-closest-residential-complex-to-a-disney-theme-park/"
+      "url": "https://www.dailymail.com/tvshowbiz/article-16050817/Kaia-Gerber-Cindy-Crawford-Randy-Gerber-Presley-Gerber.html"
     }
   ],
   "jobs": [
