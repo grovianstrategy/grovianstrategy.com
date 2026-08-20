@@ -1,12 +1,52 @@
 {
-  "updated": "2026-08-19T00:36:07.464Z",
+  "updated": "2026-08-20T00:36:03.979Z",
   "news": [
+    {
+      "title": "Ukrainian forces are repurposing assault robots for logistics missions because of supply bot shortages",
+      "summary": "Ukrainian officials have said that they want the robots to handle 100% of battlefield logistics, which have become deadly missions.",
+      "source": "Business Insider",
+      "date": "Aug 18, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/ukrainian-forces-using-assault-ground-robots-for-logistics-because-shortages-2026-8#article"
+    },
+    {
+      "title": "Shortlist Revealed for 2026 ADWEEK Team Visionary Awards",
+      "summary": "Finalists for the 2026 ADWEEK Team Visionary Awards have been announced. The following teams and companies scored the highest in their categories, as determined by an external jury of industry […]",
+      "source": "Adweek",
+      "date": "Aug 18, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/shortlist-revealed-for-2026-adweek-team-visionary-awards/"
+    },
+    {
+      "title": "Bastion and BUNTIN Are Merging to Build a Global Indie Network",
+      "summary": "Two indie agencies are betting that together they can take business from the major holding companies.",
+      "source": "Adweek",
+      "date": "Aug 18, 2026",
+      "image": "blog-images/news_2.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/dealroom/bastion-and-buntin-are-merging-to-build-a-global-indie-network/"
+    },
+    {
+      "title": "Mamdani is going to town on the annoyance economy",
+      "summary": "NYC mayor Zohran Mamdani is targeting small issues like junk fees, petty scams, and red tape in a strategy to prove his government can deliver.",
+      "source": "Business Insider",
+      "date": "Aug 18, 2026",
+      "image": "blog-images/news_3.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/zohran-mamdani-new-york-city-actions-political-strategy-2026-8#article"
+    },
     {
       "title": "Why StarKist chose to consolidate its marketing at one agency",
       "summary": "The tuna brand enlisted Tombras to better position itself as a ready-to-eat protein and explore more culturally tapped-in ways to deploy mascot Charlie.",
       "source": "Marketing Dive",
       "date": "Aug 17, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.marketingdive.com/news/why-starkist-chose-to-consolidate-its-marketing-at-one-agency/827873/"
@@ -16,80 +56,40 @@
       "summary": "The publisher will debut with a premium Saturday newsletter and plans to expand into live events and more.",
       "source": "Adweek",
       "date": "Aug 17, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/media/meet-the-knowing-a-glossy-editorial-universe-for-black-millennials-and-gen-z/"
     },
     {
-      "title": "Josh D’Amaro’s vision for a Disney+ super app is taking shape — but comes with clear risks",
-      "summary": "Disney+ may soon be home to games and merchandise, but some analysts are skeptical that it can supercharge Disney's business.",
-      "source": "Business Insider",
-      "date": "Aug 14, 2026",
-      "image": "blog-images/news_2.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/disney-plus-superapp-streaming-josh-damaro-games-merchandise-shortform-video-2026-8#article"
-    },
-    {
-      "title": "The Journey Is the Destination: Reinventing Travel Marketing",
-      "summary": "Why values-driven travel is reshaping destination marketing.",
-      "source": "Adweek",
-      "date": "Aug 14, 2026",
-      "image": "blog-images/news_3.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/the-journey-is-the-destination-reinventing-travel-marketing/"
-    },
-    {
-      "title": "Wall Street banks' newest investment focus: American economic security",
-      "summary": "Bank of America is the latest Wall Street firm to announce an investment in American infrastructure.",
-      "source": "Business Insider",
-      "date": "Aug 13, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/bofa-jpmorgan-morgan-stanley-wall-street-america-infrastructure-security-2026-8#article"
-    },
-    {
-      "title": "Why The Arena Group Has, Implausibly, Rebranded Into an AI Company",
-      "summary": "The media company, now known as Paradium.AI, is pivoting toward a contributor model, amplified by AI, in response to declining traffic and revenues.",
-      "source": "Adweek",
-      "date": "Aug 12, 2026",
-      "image": "blog-images/news_5.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/media/arena-group-paradium-ai-rebrand/"
-    },
-    {
-      "title": "Sophie Cunningham adds coconut water deal to growing endorsement portfolio",
-      "summary": "Sophie Cunningham announced a new coconut water partnership, adding another major deal to her growing endorsement portfolio.",
-      "source": "Sporting News",
-      "date": "Aug 18, 2026",
+      "title": "Toronto Tempo introduce pair of mascots: Meet Dot and Dez",
+      "summary": "The Toronto Tempo revealed a pair of mascots during their game against the Indiana Fever at Scotiabank Arena in Toronto: A turtle and a hare.",
+      "source": "USA Today",
+      "date": "Aug 19, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.sportingnews.com/us/wnba/indiana-fever/news/sophie-cunningham-adds-coconut-water-deal-growing-endorsement-portfolio/247a89b2986ac4495f7f3116"
+      "url": "https://www.usatoday.com/story/sports/wnba/2026/08/18/toronto-tempo-mascots-reveal-wnba-expansion-team/91362807007/"
     },
     {
-      "title": "The Redmi K100 Pro Turns Its Glass Back Into a Glowing Sketchpad",
-      "summary": "The Redmi K100 Pro Turns Its Glass Back Into a Glowing SketchpadPhotoluminescent material is not new. It is the stuff in your kid’s ceiling stars, in old wristwatch dials, in every glow stick you have",
-      "source": "Yanko Design",
-      "date": "Aug 18, 2026",
+      "title": "Foreign carmakers take the old route, look to revive sedan segment",
+      "summary": "Foreign carmakers are taking a contrasting approach to homegrown carmakers, which have been pushing SUVs.",
+      "source": "Livemint",
+      "date": "Aug 19, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.yankodesign.com/2026/08/17/the-redmi-k100-pro-turns-its-glass-back-into-a-glowing-sketchpad/"
+      "url": "https://www.livemint.com/industry/manufacturing/foreign-carmakers-revive-sedan-segment-india-hyundai-honda-skoda-11787043880789.html"
     },
     {
-      "title": "Stocks in news: Airtel, Paytm, SpiceJet, ONGC, and ZEE",
-      "summary": "Markets extended their losing streak for a fifth consecutive session on Monday. Airtel Payments Bank appointed Shabnam Sinha as its new chairperson. Paytm's parent company will see a significant share",
-      "source": "The Times of India",
-      "date": "Aug 18, 2026",
+      "title": "Justin Herbert, Madison Beer pack on the PDA during Chargers’ joint practice with 49ers",
+      "summary": "Chargers QB Justin Herbert and fiancée Madison Beer were spotted holding hands after Tuesday’s joint practice with the 49ers in El Segundo.",
+      "source": "New York Post",
+      "date": "Aug 19, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-airtel-paytm-spicejet-ongc-and-zee/articleshow/133303467.cms"
+      "url": "https://nypost.com/2026/08/18/sports/justin-herbert-madison-beer-pack-on-pda-at-chargers-49ers-joint-practice/"
     }
   ],
   "jobs": [
