@@ -1,12 +1,32 @@
 {
-  "updated": "2026-08-20T00:36:03.979Z",
+  "updated": "2026-08-21T00:38:18.935Z",
   "news": [
+    {
+      "title": "What's Next for Your Brand Website?",
+      "summary": "With 61% of web traffic automated, your site needs a dual strategy. Marketing leaders reveal how to optimize for both AI agents and human buyers.",
+      "source": "Contentmarketinginstitute.com",
+      "date": "Aug 19, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://contentmarketinginstitute.com/strategy-planning/brand-website-ready"
+    },
+    {
+      "title": "3 execs who sold their company to Martin Sorrell’s S4 Capital are suing, alleging they’re owed millions",
+      "summary": "A lawsuit claims S4 owes three former employees millions of dollars and shares owed to them. S4 declined to comment on pending litigation.",
+      "source": "Business Insider",
+      "date": "Aug 19, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/s4-capital-sued-former-employees-allege-owed-millions-2026-8#article"
+    },
     {
       "title": "Ukrainian forces are repurposing assault robots for logistics missions because of supply bot shortages",
       "summary": "Ukrainian officials have said that they want the robots to handle 100% of battlefield logistics, which have become deadly missions.",
       "source": "Business Insider",
       "date": "Aug 18, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/ukrainian-forces-using-assault-ground-robots-for-logistics-because-shortages-2026-8#article"
@@ -16,7 +36,7 @@
       "summary": "Finalists for the 2026 ADWEEK Team Visionary Awards have been announced. The following teams and companies scored the highest in their categories, as determined by an external jury of industry […]",
       "source": "Adweek",
       "date": "Aug 18, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/shortlist-revealed-for-2026-adweek-team-visionary-awards/"
@@ -26,7 +46,7 @@
       "summary": "Two indie agencies are betting that together they can take business from the major holding companies.",
       "source": "Adweek",
       "date": "Aug 18, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/dealroom/bastion-and-buntin-are-merging-to-build-a-global-indie-network/"
@@ -36,80 +56,49 @@
       "summary": "NYC mayor Zohran Mamdani is targeting small issues like junk fees, petty scams, and red tape in a strategy to prove his government can deliver.",
       "source": "Business Insider",
       "date": "Aug 18, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/zohran-mamdani-new-york-city-actions-political-strategy-2026-8#article"
     },
     {
-      "title": "Why StarKist chose to consolidate its marketing at one agency",
-      "summary": "The tuna brand enlisted Tombras to better position itself as a ready-to-eat protein and explore more culturally tapped-in ways to deploy mascot Charlie.",
-      "source": "Marketing Dive",
-      "date": "Aug 17, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.marketingdive.com/news/why-starkist-chose-to-consolidate-its-marketing-at-one-agency/827873/"
-    },
-    {
-      "title": "Meet The Knowing: A Glossy Editorial Universe for Black Millennials and Gen Z",
-      "summary": "The publisher will debut with a premium Saturday newsletter and plans to expand into live events and more.",
-      "source": "Adweek",
-      "date": "Aug 17, 2026",
-      "image": "blog-images/news_5.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/media/meet-the-knowing-a-glossy-editorial-universe-for-black-millennials-and-gen-z/"
-    },
-    {
-      "title": "Toronto Tempo introduce pair of mascots: Meet Dot and Dez",
-      "summary": "The Toronto Tempo revealed a pair of mascots during their game against the Indiana Fever at Scotiabank Arena in Toronto: A turtle and a hare.",
-      "source": "USA Today",
-      "date": "Aug 19, 2026",
+      "title": "ESPN New York reaches agreement to simulcast drivetime shows on MSG Networks",
+      "summary": "ESPN Radio in New York will soon be on television again, reaching an agreement with MSG Networks to simulcast two of its shows. Beginning Sept. 8, ESPN New York’s morning show featuring Rick DiPietro",
+      "source": "Awful Announcing",
+      "date": "Aug 20, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.usatoday.com/story/sports/wnba/2026/08/18/toronto-tempo-mascots-reveal-wnba-expansion-team/91362807007/"
+      "url": "https://awfulannouncing.com/radio/espn-new-york-simulcast-msg.html"
     },
     {
-      "title": "Foreign carmakers take the old route, look to revive sedan segment",
-      "summary": "Foreign carmakers are taking a contrasting approach to homegrown carmakers, which have been pushing SUVs.",
+      "title": "Legacy fashion brands stitch new labels for Gen Z",
+      "summary": "India’s legacy apparel companies are stepping up efforts to win over Gen Z, a consumer shaped by fast-changing trends, social media and affordability. The challenge is to bring in the agility with new",
       "source": "Livemint",
-      "date": "Aug 19, 2026",
+      "date": "Aug 20, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.livemint.com/industry/manufacturing/foreign-carmakers-revive-sedan-segment-india-hyundai-honda-skoda-11787043880789.html"
+      "url": "https://www.livemint.com/industry/legacy-apparel-brands-gen-z-fashion-peter-england-biba-libas-trent-11787120474904.html"
     },
     {
-      "title": "Justin Herbert, Madison Beer pack on the PDA during Chargers’ joint practice with 49ers",
-      "summary": "Chargers QB Justin Herbert and fiancée Madison Beer were spotted holding hands after Tuesday’s joint practice with the 49ers in El Segundo.",
-      "source": "New York Post",
-      "date": "Aug 19, 2026",
+      "title": "India’s festival shopping test: Will consumers spend more on pricier TVs, phones and appliances?",
+      "summary": "Consumer durables makers and retailers expect a strong Diwali season, but higher prices are testing demand even as premiumization, financing and discounts vie to keep shoppers spending.",
+      "source": "Livemint",
+      "date": "Aug 20, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://nypost.com/2026/08/18/sports/justin-herbert-madison-beer-pack-on-pda-at-chargers-49ers-joint-practice/"
+      "url": "https://www.livemint.com/industry/consumer-durables-sector-pins-hope-on-a-bright-festive-season-11787121064258.html"
     }
   ],
   "jobs": [
-    {
-      "title": "Social Media Marketing Agency UK: Closing the Commercial Gap in 2026",
-      "summary": "Social Media Marketing Agency UK: Closing the Commercial Gap in 2026Tired of social media that doesn't deliver? Find a social media marketing agency UK that closes the commercial gap and drives real r",
-      "source": "Brinqq.com",
-      "date": "Jul 27, 2026",
-      "image": "blog-images/jobs_0.png",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://brinqq.com/blog/social-media-marketing-agency-uk-closing-the-commercial-gap-in-2026",
-      "showSource": true
-    },
     {
       "title": "Chicago Sales & Marketing Jobs With Multiple $100K+ Roles",
       "summary": "Chicago’s sales and marketing scene is packed with data-driven, client-facing roles right now—from entry-level field sales to executive analytics and AI-po",
       "source": "Newsbreak.com",
       "date": "Aug 10, 2026",
-      "image": "blog-images/jobs_1.jpg",
+      "image": "blog-images/jobs_0.jpg",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.newsbreak.com/chicago-il-daily-brief-373188216/4818754788218-chicago-sales-marketing-jobs-with-multiple-100k-roles",
@@ -120,7 +109,7 @@
       "summary": "Ekaterina shares her perspective on what separates talented creatives from true creative leaders, why many businesses still underestimate design, and how creatives can better communicate their value i",
       "source": "Justcreative.com",
       "date": "Aug 3, 2026",
-      "image": "blog-images/jobs_2.png",
+      "image": "blog-images/jobs_1.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://justcreative.com/creative-leadership/",
