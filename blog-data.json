@@ -1,12 +1,32 @@
 {
-  "updated": "2026-08-21T00:38:18.935Z",
+  "updated": "2026-08-22T00:35:32.222Z",
   "news": [
+    {
+      "title": "The creator economy's hottest debate: Can influencers post AI ads without alienating their fans?",
+      "summary": "AI companies are hiring influencers and offering hefty paychecks. Creators are left weighing the cost of backlash from their fans.",
+      "source": "Business Insider",
+      "date": "Aug 20, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/ai-brand-deals-chatgpt-claude-influencers-weigh-backlash-over-paychecks-2026-8#article"
+    },
+    {
+      "title": "How AI Is Changing Tech Marketing with Iterable CEO Sam Allen",
+      "summary": "Why marketers are more powerful than ever—if they assemble the right team.",
+      "source": "Adweek",
+      "date": "Aug 20, 2026",
+      "image": "blog-images/news_1.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/how-ai-is-changing-tech-marketing-with-iterable-ceo-sam-allen/"
+    },
     {
       "title": "What's Next for Your Brand Website?",
       "summary": "With 61% of web traffic automated, your site needs a dual strategy. Marketing leaders reveal how to optimize for both AI agents and human buyers.",
       "source": "Contentmarketinginstitute.com",
       "date": "Aug 19, 2026",
-      "image": "blog-images/news_0.png",
+      "image": "blog-images/news_2.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://contentmarketinginstitute.com/strategy-planning/brand-website-ready"
@@ -16,7 +36,7 @@
       "summary": "A lawsuit claims S4 owes three former employees millions of dollars and shares owed to them. S4 declined to comment on pending litigation.",
       "source": "Business Insider",
       "date": "Aug 19, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/s4-capital-sued-former-employees-allege-owed-millions-2026-8#article"
@@ -26,70 +46,50 @@
       "summary": "Ukrainian officials have said that they want the robots to handle 100% of battlefield logistics, which have become deadly missions.",
       "source": "Business Insider",
       "date": "Aug 18, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/ukrainian-forces-using-assault-ground-robots-for-logistics-because-shortages-2026-8#article"
     },
     {
-      "title": "Shortlist Revealed for 2026 ADWEEK Team Visionary Awards",
-      "summary": "Finalists for the 2026 ADWEEK Team Visionary Awards have been announced. The following teams and companies scored the highest in their categories, as determined by an external jury of industry […]",
-      "source": "Adweek",
-      "date": "Aug 18, 2026",
-      "image": "blog-images/news_3.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/shortlist-revealed-for-2026-adweek-team-visionary-awards/"
-    },
-    {
-      "title": "Bastion and BUNTIN Are Merging to Build a Global Indie Network",
-      "summary": "Two indie agencies are betting that together they can take business from the major holding companies.",
-      "source": "Adweek",
-      "date": "Aug 18, 2026",
-      "image": "blog-images/news_4.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/dealroom/bastion-and-buntin-are-merging-to-build-a-global-indie-network/"
-    },
-    {
-      "title": "Mamdani is going to town on the annoyance economy",
-      "summary": "NYC mayor Zohran Mamdani is targeting small issues like junk fees, petty scams, and red tape in a strategy to prove his government can deliver.",
-      "source": "Business Insider",
-      "date": "Aug 18, 2026",
+      "title": "This Dyneema Tent Weighs Less Than 1.75 Pounds and Still Handles Full Storm Conditions",
+      "summary": "This Dyneema Tent Weighs Less Than 1.75 Pounds and Still Handles Full Storm ConditionsThe X-Dome Pro 1+ by Durston weighs 780 grams. For a fully freestanding, double-wall tent with a 42-inch interior,",
+      "source": "Yanko Design",
+      "date": "Aug 21, 2026",
       "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/zohran-mamdani-new-york-city-actions-political-strategy-2026-8#article"
+      "url": "https://www.yankodesign.com/2026/08/20/this-dyneema-tent-weighs-less-than-1-75-pounds-and-still-handles-full-storm-conditions/"
     },
     {
-      "title": "ESPN New York reaches agreement to simulcast drivetime shows on MSG Networks",
-      "summary": "ESPN Radio in New York will soon be on television again, reaching an agreement with MSG Networks to simulcast two of its shows. Beginning Sept. 8, ESPN New York’s morning show featuring Rick DiPietro",
-      "source": "Awful Announcing",
-      "date": "Aug 20, 2026",
+      "title": "2 Sisters Started Business Soothing Babies, Made $5.3M Last Year",
+      "summary": "Jane Molina and Joy Williams were running another company when they began to build Ninni Co.",
+      "source": "Entrepreneur",
+      "date": "Aug 21, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://awfulannouncing.com/radio/espn-new-york-simulcast-msg.html"
+      "url": "https://www.entrepreneur.com/building-a-business/2-sisters-started-a-business-that-helps-moms-soothe-babies-made-5-3-million-last-year-ninni-co"
     },
     {
-      "title": "Legacy fashion brands stitch new labels for Gen Z",
-      "summary": "India’s legacy apparel companies are stepping up efforts to win over Gen Z, a consumer shaped by fast-changing trends, social media and affordability. The challenge is to bring in the agility with new",
-      "source": "Livemint",
-      "date": "Aug 20, 2026",
-      "image": "blog-images/news_7.jpg",
+      "title": "Sunshine Guojian Releases 2026 Interim Report:",
+      "summary": "Innovation-driven, Steady Advancement SHANGHAI, Aug. 20, 2026 /PRNewswire/ -- Today, Sunshine Guojian Pharmaceutical (Shanghai) Co., Ltd. (hereinafter referred to as \"Sunshine Guojian\", stock code: 68",
+      "source": "PRNewswire",
+      "date": "Aug 21, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.livemint.com/industry/legacy-apparel-brands-gen-z-fashion-peter-england-biba-libas-trent-11787120474904.html"
+      "url": "https://www.prnewswire.com/news-releases/sunshine-guojian-releases-2026-interim-report-302856882.html"
     },
     {
-      "title": "India’s festival shopping test: Will consumers spend more on pricier TVs, phones and appliances?",
-      "summary": "Consumer durables makers and retailers expect a strong Diwali season, but higher prices are testing demand even as premiumization, financing and discounts vie to keep shoppers spending.",
-      "source": "Livemint",
+      "title": "Performance marketing shifts focus towards real",
+      "summary": "As performance marketing gains prominence for its measurable results and transparency, brands are increasingly integrating it with traditional brand strategies to optimise campaigns and adapt to a rap",
+      "source": "Noah-news.com",
       "date": "Aug 20, 2026",
-      "image": "blog-images/news_8.jpg",
+      "image": "blog-images/news_8.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.livemint.com/industry/consumer-durables-sector-pins-hope-on-a-bright-festive-season-11787121064258.html"
+      "url": "https://noah-news.com/performance-marketing-shifts-focus-towards-real-time-measurement-and-creator-eco/"
     }
   ],
   "jobs": [
