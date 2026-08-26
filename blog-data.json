@@ -1,12 +1,42 @@
 {
-  "updated": "2026-08-25T00:37:07.557Z",
+  "updated": "2026-08-26T00:37:32.201Z",
   "news": [
+    {
+      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
+      "summary": "OpenAI is building AI agents for everything. Will everyone use them? | TechCrunchtechcrunch.com",
+      "source": "TechCrunch",
+      "date": "Aug 24, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/"
+    },
+    {
+      "title": "Ann Taylor stages a brand comeback with Substack, fall fashion blitz",
+      "summary": "The brand’s first major integrated campaign in nearly a decade follows initiatives focused on fan community, such as an editorial newsletter.",
+      "source": "Marketing Dive",
+      "date": "Aug 24, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.marketingdive.com/news/ann-taylor-stages-a-brand-comeback-with-substack-fall-fashion-blitz/828397/"
+    },
+    {
+      "title": "Ticker: MS NOW Introduces Its Membership Subscription Program",
+      "summary": "ABC News Live is also introducing four new programs to its streaming lineup.",
+      "source": "Adweek",
+      "date": "Aug 24, 2026",
+      "image": "blog-images/news_2.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/tvnewser/ticker-ms-now-introduces-its-membership-subscription-program/"
+    },
     {
       "title": "A couple turned a blog into a 7",
       "summary": "\"With an online business, it's unlimited scalability because you're reaching the entire world,\" said Kelan Kline.",
       "source": "Business Insider",
       "date": "Aug 21, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/couple-built-seven-figure-business-how-to-make-money-online-2026-8"
@@ -16,80 +46,50 @@
       "summary": "AI companies are hiring influencers and offering hefty paychecks. Creators are left weighing the cost of backlash from their fans.",
       "source": "Business Insider",
       "date": "Aug 20, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/ai-brand-deals-chatgpt-claude-influencers-weigh-backlash-over-paychecks-2026-8#article"
     },
     {
-      "title": "How AI Is Changing Tech Marketing with Iterable CEO Sam Allen",
-      "summary": "Why marketers are more powerful than ever—if they assemble the right team.",
-      "source": "Adweek",
-      "date": "Aug 20, 2026",
-      "image": "blog-images/news_2.png",
+      "title": "Samsung thinks Claude Code can help it boost chip design — but admits the AI still makes some worryingly big mistakes",
+      "summary": "Samsung's chip division is finding out what agentic coding tools do when you leave them alone: when asked to deal with a stubborn error, Claude reclassified it as an informational notice to be 'rid' o",
+      "source": "TechRadar",
+      "date": "Aug 25, 2026",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/how-ai-is-changing-tech-marketing-with-iterable-ceo-sam-allen/"
+      "url": "https://www.techradar.com/pro/samsung-thinks-claude-code-can-help-it-boost-chip-design-but-admits-the-ai-still-makes-some-worryingly-big-mistakes"
     },
     {
-      "title": "What's Next for Your Brand Website?",
-      "summary": "With 61% of web traffic automated, your site needs a dual strategy. Marketing leaders reveal how to optimize for both AI agents and human buyers.",
-      "source": "Contentmarketinginstitute.com",
-      "date": "Aug 19, 2026",
-      "image": "blog-images/news_3.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://contentmarketinginstitute.com/strategy-planning/brand-website-ready"
-    },
-    {
-      "title": "Sunshine Coast Builder Photography for Awards, Portfolios and Future Marketing",
-      "summary": "Builder photography should do more than document a finished house. This post explores how Sunshine Coast builders can plan award-ready project photography that also strengthens portfolios, websites, t",
-      "source": "Samseyephotography.com.au",
-      "date": "Aug 24, 2026",
-      "image": null,
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.samseyephotography.com.au/blog/why-builders-should-photograph-projects-with-awards-and-future-marketing-in-mind"
-    },
-    {
-      "title": "32 Years Later, The Simpsons Just Revived A Classic Gag For The New Movie",
-      "summary": "The Simpsons has always been able to poke fun at itself, and the classic animated sitcom has done it again with the title of its \"new\" movie.",
-      "source": "Screen Rant",
-      "date": "Aug 24, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://screenrant.com/the-new-simpsons-movie-title-idea-lisa-vs-malibu-stacy/"
-    },
-    {
-      "title": "Young woman vents her frustration after being unable to access her super: 'It's absurd'",
-      "summary": "Sophia Kim has been trying to withdraw her super for more than 12 months.",
-      "source": "Dailymail.com",
-      "date": "Aug 24, 2026",
+      "title": "‘Staff Were Stunned’: The ‘Test’ 60 Minutes Employees (Reportedly) Think Bari Weiss Failed After Joining CBS News",
+      "summary": "Another insider is speaking about Weiss.",
+      "source": "CinemaBlend",
+      "date": "Aug 25, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.dailymail.com/news/article-16074413/superannuation-america-australiansuper-retirement-savings.html"
+      "url": "https://www.cinemablend.com/television/the-test-60-minutes-employees-think-bari-weiss-failed-cbs-news"
     },
     {
-      "title": "What Is Chuwi, The Laptop Brand Challenging Apple?",
-      "summary": "You may not know Chuwi, but the laptop brand aims to challenge Apple. Here's what you should know about Chuwi to help you decide if its products are for you.",
-      "source": "BGR",
-      "date": "Aug 24, 2026",
+      "title": "Hidden Assets: 3 Reasons We Don’t Recognize Our Strengths",
+      "summary": "Is the weakness you’ve struggled with all your life masking your signature strength?",
+      "source": "Psychology Today",
+      "date": "Aug 25, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.bgr.com/2239789/what-is-chuwi-laptop-brand-challenging-apple/"
+      "url": "https://www.psychologytoday.com/us/blog/gratefully/202608/hidden-assets-3-reasons-we-dont-recognize-our-strengths"
     },
     {
-      "title": "hakrevdns",
-      "summary": "Small, fast tool for performing reverse DNS lookups en masse.",
-      "source": "Kitploit.com",
-      "date": "Aug 24, 2026",
+      "title": "HDB Investors Have Opportunity to Lead HDFC Bank Limited Securities Fraud Lawsuit",
+      "summary": "NEW YORK, Aug. 24, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of HDFC Bank Limited (NYSE: HDB) between July 17, 2023 to May 26, 2026,",
+      "source": "PRNewswire",
+      "date": "Aug 25, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://kitploit.com/en/tools/github/hakluke/hakrevdns/"
+      "url": "https://www.prnewswire.com/news-releases/hdb-investors-have-opportunity-to-lead-hdfc-bank-limited-securities-fraud-lawsuit-302858768.html"
     }
   ],
   "jobs": [
