@@ -1,95 +1,95 @@
 {
-  "updated": "2026-08-27T05:36:47.723Z",
+  "updated": "2026-08-28T07:44:52.824Z",
   "news": [
+    {
+      "title": "Meta's historic $18 billion settlement may mean little for the plight of teens",
+      "summary": "The historic settlement may change the future of social media. It may mean little for the teens at the heart of the lawsuit.",
+      "source": "Business Insider",
+      "date": "Aug 26, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/meta-settlement-teens-social-media-future-2026-8#article"
+    },
+    {
+      "title": "Anthropic Has Never Signed a Licensing Deal, Yet Never Been Sued. Why?",
+      "summary": "The artificial intelligence firm is less collaborative than its peers but has avoided litigation. Publishers are baffled.",
+      "source": "Adweek",
+      "date": "Aug 26, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/media/anthropic-content-licensing-lawsuits-publishers/"
+    },
+    {
+      "title": "I’ve been eating at Chili's for years — 7 things showed me it was poised for a comeback",
+      "summary": "I'm a longtime Chili's customer who saw signs of its comeback years ago. Here are seven things that made the chain stand out to me.",
+      "source": "Business Insider",
+      "date": "Aug 26, 2026",
+      "image": "blog-images/news_2.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/chilis-comeback-signs-chain-restaurant-review-2026-8#article"
+    },
+    {
+      "title": "What Reddit's ChatGPT citations collapse means for marketers",
+      "summary": "The SEO community is in a frenzy over data suggesting ChatGPT abruptly stopped citing Reddit. For CMOs, the trend isn't as bad as it sounds.",
+      "source": "Business Insider",
+      "date": "Aug 26, 2026",
+      "image": "blog-images/news_3.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/what-reddit-chatgpt-citation-decline-means-for-cmos-2026-8#article"
+    },
+    {
+      "title": "Coke tackles college football season with creator content, fantasy sports",
+      "summary": "For its social-first approach, the brand will work with creators at partner colleges to produce content around events like games and tailgates.",
+      "source": "Marketing Dive",
+      "date": "Aug 26, 2026",
+      "image": "blog-images/news_4.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.marketingdive.com/news/coke-tackles-college-football-season-with-creator-content-fantasy-sports/828780/"
+    },
     {
       "title": "2 Weeks, 4 Brand Apologies. Will Any of Them Make a Difference?",
       "summary": "Experts weigh in on whether Neutrogena, Target, Good Good Golf and Callaway can make good with their customers after apologizing for gaffes last week",
       "source": "Adweek",
       "date": "Aug 25, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/2-weeks-4-brand-apologies-will-any-of-them-make-a-difference/"
     },
     {
-      "title": "Front Office Sports Debuts App, Adding Ad Inventory and Video",
-      "summary": "The product will feature video, text, and game programming, alongside a landing page that imitates the format of its flagship newsletter.",
-      "source": "Adweek",
-      "date": "Aug 25, 2026",
-      "image": "blog-images/news_1.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/media/front-office-sports-mobile-app/"
-    },
-    {
-      "title": "China's biggest apps are inviting the West closer into its insular internet economy",
-      "summary": "WeChat Pay is integrating PayPal, and Bilibili launched an international app, signaling that China is opening up its insular internet economy.",
-      "source": "Business Insider",
-      "date": "Aug 25, 2026",
-      "image": "blog-images/news_2.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/china-apps-inviting-west-insular-internet-economy-2026-8#article"
-    },
-    {
-      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
-      "summary": "OpenAI is building AI agents for everything. Will everyone use them? | TechCrunchtechcrunch.com",
-      "source": "TechCrunch",
-      "date": "Aug 24, 2026",
-      "image": "blog-images/news_3.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/"
-    },
-    {
-      "title": "Ann Taylor stages a brand comeback with Substack, fall fashion blitz",
-      "summary": "The brand’s first major integrated campaign in nearly a decade follows initiatives focused on fan community, such as an editorial newsletter.",
-      "source": "Marketing Dive",
-      "date": "Aug 24, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.marketingdive.com/news/ann-taylor-stages-a-brand-comeback-with-substack-fall-fashion-blitz/828397/"
-    },
-    {
-      "title": "Ticker: MS NOW Introduces Its Membership Subscription Program",
-      "summary": "ABC News Live is also introducing four new programs to its streaming lineup.",
-      "source": "Adweek",
-      "date": "Aug 24, 2026",
-      "image": "blog-images/news_5.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/tvnewser/ticker-ms-now-introduces-its-membership-subscription-program/"
-    },
-    {
-      "title": "This rebrand of a voice",
-      "summary": "The Working Assembly's new identity for Untold aims to avoid gen AI clichés, but still uses gen AI to create it.\nIt can't have escaped your attention that AI feels like a dirty word right now. But gen",
-      "source": "Creative Boom",
-      "date": "Aug 26, 2026",
+      "title": "Amperos",
+      "summary": "Contributed by Smuss StudioSource: the-brandidentity.com Together Agency. License: All Rights Reserved. London-based design and technology agency Together developed a new brand identity and website fo",
+      "source": "Fontsinuse.com",
+      "date": "Aug 27, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.creativeboom.com/inspiration/this-rebrand-of-voice-journaling-app-untold-shows-what-happens-when-ai-branding-doesnt-look-like-ai/"
+      "url": "https://fontsinuse.com/uses/79327/amperos"
     },
     {
-      "title": "simba",
-      "summary": "MCP server for Simba Marketing Mix Modeling — connect AI assistants to your MMM models",
-      "source": "Pypi.org",
-      "date": "Aug 26, 2026",
+      "title": "Are you interested in new ideas in Sales and Marketing?, Tim Hughes",
+      "summary": "In a recent edition of The Digital Download, Kerry Cunningham dropped a critical truth about the state of sales and marketing: modern practices are stil...",
+      "source": "Passle.net",
+      "date": "Aug 27, 2026",
+      "image": "blog-images/news_7.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "http://digital-leadership-associates.passle.net/post/102nrh6/are-you-interested-in-new-ideas-in-sales-and-marketing"
+    },
+    {
+      "title": "28卒29卒必見！1からSNS運用を学び、周りと差がつくスキルを獲得しよう - 武内製薬株式会社のMarketing / Public Relationsの採用",
+      "summary": "28卒29卒必見！1からSNS運用を学び、周りと差がつくスキルを獲得しよう - 武内製薬株式会社のMarketing / Public Relationsの採用 - Wantedlywantedly.com",
+      "source": "Wantedly.com",
+      "date": "Aug 27, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://pypi.org/project/simba-mcp/0.3.0/"
-    },
-    {
-      "title": "Henox and Nexusguard Announce Strategic Alliance at BATIC 2026",
-      "summary": "During BATIC 2026, Henox, a leader in sustainable and cutting-edge digital infrastructure, and Nexusguard, a global leader in DDoS protection, are announcing ...",
-      "source": "Antaranews.com",
-      "date": "Aug 26, 2026",
-      "image": "blog-images/news_8.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://en.antaranews.com/news/428504/henox-and-nexusguard-announce-strategic-alliance-at-batic-2026"
+      "url": "https://www.wantedly.com/projects/2546924"
     }
   ],
   "jobs": [
