@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T04:41:46.796Z",
+  "updated": "2026-08-30T02:15:22.007Z",
   "news": [
     {
       "title": "Following Meta’s $17 Billion Settlement, Media Buyers Say: Don’t Touch That Dial",
@@ -62,43 +62,54 @@
       "url": "https://www.marketingdive.com/news/coke-tackles-college-football-season-with-creator-content-fantasy-sports/828780/"
     },
     {
-      "title": "How clever Sydney woman, 30, turned a dog accident into a booming business that's made as much as $5,000 in one day",
-      "summary": "When Sydney woman Olivia Tilley's beloved dog Piper rolled in something he shouldn't, she had no idea it would spark a thriving side-hustle making her up to $5000 a day.",
-      "source": "Dailymail.com",
-      "date": "Aug 28, 2026",
+      "title": "HDFC Bank Limited Securities Fraud Class Action Result of Deceptive Interest Payments and Approximately 4% Stock Decline",
+      "summary": "NEW YORK and NEW ORLEANS, Aug. 28, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial lo",
+      "source": "PRNewswire",
+      "date": "Aug 29, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.dailymail.com/lifestyle/article-16057339/aussie-woman-dog-perfume-hustle-wedding.html"
+      "url": "https://www.prnewswire.com/news-releases/hdfc-bank-limited-securities-fraud-class-action-result-of-deceptive-interest-payments-and-approximately-4-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302863214.html"
     },
     {
-      "title": "Oil & gas stocks after 6 months of West Asia crisis: Who beat markets, who lagged & what’s next?",
-      "summary": "The Nifty Oil & Gas Index lagged behind the broader market following the onset of the West Asia conflict. Despite this, Aegis Logistics and Chennai Petroleum Corporation demonstrated strong performanc",
-      "source": "The Times of India",
-      "date": "Aug 28, 2026",
-      "image": "blog-images/news_7.png",
+      "title": "Honda City 2026 facelift now open for booking in Malaysia: Early birds get RM3k rebate",
+      "summary": "Honda Malaysia has officially opened pre-orders for the Honda City 2026 facelift. Previously launched in India and Thailand, it is the 2nd facelift for the 5th generation Honda City sedan and builds o",
+      "source": "SoyaCincau.com",
+      "date": "Aug 29, 2026",
+      "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/oil-gas-stocks-after-6-months-of-west-asia-crisis-who-beat-markets-who-lagged-whats-next/articleshow/133583100.cms"
+      "url": "https://soyacincau.com/2026/08/29/honda-city-2026-facelift-malaysia-booking-rm3k-rebate/"
     },
     {
-      "title": "Comic: How To Train Your AI Model",
-      "summary": "Enjoy this weekly comic strip from AdExchanger.com that highlights the digital advertising ecosystem … \nThe post Comic: How To Train Your AI Model appeared first on AdExchanger.",
-      "source": "AdExchanger",
-      "date": "Aug 28, 2026",
+      "title": "Sara Bareilles Sings About Loss — and It’s Our Gain — in the Beautifully Bittersweet ‘Good Grief’: Album Review",
+      "summary": "Well, just how good can grief be? That’s a question raised by Sara Bareilles’ “Good Grief,” which, true to its promissory title, deals primarily with loss and death and the kind of tough stuff that fo",
+      "source": "Variety",
+      "date": "Aug 29, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "http://www.adexchanger.com/comic-strip/comic-how-to-train-your-ai-model/"
+      "url": "https://variety.com/2026/music/album-reviews/sara-bareilles-album-review-good-grief-1236846038/"
     }
   ],
   "jobs": [
+    {
+      "title": "Effective Digital Marketing for Small Business",
+      "summary": "Discover practical strategies to implement in digital marketing for small business and drive success. Read the article for actionable tips!",
+      "source": "Smbmarketinghub.com",
+      "date": "Aug 28, 2026",
+      "image": "blog-images/jobs_0.png",
+      "category": "Jobs",
+      "emoji": "💼",
+      "url": "https://smbmarketinghub.com/local-seo/digital-marketing-for-small-business/",
+      "showSource": true
+    },
     {
       "title": "Study: AI Declined to Answer Prompts About Our Brand 31% of the Time (But Got Our Info Mostly Right When It Answered)",
       "summary": "TL;DR \n<ul> \n <li>We realized AI platforms were relaying an inaccurate narrative about Seer Interactive, so we ran a full analysis to find out what else they were saying — and whether the info was acc",
       "source": "Seerinteractive.com",
       "date": "Aug 27, 2026",
-      "image": "blog-images/jobs_0.png",
+      "image": "blog-images/jobs_1.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.seerinteractive.com/insights/ai-brand-accuracy-study",
@@ -109,7 +120,7 @@
       "summary": "Chicago’s sales and marketing scene is packed with data-driven, client-facing roles right now—from entry-level field sales to executive analytics and AI-po",
       "source": "Newsbreak.com",
       "date": "Aug 10, 2026",
-      "image": "blog-images/jobs_1.jpg",
+      "image": "blog-images/jobs_2.jpg",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.newsbreak.com/chicago-il-daily-brief-373188216/4818754788218-chicago-sales-marketing-jobs-with-multiple-100k-roles",
@@ -120,7 +131,7 @@
       "summary": "Ekaterina shares her perspective on what separates talented creatives from true creative leaders, why many businesses still underestimate design, and how creatives can better communicate their value i",
       "source": "Justcreative.com",
       "date": "Aug 3, 2026",
-      "image": "blog-images/jobs_2.png",
+      "image": "blog-images/jobs_3.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://justcreative.com/creative-leadership/",
