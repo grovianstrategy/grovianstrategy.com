@@ -1,12 +1,22 @@
 {
-  "updated": "2026-09-01T02:30:06.372Z",
+  "updated": "2026-09-02T01:51:22.688Z",
   "news": [
+    {
+      "title": "ChatGPT Surpasses $1 Billion in Annualized Ads Revenue",
+      "summary": "The milestone underscores how important the business has become to parent company OpenAI.",
+      "source": "Adweek",
+      "date": "Aug 31, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/programmatic/chatgpt-openai-billion-advertising-revenue/"
+    },
     {
       "title": "Following Meta’s $17 Billion Settlement, Media Buyers Say: Don’t Touch That Dial",
       "summary": "Agency executives caution against any sudden changes, opting instead to see if other social platforms follow suit.",
       "source": "Adweek",
       "date": "Aug 27, 2026",
-      "image": "blog-images/news_0.png",
+      "image": "blog-images/news_1.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/media/meta-settlement-media-buyers-teens/"
@@ -16,7 +26,7 @@
       "summary": "The historic settlement may change the future of social media. It may mean little for the teens at the heart of the lawsuit.",
       "source": "Business Insider",
       "date": "Aug 26, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/meta-settlement-teens-social-media-future-2026-8#article"
@@ -26,7 +36,7 @@
       "summary": "The artificial intelligence firm is less collaborative than its peers but has avoided litigation. Publishers are baffled.",
       "source": "Adweek",
       "date": "Aug 26, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/media/anthropic-content-licensing-lawsuits-publishers/"
@@ -36,7 +46,7 @@
       "summary": "I'm a longtime Chili's customer who saw signs of its comeback years ago. Here are seven things that made the chain stand out to me.",
       "source": "Business Insider",
       "date": "Aug 26, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/chilis-comeback-signs-chain-restaurant-review-2026-8#article"
@@ -46,50 +56,40 @@
       "summary": "The SEO community is in a frenzy over data suggesting ChatGPT abruptly stopped citing Reddit. For CMOs, the trend isn't as bad as it sounds.",
       "source": "Business Insider",
       "date": "Aug 26, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/what-reddit-chatgpt-citation-decline-means-for-cmos-2026-8#article"
     },
     {
-      "title": "Coke tackles college football season with creator content, fantasy sports",
-      "summary": "For its social-first approach, the brand will work with creators at partner colleges to produce content around events like games and tailgates.",
-      "source": "Marketing Dive",
-      "date": "Aug 26, 2026",
-      "image": "blog-images/news_5.jpg",
+      "title": "Chicago Cubs Announce TikTok Rom",
+      "summary": "A couple finds love at a Chicago Cubs game in the 17-episode rom-com produced for TikTok by the team's production company.",
+      "source": "Forbes",
+      "date": "Sep 1, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.marketingdive.com/news/coke-tackles-college-football-season-with-creator-content-fantasy-sports/828780/"
+      "url": "https://www.forbes.com/sites/rickellis/2026/08/31/chicago-cubs-announce-tiktok-rom-com-nine-innings-to-love/"
     },
     {
-      "title": "Purple Style Labs IPO opens today: Check GMP, key details. Should you subscribe?",
-      "summary": "Purple Style Labs, the parent company of luxury fashion platform Pernia’s Pop-Up Shop, has fixed the price band at Rs 546–575 per equity share. The Rs 680-crore issue comprises entirely a fresh issue",
-      "source": "The Times of India",
-      "date": "Aug 31, 2026",
-      "image": "blog-images/news_6.png",
+      "title": "Coronation links art collecting to investment strategy",
+      "summary": "Coronation Art Gallery has opened a three-month exhibition exploring the relationship between art collecting, long-term investment and cultural development. The exhibition, titled The Value of Belief",
+      "source": "The Punch",
+      "date": "Sep 1, 2026",
+      "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/purple-style-labs-ipo-opens-today-check-gmp-key-details-should-you-subscribe/articleshow/133639829.cms"
+      "url": "https://punchng.com/coronation-links-art-collecting-to-investment-strategy/"
     },
     {
-      "title": "Augmont Enterprises shares to list today; 37% GMP signals strong debut",
-      "summary": "The Rs 825 crore IPO, priced at Rs 788 per share, comprised a fresh issue of 79 lakh shares worth Rs 620 crore and an offer for sale (OFS) of 26 lakh shares aggregating Rs 205 crore. Ahead of the publ",
-      "source": "The Times of India",
-      "date": "Aug 31, 2026",
-      "image": "blog-images/news_7.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/augmont-enterprises-shares-to-list-today-37-gmp-signals-strong-debut/articleshow/133639806.cms"
-    },
-    {
-      "title": "Capturing the Seed: China’s Agribusiness Expansion at Home and Abroad",
-      "summary": "While the Chinese seed market hits a staggering US$19.1 billion, for over twenty years the Asian giant has been a net grain importer, relying mainly on the US, Australia, Ukraine and Brazil. Only 2% o",
-      "source": "Globalresearch.ca",
-      "date": "Aug 31, 2026",
+      "title": "Gap Stumbles, Elevates Marketing Vet To Old Navy CEO",
+      "summary": "The company has promoted Michael Francis to reverse the denim giant's slide.",
+      "source": "MediaPost Communications",
+      "date": "Sep 1, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.globalresearch.ca/china-agribusiness-expansion-home-abroad/5938351"
+      "url": "https://www.mediapost.com/publications/article/417540/gap-stumbles-elevates-marketing-vet-to-old-navy-c.html"
     }
   ],
   "jobs": [
@@ -131,7 +131,7 @@
       "summary": "Ekaterina shares her perspective on what separates talented creatives from true creative leaders, why many businesses still underestimate design, and how creatives can better communicate their value i",
       "source": "Justcreative.com",
       "date": "Aug 3, 2026",
-      "image": "blog-images/jobs_3.jpg",
+      "image": "blog-images/jobs_3.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://justcreative.com/creative-leadership/",
