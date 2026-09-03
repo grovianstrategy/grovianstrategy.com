@@ -1,12 +1,22 @@
 {
-  "updated": "2026-09-02T01:51:22.688Z",
+  "updated": "2026-09-03T01:56:59.592Z",
   "news": [
+    {
+      "title": "Playing the Long Game: CarMax on Turning Fandom Into Brand Loyalty",
+      "summary": "CMO Sarah Lane on committing to transparency, investing in women’s sports, and putting fans first.",
+      "source": "Adweek",
+      "date": "Sep 1, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/playing-the-long-game-carmax-on-turning-fandom-into-brand-loyalty/"
+    },
     {
       "title": "ChatGPT Surpasses $1 Billion in Annualized Ads Revenue",
       "summary": "The milestone underscores how important the business has become to parent company OpenAI.",
       "source": "Adweek",
       "date": "Aug 31, 2026",
-      "image": "blog-images/news_0.png",
+      "image": "blog-images/news_1.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/programmatic/chatgpt-openai-billion-advertising-revenue/"
@@ -16,7 +26,7 @@
       "summary": "Agency executives caution against any sudden changes, opting instead to see if other social platforms follow suit.",
       "source": "Adweek",
       "date": "Aug 27, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_2.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/media/meta-settlement-media-buyers-teens/"
@@ -26,7 +36,7 @@
       "summary": "The historic settlement may change the future of social media. It may mean little for the teens at the heart of the lawsuit.",
       "source": "Business Insider",
       "date": "Aug 26, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/meta-settlement-teens-social-media-future-2026-8#article"
@@ -36,7 +46,7 @@
       "summary": "The artificial intelligence firm is less collaborative than its peers but has avoided litigation. Publishers are baffled.",
       "source": "Adweek",
       "date": "Aug 26, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/media/anthropic-content-licensing-lawsuits-publishers/"
@@ -46,59 +56,60 @@
       "summary": "I'm a longtime Chili's customer who saw signs of its comeback years ago. Here are seven things that made the chain stand out to me.",
       "source": "Business Insider",
       "date": "Aug 26, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/chilis-comeback-signs-chain-restaurant-review-2026-8#article"
     },
     {
-      "title": "What Reddit's ChatGPT citations collapse means for marketers",
-      "summary": "The SEO community is in a frenzy over data suggesting ChatGPT abruptly stopped citing Reddit. For CMOs, the trend isn't as bad as it sounds.",
-      "source": "Business Insider",
-      "date": "Aug 26, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/what-reddit-chatgpt-citation-decline-means-for-cmos-2026-8#article"
-    },
-    {
-      "title": "Chicago Cubs Announce TikTok Rom",
-      "summary": "A couple finds love at a Chicago Cubs game in the 17-episode rom-com produced for TikTok by the team's production company.",
-      "source": "Forbes",
-      "date": "Sep 1, 2026",
+      "title": "SJHN Daily: Surprises on Sharks’ Rookie Faceoff Roster? Christine Marleau Gets Involved With Kane",
+      "summary": "The San Jose Sharks announced their Rookie Faceoff roster. The Sharks’ roster will include players with NHL experience such as […] The post SJHN Daily: Surprises on Sharks’ Rookie Faceoff Roster? Chri",
+      "source": "Sanjosehockeynow.com",
+      "date": "Sep 2, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.forbes.com/sites/rickellis/2026/08/31/chicago-cubs-announce-tiktok-rom-com-nine-innings-to-love/"
+      "url": "https://sanjosehockeynow.com/san-jose-sharks-2026-rookie-faceoff-roster-kane-gabriel-marleau/"
     },
     {
-      "title": "Coronation links art collecting to investment strategy",
-      "summary": "Coronation Art Gallery has opened a three-month exhibition exploring the relationship between art collecting, long-term investment and cultural development. The exhibition, titled The Value of Belief",
-      "source": "The Punch",
-      "date": "Sep 1, 2026",
+      "title": "Moab, Utah Debuts Free Arches National Park Shuttle",
+      "summary": "The new shuttle transforms how visitors access the park, and simplifies access to the most visited areas MOAB, Utah, Sept. 1, 2026 /PRNewswire/ -- Moab, Utah has announced a new, free shuttle system,",
+      "source": "PRNewswire",
+      "date": "Sep 2, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://punchng.com/coronation-links-art-collecting-to-investment-strategy/"
+      "url": "https://www.prnewswire.com/news-releases/moab-utah-debuts-free-arches-national-park-shuttle-302866995.html"
     },
     {
-      "title": "Gap Stumbles, Elevates Marketing Vet To Old Navy CEO",
-      "summary": "The company has promoted Michael Francis to reverse the denim giant's slide.",
-      "source": "MediaPost Communications",
-      "date": "Sep 1, 2026",
+      "title": "Bakers Delight Modernises Digital Marketing Systems and Accelerates Deployment Times With Boomi",
+      "summary": "-Boomi, the data activation company for AI, today announced Bakers Delight has modernised its digital marketing systems using the Boomi Enterprise Platform, ...",
+      "source": "Antaranews.com",
+      "date": "Sep 2, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.mediapost.com/publications/article/417540/gap-stumbles-elevates-marketing-vet-to-old-navy-c.html"
+      "url": "https://en.antaranews.com/news/429448/bakers-delight-modernises-digital-marketing-systems-and-accelerates-deployment-times-with-boomi"
     }
   ],
   "jobs": [
+    {
+      "title": "Kraftshala Becomes One of India’s Largest Marketing B",
+      "summary": "Kraftshala Becomes One of India’s Largest Marketing B-Schools With 1,000 Plus Placements in 14 Months and Highest CTC of INR 16 Lakhs",
+      "source": "BusinessLine",
+      "date": "Sep 1, 2026",
+      "image": "blog-images/jobs_0.jpg",
+      "category": "Jobs",
+      "emoji": "💼",
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/kraftshala-becomes-one-of-indias-largest-marketing-b-schools-with-1000-plus-placements-in-14-months-and-highest-ctc-of-inr-16-lakhs/article71414904.ece",
+      "showSource": true
+    },
     {
       "title": "Effective Digital Marketing for Small Business",
       "summary": "Discover practical strategies to implement in digital marketing for small business and drive success. Read the article for actionable tips!",
       "source": "Smbmarketinghub.com",
       "date": "Aug 28, 2026",
-      "image": "blog-images/jobs_0.png",
+      "image": "blog-images/jobs_1.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://smbmarketinghub.com/local-seo/digital-marketing-for-small-business/",
@@ -109,7 +120,7 @@
       "summary": "TL;DR \n<ul> \n <li>We realized AI platforms were relaying an inaccurate narrative about Seer Interactive, so we ran a full analysis to find out what else they were saying — and whether the info was acc",
       "source": "Seerinteractive.com",
       "date": "Aug 27, 2026",
-      "image": "blog-images/jobs_1.png",
+      "image": "blog-images/jobs_2.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.seerinteractive.com/insights/ai-brand-accuracy-study",
@@ -120,7 +131,7 @@
       "summary": "Chicago’s sales and marketing scene is packed with data-driven, client-facing roles right now—from entry-level field sales to executive analytics and AI-po",
       "source": "Newsbreak.com",
       "date": "Aug 10, 2026",
-      "image": "blog-images/jobs_2.jpg",
+      "image": "blog-images/jobs_3.jpg",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.newsbreak.com/chicago-il-daily-brief-373188216/4818754788218-chicago-sales-marketing-jobs-with-multiple-100k-roles",
@@ -131,7 +142,7 @@
       "summary": "Ekaterina shares her perspective on what separates talented creatives from true creative leaders, why many businesses still underestimate design, and how creatives can better communicate their value i",
       "source": "Justcreative.com",
       "date": "Aug 3, 2026",
-      "image": "blog-images/jobs_3.png",
+      "image": "blog-images/jobs_4.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://justcreative.com/creative-leadership/",
