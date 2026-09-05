@@ -1,12 +1,22 @@
 {
-  "updated": "2026-09-04T01:51:56.276Z",
+  "updated": "2026-09-05T01:52:49.603Z",
   "news": [
+    {
+      "title": "Stella Lefty's rise says more about the music business than the 'nepo baby' discourse",
+      "summary": "Stella Lefty's \"Boston\" is a country-pop crossover hit. The debate over her billionaire father and \"nepo baby\" status has helped propel her career.",
+      "source": "Business Insider",
+      "date": "Sep 3, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/who-is-stella-lefty-nepo-baby-billionaire-dad-groupon-music-career-2026-9#article"
+    },
     {
       "title": "MrBeast has a 'God King' problem",
       "summary": "MrBeast's reliance on its founder Jimmy Donaldson has caused concern among insiders and investors as the company expands and mulls an IPO.",
       "source": "Business Insider",
       "date": "Sep 2, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/mrbeast-biggest-risk-5-billion-empire-is-reliance-on-himself-2026-9#article"
@@ -16,7 +26,7 @@
       "summary": "HDFC Bank's CEO Sashidhar Jagdishan steps down amid tensions over proposed changes from new Chair Rajiv Kumar, sparking surprise.",
       "source": "Bloomberg",
       "date": "Sep 2, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.bloomberg.com/news/articles/2026-09-01/ceo-s-refusal-to-overhaul-bank-fueled-surprise-hdfc-shakeup"
@@ -26,7 +36,7 @@
       "summary": "CMO Sarah Lane on committing to transparency, investing in women’s sports, and putting fans first.",
       "source": "Adweek",
       "date": "Sep 1, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_3.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/playing-the-long-game-carmax-on-turning-fandom-into-brand-loyalty/"
@@ -36,7 +46,7 @@
       "summary": "The milestone underscores how important the business has become to parent company OpenAI.",
       "source": "Adweek",
       "date": "Aug 31, 2026",
-      "image": "blog-images/news_3.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/programmatic/chatgpt-openai-billion-advertising-revenue/"
@@ -46,50 +56,40 @@
       "summary": "Agency executives caution against any sudden changes, opting instead to see if other social platforms follow suit.",
       "source": "Adweek",
       "date": "Aug 27, 2026",
-      "image": "blog-images/news_4.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/media/meta-settlement-media-buyers-teens/"
     },
     {
-      "title": "Meta's historic $18 billion settlement may mean little for the plight of teens",
-      "summary": "The historic settlement may change the future of social media. It may mean little for the teens at the heart of the lawsuit.",
-      "source": "Business Insider",
-      "date": "Aug 26, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/meta-settlement-teens-social-media-future-2026-8#article"
-    },
-    {
-      "title": "From hunger to obesity: Developing world faces growing threat to child health",
-      "summary": "Childhood obesity is rapidly increasing in developing nations, creating a significant health challenge. This epidemic is now outpacing undernutrition in many populous countries. Processed foods and la",
-      "source": "The Times of India",
-      "date": "Sep 3, 2026",
+      "title": "Meta makes $$$ from deepfake AI scams… then fails to assist victims",
+      "summary": "IA’s star economist Stephen Koukoulas explains how, despite being the fourth most impersonated person in Australia, Meta refuses to take down damaging fake AI Facebook videos of him, despite his...",
+      "source": "Independent Australia",
+      "date": "Sep 4, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/from-hunger-to-obesity-developing-world-faces-growing-threat-to-child-health/articleshow/133722969.cms"
+      "url": "https://independentaustralia.net/business/business-display/meta-makes-millions-from-ai-deepfake-scams-and-scorns-victims,21515"
     },
     {
-      "title": "Mary Kay Unveils New Global Brand Platform – Beauty Is More Beautiful Shared™ – Reclaiming Beauty as a Shared Experience",
-      "summary": "-Today, Mary Kay Inc., the iconic beauty and entrepreneurship brand founded by the bold visionary Mary Kay Ash, announced Beauty Is More Beautiful ...",
-      "source": "Antaranews.com",
-      "date": "Sep 3, 2026",
+      "title": "Witnesses for Lil Durk's Defense Testify, FBI Arrest Video Shown",
+      "summary": "OTF Jam's ex-girlfriend gets caught lying on the stand. Continue reading…",
+      "source": "XXLMAG.COM",
+      "date": "Sep 4, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://en.antaranews.com/news/429608/mary-kay-unveils-new-global-brand-platform-beauty-is-more-beautiful-shared-reclaiming-beauty-as-a-shared-experience"
+      "url": "https://www.xxlmag.com/lil-durk-defense-witnesses-testify-fbi-arrest-video/"
     },
     {
-      "title": "Sony Sets ‘Ramayana’ for November Global Release",
-      "summary": "The studio will handle distribution for Nitesh Tiwari's blockbuster worldwide outside of India\nThe post Sony Sets ‘Ramayana’ for November Global Release appeared first on TheWrap.",
-      "source": "TheWrap",
-      "date": "Sep 3, 2026",
-      "image": "blog-images/news_8.png",
+      "title": "Amstel Malta supports Abia women with grants",
+      "summary": "Amstel Malta provided business grants and beauty packs to women in Abia State during the annual August Meeting, celebrating their contributions and entrepr\n\nRead More: https://punchng.com/amstel-malta",
+      "source": "The Punch",
+      "date": "Sep 4, 2026",
+      "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.thewrap.com/industry-news/business/sony-sets-ramayana-for-november-global-release/"
+      "url": "https://punchng.com/amstel-malta-supports-abia-women-with-grants/"
     }
   ],
   "jobs": [
