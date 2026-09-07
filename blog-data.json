@@ -1,12 +1,32 @@
 {
-  "updated": "2026-09-06T01:47:23.575Z",
+  "updated": "2026-09-07T01:44:34.996Z",
   "news": [
+    {
+      "title": "Clucky's new alarm app wakes you up with a crowing rooster",
+      "summary": "Clucky's new alarm app has an option where users are woken up to the sound of a rooster. They then complete a mission to turn it off.",
+      "source": "TechCrunch",
+      "date": "Sep 5, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://techcrunch.com/2026/09/05/cluckys-new-alarm-app-wakes-you-up-with-a-crowing-rooster/"
+    },
+    {
+      "title": "Walmart's copycat strategy: Restaurant delivery is its latest use of heft to break into established markets",
+      "summary": "Walmart is gearing up for more direct competition in restaurant delivery. It's not the first time the retail giant has bet on a new line of business.",
+      "source": "Business Insider",
+      "date": "Sep 5, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/walmart-bets-to-grow-beyond-general-merchandise-retail-2026-9#article"
+    },
     {
       "title": "Stella Lefty's rise says more about the music business than the 'nepo baby' discourse",
       "summary": "Stella Lefty's \"Boston\" is a country-pop crossover hit. The debate over her billionaire father and \"nepo baby\" status has helped propel her career.",
       "source": "Business Insider",
       "date": "Sep 3, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/who-is-stella-lefty-nepo-baby-billionaire-dad-groupon-music-career-2026-9#article"
@@ -16,7 +36,7 @@
       "summary": "MrBeast's reliance on its founder Jimmy Donaldson has caused concern among insiders and investors as the company expands and mulls an IPO.",
       "source": "Business Insider",
       "date": "Sep 2, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/mrbeast-biggest-risk-5-billion-empire-is-reliance-on-himself-2026-9#article"
@@ -26,7 +46,7 @@
       "summary": "HDFC Bank's CEO Sashidhar Jagdishan steps down amid tensions over proposed changes from new Chair Rajiv Kumar, sparking surprise.",
       "source": "Bloomberg",
       "date": "Sep 2, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.bloomberg.com/news/articles/2026-09-01/ceo-s-refusal-to-overhaul-bank-fueled-surprise-hdfc-shakeup"
@@ -36,60 +56,40 @@
       "summary": "CMO Sarah Lane on committing to transparency, investing in women’s sports, and putting fans first.",
       "source": "Adweek",
       "date": "Sep 1, 2026",
-      "image": "blog-images/news_3.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/playing-the-long-game-carmax-on-turning-fandom-into-brand-loyalty/"
     },
     {
-      "title": "ChatGPT Surpasses $1 Billion in Annualized Ads Revenue",
-      "summary": "The milestone underscores how important the business has become to parent company OpenAI.",
-      "source": "Adweek",
-      "date": "Aug 31, 2026",
-      "image": "blog-images/news_4.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/programmatic/chatgpt-openai-billion-advertising-revenue/"
-    },
-    {
-      "title": "Following Meta’s $17 Billion Settlement, Media Buyers Say: Don’t Touch That Dial",
-      "summary": "Agency executives caution against any sudden changes, opting instead to see if other social platforms follow suit.",
-      "source": "Adweek",
-      "date": "Aug 27, 2026",
-      "image": "blog-images/news_5.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/media/meta-settlement-media-buyers-teens/"
-    },
-    {
-      "title": "Ravi Matthai: the institution builder who took management beyond the boardroom",
-      "summary": "Ravi Matthai helped build IIM Ahmedabad, then took management to Rajasthan’s villages and helped create IRMA, leaving behind institutions that shaped how India managed business and development.",
-      "source": "Livemint",
-      "date": "Sep 5, 2026",
-      "image": "blog-images/news_6.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.livemint.com/opinion/ravi-matthai-iim-ahmedabad-iima-irma-indian-management-vikram-sarabhai-jawaja-rural-university-11788494403758.html"
-    },
-    {
-      "title": "Cheche Group Reports First Half 2026 Unaudited Financial Results",
-      "summary": "BEIJING, Sept. 4, 2026 /PRNewswire/ -- Cheche Group Inc. (NASDAQ: CCG) (\"Cheche\", \"the Company\" or \"we\"), China's leading auto insurance technology platform, today announced its unaudited financial re",
-      "source": "Associated Press",
-      "date": "Sep 5, 2026",
-      "image": "blog-images/news_7.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://apnews.com/press-release/pr-newswire/press-release-717111c580ee693d743c5db3c9ffaeca"
-    },
-    {
-      "title": "Salute to Service Suite program returns to Mohegan Arena for 11th season",
-      "summary": "Sep. 4—WILKES-BARRE TWP. — The Salute to Service Suite program at Mohegan Arena at Casey Plaza is returning for an 11th consecutive season, giving local military members and first responders an opport",
-      "source": "Wilkes Barre Times-Leader",
-      "date": "Sep 5, 2026",
+      "title": "Roborock Reports 27.6% Revenue Growth in H1 2026, Reinforcing Global Market Leadership",
+      "summary": "BERLIN, Sept. 6, 2026 /PRNewswire/ -- Roborock, a global leader in home robotics engineered to simplify daily life, reported revenue of RMB 10.084 billion in the first half of 2026, up 27.6% year on y",
+      "source": "PR Newswire UK",
+      "date": "Sep 6, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.timesleader.com/news/1754184/salute-to-service-suite-program-returns-to-mohegan-arena-for-11th-season"
+      "url": "https://www.prnewswire.co.uk/news-releases/roborock-reports-27-6-revenue-growth-in-h1-2026--reinforcing-global-market-leadership-302868216.html"
+    },
+    {
+      "title": "How Saint Charles boosted conversion rates and redefined its marketing with Shopify Plus",
+      "summary": "How Saint Charles boosted conversion rates and redefined its marketing with Shopify Plus - Shopify الإمارات العربية المتحدةshopify.com",
+      "source": "Shopify.com",
+      "date": "Sep 6, 2026",
+      "image": "blog-images/news_7.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.shopify.com/ae-ar/case-studies/saint-charles-apothecary"
+    },
+    {
+      "title": "WNBA insider reveals what Caitlin Clark and her fellow stars REALLY think of Cathy Engelbert's decision to retire",
+      "summary": "The WNBA will have new leadership after Cathy Engelbert announced she is retiring from her role as commissioner at the end of the year.",
+      "source": "Dailymail.com",
+      "date": "Sep 6, 2026",
+      "image": "blog-images/news_8.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.dailymail.com/sport/wnba/article-16106523/cathy-engelbert-wnba-retirement.html"
     }
   ],
   "jobs": [
