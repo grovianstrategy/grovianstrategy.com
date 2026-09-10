@@ -1,95 +1,95 @@
 {
-  "updated": "2026-09-09T02:01:12.579Z",
+  "updated": "2026-09-10T01:57:52.292Z",
   "news": [
+    {
+      "title": "Kitchen Table Finances: Intuit on AI and Everyday Money Management",
+      "summary": "Mark Notarainni the three marketing and technology elements redefining consumer financial empowerment.",
+      "source": "Adweek",
+      "date": "Sep 8, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/kitchen-table-finances-intuit-on-ai-and-everyday-money-management/"
+    },
+    {
+      "title": "How to Modernize Marketing in a Legacy Industry With Danielle Wuschke Paige of Nixon Peabody",
+      "summary": "Why great B2B marketing thrives on complexity.",
+      "source": "Adweek",
+      "date": "Sep 8, 2026",
+      "image": "blog-images/news_1.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/how-to-modernize-marketing-in-a-legacy-industry-with-danielle-wuschke-paige-of-nixon-peabody/"
+    },
+    {
+      "title": "The Innovation Playbook: Mastercard, Newell Brands, and Uber Advertising Leaders on AI, Data, and Brand Growth",
+      "summary": "How Mastercard, Newell Brands, and Uber Advertising are balancing performance marketing with brand building.",
+      "source": "Adweek",
+      "date": "Sep 8, 2026",
+      "image": "blog-images/news_2.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/the-innovation-playbook-mastercard-newell-brands-and-uber-advertising-leaders-on-ai-data-and-brand-growth/"
+    },
+    {
+      "title": "Campbell’s heats up digital focus amid marketing reformulation",
+      "summary": "Channels including social, influencer and e-commerce will command 85% of working media budgets as the marketer tries to meet modern consumer tastes.",
+      "source": "Marketing Dive",
+      "date": "Sep 8, 2026",
+      "image": "blog-images/news_3.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.marketingdive.com/news/campbells-heats-up-digital-focus-amid-marketing-reformulation/829764/"
+    },
+    {
+      "title": "Booze, Romance, and the Female Gaze: The Trends We’re Tracking for Super Bowl 61",
+      "summary": "ADWEEK is kicking off its annual Super Bowl coverage",
+      "source": "Adweek",
+      "date": "Sep 8, 2026",
+      "image": "blog-images/news_4.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/booze-romance-and-the-female-gaze-the-trends-were-tracking-for-super-bowl-61/"
+    },
     {
       "title": "Clucky's new alarm app wakes you up with a crowing rooster",
       "summary": "Clucky's new alarm app has an option where users are woken up to the sound of a rooster. They then complete a mission to turn it off.",
       "source": "TechCrunch",
       "date": "Sep 5, 2026",
-      "image": "blog-images/news_0.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://techcrunch.com/2026/09/05/cluckys-new-alarm-app-wakes-you-up-with-a-crowing-rooster/"
     },
     {
-      "title": "Walmart's copycat strategy: Restaurant delivery is its latest use of heft to break into established markets",
-      "summary": "Walmart is gearing up for more direct competition in restaurant delivery. It's not the first time the retail giant has bet on a new line of business.",
-      "source": "Business Insider",
-      "date": "Sep 5, 2026",
-      "image": "blog-images/news_1.jpg",
+      "title": "Show HN: We analyzed 2026 WhatsApp rates in 40 countries and built a calculator",
+      "summary": "Article URL: https://martechcost.com\nComments URL: https://news.ycombinator.com/item?id=49619803\nPoints: 1\n# Comments: 0",
+      "source": "Martechcost.com",
+      "date": "Sep 9, 2026",
+      "image": "blog-images/news_6.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/walmart-bets-to-grow-beyond-general-merchandise-retail-2026-9#article"
+      "url": "https://martechcost.com"
     },
     {
-      "title": "Stella Lefty's rise says more about the music business than the 'nepo baby' discourse",
-      "summary": "Stella Lefty's \"Boston\" is a country-pop crossover hit. The debate over her billionaire father and \"nepo baby\" status has helped propel her career.",
-      "source": "Business Insider",
-      "date": "Sep 3, 2026",
-      "image": "blog-images/news_2.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/who-is-stella-lefty-nepo-baby-billionaire-dad-groupon-music-career-2026-9#article"
-    },
-    {
-      "title": "MrBeast has a 'God King' problem",
-      "summary": "MrBeast's reliance on its founder Jimmy Donaldson has caused concern among insiders and investors as the company expands and mulls an IPO.",
-      "source": "Business Insider",
-      "date": "Sep 2, 2026",
-      "image": "blog-images/news_3.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/mrbeast-biggest-risk-5-billion-empire-is-reliance-on-himself-2026-9#article"
-    },
-    {
-      "title": "CEO’s refusal to overhaul bank fuelled surprise HDFC shake",
-      "summary": "HDFC Bank's CEO Sashidhar Jagdishan steps down amid tensions over proposed changes from new Chair Rajiv Kumar, sparking surprise.",
-      "source": "Bloomberg",
-      "date": "Sep 2, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-01/ceo-s-refusal-to-overhaul-bank-fueled-surprise-hdfc-shakeup"
-    },
-    {
-      "title": "Playing the Long Game: CarMax on Turning Fandom Into Brand Loyalty",
-      "summary": "CMO Sarah Lane on committing to transparency, investing in women’s sports, and putting fans first.",
-      "source": "Adweek",
-      "date": "Sep 1, 2026",
-      "image": "blog-images/news_5.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/playing-the-long-game-carmax-on-turning-fandom-into-brand-loyalty/"
-    },
-    {
-      "title": "Optima Bank initiated with bullish view at Jefferies, here's why",
-      "summary": "See the rest of the story here.\n\nthefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual investo",
-      "source": "Thefly.com",
-      "date": "Sep 8, 2026",
-      "image": null,
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.thefly.com/opmbf"
-    },
-    {
-      "title": "Samsung unveils new product",
-      "summary": "Samsung Nigeria launches the Galaxy S26 FE, expanding access to its S-series flagship ecosystem with advanced AI features and improved photography.\n\nRead More: https://punchng.com/samsung-unveils-new-",
-      "source": "The Punch",
-      "date": "Sep 8, 2026",
+      "title": "‘Energiser’ or ‘circus’: US voters weigh in on Trump’s midterm convention",
+      "summary": "The atypical event underscores the significance of Texas, long a Republican stronghold, in November's midterm elections.",
+      "source": "Al Jazeera English",
+      "date": "Sep 9, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://punchng.com/samsung-unveils-new-product/"
+      "url": "https://www.aljazeera.com/news/2026/9/9/energiser-or-circus-us-voters-weigh-in-on-trumps-midterm-convention"
     },
     {
-      "title": "ANZ and Australian Centre for AI in Marketing executives discuss why embedding AI requires change management, not just enthusiasm",
-      "summary": "ANZ's marketing strategy chief says embedding AI is a change management challenge, not a tech one, and warns against tracking vanity metrics like login frequency.",
-      "source": "Completeaitraining.com",
-      "date": "Sep 8, 2026",
+      "title": "Sam Sunderland Attempting To Circumnavigate The World Faster Than Ever",
+      "summary": "The two-time Dakar champ is attempting to set a new world record of under 19 days.",
+      "source": "Motorcycle.com",
+      "date": "Sep 9, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://completeaitraining.com/news/anz-and-australian-centre-for-ai-in-marketing-executives/"
+      "url": "https://www.motorcycle.com/bikes/news/sam-sunderland-attempting-to-circumnavigate-the-world-faster-than-ever-44671165?utm_medium=auto&amp;amp;utm_source=rss&amp;amp;utm_campaign=all_full"
     }
   ],
   "jobs": [
@@ -124,17 +124,6 @@
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.seerinteractive.com/insights/ai-brand-accuracy-study",
-      "showSource": true
-    },
-    {
-      "title": "Chicago Sales & Marketing Jobs With Multiple $100K+ Roles",
-      "summary": "Chicago’s sales and marketing scene is packed with data-driven, client-facing roles right now—from entry-level field sales to executive analytics and AI-po",
-      "source": "Newsbreak.com",
-      "date": "Aug 10, 2026",
-      "image": "blog-images/jobs_3.jpg",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://www.newsbreak.com/chicago-il-daily-brief-373188216/4818754788218-chicago-sales-marketing-jobs-with-multiple-100k-roles",
       "showSource": true
     }
   ],
