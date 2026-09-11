@@ -1,12 +1,42 @@
 {
-  "updated": "2026-09-10T01:57:52.292Z",
+  "updated": "2026-09-11T01:56:28.736Z",
   "news": [
+    {
+      "title": "Apple’s new CEO is reviving a Steve Jobs strategy from 25 years ago",
+      "summary": "John Ternus made the case in his first keynote as Apple CEO that the iPhone isn't going anywhere.",
+      "source": "TechCrunch",
+      "date": "Sep 9, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://techcrunch.com/2026/09/09/apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago/"
+    },
+    {
+      "title": "Publishers Are Spending Hundreds of Millions a Month Buying Traffic",
+      "summary": "Exclusive data reveals that publishers’ paid search budgets have risen 274% in the last three years, part of an industry-wide response to traffic declines",
+      "source": "Adweek",
+      "date": "Sep 9, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/media/publishers-buying-search-traffic/"
+    },
+    {
+      "title": "Bitcoin just flashed a bullish golden cross signal. Here's what that means.",
+      "summary": "Bitoin has been mired in a brutal bear market for months. The rare golden cross technical pattern could be the buy signal bulls have been waiting for.",
+      "source": "Business Insider",
+      "date": "Sep 9, 2026",
+      "image": "blog-images/news_2.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/bitcoin-price-today-golden-cross-bullish-signal-outlook-btc-crypto-2026-9#article"
+    },
     {
       "title": "Kitchen Table Finances: Intuit on AI and Everyday Money Management",
       "summary": "Mark Notarainni the three marketing and technology elements redefining consumer financial empowerment.",
       "source": "Adweek",
       "date": "Sep 8, 2026",
-      "image": "blog-images/news_0.png",
+      "image": "blog-images/news_3.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/kitchen-table-finances-intuit-on-ai-and-everyday-money-management/"
@@ -16,7 +46,7 @@
       "summary": "Why great B2B marketing thrives on complexity.",
       "source": "Adweek",
       "date": "Sep 8, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/how-to-modernize-marketing-in-a-legacy-industry-with-danielle-wuschke-paige-of-nixon-peabody/"
@@ -26,79 +56,60 @@
       "summary": "How Mastercard, Newell Brands, and Uber Advertising are balancing performance marketing with brand building.",
       "source": "Adweek",
       "date": "Sep 8, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/the-innovation-playbook-mastercard-newell-brands-and-uber-advertising-leaders-on-ai-data-and-brand-growth/"
     },
     {
-      "title": "Campbell’s heats up digital focus amid marketing reformulation",
-      "summary": "Channels including social, influencer and e-commerce will command 85% of working media budgets as the marketer tries to meet modern consumer tastes.",
-      "source": "Marketing Dive",
-      "date": "Sep 8, 2026",
-      "image": "blog-images/news_3.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.marketingdive.com/news/campbells-heats-up-digital-focus-amid-marketing-reformulation/829764/"
-    },
-    {
-      "title": "Booze, Romance, and the Female Gaze: The Trends We’re Tracking for Super Bowl 61",
-      "summary": "ADWEEK is kicking off its annual Super Bowl coverage",
-      "source": "Adweek",
-      "date": "Sep 8, 2026",
-      "image": "blog-images/news_4.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/booze-romance-and-the-female-gaze-the-trends-were-tracking-for-super-bowl-61/"
-    },
-    {
-      "title": "Clucky's new alarm app wakes you up with a crowing rooster",
-      "summary": "Clucky's new alarm app has an option where users are woken up to the sound of a rooster. They then complete a mission to turn it off.",
-      "source": "TechCrunch",
-      "date": "Sep 5, 2026",
-      "image": "blog-images/news_5.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://techcrunch.com/2026/09/05/cluckys-new-alarm-app-wakes-you-up-with-a-crowing-rooster/"
-    },
-    {
-      "title": "Show HN: We analyzed 2026 WhatsApp rates in 40 countries and built a calculator",
-      "summary": "Article URL: https://martechcost.com\nComments URL: https://news.ycombinator.com/item?id=49619803\nPoints: 1\n# Comments: 0",
-      "source": "Martechcost.com",
-      "date": "Sep 9, 2026",
+      "title": "iPhone 18 Pro wallpaper downloads",
+      "summary": "Upgrade your current device with the official iPhone 18 Pro wallpapers from the iOS 27 Release Candidate.",
+      "source": "Idownloadblog.com",
+      "date": "Sep 10, 2026",
       "image": "blog-images/news_6.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://martechcost.com"
+      "url": "https://www.idownloadblog.com/2026/09/09/iphone-18-pro-wallpaper-downloads/"
     },
     {
-      "title": "‘Energiser’ or ‘circus’: US voters weigh in on Trump’s midterm convention",
-      "summary": "The atypical event underscores the significance of Texas, long a Republican stronghold, in November's midterm elections.",
-      "source": "Al Jazeera English",
-      "date": "Sep 9, 2026",
+      "title": "CNBC Daily Open: Apple's new iPhone bends. Bond vigilantes, not so much",
+      "summary": "Loads of new features, but guess what people were looking for? The crease, and how visible it is.",
+      "source": "CNBC",
+      "date": "Sep 10, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.aljazeera.com/news/2026/9/9/energiser-or-circus-us-voters-weigh-in-on-trumps-midterm-convention"
+      "url": "https://www.cnbc.com/2026/09/10/cnbc-daily-open-apple-new-iphone-duo-treasury-bonds-oil-trump.html"
     },
     {
-      "title": "Sam Sunderland Attempting To Circumnavigate The World Faster Than Ever",
-      "summary": "The two-time Dakar champ is attempting to set a new world record of under 19 days.",
-      "source": "Motorcycle.com",
-      "date": "Sep 9, 2026",
+      "title": "Annual Arts Bash promotes campus art programs and new facilities",
+      "summary": "The University of Utah held its 14th annual Arts Bash on Sept. 2, kicking off the 2026-27 season for the College of Fine Arts (CFA). Marina Gomberg, director of communications and marketing for the CF",
+      "source": "Dailyutahchronicle.com",
+      "date": "Sep 10, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.motorcycle.com/bikes/news/sam-sunderland-attempting-to-circumnavigate-the-world-faster-than-ever-44671165?utm_medium=auto&amp;amp;utm_source=rss&amp;amp;utm_campaign=all_full"
+      "url": "https://dailyutahchronicle.com/2026/09/09/annual-arts-bash-promotes-campus-art-programs-and-new-facilities/"
     }
   ],
   "jobs": [
+    {
+      "title": "Digital Agencies Are Fast",
+      "summary": "Digital marketing agencies are fast-tracking the recruitment of specialized Email Marketers due to the high return on investment (ROI) and revenue generated",
+      "source": "Linkedin.com",
+      "date": "Sep 9, 2026",
+      "image": "blog-images/jobs_0.png",
+      "category": "Jobs",
+      "emoji": "💼",
+      "url": "https://www.linkedin.com/pulse/navigating-inbox-economy-why-noidas-digital-agencies-email-giri-ed1zc",
+      "showSource": true
+    },
     {
       "title": "Kraftshala Becomes One of India’s Largest Marketing B",
       "summary": "Kraftshala Becomes One of India’s Largest Marketing B-Schools With 1,000 Plus Placements in 14 Months and Highest CTC of INR 16 Lakhs",
       "source": "BusinessLine",
       "date": "Sep 1, 2026",
-      "image": "blog-images/jobs_0.jpg",
+      "image": "blog-images/jobs_1.jpg",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.thehindubusinessline.com/brandhub/pr-release/kraftshala-becomes-one-of-indias-largest-marketing-b-schools-with-1000-plus-placements-in-14-months-and-highest-ctc-of-inr-16-lakhs/article71414904.ece",
@@ -109,7 +120,7 @@
       "summary": "Discover practical strategies to implement in digital marketing for small business and drive success. Read the article for actionable tips!",
       "source": "Smbmarketinghub.com",
       "date": "Aug 28, 2026",
-      "image": "blog-images/jobs_1.png",
+      "image": "blog-images/jobs_2.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://smbmarketinghub.com/local-seo/digital-marketing-for-small-business/",
@@ -120,7 +131,7 @@
       "summary": "TL;DR \n<ul> \n <li>We realized AI platforms were relaying an inaccurate narrative about Seer Interactive, so we ran a full analysis to find out what else they were saying — and whether the info was acc",
       "source": "Seerinteractive.com",
       "date": "Aug 27, 2026",
-      "image": "blog-images/jobs_2.png",
+      "image": "blog-images/jobs_3.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.seerinteractive.com/insights/ai-brand-accuracy-study",
