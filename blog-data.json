@@ -1,12 +1,22 @@
 {
-  "updated": "2026-09-11T01:56:28.736Z",
+  "updated": "2026-09-12T02:01:12.473Z",
   "news": [
+    {
+      "title": "Investors share their top investment advice with AI",
+      "summary": "A high-profile warning from an Anthropic researcher over existential risks this week sparked fresh fears of an AI doomsday event.",
+      "source": "Business Insider",
+      "date": "Sep 10, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/where-to-invest-ai-doomsday-scenario-cybersecurity-gold-land-2026-9#article"
+    },
     {
       "title": "Apple’s new CEO is reviving a Steve Jobs strategy from 25 years ago",
       "summary": "John Ternus made the case in his first keynote as Apple CEO that the iPhone isn't going anywhere.",
       "source": "TechCrunch",
       "date": "Sep 9, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://techcrunch.com/2026/09/09/apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago/"
@@ -16,7 +26,7 @@
       "summary": "Exclusive data reveals that publishers’ paid search budgets have risen 274% in the last three years, part of an industry-wide response to traffic declines",
       "source": "Adweek",
       "date": "Sep 9, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/media/publishers-buying-search-traffic/"
@@ -26,7 +36,7 @@
       "summary": "Bitoin has been mired in a brutal bear market for months. The rare golden cross technical pattern could be the buy signal bulls have been waiting for.",
       "source": "Business Insider",
       "date": "Sep 9, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/bitcoin-price-today-golden-cross-bullish-signal-outlook-btc-crypto-2026-9#article"
@@ -36,7 +46,7 @@
       "summary": "Mark Notarainni the three marketing and technology elements redefining consumer financial empowerment.",
       "source": "Adweek",
       "date": "Sep 8, 2026",
-      "image": "blog-images/news_3.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/kitchen-table-finances-intuit-on-ai-and-everyday-money-management/"
@@ -46,50 +56,40 @@
       "summary": "Why great B2B marketing thrives on complexity.",
       "source": "Adweek",
       "date": "Sep 8, 2026",
-      "image": "blog-images/news_4.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/how-to-modernize-marketing-in-a-legacy-industry-with-danielle-wuschke-paige-of-nixon-peabody/"
     },
     {
-      "title": "The Innovation Playbook: Mastercard, Newell Brands, and Uber Advertising Leaders on AI, Data, and Brand Growth",
-      "summary": "How Mastercard, Newell Brands, and Uber Advertising are balancing performance marketing with brand building.",
-      "source": "Adweek",
-      "date": "Sep 8, 2026",
-      "image": "blog-images/news_5.png",
+      "title": "From Maggi to Thums Up: How India became hooked on cheap packaged food",
+      "summary": "The debate is forcing manufacturers to confront changing consumer expectations while balancing healthier ingredients against affordability and established tastes",
+      "source": "BusinessLine",
+      "date": "Sep 11, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/the-innovation-playbook-mastercard-newell-brands-and-uber-advertising-leaders-on-ai-data-and-brand-growth/"
+      "url": "https://www.thehindubusinessline.com/economy/from-maggi-to-thums-up-how-india-became-hooked-on-cheap-packaged-food/article71454548.ece"
     },
     {
-      "title": "iPhone 18 Pro wallpaper downloads",
-      "summary": "Upgrade your current device with the official iPhone 18 Pro wallpapers from the iOS 27 Release Candidate.",
-      "source": "Idownloadblog.com",
-      "date": "Sep 10, 2026",
-      "image": "blog-images/news_6.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.idownloadblog.com/2026/09/09/iphone-18-pro-wallpaper-downloads/"
-    },
-    {
-      "title": "CNBC Daily Open: Apple's new iPhone bends. Bond vigilantes, not so much",
-      "summary": "Loads of new features, but guess what people were looking for? The crease, and how visible it is.",
-      "source": "CNBC",
-      "date": "Sep 10, 2026",
+      "title": "Rams booed at ‘home’ as Melbourne turns into sea of 49ers red",
+      "summary": "The Rams traveled nearly 8,000 miles to find neutral territory as the 49ers consistently pack SoFi Stadium with all red. But even in another country, Los Angeles could not escape feeling like the road",
+      "source": "New York Post",
+      "date": "Sep 11, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.cnbc.com/2026/09/10/cnbc-daily-open-apple-new-iphone-duo-treasury-bonds-oil-trump.html"
+      "url": "https://nypost.com/2026/09/10/sports/49ers-fans-turn-rams-melbourne-home-game-into-sea-of-red/"
     },
     {
-      "title": "Annual Arts Bash promotes campus art programs and new facilities",
-      "summary": "The University of Utah held its 14th annual Arts Bash on Sept. 2, kicking off the 2026-27 season for the College of Fine Arts (CFA). Marina Gomberg, director of communications and marketing for the CF",
-      "source": "Dailyutahchronicle.com",
-      "date": "Sep 10, 2026",
+      "title": "Apple's $1,999 foldable iPhone dazzles at launch, but who is it really for?",
+      "summary": "Apple launched its new foldable iPhone Duo with a premium price tag.  Analysts question its broad appeal beyond wealthy tech enthusiasts and early adopters.  The device offers an expanded display for",
+      "source": "The Times of India",
+      "date": "Sep 11, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://dailyutahchronicle.com/2026/09/09/annual-arts-bash-promotes-campus-art-programs-and-new-facilities/"
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/apples-1999-foldable-iphone-dazzles-at-launch-but-who-is-it-really-for/articleshow/134038744.cms"
     }
   ],
   "jobs": [
