@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T02:13:01.202Z",
+  "updated": "2026-09-15T02:19:15.020Z",
   "news": [
     {
       "title": "Investors share their top investment advice with AI",
@@ -62,34 +62,34 @@
       "url": "https://www.adweek.com/brand-marketing/how-to-modernize-marketing-in-a-legacy-industry-with-danielle-wuschke-paige-of-nixon-peabody/"
     },
     {
-      "title": "Rockstar Officially Confirms GTA 6 Will Be Better On PS5",
-      "summary": "Rockstar has made it abundantly clear that Grand Theft Auto 6 will be leagues better when played on PlayStation 5. Sorry XBOX fans.",
-      "source": "Screen Rant",
-      "date": "Sep 13, 2026",
-      "image": "blog-images/news_6.jpg",
+      "title": "The Foundation of a Graphic Design Career: Skills, Tools and Experience",
+      "summary": "A career in graphic design begins with creativity, but professional success requires much more than having an eye for visuals. Graphic designers need to understand how to communicate ideas, solve prob",
+      "source": "Designer-daily.com",
+      "date": "Sep 14, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://screenrant.com/gta-6-dual-sense-controllers-ps5-better-rockstar/"
+      "url": "https://www.designer-daily.com/the-foundation-of-a-graphic-design-career-skills-tools-and-experience-240683"
     },
     {
-      "title": "Poetry finds a new stage on social media as reels bring verse to a wider audience",
-      "summary": "Poetry now travels beyond books, reaching audiences through social media platforms.  Younger generations discover poetry through short-form video content and online communities.  Poets adapt their cra",
-      "source": "The Times of India",
-      "date": "Sep 13, 2026",
-      "image": "blog-images/news_7.png",
+      "title": "スイッチメディア、「In",
+      "summary": "[スイッチメディア]\n[画像1: https://prcdn.freetls.fastly.net/release_image/11256/119/11256-119-baea55057abb924ac3266cfefc6c768b-1200x630.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&a...",
+      "source": "Prtimes.jp",
+      "date": "Sep 14, 2026",
+      "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/industry/media/entertainment/media/poetry-finds-a-new-stage-on-social-media-as-reels-bring-verse-to-a-wider-audience/articleshow/134170665.cms"
+      "url": "https://prtimes.jp/main/html/rd/p/000000119.000011256.html"
     },
     {
-      "title": "Ancient Egypt Misinformation, California Fairground Data Centers, Colorado Data Centers, More: ResearchBuzz AI Update, September 12, 2026",
-      "summary": "AI PROBLEMS Geeks Are Sexy: Egyptologist Fact-Checks AI’s Absolutely Insane Ancient Egypt. “In this video, Egyptologist Professor Laurel Bestock takes on AI-generated ancient Egypt and points out just",
-      "source": "Researchbuzz.me",
-      "date": "Sep 13, 2026",
+      "title": "CBF celebrates the 2026 Série D, the biggest ever",
+      "summary": "Uberlândia won the 2026 Brasileirão Série DCredits: Rafael Ribeiro/CBFThe 18th edition of the Brasileirão Série D came to an end this Sunday (13) with Uberlândia celebrating at Parque do Sabiá....",
+      "source": "Onefootball.com",
+      "date": "Sep 14, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://researchbuzz.me/2026/09/12/ancient-egypt-misinformation-california-fairground-data-centers-colorado-data-centers-more-researchbuzz-ai-update-september-12-2026/"
+      "url": "https://onefootball.com/en/news/cbf-celebrates-the-2026-serie-d-the-biggest-ever-43455780"
     }
   ],
   "jobs": [
@@ -138,17 +138,5 @@
       "showSource": true
     }
   ],
-  "events": [
-    {
-      "title": "Strategic IT outlook: Tech conferences and events calendar",
-      "summary": "Tech conferences are a vital way for CIOs and IT leaders to keep abreast of trends and make real-life connections in a fast-changing business climate.",
-      "source": "Techtarget.com",
-      "date": "Aug 13, 2026",
-      "image": "blog-images/events_0.jpg",
-      "category": "Events",
-      "emoji": "🎪",
-      "url": "https://www.techtarget.com/it-strategy/feature/Strategic-IT-outlook-Tech-conferences-and-events-calendar",
-      "location": "🌍 Global"
-    }
-  ]
+  "events": []
 }
