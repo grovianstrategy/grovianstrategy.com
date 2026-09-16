@@ -1,12 +1,22 @@
 {
-  "updated": "2026-09-15T02:19:15.020Z",
+  "updated": "2026-09-16T02:13:12.688Z",
   "news": [
+    {
+      "title": "Hear how AI can engineer nature’s comeback at Disrupt 2026",
+      "summary": "Hear from Ben Lamm live at TechCrunch Disrupt 2026 on how AI can engineer nature’s comeback. Save up to $200 by September 25. Register now.",
+      "source": "TechCrunch",
+      "date": "Sep 14, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/"
+    },
     {
       "title": "Investors share their top investment advice with AI",
       "summary": "A high-profile warning from an Anthropic researcher over existential risks this week sparked fresh fears of an AI doomsday event.",
       "source": "Business Insider",
       "date": "Sep 10, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/where-to-invest-ai-doomsday-scenario-cybersecurity-gold-land-2026-9#article"
@@ -16,7 +26,7 @@
       "summary": "John Ternus made the case in his first keynote as Apple CEO that the iPhone isn't going anywhere.",
       "source": "TechCrunch",
       "date": "Sep 9, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://techcrunch.com/2026/09/09/apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago/"
@@ -26,7 +36,7 @@
       "summary": "Exclusive data reveals that publishers’ paid search budgets have risen 274% in the last three years, part of an industry-wide response to traffic declines",
       "source": "Adweek",
       "date": "Sep 9, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/media/publishers-buying-search-traffic/"
@@ -36,7 +46,7 @@
       "summary": "Bitoin has been mired in a brutal bear market for months. The rare golden cross technical pattern could be the buy signal bulls have been waiting for.",
       "source": "Business Insider",
       "date": "Sep 9, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/bitcoin-price-today-golden-cross-bullish-signal-outlook-btc-crypto-2026-9#article"
@@ -46,50 +56,40 @@
       "summary": "Mark Notarainni the three marketing and technology elements redefining consumer financial empowerment.",
       "source": "Adweek",
       "date": "Sep 8, 2026",
-      "image": "blog-images/news_4.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/kitchen-table-finances-intuit-on-ai-and-everyday-money-management/"
     },
     {
-      "title": "How to Modernize Marketing in a Legacy Industry With Danielle Wuschke Paige of Nixon Peabody",
-      "summary": "Why great B2B marketing thrives on complexity.",
-      "source": "Adweek",
-      "date": "Sep 8, 2026",
-      "image": "blog-images/news_5.png",
+      "title": "Chinese vendor debuts world's first AMD Ryzen AI Max+ Pro 495 laptop, but 192GB LPDDR5X",
+      "summary": "This $10,000 Chinese laptop packs enough memory to rival desktop workstations built for serious AI researchers around the world",
+      "source": "TechRadar",
+      "date": "Sep 15, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/how-to-modernize-marketing-in-a-legacy-industry-with-danielle-wuschke-paige-of-nixon-peabody/"
+      "url": "https://www.techradar.com/pro/chinese-vendor-debuts-worlds-first-amd-ryzen-ai-max-pro-495-laptop-but-192gb-lpddr5x-8533-for-gaming-really"
     },
     {
-      "title": "The Foundation of a Graphic Design Career: Skills, Tools and Experience",
-      "summary": "A career in graphic design begins with creativity, but professional success requires much more than having an eye for visuals. Graphic designers need to understand how to communicate ideas, solve prob",
-      "source": "Designer-daily.com",
-      "date": "Sep 14, 2026",
-      "image": null,
+      "title": "Watch: Kim Jae Yeong Changes Nam Ji Hyun’s Conservative Perspective On Love In “Make Me Tingle” Teaser",
+      "summary": "Upcoming drama “Make Me Tingle” has released a new teaser! “Make Me Tingle” is a chaotic coming-of-age romantic comedy about Gong Yeon Su (Nam Ji Hyun), who believes in love but has never truly figure",
+      "source": "soompi",
+      "date": "Sep 15, 2026",
+      "image": "blog-images/news_7.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.designer-daily.com/the-foundation-of-a-graphic-design-career-skills-tools-and-experience-240683"
+      "url": "http://www.soompi.com/article/1870545wpp/watch-kim-jae-yeong-changes-nam-ji-hyuns-conservative-perspective-on-love-in-make-me-tingle-teaser"
     },
     {
-      "title": "スイッチメディア、「In",
-      "summary": "[スイッチメディア]\n[画像1: https://prcdn.freetls.fastly.net/release_image/11256/119/11256-119-baea55057abb924ac3266cfefc6c768b-1200x630.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&a...",
-      "source": "Prtimes.jp",
-      "date": "Sep 14, 2026",
-      "image": "blog-images/news_7.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://prtimes.jp/main/html/rd/p/000000119.000011256.html"
-    },
-    {
-      "title": "CBF celebrates the 2026 Série D, the biggest ever",
-      "summary": "Uberlândia won the 2026 Brasileirão Série DCredits: Rafael Ribeiro/CBFThe 18th edition of the Brasileirão Série D came to an end this Sunday (13) with Uberlândia celebrating at Parque do Sabiá....",
-      "source": "Onefootball.com",
-      "date": "Sep 14, 2026",
+      "title": "Stocks to watch, Sept 15: HDFC Bank, BSE, broking firms, HCL Tech, Deccan Gold Mines, CESC, Glenmark, BHEL, Patel Airtemp, Lenskart, Heidelberg, AU Small Fiance Bank, Gland Pharma",
+      "summary": "Key developments this week include HDFC Bank’s leadership transition, regulatory changes for brokerages, BHEL’s significant investments, strategic partnerships in technology and mining, and major acqu",
+      "source": "BusinessLine",
+      "date": "Sep 15, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://onefootball.com/en/news/cbf-celebrates-the-2026-serie-d-the-biggest-ever-43455780"
+      "url": "https://www.thehindubusinessline.com/markets/stocks-to-watch-sept-15-hdfc-bank-bse-broking-firms-hcl-tech-deccan-gold-mines-cesc-glenmark-bhel-patel-airtemp-lenskart-heidelberg-au-small-fiance-bank-gland-pharma/article71466536.ece"
     }
   ],
   "jobs": [
@@ -124,17 +124,6 @@
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://smbmarketinghub.com/local-seo/digital-marketing-for-small-business/",
-      "showSource": true
-    },
-    {
-      "title": "Study: AI Declined to Answer Prompts About Our Brand 31% of the Time (But Got Our Info Mostly Right When It Answered)",
-      "summary": "TL;DR \n<ul> \n <li>We realized AI platforms were relaying an inaccurate narrative about Seer Interactive, so we ran a full analysis to find out what else they were saying — and whether the info was acc",
-      "source": "Seerinteractive.com",
-      "date": "Aug 27, 2026",
-      "image": "blog-images/jobs_3.png",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://www.seerinteractive.com/insights/ai-brand-accuracy-study",
       "showSource": true
     }
   ],
