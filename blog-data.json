@@ -1,12 +1,32 @@
 {
-  "updated": "2026-09-17T02:16:35.284Z",
+  "updated": "2026-09-18T02:02:36.856Z",
   "news": [
+    {
+      "title": "Markets are spooked by the prospect of more rate hikes as the Fed battles inflation",
+      "summary": "The Fed raised rates for the first time in three years. Some investors are pricing in even more rate hikes than officals projected.",
+      "source": "Business Insider",
+      "date": "Sep 16, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/stock-market-today-selloff-fed-interest-rate-hikes-outlook-2026-9#article"
+    },
+    {
+      "title": "How Carter’s is refreshing its brand to reach Gen Z, millennial parents",
+      "summary": "An identity overhaul, inclusive of a new logo and revamped social media strategy, is showcased in a campaign that is rooted in self-expression.",
+      "source": "Marketing Dive",
+      "date": "Sep 16, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.marketingdive.com/news/how-carters-is-refreshing-its-brand-to-reach-gen-z-millennial-parents/830313/"
+    },
     {
       "title": "The AI graveyard: a running list of projects and startups that didn't make it",
       "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy 'super app' launch, here's a look at the AI projects that shut down or missed expectations.",
       "source": "TechCrunch",
       "date": "Sep 15, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
@@ -16,7 +36,7 @@
       "summary": "Michael Law and Shivram Vaideeswaran on the ingredients to combine for staying relevant.",
       "source": "Adweek",
       "date": "Sep 15, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_3.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/how-brands-can-win-attention-in-a-fragmented-world-with-papa-johns-and-carat/"
@@ -26,7 +46,7 @@
       "summary": "Chief marketer Joe Berean details how the social-first series, “The Weekday Warrior Show,” showcases the retailer’s “wry smile” brand positioning.",
       "source": "Marketing Dive",
       "date": "Sep 15, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.marketingdive.com/news/why-bonobos-fall-campaign-centers-on-episodic-content-with-jack-quaid/829938/"
@@ -36,69 +56,60 @@
       "summary": "The intention economy, visual search, and a focus on user wellbeing are shaping digital discovery.",
       "source": "Adweek",
       "date": "Sep 15, 2026",
-      "image": "blog-images/news_3.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/offline-by-design-how-pinterest-turned-disconnection-into-earned-media/"
     },
     {
-      "title": "Hear how AI can engineer nature’s comeback at Disrupt 2026",
-      "summary": "Hear from Ben Lamm live at TechCrunch Disrupt 2026 on how AI can engineer nature’s comeback. Save up to $200 by September 25. Register now.",
-      "source": "TechCrunch",
-      "date": "Sep 14, 2026",
-      "image": "blog-images/news_4.png",
+      "title": "Robbins LLP Urges HDB Stockholders to Contact the Firm for Information About the Class Action Against HDFC Bank Limited",
+      "summary": "SAN DIEGO, Sept. 16, 2026 /PRNewswire/ -- Shareholder rights law firm Robbins LLP reminds investors that a class action was filed on behalf of all persons and entities who purchased or otherwise acqui",
+      "source": "PRNewswire",
+      "date": "Sep 17, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/"
+      "url": "https://www.prnewswire.com/news-releases/robbins-llp-urges-hdb-stockholders-to-contact-the-firm-for-information-about-the-class-action-against-hdfc-bank-limited-302881213.html"
     },
     {
-      "title": "Investors share their top investment advice with AI",
-      "summary": "A high-profile warning from an Anthropic researcher over existential risks this week sparked fresh fears of an AI doomsday event.",
-      "source": "Business Insider",
-      "date": "Sep 10, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/where-to-invest-ai-doomsday-scenario-cybersecurity-gold-land-2026-9#article"
-    },
-    {
-      "title": "Connected packaging: why the code is only the beginning",
-      "summary": "QR codes, 2D barcodes and digital product identifiers are turning packaging into an access point for product data. As connected packaging moves beyond marketing into traceability, retail and complianc",
-      "source": "Biztoc.com",
-      "date": "Sep 16, 2026",
-      "image": null,
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://biztoc.com/x/63a2e4190d2b264b"
-    },
-    {
-      "title": "Anthropic to open Singapore office in October, hire locally",
-      "summary": "The Singapore office will be the AI company's fifth in the Asia-Pacific region.",
-      "source": "CNA",
-      "date": "Sep 16, 2026",
+      "title": "USSEC Advances Aquaculture Feed Formulation in Asia",
+      "summary": "USSEC Advances Aquaculture Feed Formulation in Asia",
+      "source": "BusinessLine",
+      "date": "Sep 17, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.channelnewsasia.com/singapore/ai-anthropic-singapore-office-october-open-6387651"
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/ussec-advances-aquaculture-feed-formulation-in-asia/article71475155.ece"
     },
     {
-      "title": "Products made by UP self",
-      "summary": "More than 3,000 products made by self-help groups (SHGs) in villages across the state can be ordered through Amazon, Flipkart, Meesho, Prerna Mart, e-Saras and ONDC",
-      "source": "Business Standard",
-      "date": "Sep 16, 2026",
-      "image": "blog-images/news_8.jpg",
+      "title": "Marketing Executive - JN-092026-7094584",
+      "summary": "As a Marketing Executive in the retail industry, you'll play a key role in planning and delivering marketing campaigns that support the business's growth. Based in Maidenhead, you'll work on a variety",
+      "source": "Michaelpage.co.uk",
+      "date": "Sep 17, 2026",
+      "image": "blog-images/news_8.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.business-standard.com/economy/uttar-pradesh/products-made-by-up-self-help-groups-to-be-available-on-online-platforms-126091600088_1.html"
+      "url": "https://www.michaelpage.co.uk/job-detail/marketing-executive/ref/jn-092026-7094584"
     }
   ],
   "jobs": [
+    {
+      "title": "10 Content, SEO & Marketing Roles Hiring Today",
+      "summary": "1.Smooth Media is hiring for the following roles: Event producer:Job link Events associate: Job link freelance network: Job link 2.",
+      "source": "Linkedin.com",
+      "date": "Sep 16, 2026",
+      "image": "blog-images/jobs_0.png",
+      "category": "Jobs",
+      "emoji": "💼",
+      "url": "https://www.linkedin.com/pulse/10-content-seo-marketing-roles-hiring-today-amna-aslam-xqn3f",
+      "showSource": true
+    },
     {
       "title": "Digital Agencies Are Fast",
       "summary": "Digital marketing agencies are fast-tracking the recruitment of specialized Email Marketers due to the high return on investment (ROI) and revenue generated",
       "source": "Linkedin.com",
       "date": "Sep 9, 2026",
-      "image": "blog-images/jobs_0.png",
+      "image": "blog-images/jobs_1.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.linkedin.com/pulse/navigating-inbox-economy-why-noidas-digital-agencies-email-giri-ed1zc",
@@ -109,7 +120,7 @@
       "summary": "Jaipur is no longer only known for tourism, handicrafts, and traditional businesses.",
       "source": "Fueler.io",
       "date": "Sep 15, 2026",
-      "image": "blog-images/jobs_1.png",
+      "image": "blog-images/jobs_2.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://fueler.io/blog/digital-marketing-agencies-in-jaipur-hiring-talent",
@@ -120,7 +131,7 @@
       "summary": "Kraftshala Becomes One of India’s Largest Marketing B-Schools With 1,000 Plus Placements in 14 Months and Highest CTC of INR 16 Lakhs",
       "source": "BusinessLine",
       "date": "Sep 1, 2026",
-      "image": "blog-images/jobs_2.jpg",
+      "image": "blog-images/jobs_3.jpg",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.thehindubusinessline.com/brandhub/pr-release/kraftshala-becomes-one-of-indias-largest-marketing-b-schools-with-1000-plus-placements-in-14-months-and-highest-ctc-of-inr-16-lakhs/article71414904.ece",
