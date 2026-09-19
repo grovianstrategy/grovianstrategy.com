@@ -1,12 +1,32 @@
 {
-  "updated": "2026-09-18T02:02:36.856Z",
+  "updated": "2026-09-19T02:06:58.007Z",
   "news": [
+    {
+      "title": "Google has to make big changes to its advertising empire. Here's what a judge ruled — minus the jargon.",
+      "summary": "Google won't be broken up, but it will have to rewrite the rules of its adtech empire.",
+      "source": "Business Insider",
+      "date": "Sep 17, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/what-googles-adtech-behavioral-remedies-ruling-means-in-plain-english-2026-9#article"
+    },
+    {
+      "title": "JPMorgan rolls out Claude changes: $2,000 spending limits and extra security",
+      "summary": "Internal Teams messages show that some engineers at the bank who use Claude have monthly spending limits.",
+      "source": "Business Insider",
+      "date": "Sep 17, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/jpmorgan-claude-spending-limit-security-engineers-2026-9#article"
+    },
     {
       "title": "Markets are spooked by the prospect of more rate hikes as the Fed battles inflation",
       "summary": "The Fed raised rates for the first time in three years. Some investors are pricing in even more rate hikes than officals projected.",
       "source": "Business Insider",
       "date": "Sep 16, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/stock-market-today-selloff-fed-interest-rate-hikes-outlook-2026-9#article"
@@ -16,7 +36,7 @@
       "summary": "An identity overhaul, inclusive of a new logo and revamped social media strategy, is showcased in a campaign that is rooted in self-expression.",
       "source": "Marketing Dive",
       "date": "Sep 16, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.marketingdive.com/news/how-carters-is-refreshing-its-brand-to-reach-gen-z-millennial-parents/830313/"
@@ -26,7 +46,7 @@
       "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy 'super app' launch, here's a look at the AI projects that shut down or missed expectations.",
       "source": "TechCrunch",
       "date": "Sep 15, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
@@ -36,60 +56,40 @@
       "summary": "Michael Law and Shivram Vaideeswaran on the ingredients to combine for staying relevant.",
       "source": "Adweek",
       "date": "Sep 15, 2026",
-      "image": "blog-images/news_3.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/how-brands-can-win-attention-in-a-fragmented-world-with-papa-johns-and-carat/"
     },
     {
-      "title": "Why Bonobos’ fall campaign centers on episodic content with Jack Quaid",
-      "summary": "Chief marketer Joe Berean details how the social-first series, “The Weekday Warrior Show,” showcases the retailer’s “wry smile” brand positioning.",
-      "source": "Marketing Dive",
-      "date": "Sep 15, 2026",
-      "image": "blog-images/news_4.jpg",
+      "title": "★ The iPhones 18 Pro",
+      "summary": "It’s the best version of the most successful product ever made. And yet by nature of *how* the iPhone 18 Pro improved in the last year, it’s not exciting at all.",
+      "source": "Daringfireball.net",
+      "date": "Sep 18, 2026",
+      "image": "blog-images/news_6.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.marketingdive.com/news/why-bonobos-fall-campaign-centers-on-episodic-content-with-jack-quaid/829938/"
+      "url": "https://daringfireball.net/2026/09/the_iphones_18_pro"
     },
     {
-      "title": "Offline by Design: How Pinterest Turned Disconnection Into Earned Media",
-      "summary": "The intention economy, visual search, and a focus on user wellbeing are shaping digital discovery.",
-      "source": "Adweek",
-      "date": "Sep 15, 2026",
-      "image": "blog-images/news_5.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/offline-by-design-how-pinterest-turned-disconnection-into-earned-media/"
-    },
-    {
-      "title": "Robbins LLP Urges HDB Stockholders to Contact the Firm for Information About the Class Action Against HDFC Bank Limited",
-      "summary": "SAN DIEGO, Sept. 16, 2026 /PRNewswire/ -- Shareholder rights law firm Robbins LLP reminds investors that a class action was filed on behalf of all persons and entities who purchased or otherwise acqui",
-      "source": "PRNewswire",
-      "date": "Sep 17, 2026",
-      "image": "blog-images/news_6.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.prnewswire.com/news-releases/robbins-llp-urges-hdb-stockholders-to-contact-the-firm-for-information-about-the-class-action-against-hdfc-bank-limited-302881213.html"
-    },
-    {
-      "title": "USSEC Advances Aquaculture Feed Formulation in Asia",
-      "summary": "USSEC Advances Aquaculture Feed Formulation in Asia",
-      "source": "BusinessLine",
-      "date": "Sep 17, 2026",
+      "title": "‘The Traitors: New Blood’ EPs Break Down NBC Premiere, Sweetening the Pot for the Faithful and Why the Civilian Cast ‘Played Hard Straight Away’",
+      "summary": "SPOILER ALERT: This post contains spoilers for the two-hour series premiere of NBC’s “The Traitors: New Blood,” now streaming on Peacock. “The Traitors” castle isn’t just for the rich and famous anymo",
+      "source": "Variety",
+      "date": "Sep 18, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/ussec-advances-aquaculture-feed-formulation-in-asia/article71475155.ece"
+      "url": "https://variety.com/2026/tv/news/the-traitors-new-blood-game-changes-nbc-civilian-version-1236865874/"
     },
     {
-      "title": "Marketing Executive - JN-092026-7094584",
-      "summary": "As a Marketing Executive in the retail industry, you'll play a key role in planning and delivering marketing campaigns that support the business's growth. Based in Maidenhead, you'll work on a variety",
-      "source": "Michaelpage.co.uk",
-      "date": "Sep 17, 2026",
-      "image": "blog-images/news_8.png",
+      "title": "The Traitors: New Blood Series",
+      "summary": "We’re back in the castle with non-celebrities, which means the contestants have no prior knowledge of each other and we have a lot of names to learn.",
+      "source": "Vulture",
+      "date": "Sep 18, 2026",
+      "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.michaelpage.co.uk/job-detail/marketing-executive/ref/jn-092026-7094584"
+      "url": "http://www.vulture.com/article/the-traitors-new-blood-recap-season-1-episodes-1-and-2-peacock.html"
     }
   ],
   "jobs": [
