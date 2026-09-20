@@ -1,12 +1,22 @@
 {
-  "updated": "2026-09-19T02:06:58.007Z",
+  "updated": "2026-09-20T02:13:07.314Z",
   "news": [
+    {
+      "title": "Here's what top Disney execs told employees about its major streaming leadership shake",
+      "summary": "Disney creative chief Dana Walden and streaming head Adam Smith addressed employees after major leadership changes to the direct-to-consumer business.",
+      "source": "Business Insider",
+      "date": "Sep 18, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/read-memo-disney-streaming-leadership-changes-adam-smith-dana-walden-2026-9#article"
+    },
     {
       "title": "Google has to make big changes to its advertising empire. Here's what a judge ruled — minus the jargon.",
       "summary": "Google won't be broken up, but it will have to rewrite the rules of its adtech empire.",
       "source": "Business Insider",
       "date": "Sep 17, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/what-googles-adtech-behavioral-remedies-ruling-means-in-plain-english-2026-9#article"
@@ -16,7 +26,7 @@
       "summary": "Internal Teams messages show that some engineers at the bank who use Claude have monthly spending limits.",
       "source": "Business Insider",
       "date": "Sep 17, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/jpmorgan-claude-spending-limit-security-engineers-2026-9#article"
@@ -26,7 +36,7 @@
       "summary": "The Fed raised rates for the first time in three years. Some investors are pricing in even more rate hikes than officals projected.",
       "source": "Business Insider",
       "date": "Sep 16, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/stock-market-today-selloff-fed-interest-rate-hikes-outlook-2026-9#article"
@@ -36,7 +46,7 @@
       "summary": "An identity overhaul, inclusive of a new logo and revamped social media strategy, is showcased in a campaign that is rooted in self-expression.",
       "source": "Marketing Dive",
       "date": "Sep 16, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.marketingdive.com/news/how-carters-is-refreshing-its-brand-to-reach-gen-z-millennial-parents/830313/"
@@ -46,50 +56,40 @@
       "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy 'super app' launch, here's a look at the AI projects that shut down or missed expectations.",
       "source": "TechCrunch",
       "date": "Sep 15, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
     },
     {
-      "title": "How Brands Can Win Attention in a Fragmented World with Papa John’s and Carat",
-      "summary": "Michael Law and Shivram Vaideeswaran on the ingredients to combine for staying relevant.",
-      "source": "Adweek",
-      "date": "Sep 15, 2026",
-      "image": "blog-images/news_5.png",
+      "title": "HDFC Bank Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against HDFC Bank Limited",
+      "summary": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 13, 2026 to file lead plaintiff applications in a securi",
+      "source": "PRNewswire",
+      "date": "Sep 19, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/how-brands-can-win-attention-in-a-fragmented-world-with-papa-johns-and-carat/"
+      "url": "https://www.prnewswire.com/news-releases/hdfc-bank-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-hdfc-bank-limited---hdb-302883666.html"
     },
     {
-      "title": "★ The iPhones 18 Pro",
-      "summary": "It’s the best version of the most successful product ever made. And yet by nature of *how* the iPhone 18 Pro improved in the last year, it’s not exciting at all.",
-      "source": "Daringfireball.net",
-      "date": "Sep 18, 2026",
-      "image": "blog-images/news_6.png",
+      "title": "GST cuts, lower prices put dishwashers on Indian kitchen maps",
+      "summary": "Dishwasher sales are rapidly growing in India after recent GST rate reductions.  Manufacturers have adapted machines for Indian cooking, boosting consumer interest and demand.  Tier II cities are now",
+      "source": "The Times of India",
+      "date": "Sep 19, 2026",
+      "image": "blog-images/news_7.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://daringfireball.net/2026/09/the_iphones_18_pro"
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/durables/gst-cut-lower-prices-put-dishwashers-on-indian-kitchen-maps/articleshow/134346334.cms"
     },
     {
-      "title": "‘The Traitors: New Blood’ EPs Break Down NBC Premiere, Sweetening the Pot for the Faithful and Why the Civilian Cast ‘Played Hard Straight Away’",
-      "summary": "SPOILER ALERT: This post contains spoilers for the two-hour series premiere of NBC’s “The Traitors: New Blood,” now streaming on Peacock. “The Traitors” castle isn’t just for the rich and famous anymo",
-      "source": "Variety",
-      "date": "Sep 18, 2026",
-      "image": "blog-images/news_7.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://variety.com/2026/tv/news/the-traitors-new-blood-game-changes-nbc-civilian-version-1236865874/"
-    },
-    {
-      "title": "The Traitors: New Blood Series",
-      "summary": "We’re back in the castle with non-celebrities, which means the contestants have no prior knowledge of each other and we have a lot of names to learn.",
-      "source": "Vulture",
-      "date": "Sep 18, 2026",
+      "title": "Anthropic considers releasing new AI model ahead of IPO, sources say",
+      "summary": "Anthropic is considering rolling out a new AI model to counter OpenAI's momentum since its launch of GPT-6 Astra, according to three sources, ahead of an expected IPO and after its CEO called for an i",
+      "source": "The Times of India",
+      "date": "Sep 19, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "http://www.vulture.com/article/the-traitors-new-blood-recap-season-1-episodes-1-and-2-peacock.html"
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-considers-releasing-new-ai-model-ahead-of-ipo-sources-say/articleshow/134346362.cms"
     }
   ],
   "jobs": [
