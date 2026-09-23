@@ -1,12 +1,32 @@
 {
-  "updated": "2026-09-22T02:17:35.022Z",
+  "updated": "2026-09-23T02:17:37.670Z",
   "news": [
+    {
+      "title": "A Winning Formula for Building Brand Trust",
+      "summary": "This post was created in partnership with Marketing Architects Brands need consumer trust to grow, but gaining and keeping it takes a careful strategy. During a Brandweek 2026 fireside chat […]",
+      "source": "Adweek",
+      "date": "Sep 21, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/a-winning-formula-for-building-brand-trust/"
+    },
+    {
+      "title": "We asked 8 supply chain leaders what impressed and surprised them most about AI. Here's what they said.",
+      "summary": "Supply chain leaders, including J-Ann Tio Toles, highlight AI's role in transforming logistics operations and enhancing sustainability.",
+      "source": "Business Insider",
+      "date": "Sep 21, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/supply-chain-leaders-share-ai-uses-impressed-surprised-2026-9#article"
+    },
     {
       "title": "Here's what top Disney execs told employees about its major streaming leadership shake",
       "summary": "Disney creative chief Dana Walden and streaming head Adam Smith addressed employees after major leadership changes to the direct-to-consumer business.",
       "source": "Business Insider",
       "date": "Sep 18, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/read-memo-disney-streaming-leadership-changes-adam-smith-dana-walden-2026-9#article"
@@ -16,7 +36,7 @@
       "summary": "Google won't be broken up, but it will have to rewrite the rules of its adtech empire.",
       "source": "Business Insider",
       "date": "Sep 17, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/what-googles-adtech-behavioral-remedies-ruling-means-in-plain-english-2026-9#article"
@@ -26,7 +46,7 @@
       "summary": "Internal Teams messages show that some engineers at the bank who use Claude have monthly spending limits.",
       "source": "Business Insider",
       "date": "Sep 17, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/jpmorgan-claude-spending-limit-security-engineers-2026-9#article"
@@ -36,60 +56,40 @@
       "summary": "The Fed raised rates for the first time in three years. Some investors are pricing in even more rate hikes than officals projected.",
       "source": "Business Insider",
       "date": "Sep 16, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/stock-market-today-selloff-fed-interest-rate-hikes-outlook-2026-9#article"
     },
     {
-      "title": "How Carter’s is refreshing its brand to reach Gen Z, millennial parents",
-      "summary": "An identity overhaul, inclusive of a new logo and revamped social media strategy, is showcased in a campaign that is rooted in self-expression.",
-      "source": "Marketing Dive",
-      "date": "Sep 16, 2026",
-      "image": "blog-images/news_4.jpg",
+      "title": "Economic Digest: A Snapshot of Nepal’s Business News",
+      "summary": "KATHMANDU: Economic Digest presents a brief yet comprehensive roundup of major business developments in Nepal, delivered in clear and accessible summaries. Nepal’s latest economic and business develop",
+      "source": "Khabarhub.com",
+      "date": "Sep 22, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.marketingdive.com/news/how-carters-is-refreshing-its-brand-to-reach-gen-z-millennial-parents/830313/"
+      "url": "https://english.khabarhub.com/2026/22/568691/"
     },
     {
-      "title": "The AI graveyard: a running list of projects and startups that didn't make it",
-      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy 'super app' launch, here's a look at the AI projects that shut down or missed expectations.",
-      "source": "TechCrunch",
-      "date": "Sep 15, 2026",
-      "image": "blog-images/news_5.jpg",
+      "title": "ChatGPT Ads - AI Advertising Services",
+      "summary": "Reach customers where they ask questions. Butter's AI advertising agency manages targeted ads in ChatGPT and AI search so your brand gets noticed.",
+      "source": "Buttermarketing.com",
+      "date": "Sep 22, 2026",
+      "image": "blog-images/news_7.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+      "url": "https://www.buttermarketing.com/services/chatgpt-ai-advertising"
     },
     {
-      "title": "Shoe company Converse apologises, pulls ad that drew comparisons to Ku Klux Klan imagery",
-      "summary": "Converse removed an advertisement after facing criticism for its imagery. Critics viewed the ad as evoking the Ku Klux Klan and lynching. The company issued an apology, acknowledging the upsetting nat",
-      "source": "The Times of India",
-      "date": "Sep 21, 2026",
-      "image": "blog-images/news_6.png",
+      "title": "Inglewood Associates and Gordon Brothers Provide Update on Sale Process for 925 Euclid Avenue in Cleveland",
+      "summary": "CLEVELAND, Sept. 21, 2026 /PRNewswire/ -- Inglewood Associates and Gordon Brothers today announced an update regarding the court-supervised sale process for the property located at 925 Euclid Avenue,",
+      "source": "PRNewswire",
+      "date": "Sep 22, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/news/international/business/shoe-company-converse-apologises-pulls-ad-that-drew-comparisons-to-ku-klux-klan-imagery/articleshow/134378046.cms"
-    },
-    {
-      "title": "[Podcast] Customer Experience Psychology: How to Build a Memorable Brand with Si Elliot",
-      "summary": "Jacob Cass & Matt Davies speak with customer experience expert and author Si Elliott about the psychology behind how people experience, perceive and remember brands.",
-      "source": "Justcreative.com",
-      "date": "Sep 21, 2026",
-      "image": "blog-images/news_7.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://justcreative.com/customer-experience-psychology/"
-    },
-    {
-      "title": "Nathan Fillion Unpacks Guy Gardner’s ‘Lanterns’ Cameo: ‘What Took You So Long?’",
-      "summary": "The actor tells TheWrap why he loves playing unlikable characters and how Hal and John did \"damage to the Green Lantern brand\"\nThe post Nathan Fillion Unpacks Guy Gardner’s ‘Lanterns’ Cameo: ‘What Too",
-      "source": "TheWrap",
-      "date": "Sep 21, 2026",
-      "image": "blog-images/news_8.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.thewrap.com/creative-content/tv-shows/lanterns-episode-6-nathan-fillion-guy-gardner-interview/"
+      "url": "https://www.prnewswire.com/news-releases/inglewood-associates-and-gordon-brothers-provide-update-on-sale-process-for-925-euclid-avenue-in-cleveland-302885408.html"
     }
   ],
   "jobs": [
@@ -116,11 +116,22 @@
       "showSource": true
     },
     {
+      "title": "Marketing Job Titles: What They Tell Candidates",
+      "summary": "Is this the right title? A recruiter on what marketing job titles signal to candidates, why agency and in-house titles differ, and how to test yours.",
+      "source": "Kore1.com",
+      "date": "Sep 21, 2026",
+      "image": "blog-images/jobs_2.jpg",
+      "category": "Jobs",
+      "emoji": "💼",
+      "url": "https://www.kore1.com/marketing-job-titles-what-they-tell-candidates/#article",
+      "showSource": true
+    },
+    {
       "title": "Digital Marketing vs Social Media Agency: Who to Hire?",
       "summary": "A digital marketing agency covers several channels; a social media agency goes deep on social. How to choose in Australia and Singapore, with evidence.",
       "source": "Arfadia.com",
       "date": "Sep 19, 2026",
-      "image": "blog-images/jobs_2.jpg",
+      "image": "blog-images/jobs_3.jpg",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.arfadia.com/blog/digital-marketing-agency-vs-social-media-agency/",
@@ -131,7 +142,7 @@
       "summary": "Jaipur is no longer only known for tourism, handicrafts, and traditional businesses.",
       "source": "Fueler.io",
       "date": "Sep 15, 2026",
-      "image": "blog-images/jobs_3.png",
+      "image": "blog-images/jobs_4.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://fueler.io/blog/digital-marketing-agencies-in-jaipur-hiring-talent",
