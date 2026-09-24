@@ -1,12 +1,52 @@
 {
-  "updated": "2026-09-23T02:17:37.670Z",
+  "updated": "2026-09-24T02:04:43.914Z",
   "news": [
+    {
+      "title": "The Mediterranean Way, at Scale: Cava’s Growth Story",
+      "summary": "Nitya Madhavan explains how the fast-growing restaurant brand is scaling its national footprint without losing trust with consumers.",
+      "source": "Adweek",
+      "date": "Sep 22, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/the-mediterranean-way-at-scale-cavas-growth-story/"
+    },
+    {
+      "title": "I built a freelance career by saying yes. Now, I'm learning when not to.",
+      "summary": "After getting laid off at 27, I built my career by saying 'yes' to almost everything. At 39, I'm reevaluating that strategy.",
+      "source": "Business Insider",
+      "date": "Sep 22, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/built-career-by-saying-yes-changing-strategy-2026-9#article"
+    },
+    {
+      "title": "Congratulations, you're a manager now! But there's no promotion — or a raise",
+      "summary": "Workers are now spending their time managing AI agents, supervising their work, and fixing mistakes. Many aren't getting manager promotions or raises.",
+      "source": "Business Insider",
+      "date": "Sep 22, 2026",
+      "image": "blog-images/news_2.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/workers-managing-ai-agents-bots-promotions-raises-2026-9#article"
+    },
+    {
+      "title": "Bitcoin retreats from eight",
+      "summary": "Falling oil prices and optimism ahead of a summit between US President Donald Trump and China’s Xi Jinping have buoyed markets more broadly.",
+      "source": "Bloomberg",
+      "date": "Sep 22, 2026",
+      "image": "blog-images/news_3.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-22/bitcoin-retreats-from-eight-month-high-after-dizzying-13-rally"
+    },
     {
       "title": "A Winning Formula for Building Brand Trust",
       "summary": "This post was created in partnership with Marketing Architects Brands need consumer trust to grow, but gaining and keeping it takes a careful strategy. During a Brandweek 2026 fireside chat […]",
       "source": "Adweek",
       "date": "Sep 21, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/a-winning-formula-for-building-brand-trust/"
@@ -16,80 +56,40 @@
       "summary": "Supply chain leaders, including J-Ann Tio Toles, highlight AI's role in transforming logistics operations and enhancing sustainability.",
       "source": "Business Insider",
       "date": "Sep 21, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/supply-chain-leaders-share-ai-uses-impressed-surprised-2026-9#article"
     },
     {
-      "title": "Here's what top Disney execs told employees about its major streaming leadership shake",
-      "summary": "Disney creative chief Dana Walden and streaming head Adam Smith addressed employees after major leadership changes to the direct-to-consumer business.",
+      "title": "AI anxiety is sweeping the globe — and cutting across party lines: poll",
+      "summary": "Majorities in six countries said there was at least a \"moderate\" risk that AI could \"destroy humanity,\" a new POLITICO Poll found.",
       "source": "Business Insider",
-      "date": "Sep 18, 2026",
-      "image": "blog-images/news_2.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/read-memo-disney-streaming-leadership-changes-adam-smith-dana-walden-2026-9#article"
-    },
-    {
-      "title": "Google has to make big changes to its advertising empire. Here's what a judge ruled — minus the jargon.",
-      "summary": "Google won't be broken up, but it will have to rewrite the rules of its adtech empire.",
-      "source": "Business Insider",
-      "date": "Sep 17, 2026",
-      "image": "blog-images/news_3.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/what-googles-adtech-behavioral-remedies-ruling-means-in-plain-english-2026-9#article"
-    },
-    {
-      "title": "JPMorgan rolls out Claude changes: $2,000 spending limits and extra security",
-      "summary": "Internal Teams messages show that some engineers at the bank who use Claude have monthly spending limits.",
-      "source": "Business Insider",
-      "date": "Sep 17, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/jpmorgan-claude-spending-limit-security-engineers-2026-9#article"
-    },
-    {
-      "title": "Markets are spooked by the prospect of more rate hikes as the Fed battles inflation",
-      "summary": "The Fed raised rates for the first time in three years. Some investors are pricing in even more rate hikes than officals projected.",
-      "source": "Business Insider",
-      "date": "Sep 16, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/stock-market-today-selloff-fed-interest-rate-hikes-outlook-2026-9#article"
-    },
-    {
-      "title": "Economic Digest: A Snapshot of Nepal’s Business News",
-      "summary": "KATHMANDU: Economic Digest presents a brief yet comprehensive roundup of major business developments in Nepal, delivered in clear and accessible summaries. Nepal’s latest economic and business develop",
-      "source": "Khabarhub.com",
-      "date": "Sep 22, 2026",
+      "date": "Sep 23, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://english.khabarhub.com/2026/22/568691/"
+      "url": "https://www.businessinsider.com/ai-anxiety-sweeping-the-globe-cutting-across-party-lines-poll-2026-9#article"
     },
     {
-      "title": "ChatGPT Ads - AI Advertising Services",
-      "summary": "Reach customers where they ask questions. Butter's AI advertising agency manages targeted ads in ChatGPT and AI search so your brand gets noticed.",
-      "source": "Buttermarketing.com",
-      "date": "Sep 22, 2026",
-      "image": "blog-images/news_7.png",
+      "title": "GOxCALL Turns Any Screen Into a Smart Queue Counter for Local Businesses",
+      "summary": "GOxCALL Turns Any Screen Into a Smart Queue Counter for Local Businesses",
+      "source": "BusinessLine",
+      "date": "Sep 23, 2026",
+      "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.buttermarketing.com/services/chatgpt-ai-advertising"
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/goxcall-turns-any-screen-into-a-smart-queue-counter-for-local-businesses/article71498052.ece"
     },
     {
-      "title": "Inglewood Associates and Gordon Brothers Provide Update on Sale Process for 925 Euclid Avenue in Cleveland",
-      "summary": "CLEVELAND, Sept. 21, 2026 /PRNewswire/ -- Inglewood Associates and Gordon Brothers today announced an update regarding the court-supervised sale process for the property located at 925 Euclid Avenue,",
-      "source": "PRNewswire",
-      "date": "Sep 22, 2026",
-      "image": null,
+      "title": "Impact Fund for Global South Creators Launches at Toronto With Focus on Distribution and Audiences (EXCLUSIVE)",
+      "summary": "A new impact fund backing creators from the Global South launched at the recently concluded first edition of the Toronto Film Festival market, with a model built around getting films in front of audie",
+      "source": "Variety",
+      "date": "Sep 23, 2026",
+      "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.prnewswire.com/news-releases/inglewood-associates-and-gordon-brothers-provide-update-on-sale-process-for-925-euclid-avenue-in-cleveland-302885408.html"
+      "url": "https://variety.com/2026/film/news/impact-fund-global-south-creators-toronto-1236872846/"
     }
   ],
   "jobs": [
