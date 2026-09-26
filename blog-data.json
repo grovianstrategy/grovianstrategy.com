@@ -1,12 +1,42 @@
 {
-  "updated": "2026-09-25T02:22:01.647Z",
+  "updated": "2026-09-26T02:26:16.603Z",
   "news": [
+    {
+      "title": "An Accountant’s Playbook to Great Marketing ft. Sony’s Mary Yee",
+      "summary": "Plus, how analytics and creativity should work together, not against each other.",
+      "source": "Adweek",
+      "date": "Sep 24, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/an-accountants-playbook-to-great-marketing-ft-sonys-mary-yee/"
+    },
+    {
+      "title": "Ed Sheeran's Macklemore mess has rocked his public image. PR pros say fans will be more forgiving than you think.",
+      "summary": "Ed Sheeran faced public backlash after Macklemore was removed from his tour over pro-Palestinian remarks. PR pros say his true fans won't care.",
+      "source": "Business Insider",
+      "date": "Sep 24, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/ed-sheeran-macklemore-tour-controversy-pr-experts-response-2026-9#article"
+    },
+    {
+      "title": "Doceree Honors Top Healthcare Leaders Innovating With AI",
+      "summary": "The healthcare marketing company hosted an awards evening to celebrate AI-driven advancements in the industry.",
+      "source": "Adweek",
+      "date": "Sep 24, 2026",
+      "image": "blog-images/news_2.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/doceree-honors-top-25-healthcare-leaders-innovating-with-ai/"
+    },
     {
       "title": "Palantir’s Quiet Takeover of Media’s Data Stack",
       "summary": "From newsroom automation to audience monetization, here's what's drawn companies to the intelligence firm.",
       "source": "Adweek",
       "date": "Sep 23, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/media/palantir-media-marketing-partnership-push/"
@@ -16,7 +46,7 @@
       "summary": "Meta's chief AI officer has posted more than 300 times on X since Muse, its personal AI agent, launched. The promo strategy is increasingly cheeky.",
       "source": "Business Insider",
       "date": "Sep 23, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/alexandr-wang-meta-muse-social-media-posts-pr-strategy-2026-9#article"
@@ -26,70 +56,40 @@
       "summary": "Scope3 no more. Enter, Apostra, a startup that wants to replace programmatic advertising with AI agents.",
       "source": "Business Insider",
       "date": "Sep 23, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/brian-okelley-scope3-rebrand-apostra-agentic-ai-ad-buying-2026-9#article"
     },
     {
-      "title": "OpenAI is enlisting an influencer army to make it look 'good for the world'",
-      "summary": "OpenAI is hiring influencers to create content that portrays AI as cool and helpful, not scary. Here's an inside look at its marketing strategy.",
-      "source": "Business Insider",
-      "date": "Sep 23, 2026",
-      "image": "blog-images/news_3.jpg",
+      "title": "Runwal Enterprises IPO opens today: Check GMP and key details. Should you subscribe?",
+      "summary": "The Rs 499.83 crore Runwal Enterprises IPO is entirely a fresh issue of 1.64 crore shares, with no offer-for-sale component.",
+      "source": "The Times of India",
+      "date": "Sep 25, 2026",
+      "image": "blog-images/news_6.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9#article"
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/runwal-enterprises-ipo-opens-today-check-gmp-and-key-details-should-you-subscribe/articleshow/134473268.cms"
     },
     {
-      "title": "The Mediterranean Way, at Scale: Cava’s Growth Story",
-      "summary": "Nitya Madhavan explains how the fast-growing restaurant brand is scaling its national footprint without losing trust with consumers.",
-      "source": "Adweek",
-      "date": "Sep 22, 2026",
-      "image": "blog-images/news_4.png",
+      "title": "All Brochures & Marketing Literature",
+      "summary": "Brochures and other marketing literature for all brands available.",
+      "source": "Albaco.com",
+      "date": "Sep 25, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/the-mediterranean-way-at-scale-cavas-growth-story/"
+      "url": "https://albaco.com/collections/all-brochures-marketing-literature"
     },
     {
-      "title": "I built a freelance career by saying yes. Now, I'm learning when not to.",
-      "summary": "After getting laid off at 27, I built my career by saying 'yes' to almost everything. At 39, I'm reevaluating that strategy.",
-      "source": "Business Insider",
-      "date": "Sep 22, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/built-career-by-saying-yes-changing-strategy-2026-9#article"
-    },
-    {
-      "title": "Can AI give small businesses the marketing muscle of big companies?",
-      "summary": "Dublin start-up MarkGo aims to make big agency marketing expertise available to SMEs on a budget",
-      "source": "The Irish Times",
-      "date": "Sep 24, 2026",
-      "image": "blog-images/news_6.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.irishtimes.com/business/innovation/2026/09/24/can-ai-give-small-businesses-the-marketing-muscle-of-big-companies/"
-    },
-    {
-      "title": "Toshiba Launches 3300V SiC MOSFET Module with High Surge Current Capability that Helps Improve Reliability of Industrial Equipment",
-      "summary": "KAWASAKI, Japan — Toshiba Electronic Devices & Storage Corporation (“Toshiba”) has expanded its lineup with the launch of “IX800FXF2YMS4,” a dual SiC MOSFET module for industrial equipment, including",
-      "source": "Financial Post",
-      "date": "Sep 24, 2026",
-      "image": "blog-images/news_7.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/toshiba-launches-3300v-sic-mosfet-module-with-high-surge-current-capability-that-helps-improve-reliability-of-industrial-equipment"
-    },
-    {
-      "title": "BIDU Investors Have Opportunity to Lead Baidu, Inc. Securities Fraud Lawsuit",
-      "summary": "NEW YORK, Sept. 23, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, announces a class action lawsuit on behalf of purchasers of securities of Baidu, Inc. (NASDAQ: BIDU) between",
+      "title": "California Waste Solutions To Play Major Role With AI Optical Sorters In Helping Oakland Combat Illegal Dumping",
+      "summary": "California Waste Solutions Supports Oakland Illegal Dumping Cleanup OAKLAND, Calif., Sept. 24, 2026 /PRNewswire/ -- California Waste Solutions, Inc. is putting AI scanners and expanded optical sorting",
       "source": "PRNewswire",
-      "date": "Sep 24, 2026",
+      "date": "Sep 25, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.prnewswire.com/news-releases/bidu-investors-have-opportunity-to-lead-baidu-inc-securities-fraud-lawsuit-302888325.html"
+      "url": "https://www.prnewswire.com/news-releases/california-waste-solutions-to-play-major-role-with-ai-optical-sorters-in-helping-oakland-combat-illegal-dumping-302889951.html"
     }
   ],
   "jobs": [
@@ -116,11 +116,22 @@
       "showSource": true
     },
     {
+      "title": "Digital Marketing Jobs in Pune",
+      "summary": "Digital Marketing Jobs in Pune: Roles, Skills & Salary 2026? Find fresher roles, key skills, salary ranges and practical tips for starting your career.",
+      "source": "Piidm.com",
+      "date": "Sep 24, 2026",
+      "image": "blog-images/jobs_2.png",
+      "category": "Jobs",
+      "emoji": "💼",
+      "url": "https://piidm.com/digital-marketing-jobs-in-pune/",
+      "showSource": true
+    },
+    {
       "title": "Marketing Job Titles: What They Tell Candidates",
       "summary": "Is this the right title? A recruiter on what marketing job titles signal to candidates, why agency and in-house titles differ, and how to test yours.",
       "source": "Kore1.com",
       "date": "Sep 21, 2026",
-      "image": "blog-images/jobs_2.jpg",
+      "image": "blog-images/jobs_3.jpg",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.kore1.com/marketing-job-titles-what-they-tell-candidates/#article",
@@ -131,21 +142,10 @@
       "summary": "A digital marketing agency covers several channels; a social media agency goes deep on social. How to choose in Australia and Singapore, with evidence.",
       "source": "Arfadia.com",
       "date": "Sep 19, 2026",
-      "image": "blog-images/jobs_3.jpg",
+      "image": "blog-images/jobs_4.jpg",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://www.arfadia.com/blog/digital-marketing-agency-vs-social-media-agency/",
-      "showSource": true
-    },
-    {
-      "title": "25 Digital Marketing Agencies in Jaipur Hiring Talent in 2026",
-      "summary": "Jaipur is no longer only known for tourism, handicrafts, and traditional businesses.",
-      "source": "Fueler.io",
-      "date": "Sep 15, 2026",
-      "image": "blog-images/jobs_4.png",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://fueler.io/blog/digital-marketing-agencies-in-jaipur-hiring-talent",
       "showSource": true
     },
     {
