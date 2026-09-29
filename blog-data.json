@@ -1,12 +1,42 @@
 {
-  "updated": "2026-09-28T02:26:41.185Z",
+  "updated": "2026-09-29T03:09:56.438Z",
   "news": [
+    {
+      "title": "The British military is feeding a 'load of data' from the war in Ukraine into its next",
+      "summary": "The Challenger 3 is a major upgrade over its predecessor, which has been in service with the British Army and the Ukrainian military.",
+      "source": "Business Insider",
+      "date": "Sep 27, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/britains-new-main-battle-tank-evolving-alongside-ukraine-war-2026-9#article"
+    },
+    {
+      "title": "5 BI staffers who put AI agents to work share what worked and what went wrong",
+      "summary": "BI staffers have been using personal AI agents for everything from reserving library books to collecting K-pop merch.",
+      "source": "Business Insider",
+      "date": "Sep 27, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/staffers-test-personal-ai-agent-muse-instinct-highs-lows-2026-9#article"
+    },
+    {
+      "title": "A former BCG partner says leaving consulting taught him how to build",
+      "summary": "Daniel Dantus spent eight years at BCG before transitioning to Juul. Here's his advice on building a career post consulting.",
+      "source": "Business Insider",
+      "date": "Sep 27, 2026",
+      "image": "blog-images/news_2.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/bcg-partner-to-juul-skan-tech-consulting-transition-2026-9#article"
+    },
     {
       "title": "Are AI Ads Ready for Prime Time?",
       "summary": "This post was created in partnership with Higgsfield AI After years of debate over AI’s creative capabilities, Higgsfield, an AI-native creative suite, put them to the test. During a Brandweek […]",
       "source": "Adweek",
       "date": "Sep 25, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/creativity/are-ai-ads-ready-for-prime-time/"
@@ -16,7 +46,7 @@
       "summary": "A founder known for viral antics sent a LinkedIn request to the CEO of Soar, a travel startup. Days later, he launched a rival — also called Soar.",
       "source": "Business Insider",
       "date": "Sep 25, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/soar-startup-name-ai-travel-fight-2026-9#article"
@@ -26,70 +56,40 @@
       "summary": "Plus, how analytics and creativity should work together, not against each other.",
       "source": "Adweek",
       "date": "Sep 24, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/an-accountants-playbook-to-great-marketing-ft-sonys-mary-yee/"
     },
     {
-      "title": "Ed Sheeran's Macklemore mess has rocked his public image. PR pros say fans will be more forgiving than you think.",
-      "summary": "Ed Sheeran faced public backlash after Macklemore was removed from his tour over pro-Palestinian remarks. PR pros say his true fans won't care.",
-      "source": "Business Insider",
-      "date": "Sep 24, 2026",
-      "image": "blog-images/news_3.jpg",
+      "title": "AI and Energy Empower Each Other: David Sun Outlines Future of Electric Power Industry at 2026 AESIEAP CEO Conference",
+      "summary": "At the recent Association of the Electricity Supply Industry of East Asia and Western Pacific (AESIEAP) CEO Conference, David Sun, CEO of Huawei Electric ...",
+      "source": "Antaranews.com",
+      "date": "Sep 28, 2026",
+      "image": "blog-images/news_6.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/ed-sheeran-macklemore-tour-controversy-pr-experts-response-2026-9#article"
+      "url": "https://en.antaranews.com/news/433141/ai-and-energy-empower-each-other-david-sun-outlines-future-of-electric-power-industry-at-2026-aesieap-ceo-conference"
     },
     {
-      "title": "Doceree Honors Top Healthcare Leaders Innovating With AI",
-      "summary": "The healthcare marketing company hosted an awards evening to celebrate AI-driven advancements in the industry.",
-      "source": "Adweek",
-      "date": "Sep 24, 2026",
-      "image": "blog-images/news_4.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/doceree-honors-top-25-healthcare-leaders-innovating-with-ai/"
-    },
-    {
-      "title": "Palantir’s Quiet Takeover of Media’s Data Stack",
-      "summary": "From newsroom automation to audience monetization, here's what's drawn companies to the intelligence firm.",
-      "source": "Adweek",
-      "date": "Sep 23, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/media/palantir-media-marketing-partnership-push/"
-    },
-    {
-      "title": "Can sugar gliders eat honey sticks?",
-      "summary": "Can Sugar Gliders Eat Honey Sticks? A Deep Dive into Nutritional Needs No, sugar gliders should not eat honey sticks. While seemingly a treat, honey sticks offer virtually no nutritional value for sug",
-      "source": "Lifesciencesworld.com",
-      "date": "Sep 27, 2026",
-      "image": null,
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.lifesciencesworld.com/can-sugar-gliders-eat-honey-sticks/"
-    },
-    {
-      "title": "PNOE's new face mask wants to make lab-grade breath testing a self-serve affair",
-      "summary": "PNOĒ, the Malden, Mass.-based startup whose breath-analyzing mask used to bear an unfortunate resemblance to Bane's, is launching a sleeker self-serve version on October 1 that lets gym-goers measure",
-      "source": "TechCrunch",
-      "date": "Sep 27, 2026",
+      "title": "Communications Manager - Evitable",
+      "summary": "A new Communications Manager job is available in San Francisco, California. Check it out on PR News Online.",
+      "source": "Calnonprofits.org",
+      "date": "Sep 28, 2026",
       "image": "blog-images/news_7.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://techcrunch.com/2026/09/26/pnoes-new-face-mask-wants-to-make-lab-grade-breath-testing-a-self-serve-affair/"
+      "url": "https://jobs.calnonprofits.org/job/communications-manager/86181112/"
     },
     {
-      "title": "I discovered the impossibly simple secret to weight loss 'without noticing' after transforming my body in three months: 'No Ozempic, no gym, just lifestyle'",
-      "summary": "After just three months, Tyla, from Queensland, was stunned by the physical transformation that had happened almost without her noticing.",
-      "source": "Dailymail.com",
-      "date": "Sep 27, 2026",
+      "title": "Sandur Manganese sets up subsidiary to manufacture medical devices",
+      "summary": "Sandur Manganese & Iron Ore announced that it has incorporated a wholly owned subsidiary, Royal Sandur MedTech, to undertake the business of manufacturing medical devices and healthcare consumables.",
+      "source": "Business Standard",
+      "date": "Sep 28, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.dailymail.com/lifestyle/fitness-wellbeing/article-16131393/tyla-brim-body-transformation-no-gym-weight-loss-secret-Australia.html"
+      "url": "https://www.business-standard.com/markets/capital-market-news/sandur-manganese-sets-up-subsidiary-to-manufacture-medical-devices-126092800088_1.html"
     }
   ],
   "jobs": [
