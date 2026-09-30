@@ -1,12 +1,42 @@
 {
-  "updated": "2026-09-29T03:09:56.438Z",
+  "updated": "2026-09-30T02:52:02.781Z",
   "news": [
+    {
+      "title": "2026 VMAs Was Taylor",
+      "summary": "The VMAs reached 8.4 million viewers, an 11-year high.",
+      "source": "Adweek",
+      "date": "Sep 28, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/convergent-tv/2026-vmas-was-taylor-made-for-big-viewership-boost-51-increase/"
+    },
+    {
+      "title": "Delta Air Lines Follows United in Building an Ads Business",
+      "summary": "Delta has hired a former Deloitte and Digitas leader to run its media network.",
+      "source": "Adweek",
+      "date": "Sep 28, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/commerce/delta-air-lines-follows-united-in-building-an-ads-business/"
+    },
+    {
+      "title": "Holy H-E",
+      "summary": "NHL teams with Adobe as Official Creative, Marketing, and AI Partner.",
+      "source": "Adweek",
+      "date": "Sep 28, 2026",
+      "image": "blog-images/news_2.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/convergent-tv/adobe-brings-ai-to-the-nhl/"
+    },
     {
       "title": "The British military is feeding a 'load of data' from the war in Ukraine into its next",
       "summary": "The Challenger 3 is a major upgrade over its predecessor, which has been in service with the British Army and the Ukrainian military.",
       "source": "Business Insider",
       "date": "Sep 27, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/britains-new-main-battle-tank-evolving-alongside-ukraine-war-2026-9#article"
@@ -16,7 +46,7 @@
       "summary": "BI staffers have been using personal AI agents for everything from reserving library books to collecting K-pop merch.",
       "source": "Business Insider",
       "date": "Sep 27, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/staffers-test-personal-ai-agent-muse-instinct-highs-lows-2026-9#article"
@@ -26,70 +56,40 @@
       "summary": "Daniel Dantus spent eight years at BCG before transitioning to Juul. Here's his advice on building a career post consulting.",
       "source": "Business Insider",
       "date": "Sep 27, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/bcg-partner-to-juul-skan-tech-consulting-transition-2026-9#article"
     },
     {
-      "title": "Are AI Ads Ready for Prime Time?",
-      "summary": "This post was created in partnership with Higgsfield AI After years of debate over AI’s creative capabilities, Higgsfield, an AI-native creative suite, put them to the test. During a Brandweek […]",
-      "source": "Adweek",
-      "date": "Sep 25, 2026",
-      "image": "blog-images/news_3.jpg",
+      "title": "The Only Sensible Policy for Commenting on Rumors",
+      "summary": "If you’re lucky, you’ll learn a tough lesson about commenting on rumors early in your marketing communications career. It typically unfolds something like this.\n\nSomeone says you’re shutting down a pr",
+      "source": "Kellblog.com",
+      "date": "Sep 29, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.adweek.com/creativity/are-ai-ads-ready-for-prime-time/"
+      "url": "https://www.kellblog.com/the-only-sensible-policy-for-commenting-on-rumors/"
     },
     {
-      "title": "'Soar' wars: Inside two AI startups' messy fight over the same name",
-      "summary": "A founder known for viral antics sent a LinkedIn request to the CEO of Soar, a travel startup. Days later, he launched a rival — also called Soar.",
-      "source": "Business Insider",
-      "date": "Sep 25, 2026",
-      "image": "blog-images/news_4.jpg",
+      "title": "How the Protect College Sports Act could affect Charlie Woods and college golf",
+      "summary": "A new Senate bill seeks to stabilize college sports amid NIL chaos, potentially impacting stars like Charlie Woods.",
+      "source": "USA Today",
+      "date": "Sep 29, 2026",
+      "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/soar-startup-name-ai-travel-fight-2026-9#article"
+      "url": "https://golfweek.usatoday.com/story/sports/golf/college/2026/09/28/charlie-woods-nil-college-golf-protect-college-sports-act/91992502007/"
     },
     {
-      "title": "An Accountant’s Playbook to Great Marketing ft. Sony’s Mary Yee",
-      "summary": "Plus, how analytics and creativity should work together, not against each other.",
-      "source": "Adweek",
-      "date": "Sep 24, 2026",
-      "image": "blog-images/news_5.png",
+      "title": "simba",
+      "summary": "MCP server for Simba Marketing Mix Modeling — connect AI assistants to your MMM models",
+      "source": "Pypi.org",
+      "date": "Sep 29, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/an-accountants-playbook-to-great-marketing-ft-sonys-mary-yee/"
-    },
-    {
-      "title": "AI and Energy Empower Each Other: David Sun Outlines Future of Electric Power Industry at 2026 AESIEAP CEO Conference",
-      "summary": "At the recent Association of the Electricity Supply Industry of East Asia and Western Pacific (AESIEAP) CEO Conference, David Sun, CEO of Huawei Electric ...",
-      "source": "Antaranews.com",
-      "date": "Sep 28, 2026",
-      "image": "blog-images/news_6.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://en.antaranews.com/news/433141/ai-and-energy-empower-each-other-david-sun-outlines-future-of-electric-power-industry-at-2026-aesieap-ceo-conference"
-    },
-    {
-      "title": "Communications Manager - Evitable",
-      "summary": "A new Communications Manager job is available in San Francisco, California. Check it out on PR News Online.",
-      "source": "Calnonprofits.org",
-      "date": "Sep 28, 2026",
-      "image": "blog-images/news_7.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://jobs.calnonprofits.org/job/communications-manager/86181112/"
-    },
-    {
-      "title": "Sandur Manganese sets up subsidiary to manufacture medical devices",
-      "summary": "Sandur Manganese & Iron Ore announced that it has incorporated a wholly owned subsidiary, Royal Sandur MedTech, to undertake the business of manufacturing medical devices and healthcare consumables.",
-      "source": "Business Standard",
-      "date": "Sep 28, 2026",
-      "image": "blog-images/news_8.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.business-standard.com/markets/capital-market-news/sandur-manganese-sets-up-subsidiary-to-manufacture-medical-devices-126092800088_1.html"
+      "url": "https://pypi.org/project/simba-mcp/0.11.1/"
     }
   ],
   "jobs": [
