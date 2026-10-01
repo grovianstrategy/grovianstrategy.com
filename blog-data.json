@@ -1,12 +1,32 @@
 {
-  "updated": "2026-09-30T02:52:02.781Z",
+  "updated": "2026-10-01T02:58:11.596Z",
   "news": [
+    {
+      "title": "Why CMOs Get Fired Fast ft. Jessica Apotheker of BCG",
+      "summary": "Orchestration, art, and science: How great marketing actually works.",
+      "source": "Adweek",
+      "date": "Sep 29, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/why-cmos-get-fired-fast-ft-jessica-apotheker-of-bcg/"
+    },
+    {
+      "title": "I've been covering Prime Day for 7 years. Here are 9 early deals to grab now, and 2 to hold out for Amazon Prime Big Deal Days.",
+      "summary": "After analyzing Prime Day pricing history, we found 9 early Amazon deals worth buying now and 2 you should wait on.",
+      "source": "Business Insider",
+      "date": "Sep 29, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/guides/deals/october-prime-day-deals-buy-now-wait-2026-9#article"
+    },
     {
       "title": "2026 VMAs Was Taylor",
       "summary": "The VMAs reached 8.4 million viewers, an 11-year high.",
       "source": "Adweek",
       "date": "Sep 28, 2026",
-      "image": "blog-images/news_0.png",
+      "image": "blog-images/news_2.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/2026-vmas-was-taylor-made-for-big-viewership-boost-51-increase/"
@@ -16,7 +36,7 @@
       "summary": "Delta has hired a former Deloitte and Digitas leader to run its media network.",
       "source": "Adweek",
       "date": "Sep 28, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/commerce/delta-air-lines-follows-united-in-building-an-ads-business/"
@@ -26,7 +46,7 @@
       "summary": "NHL teams with Adobe as Official Creative, Marketing, and AI Partner.",
       "source": "Adweek",
       "date": "Sep 28, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/adobe-brings-ai-to-the-nhl/"
@@ -36,60 +56,40 @@
       "summary": "The Challenger 3 is a major upgrade over its predecessor, which has been in service with the British Army and the Ukrainian military.",
       "source": "Business Insider",
       "date": "Sep 27, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/britains-new-main-battle-tank-evolving-alongside-ukraine-war-2026-9#article"
     },
     {
-      "title": "5 BI staffers who put AI agents to work share what worked and what went wrong",
-      "summary": "BI staffers have been using personal AI agents for everything from reserving library books to collecting K-pop merch.",
-      "source": "Business Insider",
-      "date": "Sep 27, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/staffers-test-personal-ai-agent-muse-instinct-highs-lows-2026-9#article"
-    },
-    {
-      "title": "A former BCG partner says leaving consulting taught him how to build",
-      "summary": "Daniel Dantus spent eight years at BCG before transitioning to Juul. Here's his advice on building a career post consulting.",
-      "source": "Business Insider",
-      "date": "Sep 27, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/bcg-partner-to-juul-skan-tech-consulting-transition-2026-9#article"
-    },
-    {
-      "title": "The Only Sensible Policy for Commenting on Rumors",
-      "summary": "If you’re lucky, you’ll learn a tough lesson about commenting on rumors early in your marketing communications career. It typically unfolds something like this.\n\nSomeone says you’re shutting down a pr",
-      "source": "Kellblog.com",
-      "date": "Sep 29, 2026",
-      "image": "blog-images/news_6.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.kellblog.com/the-only-sensible-policy-for-commenting-on-rumors/"
-    },
-    {
-      "title": "How the Protect College Sports Act could affect Charlie Woods and college golf",
-      "summary": "A new Senate bill seeks to stabilize college sports amid NIL chaos, potentially impacting stars like Charlie Woods.",
-      "source": "USA Today",
-      "date": "Sep 29, 2026",
-      "image": "blog-images/news_7.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://golfweek.usatoday.com/story/sports/golf/college/2026/09/28/charlie-woods-nil-college-golf-protect-college-sports-act/91992502007/"
-    },
-    {
-      "title": "simba",
-      "summary": "MCP server for Simba Marketing Mix Modeling — connect AI assistants to your MMM models",
-      "source": "Pypi.org",
-      "date": "Sep 29, 2026",
+      "title": "Why is tofu cat litter so expensive?",
+      "summary": "Why is Tofu Cat Litter So Expensive? Tofu cat litter often carries a higher price tag than clay or even some other natural litters due to its specialized manufacturing process, use of premium, food-gr",
+      "source": "Lifesciencesworld.com",
+      "date": "Sep 30, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://pypi.org/project/simba-mcp/0.11.1/"
+      "url": "https://www.lifesciencesworld.com/why-is-tofu-cat-litter-so-expensive/"
+    },
+    {
+      "title": "Becca Hatch, Lewis Love Tapped For Spotify’s RADAR Program",
+      "summary": "Becca Hatch and Lewis Love are the latest artists from Australia and New Zealand to secure support from Spotify’s RADAR program.",
+      "source": "Billboard",
+      "date": "Sep 30, 2026",
+      "image": "blog-images/news_7.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "http://www.billboard.com/music/music-news/becca-hatch-lewis-love-spotify-radar-program-anz-1236350584/"
+    },
+    {
+      "title": "QR-code ticketing, numbered seats, digital screens: Long-term sports infra upgrade in Kolkata ahead of India",
+      "summary": "Kolkata is gearing up for two major friendly matches against Brazil and Uruguay on October 3 and 6. The state government is implementing strict security arrangements to avoid past mismanagement during",
+      "source": "The Times of India",
+      "date": "Sep 30, 2026",
+      "image": "blog-images/news_8.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://economictimes.indiatimes.com/news/sports/football/qr-code-ticketing-numbered-seats-digital-screens-long-term-sports-infra-upgrade-in-kolkata-ahead-of-india-brazil-friendly/articleshow/134578150.cms"
     }
   ],
   "jobs": [
@@ -160,5 +160,17 @@
       "showSource": true
     }
   ],
-  "events": []
+  "events": [
+    {
+      "title": "The Best AI + B2B Events to Sponsor in 2027: Where the Buyers Are",
+      "summary": "Every B2B + AI company is setting its 2027 event budget right now. Most will spread it across too many events, pick them off lists built from organizer press releases, and find out by Q3 that half the",
+      "source": "Saastr.com",
+      "date": "Sep 29, 2026",
+      "image": "blog-images/events_0.jpg",
+      "category": "Events",
+      "emoji": "🎪",
+      "url": "https://www.saastr.com/the-best-ai-b2b-events-to-sponsor-in-2027-where-the-buyers-are/",
+      "location": "🌍 Global"
+    }
+  ]
 }
