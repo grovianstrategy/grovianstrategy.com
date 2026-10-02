@@ -1,12 +1,32 @@
 {
-  "updated": "2026-10-01T02:58:11.596Z",
+  "updated": "2026-10-02T03:00:37.325Z",
   "news": [
+    {
+      "title": "Zefr and Reddit Partner to Give Advertisers Deeper Insights and More Precise Suitability Controls",
+      "summary": "Zefr and Reddit Partner to Give Advertisers Deeper Insights and More Precise Suitability Controlsadweek.com",
+      "source": "Adweek",
+      "date": "Sep 30, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/adweek-wire/zefr-and-reddit-partner-to-give-advertisers-deeper-insights-and-more-precise-suitability-controls/"
+    },
+    {
+      "title": "Slow Ventures Backs 3 More Creators in Its $64 Million Bet on Niche ‘Cults’",
+      "summary": "The venture capital firm is writing $1 million to $3 million checks to creators it believes can turn trusted audiences into portfolios of businesses.",
+      "source": "Adweek",
+      "date": "Sep 30, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/dealroom/slow-ventures-invests-creators/"
+    },
     {
       "title": "Why CMOs Get Fired Fast ft. Jessica Apotheker of BCG",
       "summary": "Orchestration, art, and science: How great marketing actually works.",
       "source": "Adweek",
       "date": "Sep 29, 2026",
-      "image": "blog-images/news_0.png",
+      "image": "blog-images/news_2.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/why-cmos-get-fired-fast-ft-jessica-apotheker-of-bcg/"
@@ -16,7 +36,7 @@
       "summary": "After analyzing Prime Day pricing history, we found 9 early Amazon deals worth buying now and 2 you should wait on.",
       "source": "Business Insider",
       "date": "Sep 29, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/guides/deals/october-prime-day-deals-buy-now-wait-2026-9#article"
@@ -26,7 +46,7 @@
       "summary": "The VMAs reached 8.4 million viewers, an 11-year high.",
       "source": "Adweek",
       "date": "Sep 28, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/2026-vmas-was-taylor-made-for-big-viewership-boost-51-increase/"
@@ -36,60 +56,40 @@
       "summary": "Delta has hired a former Deloitte and Digitas leader to run its media network.",
       "source": "Adweek",
       "date": "Sep 28, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/commerce/delta-air-lines-follows-united-in-building-an-ads-business/"
     },
     {
-      "title": "Holy H-E",
-      "summary": "NHL teams with Adobe as Official Creative, Marketing, and AI Partner.",
-      "source": "Adweek",
-      "date": "Sep 28, 2026",
-      "image": "blog-images/news_4.jpg",
+      "title": "Emerald Clinical Trials Appoints Michael Stibilj as Chief Executive Officer to Lead Next Phase of Global Growth",
+      "summary": "SINGAPORE, Sept. 30, 2026 /PRNewswire/ -- Emerald Clinical Trials, a leading global clinical research organization anchored in Asia-Pacific, today announced the appointment of Michael Stibilj as Chief",
+      "source": "PRNewswire",
+      "date": "Oct 1, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.adweek.com/convergent-tv/adobe-brings-ai-to-the-nhl/"
+      "url": "https://www.prnewswire.com/news-releases/emerald-clinical-trials-appoints-michael-stibilj-as-chief-executive-officer-to-lead-next-phase-of-global-growth-302894635.html"
     },
     {
-      "title": "The British military is feeding a 'load of data' from the war in Ukraine into its next",
-      "summary": "The Challenger 3 is a major upgrade over its predecessor, which has been in service with the British Army and the Ukrainian military.",
-      "source": "Business Insider",
-      "date": "Sep 27, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/britains-new-main-battle-tank-evolving-alongside-ukraine-war-2026-9#article"
-    },
-    {
-      "title": "Why is tofu cat litter so expensive?",
-      "summary": "Why is Tofu Cat Litter So Expensive? Tofu cat litter often carries a higher price tag than clay or even some other natural litters due to its specialized manufacturing process, use of premium, food-gr",
-      "source": "Lifesciencesworld.com",
-      "date": "Sep 30, 2026",
-      "image": null,
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.lifesciencesworld.com/why-is-tofu-cat-litter-so-expensive/"
-    },
-    {
-      "title": "Becca Hatch, Lewis Love Tapped For Spotify’s RADAR Program",
-      "summary": "Becca Hatch and Lewis Love are the latest artists from Australia and New Zealand to secure support from Spotify’s RADAR program.",
-      "source": "Billboard",
-      "date": "Sep 30, 2026",
+      "title": "Newsom Signs Law Barring Sales of Diet Pills and Weight",
+      "summary": "California's AB 2030 bars sales of diet pills and weight-loss or muscle-building supplements to minors without a prescription. What parents should know.",
+      "source": "Medical Daily",
+      "date": "Oct 1, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "http://www.billboard.com/music/music-news/becca-hatch-lewis-love-spotify-radar-program-anz-1236350584/"
+      "url": "https://www.medicaldaily.com/california-ab-2030-diet-pills-supplements-minors-ban-479335"
     },
     {
-      "title": "QR-code ticketing, numbered seats, digital screens: Long-term sports infra upgrade in Kolkata ahead of India",
-      "summary": "Kolkata is gearing up for two major friendly matches against Brazil and Uruguay on October 3 and 6. The state government is implementing strict security arrangements to avoid past mismanagement during",
-      "source": "The Times of India",
-      "date": "Sep 30, 2026",
-      "image": "blog-images/news_8.jpg",
+      "title": "Micron’s DRAM Revenue Shot Up 343% Compared to Last Year, Courtesy of RAM Shortage",
+      "summary": "Soaring AI demand and surging RAM prices are making bank for Micron, the U.S.'s only high-bandwidth memory manufacturer.",
+      "source": "Gizmodo.com",
+      "date": "Oct 1, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/news/sports/football/qr-code-ticketing-numbered-seats-digital-screens-long-term-sports-infra-upgrade-in-kolkata-ahead-of-india-brazil-friendly/articleshow/134578150.cms"
+      "url": "https://gizmodo.com/microns-dram-revenue-shot-up-343-compared-to-last-year-courtesy-of-ram-shortage-2000819979"
     }
   ],
   "jobs": [
