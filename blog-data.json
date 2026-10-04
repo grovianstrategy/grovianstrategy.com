@@ -1,12 +1,32 @@
 {
-  "updated": "2026-10-03T02:46:35.391Z",
+  "updated": "2026-10-04T03:17:33.328Z",
   "news": [
+    {
+      "title": "Google Pixel 11 review: An excellent upgrade… if you own an older Pixel",
+      "summary": "Google Pixel 11 review examines price jump, hardware updates, and AI features like Gemini Intelligence, impacting its market competitiveness.",
+      "source": "Business Insider",
+      "date": "Oct 2, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/guides/tech/google-pixel-11-review#article"
+    },
+    {
+      "title": "Where every US governor stands on AI and the data",
+      "summary": "Some governors see their states as the next powerhouse for the growing AI industry. Others are exploring a \"kill switch\" for rogue AI.",
+      "source": "Business Insider",
+      "date": "Oct 2, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/where-every-us-governor-stands-ai-data-centers-midterms-2026-10#article"
+    },
     {
       "title": "Google Gets to Keep Its Adtech Stack Intact. Does The Trade Desk’s Pitch Lose its Punch?",
       "summary": "In its battle with the DOJ, Google kept its adtech stack intact—the reality could dilute the value prop of some Trade Desk products.",
       "source": "Adweek",
       "date": "Oct 1, 2026",
-      "image": "blog-images/news_0.png",
+      "image": "blog-images/news_2.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/programmatic/google-gets-to-keep-its-adtech-stack-intact-does-the-trade-desks-pitch-lose-its-punch/"
@@ -16,7 +36,7 @@
       "summary": "Hallmark teams up with iSpot for outcomes-based measurement at scale ahead of Countdown to Christmas.",
       "source": "Adweek",
       "date": "Oct 1, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/hallmark-advertisers-measurement-ispot/"
@@ -26,7 +46,7 @@
       "summary": "Zefr and Reddit Partner to Give Advertisers Deeper Insights and More Precise Suitability Controlsadweek.com",
       "source": "Adweek",
       "date": "Sep 30, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/adweek-wire/zefr-and-reddit-partner-to-give-advertisers-deeper-insights-and-more-precise-suitability-controls/"
@@ -36,60 +56,40 @@
       "summary": "The venture capital firm is writing $1 million to $3 million checks to creators it believes can turn trusted audiences into portfolios of businesses.",
       "source": "Adweek",
       "date": "Sep 30, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/dealroom/slow-ventures-invests-creators/"
     },
     {
-      "title": "Why CMOs Get Fired Fast ft. Jessica Apotheker of BCG",
-      "summary": "Orchestration, art, and science: How great marketing actually works.",
-      "source": "Adweek",
-      "date": "Sep 29, 2026",
-      "image": "blog-images/news_4.png",
+      "title": "opendecider",
+      "summary": "OpenDecider without PyTorch: routers, tools, the prompt guard and the MCP server for decision models served by opendecider serve, Ollama or LM Studio.",
+      "source": "Pypi.org",
+      "date": "Oct 3, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/why-cmos-get-fired-fast-ft-jessica-apotheker-of-bcg/"
+      "url": "https://pypi.org/project/opendecider-client/"
     },
     {
-      "title": "I've been covering Prime Day for 7 years. Here are 9 early deals to grab now, and 2 to hold out for Amazon Prime Big Deal Days.",
-      "summary": "After analyzing Prime Day pricing history, we found 9 early Amazon deals worth buying now and 2 you should wait on.",
-      "source": "Business Insider",
-      "date": "Sep 29, 2026",
-      "image": "blog-images/news_5.jpg",
+      "title": "Britain's nursing union cuts ties with Israeli pharma giant Teva over IDF ties",
+      "summary": "The Royal College of Nursing cited Teva's ties to the IDF and past legal sanctions in cutting ties with the drugmaker. Teva expressed disappointment and accused the union of politicizing Britain's hea",
+      "source": "Haaretz",
+      "date": "Oct 3, 2026",
+      "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/guides/deals/october-prime-day-deals-buy-now-wait-2026-9#article"
+      "url": "https://www.haaretz.com/science-and-health/2026-10-03/ty-article/britains-nursing-union-cuts-ties-with-israeli-pharma-giant-teva-over-idf-ties/000001a0-ff8c-db42-a3f0-ffcef5bb0000"
     },
     {
-      "title": "Anthropic's Dario Amodei: AI's most visible CEO and enigma",
-      "summary": "The surge in artificial intelligence and the heated debate around its risks have made Anthropic CEO Dario Amodei the most visible tech leader -- though the 43-year-old remains an enigma. \"I think he i",
-      "source": "The Times of India",
-      "date": "Oct 2, 2026",
-      "image": "blog-images/news_6.png",
+      "title": "HDFC Bank Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against HDFC Bank Limited",
+      "summary": "NEW ORLEANS, Oct. 2, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 13, 2026 to file lead plaintiff applications in a securiti",
+      "source": "PRNewswire",
+      "date": "Oct 3, 2026",
+      "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropics-dario-amodei-ais-most-visible-ceo-and-enigma/articleshow/134630604.cms"
-    },
-    {
-      "title": "AI Marketing Workflows: The Ultimate Guide to Scaling with Speed and Guardrails",
-      "summary": "<p>Companies like Amazon, Netflix, and HubSpot no longer rely on manual marketing processes to keep pace with customer expectations. Instead, they use AI marketing workflows to automate repetitive tas",
-      "source": "Var-meta.com",
-      "date": "Oct 2, 2026",
-      "image": "blog-images/news_7.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.var-meta.com/blog/ai-marketing-workflows"
-    },
-    {
-      "title": "Marketing Project Management Tool: Features, Plans and Teams",
-      "summary": "Choose the tools to manage marketing tasks, campaign deadlines, assets, and approvals. Learn how to compare features and build a flexible workflow with Baserow.",
-      "source": "Baserow.io",
-      "date": "Oct 2, 2026",
-      "image": "blog-images/news_8.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://baserow.io/blog/marketing-project-management-tool-campaign-process"
+      "url": "https://www.prnewswire.com/news-releases/hdfc-bank-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-hdfc-bank-limited---hdb-302897523.html"
     }
   ],
   "jobs": [
