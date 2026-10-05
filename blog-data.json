@@ -1,12 +1,22 @@
 {
-  "updated": "2026-10-04T03:17:33.328Z",
+  "updated": "2026-10-05T02:53:38.027Z",
   "news": [
+    {
+      "title": "I reviewed luxury hotels for nearly a decade. Becoming a mom changed what I look for.",
+      "summary": "Traveling with a baby changed my definition of five-star hospitality. Now that I'm a parent, personalized service matters more than fancy amenities.",
+      "source": "Business Insider",
+      "date": "Oct 3, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/review-hotels-luxury-travel-parenthood-needs-amenities-service-2026-10#article"
+    },
     {
       "title": "Google Pixel 11 review: An excellent upgrade… if you own an older Pixel",
       "summary": "Google Pixel 11 review examines price jump, hardware updates, and AI features like Gemini Intelligence, impacting its market competitiveness.",
       "source": "Business Insider",
       "date": "Oct 2, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/guides/tech/google-pixel-11-review#article"
@@ -16,7 +26,7 @@
       "summary": "Some governors see their states as the next powerhouse for the growing AI industry. Others are exploring a \"kill switch\" for rogue AI.",
       "source": "Business Insider",
       "date": "Oct 2, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/where-every-us-governor-stands-ai-data-centers-midterms-2026-10#article"
@@ -26,7 +36,7 @@
       "summary": "In its battle with the DOJ, Google kept its adtech stack intact—the reality could dilute the value prop of some Trade Desk products.",
       "source": "Adweek",
       "date": "Oct 1, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_3.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/programmatic/google-gets-to-keep-its-adtech-stack-intact-does-the-trade-desks-pitch-lose-its-punch/"
@@ -36,7 +46,7 @@
       "summary": "Hallmark teams up with iSpot for outcomes-based measurement at scale ahead of Countdown to Christmas.",
       "source": "Adweek",
       "date": "Oct 1, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/hallmark-advertisers-measurement-ispot/"
@@ -46,50 +56,40 @@
       "summary": "Zefr and Reddit Partner to Give Advertisers Deeper Insights and More Precise Suitability Controlsadweek.com",
       "source": "Adweek",
       "date": "Sep 30, 2026",
-      "image": "blog-images/news_4.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/adweek-wire/zefr-and-reddit-partner-to-give-advertisers-deeper-insights-and-more-precise-suitability-controls/"
     },
     {
-      "title": "Slow Ventures Backs 3 More Creators in Its $64 Million Bet on Niche ‘Cults’",
-      "summary": "The venture capital firm is writing $1 million to $3 million checks to creators it believes can turn trusted audiences into portfolios of businesses.",
-      "source": "Adweek",
-      "date": "Sep 30, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/dealroom/slow-ventures-invests-creators/"
-    },
-    {
-      "title": "opendecider",
-      "summary": "OpenDecider without PyTorch: routers, tools, the prompt guard and the MCP server for decision models served by opendecider serve, Ollama or LM Studio.",
-      "source": "Pypi.org",
-      "date": "Oct 3, 2026",
+      "title": "Why Nice Guys Get Paid |",
+      "summary": "Why Nice Guys Get Paid || Email Marketing lessonsyoutube.com",
+      "source": "YouTube",
+      "date": "Oct 4, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://pypi.org/project/opendecider-client/"
+      "url": "https://www.youtube.com/supported_browsers?next_url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DjToegZEp960"
     },
     {
-      "title": "Britain's nursing union cuts ties with Israeli pharma giant Teva over IDF ties",
-      "summary": "The Royal College of Nursing cited Teva's ties to the IDF and past legal sanctions in cutting ties with the drugmaker. Teva expressed disappointment and accused the union of politicizing Britain's hea",
-      "source": "Haaretz",
-      "date": "Oct 3, 2026",
-      "image": "blog-images/news_7.jpg",
+      "title": "Best Digital Marketing Course In Delhi | Google Analytics Intro (1 oct)",
+      "summary": "Best Digital Marketing Course In Delhi | Google Analytics Intro (1 oct) | Anshika Digital Mediayoutube.com",
+      "source": "YouTube",
+      "date": "Oct 4, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.haaretz.com/science-and-health/2026-10-03/ty-article/britains-nursing-union-cuts-ties-with-israeli-pharma-giant-teva-over-idf-ties/000001a0-ff8c-db42-a3f0-ffcef5bb0000"
+      "url": "https://www.youtube.com/supported_browsers?next_url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEIArAh4GjQM"
     },
     {
-      "title": "HDFC Bank Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against HDFC Bank Limited",
-      "summary": "NEW ORLEANS, Oct. 2, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 13, 2026 to file lead plaintiff applications in a securiti",
-      "source": "PRNewswire",
-      "date": "Oct 3, 2026",
-      "image": "blog-images/news_8.jpg",
+      "title": "How do you build a marketing dashboard for Instagram",
+      "summary": "Learn exactly how to build an Instagram reporting dashboard, including which metrics to track, free tools to use, and a worked example.",
+      "source": "Lilachbullock.com",
+      "date": "Oct 4, 2026",
+      "image": "blog-images/news_8.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.prnewswire.com/news-releases/hdfc-bank-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-hdfc-bank-limited---hdb-302897523.html"
+      "url": "https://www.lilachbullock.com/build-instagram-marketing-reporting-dashboard/"
     }
   ],
   "jobs": [
