@@ -1,12 +1,22 @@
 {
-  "updated": "2026-10-06T03:43:29.978Z",
+  "updated": "2026-10-07T03:10:59.143Z",
   "news": [
+    {
+      "title": "CNN boss Mark Thompson is staying on in the David Ellison era. Read his memo to staffers.",
+      "summary": "David Ellison is keeping CNN CEO Mark Thompson in charge as Skydance buys Warner Bros. Discovery. Read Thompson's memo to staffers.",
+      "source": "Business Insider",
+      "date": "Oct 5, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/cnn-ceo-mark-thompson-staying-read-memo-david-ellison-skydance-2026-10#article"
+    },
     {
       "title": "I reviewed luxury hotels for nearly a decade. Becoming a mom changed what I look for.",
       "summary": "Traveling with a baby changed my definition of five-star hospitality. Now that I'm a parent, personalized service matters more than fancy amenities.",
       "source": "Business Insider",
       "date": "Oct 3, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/review-hotels-luxury-travel-parenthood-needs-amenities-service-2026-10#article"
@@ -16,7 +26,7 @@
       "summary": "Google Pixel 11 review examines price jump, hardware updates, and AI features like Gemini Intelligence, impacting its market competitiveness.",
       "source": "Business Insider",
       "date": "Oct 2, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/guides/tech/google-pixel-11-review#article"
@@ -26,7 +36,7 @@
       "summary": "Some governors see their states as the next powerhouse for the growing AI industry. Others are exploring a \"kill switch\" for rogue AI.",
       "source": "Business Insider",
       "date": "Oct 2, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/where-every-us-governor-stands-ai-data-centers-midterms-2026-10#article"
@@ -36,7 +46,7 @@
       "summary": "In its battle with the DOJ, Google kept its adtech stack intact—the reality could dilute the value prop of some Trade Desk products.",
       "source": "Adweek",
       "date": "Oct 1, 2026",
-      "image": "blog-images/news_3.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/programmatic/google-gets-to-keep-its-adtech-stack-intact-does-the-trade-desks-pitch-lose-its-punch/"
@@ -46,50 +56,40 @@
       "summary": "Hallmark teams up with iSpot for outcomes-based measurement at scale ahead of Countdown to Christmas.",
       "source": "Adweek",
       "date": "Oct 1, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/hallmark-advertisers-measurement-ispot/"
     },
     {
-      "title": "Zefr and Reddit Partner to Give Advertisers Deeper Insights and More Precise Suitability Controls",
-      "summary": "Zefr and Reddit Partner to Give Advertisers Deeper Insights and More Precise Suitability Controlsadweek.com",
-      "source": "Adweek",
-      "date": "Sep 30, 2026",
-      "image": "blog-images/news_5.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/adweek-wire/zefr-and-reddit-partner-to-give-advertisers-deeper-insights-and-more-precise-suitability-controls/"
-    },
-    {
-      "title": "2 Dead, over 30 Injured After Shots Fired During Block Party",
-      "summary": "Two people were killed and 35 others injured when shots were fired during a homecoming block party in Vienna, Georgia, just before 1:30 a.m. Sunday, according to authorities.\nThe post 2 Dead, over 30",
-      "source": "Breitbart News",
-      "date": "Oct 5, 2026",
-      "image": "blog-images/news_6.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.breitbart.com/crime/2026/10/04/people-dead-dozens-injured-shots-fired-ga-block-party/"
-    },
-    {
-      "title": "Assortment Age",
+      "title": "Life of an Item",
       "summary": "Database Marketing, Data Mining, Analytics, Big Data, Forecasting, Segmentation, Predictive Modeling, Measurement, Catalog, Business",
       "source": "Minethatdata.com",
-      "date": "Oct 5, 2026",
+      "date": "Oct 6, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://blog.minethatdata.com/2026/10/assortment-age.html"
+      "url": "https://blog.minethatdata.com/2026/10/life-of-item.html"
     },
     {
-      "title": "mirrorneuron",
-      "summary": "OpenAI-compatible proxy for bounded text, vision, and reasoning model workflows",
-      "source": "Pypi.org",
-      "date": "Oct 5, 2026",
-      "image": null,
+      "title": "GST input tax credit: What businesses can claim and what stays blocked",
+      "summary": "From raw materials and rent to motor vehicles and construction, businesses can claim ITC on eligible expenses, but GST rules block credit for several categories",
+      "source": "Business Standard",
+      "date": "Oct 6, 2026",
+      "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://pypi.org/project/mirrorneuron-prism/"
+      "url": "https://www.business-standard.com/finance/news/gst-input-tax-credit-what-businesses-can-claim-and-what-stays-blocked-126100600097_1.html"
+    },
+    {
+      "title": "Election 2026: Labour voter confronts Chris Hipkins over jobs crisis",
+      "summary": "A traditional Labour voter says after losing work she's leaning towards the Greens.",
+      "source": "New Zealand Herald",
+      "date": "Oct 6, 2026",
+      "image": "blog-images/news_8.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.nzherald.co.nz/nz/election-2026-labour-voter-confronts-chris-hipkins-over-jobs-crisis/JPKZSCU5O5FZFEVHDGBKL4CKCA/"
     }
   ],
   "jobs": [
