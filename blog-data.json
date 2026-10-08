@@ -1,12 +1,42 @@
 {
-  "updated": "2026-10-07T03:10:59.143Z",
+  "updated": "2026-10-08T03:26:40.831Z",
   "news": [
+    {
+      "title": "Marketers Have More Data Than Ever, But More Than Half Still Struggle With Accuracy",
+      "summary": "Marketers Have More Data Than Ever, But More Than Half Still Struggle With Accuracyadweek.com",
+      "source": "Adweek",
+      "date": "Oct 6, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/sponsored/marketers-have-more-data-than-ever-but-more-than-half-still-struggle-with-accuracy/"
+    },
+    {
+      "title": "The 14 most innovative influencer marketers of 2026",
+      "summary": "This list of the most innovative influencer marketers highlights execs who are figuring out how to make companies look good on social media.",
+      "source": "Business Insider",
+      "date": "Oct 6, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/most-innovative-influencer-marketers-working-with-creators-2026-10#article"
+    },
+    {
+      "title": "7 Billion Impressions Without Paid Media: Fanta’s Halloween Strategy",
+      "summary": "Ibrahim Khan on turning the holiday into a global brand moment.",
+      "source": "Adweek",
+      "date": "Oct 6, 2026",
+      "image": "blog-images/news_2.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/7-billion-impressions-without-paid-media-fantas-halloween-strategy/"
+    },
     {
       "title": "CNN boss Mark Thompson is staying on in the David Ellison era. Read his memo to staffers.",
       "summary": "David Ellison is keeping CNN CEO Mark Thompson in charge as Skydance buys Warner Bros. Discovery. Read Thompson's memo to staffers.",
       "source": "Business Insider",
       "date": "Oct 5, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/cnn-ceo-mark-thompson-staying-read-memo-david-ellison-skydance-2026-10#article"
@@ -16,7 +46,7 @@
       "summary": "Traveling with a baby changed my definition of five-star hospitality. Now that I'm a parent, personalized service matters more than fancy amenities.",
       "source": "Business Insider",
       "date": "Oct 3, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/review-hotels-luxury-travel-parenthood-needs-amenities-service-2026-10#article"
@@ -26,70 +56,40 @@
       "summary": "Google Pixel 11 review examines price jump, hardware updates, and AI features like Gemini Intelligence, impacting its market competitiveness.",
       "source": "Business Insider",
       "date": "Oct 2, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/guides/tech/google-pixel-11-review#article"
     },
     {
-      "title": "Where every US governor stands on AI and the data",
-      "summary": "Some governors see their states as the next powerhouse for the growing AI industry. Others are exploring a \"kill switch\" for rogue AI.",
-      "source": "Business Insider",
-      "date": "Oct 2, 2026",
-      "image": "blog-images/news_3.jpg",
+      "title": "A spy's guide to fighting AI",
+      "summary": "A Russia-backed network called Portal Kombat is spreading disinformation across hundreds of websites to influence AI models such as ChatGPT, Grok and Gemini, according to a former CIA officer",
+      "source": "Business Standard",
+      "date": "Oct 7, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/where-every-us-governor-stands-ai-data-centers-midterms-2026-10#article"
+      "url": "https://www.business-standard.com/world-news/a-spy-s-guide-to-fighting-ai-driven-propaganda-and-disinformation-126100700127_1.html"
     },
     {
-      "title": "Google Gets to Keep Its Adtech Stack Intact. Does The Trade Desk’s Pitch Lose its Punch?",
-      "summary": "In its battle with the DOJ, Google kept its adtech stack intact—the reality could dilute the value prop of some Trade Desk products.",
-      "source": "Adweek",
-      "date": "Oct 1, 2026",
-      "image": "blog-images/news_4.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/programmatic/google-gets-to-keep-its-adtech-stack-intact-does-the-trade-desks-pitch-lose-its-punch/"
-    },
-    {
-      "title": "Hallmark Gives Advertisers Early Holiday Gift: Outcomes",
-      "summary": "Hallmark teams up with iSpot for outcomes-based measurement at scale ahead of Countdown to Christmas.",
-      "source": "Adweek",
-      "date": "Oct 1, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/convergent-tv/hallmark-advertisers-measurement-ispot/"
-    },
-    {
-      "title": "Life of an Item",
+      "title": "Working With A Great Partner",
       "summary": "Database Marketing, Data Mining, Analytics, Big Data, Forecasting, Segmentation, Predictive Modeling, Measurement, Catalog, Business",
       "source": "Minethatdata.com",
-      "date": "Oct 6, 2026",
+      "date": "Oct 7, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://blog.minethatdata.com/2026/10/life-of-item.html"
+      "url": "https://blog.minethatdata.com/2026/10/working-with-great-partner.html"
     },
     {
-      "title": "GST input tax credit: What businesses can claim and what stays blocked",
-      "summary": "From raw materials and rent to motor vehicles and construction, businesses can claim ITC on eligible expenses, but GST rules block credit for several categories",
-      "source": "Business Standard",
-      "date": "Oct 6, 2026",
-      "image": "blog-images/news_7.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.business-standard.com/finance/news/gst-input-tax-credit-what-businesses-can-claim-and-what-stays-blocked-126100600097_1.html"
-    },
-    {
-      "title": "Election 2026: Labour voter confronts Chris Hipkins over jobs crisis",
-      "summary": "A traditional Labour voter says after losing work she's leaning towards the Greens.",
-      "source": "New Zealand Herald",
-      "date": "Oct 6, 2026",
+      "title": "Skydance Film Chiefs Assure Staff Movie Divisions Will Function Independently",
+      "summary": "\"Your experience and perspective will be essential in shaping what comes next,\" Josh Greenstein and Dana Goldberg write in a Day One memo\nThe post Skydance Film Chiefs Assure Staff Movie Divisions Wil",
+      "source": "TheWrap",
+      "date": "Oct 7, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.nzherald.co.nz/nz/election-2026-labour-voter-confronts-chris-hipkins-over-jobs-crisis/JPKZSCU5O5FZFEVHDGBKL4CKCA/"
+      "url": "https://www.thewrap.com/industry-news/deals-ma/skydance-film-chiefs-say-divisions-function-independently/"
     }
   ],
   "jobs": [
@@ -135,6 +135,17 @@
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://piidm.com/digital-marketing-jobs-in-pune/",
+      "showSource": true
+    },
+    {
+      "title": "Digital Marketing Specialist - American Nurses Association",
+      "summary": "A new Digital Marketing Specialist job is available in Silver Spring, Maryland. Check it out on PR News Online.",
+      "source": "Ama.org",
+      "date": "Oct 6, 2026",
+      "image": "blog-images/jobs_4.png",
+      "category": "Jobs",
+      "emoji": "💼",
+      "url": "https://jobs.ama.org/job/digital-marketing-specialist/86312574/",
       "showSource": true
     },
     {
