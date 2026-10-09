@@ -1,12 +1,32 @@
 {
-  "updated": "2026-10-08T03:26:40.831Z",
+  "updated": "2026-10-09T03:32:10.531Z",
   "news": [
+    {
+      "title": "Disney+ Gets Into Big Game, Will Stream Super Bowl 61",
+      "summary": "Disney+ joins ABC and ESPN in broadcasting Super Bowl 61.",
+      "source": "Adweek",
+      "date": "Oct 7, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/convergent-tv/disney-gets-into-big-game-will-stream-super-bowl-61/"
+    },
+    {
+      "title": "MSQ Group Acquires January Digital to Build Out Media Offerings",
+      "summary": "The deal completes the U.K. firm's big U.S. expansion plan.",
+      "source": "Adweek",
+      "date": "Oct 7, 2026",
+      "image": "blog-images/news_1.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/agencies/msq-group-acquires-january-digital-to-build-out-media-offerings/"
+    },
     {
       "title": "Marketers Have More Data Than Ever, But More Than Half Still Struggle With Accuracy",
       "summary": "Marketers Have More Data Than Ever, But More Than Half Still Struggle With Accuracyadweek.com",
       "source": "Adweek",
       "date": "Oct 6, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/sponsored/marketers-have-more-data-than-ever-but-more-than-half-still-struggle-with-accuracy/"
@@ -16,7 +36,7 @@
       "summary": "This list of the most innovative influencer marketers highlights execs who are figuring out how to make companies look good on social media.",
       "source": "Business Insider",
       "date": "Oct 6, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/most-innovative-influencer-marketers-working-with-creators-2026-10#article"
@@ -26,7 +46,7 @@
       "summary": "Ibrahim Khan on turning the holiday into a global brand moment.",
       "source": "Adweek",
       "date": "Oct 6, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/7-billion-impressions-without-paid-media-fantas-halloween-strategy/"
@@ -36,60 +56,40 @@
       "summary": "David Ellison is keeping CNN CEO Mark Thompson in charge as Skydance buys Warner Bros. Discovery. Read Thompson's memo to staffers.",
       "source": "Business Insider",
       "date": "Oct 5, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/cnn-ceo-mark-thompson-staying-read-memo-david-ellison-skydance-2026-10#article"
     },
     {
-      "title": "I reviewed luxury hotels for nearly a decade. Becoming a mom changed what I look for.",
-      "summary": "Traveling with a baby changed my definition of five-star hospitality. Now that I'm a parent, personalized service matters more than fancy amenities.",
-      "source": "Business Insider",
-      "date": "Oct 3, 2026",
-      "image": "blog-images/news_4.jpg",
+      "title": "How BOOX Rewrote Books",
+      "summary": "Editor’s note: This article is republished from Jumpstart, a TechNode Group publication. For centuries, the physical shape of a book remained remarkably stable: a cover, a spine and a sequence of page",
+      "source": "TechNode",
+      "date": "Oct 8, 2026",
+      "image": "blog-images/news_6.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/review-hotels-luxury-travel-parenthood-needs-amenities-service-2026-10#article"
+      "url": "https://technode.com/2026/10/08/how-boox-rewrote-books/"
     },
     {
-      "title": "Google Pixel 11 review: An excellent upgrade… if you own an older Pixel",
-      "summary": "Google Pixel 11 review examines price jump, hardware updates, and AI features like Gemini Intelligence, impacting its market competitiveness.",
-      "source": "Business Insider",
-      "date": "Oct 2, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/guides/tech/google-pixel-11-review#article"
-    },
-    {
-      "title": "A spy's guide to fighting AI",
-      "summary": "A Russia-backed network called Portal Kombat is spreading disinformation across hundreds of websites to influence AI models such as ChatGPT, Grok and Gemini, according to a former CIA officer",
-      "source": "Business Standard",
-      "date": "Oct 7, 2026",
-      "image": "blog-images/news_6.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.business-standard.com/world-news/a-spy-s-guide-to-fighting-ai-driven-propaganda-and-disinformation-126100700127_1.html"
-    },
-    {
-      "title": "Working With A Great Partner",
+      "title": "Double",
       "summary": "Database Marketing, Data Mining, Analytics, Big Data, Forecasting, Segmentation, Predictive Modeling, Measurement, Catalog, Business",
       "source": "Minethatdata.com",
-      "date": "Oct 7, 2026",
+      "date": "Oct 8, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://blog.minethatdata.com/2026/10/working-with-great-partner.html"
+      "url": "https://blog.minethatdata.com/2026/10/double-dip-season.html"
     },
     {
-      "title": "Skydance Film Chiefs Assure Staff Movie Divisions Will Function Independently",
-      "summary": "\"Your experience and perspective will be essential in shaping what comes next,\" Josh Greenstein and Dana Goldberg write in a Day One memo\nThe post Skydance Film Chiefs Assure Staff Movie Divisions Wil",
-      "source": "TheWrap",
-      "date": "Oct 7, 2026",
+      "title": "Dhar Mann wants to broker $100 million in creator/brand deals, and also he’s opening “Creator City” in Los Angeles",
+      "summary": "Dhar Mann has his name in lights at this year's Advertising Week New York. As the event's first \"Chief Creator Officer\" (and keynote speaker) he came in Mann (who makes his living as YouTube's \"moral",
+      "source": "Tubefilter",
+      "date": "Oct 8, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.thewrap.com/industry-news/deals-ma/skydance-film-chiefs-say-divisions-function-independently/"
+      "url": "https://www.tubefilter.com/2026/10/07/dhar-mann-advertising-week-new-york-creator-city/"
     }
   ],
   "jobs": [
