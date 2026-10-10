@@ -1,12 +1,22 @@
 {
-  "updated": "2026-10-09T03:32:10.531Z",
+  "updated": "2026-10-10T03:12:40.792Z",
   "news": [
+    {
+      "title": "Starbucks Is Reportedly Eyeing Chipotle, But The Burrito Chain May Be More Than It Can Chew",
+      "summary": "A deal would reunite Starbucks CEO Brian Niccol with his former company",
+      "source": "Adweek",
+      "date": "Oct 8, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/starbucks-is-reportedly-eyeing-chipotle-but-the-burrito-chain-may-be-more-than-it-can-chew/"
+    },
     {
       "title": "Disney+ Gets Into Big Game, Will Stream Super Bowl 61",
       "summary": "Disney+ joins ABC and ESPN in broadcasting Super Bowl 61.",
       "source": "Adweek",
       "date": "Oct 7, 2026",
-      "image": "blog-images/news_0.png",
+      "image": "blog-images/news_1.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/disney-gets-into-big-game-will-stream-super-bowl-61/"
@@ -16,7 +26,7 @@
       "summary": "The deal completes the U.K. firm's big U.S. expansion plan.",
       "source": "Adweek",
       "date": "Oct 7, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_2.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/agencies/msq-group-acquires-january-digital-to-build-out-media-offerings/"
@@ -26,7 +36,7 @@
       "summary": "Marketers Have More Data Than Ever, But More Than Half Still Struggle With Accuracyadweek.com",
       "source": "Adweek",
       "date": "Oct 6, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/sponsored/marketers-have-more-data-than-ever-but-more-than-half-still-struggle-with-accuracy/"
@@ -36,7 +46,7 @@
       "summary": "This list of the most innovative influencer marketers highlights execs who are figuring out how to make companies look good on social media.",
       "source": "Business Insider",
       "date": "Oct 6, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/most-innovative-influencer-marketers-working-with-creators-2026-10#article"
@@ -46,50 +56,40 @@
       "summary": "Ibrahim Khan on turning the holiday into a global brand moment.",
       "source": "Adweek",
       "date": "Oct 6, 2026",
-      "image": "blog-images/news_4.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/7-billion-impressions-without-paid-media-fantas-halloween-strategy/"
     },
     {
-      "title": "CNN boss Mark Thompson is staying on in the David Ellison era. Read his memo to staffers.",
-      "summary": "David Ellison is keeping CNN CEO Mark Thompson in charge as Skydance buys Warner Bros. Discovery. Read Thompson's memo to staffers.",
-      "source": "Business Insider",
-      "date": "Oct 5, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/cnn-ceo-mark-thompson-staying-read-memo-david-ellison-skydance-2026-10#article"
-    },
-    {
-      "title": "How BOOX Rewrote Books",
-      "summary": "Editor’s note: This article is republished from Jumpstart, a TechNode Group publication. For centuries, the physical shape of a book remained remarkably stable: a cover, a spine and a sequence of page",
-      "source": "TechNode",
-      "date": "Oct 8, 2026",
-      "image": "blog-images/news_6.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://technode.com/2026/10/08/how-boox-rewrote-books/"
-    },
-    {
-      "title": "Double",
+      "title": "The Hated Holiday",
       "summary": "Database Marketing, Data Mining, Analytics, Big Data, Forecasting, Segmentation, Predictive Modeling, Measurement, Catalog, Business",
       "source": "Minethatdata.com",
-      "date": "Oct 8, 2026",
+      "date": "Oct 9, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://blog.minethatdata.com/2026/10/double-dip-season.html"
+      "url": "https://blog.minethatdata.com/2026/10/the-hated-holiday.html"
     },
     {
-      "title": "Dhar Mann wants to broker $100 million in creator/brand deals, and also he’s opening “Creator City” in Los Angeles",
-      "summary": "Dhar Mann has his name in lights at this year's Advertising Week New York. As the event's first \"Chief Creator Officer\" (and keynote speaker) he came in Mann (who makes his living as YouTube's \"moral",
-      "source": "Tubefilter",
-      "date": "Oct 8, 2026",
+      "title": "Do any deer attractants really work?",
+      "summary": "Do Deer Attractants Really Work? Unveiling the Truth The answer to whether deer attractants really work is nuanced: some can be effective tools for attracting deer to specific locations, while others",
+      "source": "Lifesciencesworld.com",
+      "date": "Oct 9, 2026",
+      "image": null,
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.lifesciencesworld.com/do-any-deer-attractants-really-work/"
+    },
+    {
+      "title": "The Product That Failed Because of One Millimeter",
+      "summary": "Industrial design is a discipline of millimeters. A change of a single millimeter, invisible to the eye, can determine whether a product feels perfect or broken. The story of the iPhone 6 Plus is a re",
+      "source": "Designer-daily.com",
+      "date": "Oct 9, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.tubefilter.com/2026/10/07/dhar-mann-advertising-week-new-york-creator-city/"
+      "url": "https://www.designer-daily.com/the-product-that-failed-because-of-one-millimeter-240541"
     }
   ],
   "jobs": [
