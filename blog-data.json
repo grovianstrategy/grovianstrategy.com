@@ -1,12 +1,22 @@
 {
-  "updated": "2026-10-10T03:12:40.792Z",
+  "updated": "2026-10-11T02:45:03.255Z",
   "news": [
+    {
+      "title": "Award",
+      "summary": "This post was created in partnership with TikTok for Business Media buying should be more than placing ads—it should help brands connect with audiences, navigate a changing media landscape, and […]",
+      "source": "Adweek",
+      "date": "Oct 9, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/agencies/award-winning-agencies-talk-tiktok/"
+    },
     {
       "title": "Starbucks Is Reportedly Eyeing Chipotle, But The Burrito Chain May Be More Than It Can Chew",
       "summary": "A deal would reunite Starbucks CEO Brian Niccol with his former company",
       "source": "Adweek",
       "date": "Oct 8, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/starbucks-is-reportedly-eyeing-chipotle-but-the-burrito-chain-may-be-more-than-it-can-chew/"
@@ -16,7 +26,7 @@
       "summary": "Disney+ joins ABC and ESPN in broadcasting Super Bowl 61.",
       "source": "Adweek",
       "date": "Oct 7, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_2.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/disney-gets-into-big-game-will-stream-super-bowl-61/"
@@ -26,7 +36,7 @@
       "summary": "The deal completes the U.K. firm's big U.S. expansion plan.",
       "source": "Adweek",
       "date": "Oct 7, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_3.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/agencies/msq-group-acquires-january-digital-to-build-out-media-offerings/"
@@ -36,7 +46,7 @@
       "summary": "Marketers Have More Data Than Ever, But More Than Half Still Struggle With Accuracyadweek.com",
       "source": "Adweek",
       "date": "Oct 6, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/sponsored/marketers-have-more-data-than-ever-but-more-than-half-still-struggle-with-accuracy/"
@@ -46,50 +56,40 @@
       "summary": "This list of the most innovative influencer marketers highlights execs who are figuring out how to make companies look good on social media.",
       "source": "Business Insider",
       "date": "Oct 6, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/most-innovative-influencer-marketers-working-with-creators-2026-10#article"
     },
     {
-      "title": "7 Billion Impressions Without Paid Media: Fanta’s Halloween Strategy",
-      "summary": "Ibrahim Khan on turning the holiday into a global brand moment.",
-      "source": "Adweek",
-      "date": "Oct 6, 2026",
-      "image": "blog-images/news_5.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/7-billion-impressions-without-paid-media-fantas-halloween-strategy/"
-    },
-    {
-      "title": "The Hated Holiday",
-      "summary": "Database Marketing, Data Mining, Analytics, Big Data, Forecasting, Segmentation, Predictive Modeling, Measurement, Catalog, Business",
-      "source": "Minethatdata.com",
-      "date": "Oct 9, 2026",
+      "title": "Lucky Days Casino 20 Free Spins Boost Your Bankroll Now",
+      "summary": "Auto-generated post_excerpt",
+      "source": "Chongas.com.br",
+      "date": "Oct 10, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://blog.minethatdata.com/2026/10/the-hated-holiday.html"
+      "url": "https://www.chongas.com.br/2026/10/lucky-days-casino-20-free-spins-boost-your-bankroll-now/"
     },
     {
-      "title": "Do any deer attractants really work?",
-      "summary": "Do Deer Attractants Really Work? Unveiling the Truth The answer to whether deer attractants really work is nuanced: some can be effective tools for attracting deer to specific locations, while others",
-      "source": "Lifesciencesworld.com",
-      "date": "Oct 9, 2026",
-      "image": null,
+      "title": "Looking for a powerful tablet this Amazon sale? These 5 picks offer more than entertainment",
+      "summary": "From the Apple iPad Air M4 to the Lenovo Yoga Tab Plus, these 5 tablets offer powerful processors, sharp displays and long battery life.",
+      "source": "Livemint",
+      "date": "Oct 10, 2026",
+      "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.lifesciencesworld.com/do-any-deer-attractants-really-work/"
+      "url": "https://www.livemint.com/gadgets-and-appliances/looking-for-a-powerful-tablet-this-amazon-sale-these-5-picks-offer-more-than-entertainment-11791578052209.html"
     },
     {
-      "title": "The Product That Failed Because of One Millimeter",
-      "summary": "Industrial design is a discipline of millimeters. A change of a single millimeter, invisible to the eye, can determine whether a product feels perfect or broken. The story of the iPhone 6 Plus is a re",
-      "source": "Designer-daily.com",
-      "date": "Oct 9, 2026",
-      "image": "blog-images/news_8.jpg",
+      "title": "Next.js 16.4",
+      "summary": "Next.js 16.4 introduces lazy compilation, smaller Turbopack output, React 19.3 features, Cache Components improvements, and new developer tooling.",
+      "source": "Nextjs.org",
+      "date": "Oct 10, 2026",
+      "image": "blog-images/news_8.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.designer-daily.com/the-product-that-failed-because-of-one-millimeter-240541"
+      "url": "https://nextjs.org/blog/next-16-4"
     }
   ],
   "jobs": [
@@ -105,22 +105,11 @@
       "showSource": true
     },
     {
-      "title": "Digital Agencies Are Fast",
-      "summary": "Digital marketing agencies are fast-tracking the recruitment of specialized Email Marketers due to the high return on investment (ROI) and revenue generated",
-      "source": "Linkedin.com",
-      "date": "Sep 9, 2026",
-      "image": "blog-images/jobs_1.png",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://www.linkedin.com/pulse/navigating-inbox-economy-why-noidas-digital-agencies-email-giri-ed1zc",
-      "showSource": true
-    },
-    {
       "title": "5 Best Architect Marketing Agencies and How to Choose One",
       "summary": "For most architecture firms, choosing an architect marketing agency comes down to one question: does the agency’s main service match the gap in the firm’s pipeline? Some agencies get a firm known thro",
       "source": "Ahouseinthehills.com",
       "date": "Sep 25, 2026",
-      "image": "blog-images/jobs_2.jpg",
+      "image": "blog-images/jobs_1.jpg",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://ahouseinthehills.com/5-best-architect-marketing-agencies-and-how-to-choose-one/",
@@ -131,7 +120,7 @@
       "summary": "Digital Marketing Jobs in Pune: Roles, Skills & Salary 2026? Find fresher roles, key skills, salary ranges and practical tips for starting your career.",
       "source": "Piidm.com",
       "date": "Sep 24, 2026",
-      "image": "blog-images/jobs_3.png",
+      "image": "blog-images/jobs_2.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://piidm.com/digital-marketing-jobs-in-pune/",
@@ -142,7 +131,7 @@
       "summary": "A new Digital Marketing Specialist job is available in Silver Spring, Maryland. Check it out on PR News Online.",
       "source": "Ama.org",
       "date": "Oct 6, 2026",
-      "image": "blog-images/jobs_4.png",
+      "image": "blog-images/jobs_3.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://jobs.ama.org/job/digital-marketing-specialist/86312574/",
