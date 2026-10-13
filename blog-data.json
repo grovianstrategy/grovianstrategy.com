@@ -1,12 +1,22 @@
 {
-  "updated": "2026-10-12T03:08:37.271Z",
+  "updated": "2026-10-13T04:24:38.207Z",
   "news": [
+    {
+      "title": "I started a cookie business and scaled too quickly. We got caught up in a growth-at-all",
+      "summary": "Inspired by her daughter's allergies, Partake Foods founder, Denise Woodard raised millions, overcoming growth challenges with storytelling skills.",
+      "source": "Business Insider",
+      "date": "Oct 11, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/how-partake-foods-founder-denise-woodard-scaled-small-business-2026-10#article"
+    },
     {
       "title": "Award",
       "summary": "This post was created in partnership with TikTok for Business Media buying should be more than placing ads—it should help brands connect with audiences, navigate a changing media landscape, and […]",
       "source": "Adweek",
       "date": "Oct 9, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/agencies/award-winning-agencies-talk-tiktok/"
@@ -16,7 +26,7 @@
       "summary": "A deal would reunite Starbucks CEO Brian Niccol with his former company",
       "source": "Adweek",
       "date": "Oct 8, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/starbucks-is-reportedly-eyeing-chipotle-but-the-burrito-chain-may-be-more-than-it-can-chew/"
@@ -26,7 +36,7 @@
       "summary": "Disney+ joins ABC and ESPN in broadcasting Super Bowl 61.",
       "source": "Adweek",
       "date": "Oct 7, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_3.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/disney-gets-into-big-game-will-stream-super-bowl-61/"
@@ -36,7 +46,7 @@
       "summary": "The deal completes the U.K. firm's big U.S. expansion plan.",
       "source": "Adweek",
       "date": "Oct 7, 2026",
-      "image": "blog-images/news_3.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/agencies/msq-group-acquires-january-digital-to-build-out-media-offerings/"
@@ -46,50 +56,40 @@
       "summary": "Marketers Have More Data Than Ever, But More Than Half Still Struggle With Accuracyadweek.com",
       "source": "Adweek",
       "date": "Oct 6, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/sponsored/marketers-have-more-data-than-ever-but-more-than-half-still-struggle-with-accuracy/"
     },
     {
-      "title": "The 14 most innovative influencer marketers of 2026",
-      "summary": "This list of the most innovative influencer marketers highlights execs who are figuring out how to make companies look good on social media.",
-      "source": "Business Insider",
-      "date": "Oct 6, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/most-innovative-influencer-marketers-working-with-creators-2026-10#article"
-    },
-    {
-      "title": "Goodbye sightseeing, hello selfcare: The nearly trillion",
-      "summary": "Wellness travel is transforming holidays as Indian travellers increasingly prioritise fitness, sleep, stress relief and personal wellbeing over conventional sightseeing. From Hyrox races and yoga retr",
-      "source": "The Times of India",
-      "date": "Oct 11, 2026",
+      "title": "Nifty 14% below its peak, but Motilal Oswal says profits are set for fastest growth in 17 quarters",
+      "summary": "The Nifty 50 is about 14% below its September 2024 peak, according to Motilal Oswal Financial Services (MOFSL) in its India Strategy 2QFY27 Preview. Mid-cap and small-cap indices are down just 2% and",
+      "source": "Economictimes.com",
+      "date": "Oct 12, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/industry/services/travel/wellness-travel-business-destinations-spa-yoga-goodbye-sightseeing-hello-selfcare-the-nearly-trillion-dollar-business-of-getting-your-life-back/articleshow/134864140.cms"
+      "url": "https://m.economictimes.com/wealth/invest/nifty-14-below-its-peak-but-motilal-oswal-says-profits-are-set-for-fastest-growth-in-17-quarters/prices-are-down-but-profits-are-rising/slideshow/134882306.cms"
     },
     {
-      "title": "The Best James Bond Actor Returned to the Franchise 43 Years Ago, But the Movie’s Place in Canon Is Complicated",
-      "summary": "IMAGE COURTESY OF WARNER BROS.\n\nEvery few years the internet runs another vote on who played James Bond best, and every few years Sean Connery either wins it or ties for first. Even the strongest case",
-      "source": "ComicBook.com",
-      "date": "Oct 11, 2026",
+      "title": "Tourism Ministry ensures safe, sustainable Sade Village recovery",
+      "summary": "Indonesia&#39;s Tourism Ministry ensured the rehabilitation and recovery after fire of Sade Traditional Village in Lombok, West Nusa Tenggara, was proceeding ...",
+      "source": "Antaranews.com",
+      "date": "Oct 12, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "http://comicbook.com/movies/feature/the-best-james-bond-actor-returned-to-the-franchise-43-years-ago-but-the-movies-place-in-canon-is-complicated/"
+      "url": "https://en.antaranews.com/news/435037/tourism-ministry-ensures-safe-sustainable-sade-village-recovery"
     },
     {
-      "title": "No big stars, Rs 2.5 crore budget: How Premada Oorali's director almost sold his mother’s mangalsutra before beating Yash’s Toxic to become the most profitable Kannada movie",
-      "summary": "Kannada film Premada Oorali emerged as a box-office success after a modest opening and positive word of mouth. Directed by Manoj Kumar, the film showcases family relationships and was made on a budget",
-      "source": "The Times of India",
-      "date": "Oct 11, 2026",
-      "image": "blog-images/news_8.jpg",
+      "title": "Media Buying Briefing: Synthetic audience adoption by agencies and clients takes off",
+      "summary": "This Media Buying Briefing covers the latest in agency news and media buying for Digiday+ members and is distributed over email every Monday at 10 a.m. ET. More from the series →\nMore media planners,",
+      "source": "Biztoc.com",
+      "date": "Oct 12, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/magazines/panache/no-big-stars-rs-2-5-crore-budget-how-premada-ooralis-director-almost-sold-his-mothers-mangalsutra-before-beating-yashs-toxic-to-become-the-most-profitable-kannada-movie/articleshow/134863939.cms"
+      "url": "https://biztoc.com/x/82ebf69479e10381"
     }
   ],
   "jobs": [
