@@ -1,12 +1,52 @@
 {
-  "updated": "2026-10-14T02:34:45.947Z",
+  "updated": "2026-10-15T02:15:02.627Z",
   "news": [
+    {
+      "title": "Being chronically online is part of the job description for this top influencer marketer",
+      "summary": "Sophia Sesto is Poppi's VP of Culture. It's her job to be chronically online and find creators that keep the prebiotic soda relevant.",
+      "source": "Business Insider",
+      "date": "Oct 13, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/meet-poppi-vp-sophia-sesto-influencer-marketing-tiktok-love-island-2026-10#article"
+    },
+    {
+      "title": "Former TV Journalists Find Success Going the Independent Route",
+      "summary": "Terry Moran, Dr. Jen Ashton, and Vinita Nair speak on transitioning to becoming independent content creators.",
+      "source": "Adweek",
+      "date": "Oct 13, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/tvnewser/former-tv-journalists-find-success-going-the-independent-route/"
+    },
+    {
+      "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+      "summary": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping",
+      "source": "TechCrunch",
+      "date": "Oct 13, 2026",
+      "image": "blog-images/news_2.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/"
+    },
+    {
+      "title": "Russia is copying cruise missile tech onto its $50,000 drones to deal with Ukraine's jamming",
+      "summary": "Ukrainian intelligence says the Susanin system helps Geran-4s and Geran-5s use cameras to navigate the skies without a radio or satellite system.",
+      "source": "Business Insider",
+      "date": "Oct 13, 2026",
+      "image": "blog-images/news_3.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/russia-cruise-missile-tech-geran-susanin-drone-2026-10#article"
+    },
     {
       "title": "This AI startup says it can generate permit-ready blueprints in minutes",
       "summary": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.",
       "source": "TechCrunch",
       "date": "Oct 12, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/"
@@ -16,80 +56,40 @@
       "summary": "Inspired by her daughter's allergies, Partake Foods founder, Denise Woodard raised millions, overcoming growth challenges with storytelling skills.",
       "source": "Business Insider",
       "date": "Oct 11, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/how-partake-foods-founder-denise-woodard-scaled-small-business-2026-10#article"
     },
     {
-      "title": "Award",
-      "summary": "This post was created in partnership with TikTok for Business Media buying should be more than placing ads—it should help brands connect with audiences, navigate a changing media landscape, and […]",
-      "source": "Adweek",
-      "date": "Oct 9, 2026",
-      "image": "blog-images/news_2.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/agencies/award-winning-agencies-talk-tiktok/"
-    },
-    {
-      "title": "Starbucks Is Reportedly Eyeing Chipotle, But The Burrito Chain May Be More Than It Can Chew",
-      "summary": "A deal would reunite Starbucks CEO Brian Niccol with his former company",
-      "source": "Adweek",
-      "date": "Oct 8, 2026",
-      "image": "blog-images/news_3.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/starbucks-is-reportedly-eyeing-chipotle-but-the-burrito-chain-may-be-more-than-it-can-chew/"
-    },
-    {
-      "title": "Disney+ Gets Into Big Game, Will Stream Super Bowl 61",
-      "summary": "Disney+ joins ABC and ESPN in broadcasting Super Bowl 61.",
-      "source": "Adweek",
-      "date": "Oct 7, 2026",
-      "image": "blog-images/news_4.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/convergent-tv/disney-gets-into-big-game-will-stream-super-bowl-61/"
-    },
-    {
-      "title": "MSQ Group Acquires January Digital to Build Out Media Offerings",
-      "summary": "The deal completes the U.K. firm's big U.S. expansion plan.",
-      "source": "Adweek",
-      "date": "Oct 7, 2026",
-      "image": "blog-images/news_5.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/agencies/msq-group-acquires-january-digital-to-build-out-media-offerings/"
-    },
-    {
-      "title": "Trump's deal with Russia gives Putin a boost in economic war with Ukraine",
-      "summary": "President Trump is moving to buy Russian diesel while also pressuring Ukraine to halt attacks on refineries, a lifeblood of Moscow's war machine",
-      "source": "Business Standard",
-      "date": "Oct 13, 2026",
+      "title": "UPI MDR rollout pushed; India’s first quantum computer coming soon",
+      "summary": "Happy Wednesday! The implementation of MDR on select UPI payments has been deferred beyond Diwali. This and more in today’s ETtech Morning Dispatch.",
+      "source": "The Times of India",
+      "date": "Oct 14, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.business-standard.com/world-news/trump-s-deal-with-russia-gives-putin-a-boost-in-economic-war-with-ukraine-126101300088_1.html"
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/upi-mdr-rollout-pushed-indias-first-quantum-computer-coming-soon/articleshow/134929832.cms"
     },
     {
-      "title": "With Fewer Big Holdcos, Arthur Sadoun Says Client Conflict Is No Longer a Dealbreaker",
-      "summary": "The Publicis CEO declined to discuss PepsiCo and Coke, but said managing competitors is becoming more common in a consolidated market",
-      "source": "Adweek",
-      "date": "Oct 13, 2026",
-      "image": "blog-images/news_7.png",
+      "title": "Dainese Smart Air explained: Modes, price and servicing",
+      "summary": "We explain Dainese Smart Air’s three riding modes, protection, fit requirements, three-deployment design and the cost of ownership in Australia.\nThe post Dainese Smart Air explained: Modes, price and",
+      "source": "Mcnews.com.au",
+      "date": "Oct 14, 2026",
+      "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.adweek.com/agencies/with-fewer-big-holdcos-arthur-sadoun-says-client-conflict-is-no-longer-a-dealbreaker/"
+      "url": "https://www.mcnews.com.au/dainese-smart-air-explained-australia/"
     },
     {
-      "title": "ゲットワークスとカゴヤ・ジャパン、コンテナ型データセンター・GPUサーバー基盤事業で協業契約締結",
-      "summary": "[カゴヤ・ジャパン株式会社]\n[画像1: https://prcdn.freetls.fastly.net/release_image/10358/166/10358-166-decf0b736cca4818a6e27254d3b3f35e-1280x200.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&a...",
-      "source": "Prtimes.jp",
-      "date": "Oct 13, 2026",
+      "title": "Eye-watering leaked emails and texts behind Bondi Born's workplace war: Fashion boss blasted after telling $150k-a-year exec to 'use translation to your native language'",
+      "summary": "Dale McCarthy's management style was blasted after emails telling a staffer to 'use translation to your native language' and texts accusing her of being 'passive aggressive' were laid bare.",
+      "source": "Dailymail.com",
+      "date": "Oct 14, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://prtimes.jp/main/html/rd/p/000000166.000010358.html"
+      "url": "https://www.dailymail.com/news/article-16206865/bondi-born-dale-mccarthy-fair-work-emails-texts-workplace-battle.html"
     }
   ],
   "jobs": [
