@@ -1,12 +1,22 @@
 {
-  "updated": "2026-10-16T02:06:19.042Z",
+  "updated": "2026-10-17T02:00:10.444Z",
   "news": [
+    {
+      "title": "Clear Channel Taps Two Top TV Execs to Reprogram Outdoor Advertising",
+      "summary": "Univision's Wade Davis and former Paramount ads leader John Halley join Clear Channel C-suite",
+      "source": "Adweek",
+      "date": "Oct 15, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/convergent-tv/clear-channel-taps-two-top-tv-execs-to-reprogram-outdoor-advertising/"
+    },
     {
       "title": "Being chronically online is part of the job description for this top influencer marketer",
       "summary": "Sophia Sesto is Poppi's VP of Culture. It's her job to be chronically online and find creators that keep the prebiotic soda relevant.",
       "source": "Business Insider",
       "date": "Oct 13, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/meet-poppi-vp-sophia-sesto-influencer-marketing-tiktok-love-island-2026-10#article"
@@ -16,7 +26,7 @@
       "summary": "Terry Moran, Dr. Jen Ashton, and Vinita Nair speak on transitioning to becoming independent content creators.",
       "source": "Adweek",
       "date": "Oct 13, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/tvnewser/former-tv-journalists-find-success-going-the-independent-route/"
@@ -26,7 +36,7 @@
       "summary": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping",
       "source": "TechCrunch",
       "date": "Oct 13, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/"
@@ -36,7 +46,7 @@
       "summary": "Ukrainian intelligence says the Susanin system helps Geran-4s and Geran-5s use cameras to navigate the skies without a radio or satellite system.",
       "source": "Business Insider",
       "date": "Oct 13, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/russia-cruise-missile-tech-geran-susanin-drone-2026-10#article"
@@ -46,50 +56,40 @@
       "summary": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.",
       "source": "TechCrunch",
       "date": "Oct 12, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/"
     },
     {
-      "title": "I started a cookie business and scaled too quickly. We got caught up in a growth-at-all",
-      "summary": "Inspired by her daughter's allergies, Partake Foods founder, Denise Woodard raised millions, overcoming growth challenges with storytelling skills.",
-      "source": "Business Insider",
-      "date": "Oct 11, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/how-partake-foods-founder-denise-woodard-scaled-small-business-2026-10#article"
-    },
-    {
-      "title": "TAB NZ’s online casino plans advance despite ministers’ earlier opposition",
-      "summary": "TAB, Entain and SkyCity have secured multiple rights to apply for online casino licences.",
-      "source": "New Zealand Herald",
-      "date": "Oct 15, 2026",
+      "title": "Shaquille O’Neal’s DUNKMAN contest is back, how you can win $1 million",
+      "summary": "Shaquille O’Neal’s DUNKMAN contest has returned. The NBA icon’s contest that gives undiscovered athletes a chance to win $1 million and potentially go pro is back for its second year. Shaq is on a tal",
+      "source": "ClutchPoints",
+      "date": "Oct 16, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.nzherald.co.nz/business/tab-nzs-online-casino-plans-advance-despite-ministers-earlier-opposition/premium/PIEGFPTZBVCL5HMWF7S3WMALSE/"
+      "url": "https://clutchpoints.com/celebrity/shaquille-oneal-dunkman-contest-is-back-win-1-million"
     },
     {
-      "title": "How an academic turned a €200,000 problem into an online marketplace",
-      "summary": "Aishling Flaherty has built Caboodle, an online marketplace bringing small Irish retailers together",
-      "source": "The Irish Times",
-      "date": "Oct 15, 2026",
-      "image": "blog-images/news_7.jpg",
+      "title": "North.cloud bags $60M in funding to help businesses keep runaway cloud costs in check",
+      "summary": "A startup called North Cloud Holdings Inc. says it’s going to help companies prevent the costs of cloud computing and artificial intelligence infrastructure spiraling out of control after raising $60",
+      "source": "SiliconANGLE News",
+      "date": "Oct 16, 2026",
+      "image": "blog-images/news_7.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.irishtimes.com/business/innovation/2026/10/15/how-an-academic-turned-a-200000-problem-into-an-online-marketplace/"
+      "url": "https://siliconangle.com/2026/10/15/north-cloud-bags-60m-in-funding-to-help-businesses-keep-runaway-cloud-costs-in-check/"
     },
     {
-      "title": "Baseball royalty goes to war over risque Megan Fox and Sydney Sweeney MLB playoff ads",
-      "summary": "Braves legend Dale Murphy and his son blasted racy Sydney Sweeney and Megan Fox's commercials during MLB playoff broadcasts.",
-      "source": "New York Post",
-      "date": "Oct 15, 2026",
+      "title": "Elizabeth Holmes' partner, Billy Evans, is the real villain in 'You Can See Everything.' Here's what to know about him.",
+      "summary": "Billy Evans, Elizabeth Holmes' partner and the father of their two children, plays a big role in A24's new documentary \"You Can See Everything.\"",
+      "source": "Business Insider",
+      "date": "Oct 16, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://nypost.com/2026/10/14/sports/dale-murphy-rips-risque-megan-fox-sydney-sweeney-mlb-playoff-ads/"
+      "url": "https://www.businessinsider.com/elizabeth-holmes-fiance-partner-billy-evans-relationship-job-theranos#article"
     }
   ],
   "jobs": [
@@ -135,17 +135,6 @@
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://jobs.ama.org/job/digital-marketing-specialist/86312574/",
-      "showSource": true
-    },
-    {
-      "title": "My Salary Journey: Chief Marketing Officer",
-      "summary": "Do you think you are paid fairly for what you do? At first when I entered the 6 figure range it was difficult to see why I was entitled to so much - this was beyond any salary aspirations I ever had.",
-      "source": "Millennialmoneyuk.com",
-      "date": "Sep 15, 2026",
-      "image": null,
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://millennialmoneyuk.com/blog/salary-journey-cmo",
       "showSource": true
     }
   ],
