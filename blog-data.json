@@ -1,12 +1,22 @@
 {
-  "updated": "2026-10-17T02:00:10.444Z",
+  "updated": "2026-10-18T01:59:40.359Z",
   "news": [
+    {
+      "title": "26% of Americans say influencers have swayed their vote. Political campaigns are racing to win them over.",
+      "summary": "The battle for voters in the 2026 midterm elections is playing out on the TikTok For You Page, as creators influence Americans.",
+      "source": "Business Insider",
+      "date": "Oct 16, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/one-in-four-americans-say-creator-content-influenced-their-vote-2026-10#article"
+    },
     {
       "title": "Clear Channel Taps Two Top TV Execs to Reprogram Outdoor Advertising",
       "summary": "Univision's Wade Davis and former Paramount ads leader John Halley join Clear Channel C-suite",
       "source": "Adweek",
       "date": "Oct 15, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/clear-channel-taps-two-top-tv-execs-to-reprogram-outdoor-advertising/"
@@ -16,7 +26,7 @@
       "summary": "Sophia Sesto is Poppi's VP of Culture. It's her job to be chronically online and find creators that keep the prebiotic soda relevant.",
       "source": "Business Insider",
       "date": "Oct 13, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/meet-poppi-vp-sophia-sesto-influencer-marketing-tiktok-love-island-2026-10#article"
@@ -26,7 +36,7 @@
       "summary": "Terry Moran, Dr. Jen Ashton, and Vinita Nair speak on transitioning to becoming independent content creators.",
       "source": "Adweek",
       "date": "Oct 13, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/tvnewser/former-tv-journalists-find-success-going-the-independent-route/"
@@ -36,7 +46,7 @@
       "summary": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping",
       "source": "TechCrunch",
       "date": "Oct 13, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/"
@@ -46,70 +56,49 @@
       "summary": "Ukrainian intelligence says the Susanin system helps Geran-4s and Geran-5s use cameras to navigate the skies without a radio or satellite system.",
       "source": "Business Insider",
       "date": "Oct 13, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/russia-cruise-missile-tech-geran-susanin-drone-2026-10#article"
     },
     {
-      "title": "This AI startup says it can generate permit-ready blueprints in minutes",
-      "summary": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.",
-      "source": "TechCrunch",
-      "date": "Oct 12, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/"
-    },
-    {
-      "title": "Shaquille O’Neal’s DUNKMAN contest is back, how you can win $1 million",
-      "summary": "Shaquille O’Neal’s DUNKMAN contest has returned. The NBA icon’s contest that gives undiscovered athletes a chance to win $1 million and potentially go pro is back for its second year. Shaq is on a tal",
-      "source": "ClutchPoints",
-      "date": "Oct 16, 2026",
+      "title": "This Sudden Blast of Light Puts Produce Into Defense Mode to Stay Fresh",
+      "summary": "Shikoku Research Institute's iR Fresh flashes ~850 nm near-IR for a fraction of a second to cut produce water loss. JapanGov feature; peer-reviewed roots",
+      "source": "Ubergizmo",
+      "date": "Oct 17, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://clutchpoints.com/celebrity/shaquille-oneal-dunkman-contest-is-back-win-1-million"
+      "url": "https://www.ubergizmo.com/2026/10/japan-ir-light-fresh-fruits-vegetables/"
     },
     {
-      "title": "North.cloud bags $60M in funding to help businesses keep runaway cloud costs in check",
-      "summary": "A startup called North Cloud Holdings Inc. says it’s going to help companies prevent the costs of cloud computing and artificial intelligence infrastructure spiraling out of control after raising $60",
-      "source": "SiliconANGLE News",
-      "date": "Oct 16, 2026",
-      "image": "blog-images/news_7.png",
+      "title": "Pet Health Issues Can Signal Hidden Mold in New York Homes",
+      "summary": "Local restoration company shares how chronic health symptoms in pets may signal the need for professional mold removal.",
+      "source": "Newsnetmedia.com",
+      "date": "Oct 17, 2026",
+      "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://siliconangle.com/2026/10/15/north-cloud-bags-60m-in-funding-to-help-businesses-keep-runaway-cloud-costs-in-check/"
+      "url": "https://hawaii.newsnetmedia.com/story/521389/pet-health-issues-can-signal-hidden-mold-in-new-york-homes/"
     },
     {
-      "title": "Elizabeth Holmes' partner, Billy Evans, is the real villain in 'You Can See Everything.' Here's what to know about him.",
-      "summary": "Billy Evans, Elizabeth Holmes' partner and the father of their two children, plays a big role in A24's new documentary \"You Can See Everything.\"",
-      "source": "Business Insider",
-      "date": "Oct 16, 2026",
+      "title": "AI in Production Without a WHERE Clause",
+      "summary": "AI in production without a second pair of eyes is a quick way to lose a table. Cardinal was going to add the WHERE clause. Eventually.\nFirst appeared on AI in Production Without a WHERE Clause",
+      "source": "Sqlauthority.com",
+      "date": "Oct 17, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/elizabeth-holmes-fiance-partner-billy-evans-relationship-job-theranos#article"
+      "url": "https://blog.sqlauthority.com/2026/10/17/ai-in-production-without-a-where-clause/"
     }
   ],
   "jobs": [
-    {
-      "title": "10 Content, SEO & Marketing Roles Hiring Today",
-      "summary": "1.Smooth Media is hiring for the following roles: Event producer:Job link Events associate: Job link freelance network: Job link 2.",
-      "source": "Linkedin.com",
-      "date": "Sep 16, 2026",
-      "image": "blog-images/jobs_0.png",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://www.linkedin.com/pulse/10-content-seo-marketing-roles-hiring-today-amna-aslam-xqn3f",
-      "showSource": true
-    },
     {
       "title": "5 Best Architect Marketing Agencies and How to Choose One",
       "summary": "For most architecture firms, choosing an architect marketing agency comes down to one question: does the agency’s main service match the gap in the firm’s pipeline? Some agencies get a firm known thro",
       "source": "Ahouseinthehills.com",
       "date": "Sep 25, 2026",
-      "image": "blog-images/jobs_1.jpg",
+      "image": "blog-images/jobs_0.jpg",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://ahouseinthehills.com/5-best-architect-marketing-agencies-and-how-to-choose-one/",
@@ -120,7 +109,7 @@
       "summary": "Digital Marketing Jobs in Pune: Roles, Skills & Salary 2026? Find fresher roles, key skills, salary ranges and practical tips for starting your career.",
       "source": "Piidm.com",
       "date": "Sep 24, 2026",
-      "image": "blog-images/jobs_2.png",
+      "image": "blog-images/jobs_1.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://piidm.com/digital-marketing-jobs-in-pune/",
@@ -131,7 +120,7 @@
       "summary": "A new Digital Marketing Specialist job is available in Silver Spring, Maryland. Check it out on PR News Online.",
       "source": "Ama.org",
       "date": "Oct 6, 2026",
-      "image": "blog-images/jobs_3.png",
+      "image": "blog-images/jobs_2.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://jobs.ama.org/job/digital-marketing-specialist/86312574/",
