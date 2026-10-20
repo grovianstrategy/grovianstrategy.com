@@ -1,12 +1,22 @@
 {
-  "updated": "2026-10-19T02:16:32.070Z",
+  "updated": "2026-10-20T02:31:00.434Z",
   "news": [
+    {
+      "title": "Why Berkshire Hathaway is betting nearly $1 billion on Bending Spoons",
+      "summary": "Warren Buffett's storied company has historically avoided tech stocks, but Bending Spoons is a long-term acquirer that prizes ownership and learning.",
+      "source": "Business Insider",
+      "date": "Oct 18, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/warren-buffett-berkshire-bending-spoons-stock-investing-acquisitions-deals-strategy-2026-10#article"
+    },
     {
       "title": "26% of Americans say influencers have swayed their vote. Political campaigns are racing to win them over.",
       "summary": "The battle for voters in the 2026 midterm elections is playing out on the TikTok For You Page, as creators influence Americans.",
       "source": "Business Insider",
       "date": "Oct 16, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/one-in-four-americans-say-creator-content-influenced-their-vote-2026-10#article"
@@ -16,7 +26,7 @@
       "summary": "Univision's Wade Davis and former Paramount ads leader John Halley join Clear Channel C-suite",
       "source": "Adweek",
       "date": "Oct 15, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/clear-channel-taps-two-top-tv-execs-to-reprogram-outdoor-advertising/"
@@ -26,7 +36,7 @@
       "summary": "Sophia Sesto is Poppi's VP of Culture. It's her job to be chronically online and find creators that keep the prebiotic soda relevant.",
       "source": "Business Insider",
       "date": "Oct 13, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/meet-poppi-vp-sophia-sesto-influencer-marketing-tiktok-love-island-2026-10#article"
@@ -36,7 +46,7 @@
       "summary": "Terry Moran, Dr. Jen Ashton, and Vinita Nair speak on transitioning to becoming independent content creators.",
       "source": "Adweek",
       "date": "Oct 13, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/tvnewser/former-tv-journalists-find-success-going-the-independent-route/"
@@ -46,50 +56,40 @@
       "summary": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping",
       "source": "TechCrunch",
       "date": "Oct 13, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/"
     },
     {
-      "title": "Russia is copying cruise missile tech onto its $50,000 drones to deal with Ukraine's jamming",
-      "summary": "Ukrainian intelligence says the Susanin system helps Geran-4s and Geran-5s use cameras to navigate the skies without a radio or satellite system.",
-      "source": "Business Insider",
-      "date": "Oct 13, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/russia-cruise-missile-tech-geran-susanin-drone-2026-10#article"
-    },
-    {
-      "title": "Competition among job seekers rising at fastest pace in more than two years – Seek",
-      "summary": "Candidates are applying in greater numbers as hiring activity holds steady.",
-      "source": "New Zealand Herald",
-      "date": "Oct 18, 2026",
+      "title": "Ukraine Talks with Turkey, India, Egypt Over Grain Corridor",
+      "summary": "By Daryna Krasnolutska, Volodymyr Verbianyi and Olesia Safronova Oct 18, 2026 (Bloomberg) –Ukraine is in talks with Turkey, Egypt and India on the possibility of opening up Black Sea civil navigation,",
+      "source": "gcaptain.com",
+      "date": "Oct 19, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.nzherald.co.nz/business/competition-among-job-seekers-rising-at-fastest-pace-in-more-than-two-years-seek/IL3NSI5SIZHCXGNQXGDIPRVAIA/"
+      "url": "https://gcaptain.com/ukraine-talks-with-turkey-india-egypt-over-grain-corridor/"
     },
     {
-      "title": "Fan confrontation involving XX",
-      "summary": "There was alleged friction between fans in the stands at Chase Center. The incident appeared to involve multiple people, including attendees wearing XX-XY shirts.",
-      "source": "USA Today",
-      "date": "Oct 18, 2026",
+      "title": "‘Pillaged’: Meta’s new commercial terms deepen AI scraping concerns",
+      "summary": "Meta is introducing new commercial terms that apparently allow the tech giant to scrape content from the websites of any business with a Facebook page and use it to train AI models.The problematic ter",
+      "source": "Mumbrella.com.au",
+      "date": "Oct 19, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.usatoday.com/story/sports/wnba/2026/10/17/xx-xy-shirts-at-center-of-fan-confrontation-during-wnba-finals/92310889007/"
+      "url": "http://mumbrella.com.au/pillaged-metas-new-commercial-terms-deepen-ai-scraping-concerns-941459"
     },
     {
-      "title": "There was 'no sex' at this reality-show",
-      "summary": "A group of startup founders went to eastern Pennsylvania for a lesson in company building. They left with more followers.",
-      "source": "Business Insider",
-      "date": "Oct 18, 2026",
+      "title": "Proya Cosmetics inaugurates its new Europe Innovation Center Laboratory in France",
+      "summary": "SURESNES, France, Oct. 19, 2026 /PRNewswire/ -- Following the creation of the PROYA EUROPE INNOVATION CENTER at La Défense – Paris in 2024, the inauguration of the new Europe Innovation Center Laborat",
+      "source": "PRNewswire",
+      "date": "Oct 19, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/startup-founder-reality-show-incubator-stan-social-media-2026-10#article"
+      "url": "https://www.prnewswire.com/news-releases/proya-cosmetics-inaugurates-its-new-europe-innovation-center-laboratory-in-france-302912092.html"
     }
   ],
   "jobs": [
