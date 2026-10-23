@@ -1,12 +1,32 @@
 {
-  "updated": "2026-10-22T02:20:17.983Z",
+  "updated": "2026-10-23T02:25:42.188Z",
   "news": [
+    {
+      "title": "TikTok is shifting advertising to YouTube after Meta says 'no thanks'",
+      "summary": "Meta doesn't want TikTok's ads. ByteDance is putting its money toward YouTube and Pinterest instead.",
+      "source": "Business Insider",
+      "date": "Oct 21, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/tiktok-pivots-ad-dollars-youtube-and-pinterest-after-meta-ban-2026-10#article"
+    },
+    {
+      "title": "Ambani’s Jio has record India IPO fully subscribed within hours",
+      "summary": "Jio Platforms’ IPO attracts rapid demand, signaling India’s largest listing yet, amid a cautious valuation shift and growth optimism.",
+      "source": "Bloomberg",
+      "date": "Oct 21, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/ambani-s-jio-seeks-historic-ipo-a-decade-after-disrupting-india-telecom"
+    },
     {
       "title": "The Wall Street Journal has been planning a big push into streaming TV, and courted Feed Me's Emily Sundberg for a show",
       "summary": "The paper explored shows around its top editor, Emma Tucker, as well as external creators and media companies.",
       "source": "Business Insider",
       "date": "Oct 20, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/wsj-planning-big-push-into-streaming-tv-courted-emily-sundberg-2026-10#article"
@@ -16,7 +36,7 @@
       "summary": "Marketing news, voices and jobs for industry professionals.  Optimized for your mobile phone.",
       "source": "Marketing Dive",
       "date": "Oct 20, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.marketingdive.com/press-release/20261019-broadhead-wins-big-at-the-4as-jay-chiat-awards/"
@@ -26,7 +46,7 @@
       "summary": "I drove the 2026 Toyota RAV4. It's the perfect antidote to high gas prices and looks like everything else on the road. Good luck finding one to buy.",
       "source": "Business Insider",
       "date": "Oct 20, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/toyota-rav4-review-hybrid-new-cars-2026-10#article"
@@ -36,69 +56,60 @@
       "summary": "Brevan Howard's crypto CIO detailed the firm's plans, including new opportunities, hires, and sovereign wealth inflows.",
       "source": "Business Insider",
       "date": "Oct 20, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/brevan-howard-digital-assets-new-hires-strategies-chris-rayner-cook-2026-10#article"
     },
     {
-      "title": "Why Berkshire Hathaway is betting nearly $1 billion on Bending Spoons",
-      "summary": "Warren Buffett's storied company has historically avoided tech stocks, but Bending Spoons is a long-term acquirer that prizes ownership and learning.",
-      "source": "Business Insider",
-      "date": "Oct 18, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/warren-buffett-berkshire-bending-spoons-stock-investing-acquisitions-deals-strategy-2026-10#article"
-    },
-    {
-      "title": "26% of Americans say influencers have swayed their vote. Political campaigns are racing to win them over.",
-      "summary": "The battle for voters in the 2026 midterm elections is playing out on the TikTok For You Page, as creators influence Americans.",
-      "source": "Business Insider",
-      "date": "Oct 16, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/one-in-four-americans-say-creator-content-influenced-their-vote-2026-10#article"
-    },
-    {
-      "title": "TransUnion Stock Gets A Boost From Bankrate Partnership And Marketing Award",
-      "summary": "TransUnion recently expanded its long-running collaboration with Bankrate, combining TransUnion credit data with Monevo technology to deliver more personalized credit offers through its Credit Essenti",
-      "source": "Biztoc.com",
-      "date": "Oct 21, 2026",
+      "title": "The Homepage Hero Is Being Rewritten for a Reader Who Won’t Scroll",
+      "summary": "The hero section used to be a greeting. Now it’s the whole meeting. A reader who gets their answer from a chatbot, or from the top of a search result, never sees the second screen, never reads the tes",
+      "source": "Designer-daily.com",
+      "date": "Oct 22, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://biztoc.com/x/8903d75ee2e4db4b"
+      "url": "https://www.designer-daily.com/the-homepage-hero-is-being-rewritten-for-a-reader-who-wont-scroll-252261"
     },
     {
-      "title": "Hengrui Pharma Previews ESMO Congress 2026: 64 Research Findings Highlight Continued Progress Across Innovative Pipelines to Advance Clinical Value",
-      "summary": "64 research findings have been accepted, including three Proffered Paper presentations and three Rapid Oral presentations, spanning more than ten areas of oncology and supportive care. More than 10 st",
-      "source": "PRNewswire",
-      "date": "Oct 21, 2026",
+      "title": "Do you have to clean up alpaca poop?",
+      "summary": "Do You Have To Clean Up Alpaca Poop? The Surprisingly Simple Truth The answer is a resounding yes, you do have to clean up alpaca poop, but the good news is that it’s a relatively easy and beneficial",
+      "source": "Lifesciencesworld.com",
+      "date": "Oct 22, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.prnewswire.com/news-releases/hengrui-pharma-previews-esmo-congress-2026-64-research-findings-highlight-continued-progress-across-innovative-pipelines-to-advance-clinical-value-302914820.html"
+      "url": "https://www.lifesciencesworld.com/do-you-have-to-clean-up-alpaca-poop/"
     },
     {
-      "title": "Sunrate and TourMind Partner to Enhance Payment Capabilities for the Global Travel Industry",
-      "summary": "SINGAPORE, Oct. 20, 2026 /PRNewswire/ -- Sunrate, the global payment and treasury management platform, today announced a strategic partnership with TourMind, an AI-powered global travel transaction in",
-      "source": "PRNewswire",
-      "date": "Oct 21, 2026",
-      "image": null,
+      "title": "WNBA in CHAOS: Fan Threats, Anthem Protests & Male Eligibility",
+      "summary": "Riley Gaines sits down with Jen Sey to discuss the WNBA, transgender eligibility in women’s sports, fan harassment, and the future of women’s basketball. They also examine sports governance, league ma",
+      "source": "Fox News",
+      "date": "Oct 22, 2026",
+      "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.prnewswire.com/news-releases/sunrate-and-tourmind-partner-to-enhance-payment-capabilities-for-the-global-travel-industry-302912957.html"
+      "url": "https://radio.foxnews.com/2026/10/21/wnba-in-chaos-fan-threats-anthem-protests-male-eligibility/"
     }
   ],
   "jobs": [
+    {
+      "title": "The Best CMOs Don’t Just Run Marketing ft. Kellyn Smith Kenny of AT&T",
+      "summary": "Plus, why great marketing leaders need courage and patience.",
+      "source": "Adweek",
+      "date": "Oct 21, 2026",
+      "image": "blog-images/jobs_0.png",
+      "category": "Jobs",
+      "emoji": "💼",
+      "url": "https://www.adweek.com/brand-marketing/the-best-cmos-dont-just-run-marketing-ft-kellyn-smith-kenny-of-att/",
+      "showSource": true
+    },
     {
       "title": "5 Best Architect Marketing Agencies and How to Choose One",
       "summary": "For most architecture firms, choosing an architect marketing agency comes down to one question: does the agency’s main service match the gap in the firm’s pipeline? Some agencies get a firm known thro",
       "source": "Ahouseinthehills.com",
       "date": "Sep 25, 2026",
-      "image": "blog-images/jobs_0.jpg",
+      "image": "blog-images/jobs_1.jpg",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://ahouseinthehills.com/5-best-architect-marketing-agencies-and-how-to-choose-one/",
@@ -109,7 +120,7 @@
       "summary": "A new Digital Marketing Specialist job is available in Silver Spring, Maryland. Check it out on PR News Online.",
       "source": "Ama.org",
       "date": "Oct 6, 2026",
-      "image": "blog-images/jobs_1.png",
+      "image": "blog-images/jobs_2.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://jobs.ama.org/job/digital-marketing-specialist/86312574/",
