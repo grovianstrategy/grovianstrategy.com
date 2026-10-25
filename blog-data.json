@@ -1,12 +1,22 @@
 {
-  "updated": "2026-10-24T02:23:26.735Z",
+  "updated": "2026-10-25T02:10:53.233Z",
   "news": [
+    {
+      "title": "How a 24-year",
+      "summary": "School of Hard Knocks cofounder James Dumoulin uses staged drama to hook viewers and sells consulting services and memberships.",
+      "source": "Business Insider",
+      "date": "Oct 23, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/school-of-hard-knocks-business-lessons-empire-2026-10#article"
+    },
     {
       "title": "Most AI data centers may never be built. Blame the 'bragawatts.'",
       "summary": "Analysts estimate that almost two-thirds of announced data center capacity may never get built. Meet the industry's \"bragawatts.\"",
       "source": "Business Insider",
       "date": "Oct 22, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/ai-data-centers-never-built-bragawatts-kevin-oleary-2026-10#article"
@@ -16,7 +26,7 @@
       "summary": "Meta doesn't want TikTok's ads. ByteDance is putting its money toward YouTube and Pinterest instead.",
       "source": "Business Insider",
       "date": "Oct 21, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/tiktok-pivots-ad-dollars-youtube-and-pinterest-after-meta-ban-2026-10#article"
@@ -26,7 +36,7 @@
       "summary": "Jio Platforms’ IPO attracts rapid demand, signaling India’s largest listing yet, amid a cautious valuation shift and growth optimism.",
       "source": "Bloomberg",
       "date": "Oct 21, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.bloomberg.com/news/articles/2026-10-21/ambani-s-jio-seeks-historic-ipo-a-decade-after-disrupting-india-telecom"
@@ -36,7 +46,7 @@
       "summary": "The paper explored shows around its top editor, Emma Tucker, as well as external creators and media companies.",
       "source": "Business Insider",
       "date": "Oct 20, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/wsj-planning-big-push-into-streaming-tv-courted-emily-sundberg-2026-10#article"
@@ -46,50 +56,40 @@
       "summary": "Marketing news, voices and jobs for industry professionals.  Optimized for your mobile phone.",
       "source": "Marketing Dive",
       "date": "Oct 20, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.marketingdive.com/press-release/20261019-broadhead-wins-big-at-the-4as-jay-chiat-awards/"
     },
     {
-      "title": "I drove Toyota's new RAV4. It's boringly good — and buyers are scrambling for it.",
-      "summary": "I drove the 2026 Toyota RAV4. It's the perfect antidote to high gas prices and looks like everything else on the road. Good luck finding one to buy.",
-      "source": "Business Insider",
-      "date": "Oct 20, 2026",
-      "image": "blog-images/news_5.jpg",
+      "title": "How Can You Turn Social Media Into a Long",
+      "summary": "Social media gives agents an opportunity to start that conversation in a way that feels educational and conversational rather than sales-focused. Long-term care insurance can be difficult to market be",
+      "source": "Crankwheel.com",
+      "date": "Oct 24, 2026",
+      "image": "blog-images/news_6.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/toyota-rav4-review-hybrid-new-cars-2026-10#article"
+      "url": "https://crankwheel.com/how-can-you-turn-social-media-into-a-long-term-care-insurance-marketing-tool?"
     },
     {
-      "title": "Monitors take over as LG Display's large OLED growth engine while auto panels stall",
-      "summary": "LG Display's large OLED business is shifting its growth from televisions to PC monitors, and the change is now large enough for the company to plan restarting idle factory capacity. Its automotive bus",
-      "source": "Digitimes",
-      "date": "Oct 23, 2026",
-      "image": "blog-images/news_6.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.digitimes.com/news/a20261023VL205/lg-display-growth-business-shipments-demand.html"
-    },
-    {
-      "title": "Star Wars: Starfighter Has A Bigger Budget Than The Force Awakens",
-      "summary": "Star Wars is sitting in a weird place at the time of writing. Earlier this year, Lucasfilm and Disney released The Mandalorian and Grogu , and likely thought it was a sure thing, one of its several su",
-      "source": "Bleeding Cool News",
-      "date": "Oct 23, 2026",
+      "title": "Wheat crop area unlikely to shrink this season, raising hopes of another bumper harvest: govt official",
+      "summary": "Wheat cultivation depends heavily on assured irrigation, and farmers are less vulnerable to variations in rainfall.",
+      "source": "Livemint",
+      "date": "Oct 24, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://bleedingcool.com/movies/star-wars-starfighter-has-a-bigger-budget-than-the-force-awakens/"
+      "url": "https://www.livemint.com/industry/agriculture/wheat-crop-cultivation-area-season-bumper-harvesta-11792751868188.html"
     },
     {
-      "title": "BAPE(R) x UNDEFEATED FW26 COLLECTION",
-      "summary": "[株式会社 ノーウェア]\n[画像1: https://prcdn.freetls.fastly.net/release_image/8762/763/8762-763-8a998b75e800fbca0e220a3984d96df7-1000x667.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&amp...",
-      "source": "Prtimes.jp",
-      "date": "Oct 23, 2026",
+      "title": "HP Nanda: A master of the old economy whose successors inherited a different world",
+      "summary": "In post-Partition India, Nanda built an engineering and automotive group spanning tractors, farm machinery, motorcycles and construction equipment.",
+      "source": "Livemint",
+      "date": "Oct 24, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://prtimes.jp/main/html/rd/p/000000763.000008762.html"
+      "url": "https://www.livemint.com/opinion/online-views/hp-nanda-a-master-of-the-old-economy-whose-successors-inherited-a-different-world-11792687156383.html"
     }
   ],
   "jobs": [
