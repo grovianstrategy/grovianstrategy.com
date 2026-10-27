@@ -1,12 +1,22 @@
 {
-  "updated": "2026-10-26T02:11:10.723Z",
+  "updated": "2026-10-27T02:47:56.058Z",
   "news": [
+    {
+      "title": "Home Depot IT chief says its digital price tags won't give consumers different prices",
+      "summary": "Home Depot CIO Angie Brown tells Business Insider that its digital shelf labels won't bring dynamic pricing for consumers.",
+      "source": "Business Insider",
+      "date": "Oct 25, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/home-depot-no-dynamic-pricing-electronic-shelf-label-2026-10#article"
+    },
     {
       "title": "How a 24-year",
       "summary": "School of Hard Knocks cofounder James Dumoulin uses staged drama to hook viewers and sells consulting services and memberships.",
       "source": "Business Insider",
       "date": "Oct 23, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/school-of-hard-knocks-business-lessons-empire-2026-10#article"
@@ -16,7 +26,7 @@
       "summary": "Analysts estimate that almost two-thirds of announced data center capacity may never get built. Meet the industry's \"bragawatts.\"",
       "source": "Business Insider",
       "date": "Oct 22, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/ai-data-centers-never-built-bragawatts-kevin-oleary-2026-10#article"
@@ -26,7 +36,7 @@
       "summary": "Meta doesn't want TikTok's ads. ByteDance is putting its money toward YouTube and Pinterest instead.",
       "source": "Business Insider",
       "date": "Oct 21, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/tiktok-pivots-ad-dollars-youtube-and-pinterest-after-meta-ban-2026-10#article"
@@ -36,7 +46,7 @@
       "summary": "Jio Platforms’ IPO attracts rapid demand, signaling India’s largest listing yet, amid a cautious valuation shift and growth optimism.",
       "source": "Bloomberg",
       "date": "Oct 21, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.bloomberg.com/news/articles/2026-10-21/ambani-s-jio-seeks-historic-ipo-a-decade-after-disrupting-india-telecom"
@@ -46,50 +56,40 @@
       "summary": "The paper explored shows around its top editor, Emma Tucker, as well as external creators and media companies.",
       "source": "Business Insider",
       "date": "Oct 20, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/wsj-planning-big-push-into-streaming-tv-courted-emily-sundberg-2026-10#article"
     },
     {
-      "title": "Broadhead Wins Big at the 4As Jay Chiat Awards",
-      "summary": "Marketing news, voices and jobs for industry professionals.  Optimized for your mobile phone.",
-      "source": "Marketing Dive",
-      "date": "Oct 20, 2026",
-      "image": "blog-images/news_5.jpg",
+      "title": "evo-agents-core",
+      "summary": "The first-party core plugins of the evo-agents hub: Telegram, the chat history in the knowledge graph, crm, pm, marketing and editorial",
+      "source": "Pypi.org",
+      "date": "Oct 26, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.marketingdive.com/press-release/20261019-broadhead-wins-big-at-the-4as-jay-chiat-awards/"
+      "url": "https://pypi.org/project/evo-agents-core-plugins/2.1.0/"
     },
     {
-      "title": "We Came to Hacktoberfest and Accidentally Became Workday's Marketing Team",
-      "summary": "POV: You attend a Hacktoberfest meetup and accidentally become Workday's unofficial marketing team....",
-      "source": "Dev.to",
-      "date": "Oct 25, 2026",
-      "image": "blog-images/news_6.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://dev.to/dhineshbabu7/we-came-to-hacktoberfest-and-accidentally-became-workdays-marketing-team-3683"
-    },
-    {
-      "title": "Avengers: Doomsday – A New TV Spot Has Been Released",
-      "summary": "The marketing blitz for Avengers: Doomsday seems to be kicking off. Now, as we often do with Marvel movies, if there is a time when Marvel will spoil their own film, it's going to be in the final four",
-      "source": "Bleeding Cool News",
-      "date": "Oct 25, 2026",
+      "title": "Turmoil at ARA Group as leaked memo offers investors access to $1.6bn employee",
+      "summary": "The confidential memo suggested a pathway for outside investors into one of Australia's biggest employee-owned companies, despite company leaders insisting no sale process exists.",
+      "source": "Dailymail.com",
+      "date": "Oct 26, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://bleedingcool.com/movies/avengers-doomsday-a-new-tv-spot-has-been-released/"
+      "url": "https://www.dailymail.com/news/article-16232053/ARA-group-investment-pitch-information-memorandum-JBS-Investments-Rivkin.html"
     },
     {
-      "title": "Latvia Emerges As Top",
-      "summary": "MOSCOW, Oct 23 (Reuters) – Latvia, a member of the European Union and NATO, has emerged as one of the top five countries used to ship Russian grain this marketing season despite strained political...",
-      "source": "gcaptain.com",
-      "date": "Oct 25, 2026",
+      "title": "I Was Confused By Jessy's Anger About Vittorio's House On 90 Day Fiancé: The Other Way, But Wild New Info May Explain It All",
+      "summary": "It's all coming together now.",
+      "source": "CinemaBlend",
+      "date": "Oct 26, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://gcaptain.com/latvia-emerges-as-top-five-country-used-to-ship-russian-grain/"
+      "url": "https://www.cinemablend.com/television/90-day-fiance-the-other-way-jessy-angry-about-vittorio-house-wild-info-may-explain"
     }
   ],
   "jobs": [
@@ -105,22 +105,11 @@
       "showSource": true
     },
     {
-      "title": "5 Best Architect Marketing Agencies and How to Choose One",
-      "summary": "For most architecture firms, choosing an architect marketing agency comes down to one question: does the agency’s main service match the gap in the firm’s pipeline? Some agencies get a firm known thro",
-      "source": "Ahouseinthehills.com",
-      "date": "Sep 25, 2026",
-      "image": "blog-images/jobs_1.jpg",
-      "category": "Jobs",
-      "emoji": "💼",
-      "url": "https://ahouseinthehills.com/5-best-architect-marketing-agencies-and-how-to-choose-one/",
-      "showSource": true
-    },
-    {
       "title": "Digital Marketing Specialist - American Nurses Association",
       "summary": "A new Digital Marketing Specialist job is available in Silver Spring, Maryland. Check it out on PR News Online.",
       "source": "Ama.org",
       "date": "Oct 6, 2026",
-      "image": "blog-images/jobs_2.png",
+      "image": "blog-images/jobs_1.png",
       "category": "Jobs",
       "emoji": "💼",
       "url": "https://jobs.ama.org/job/digital-marketing-specialist/86312574/",
