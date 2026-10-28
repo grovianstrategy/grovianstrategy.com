@@ -1,12 +1,22 @@
 {
-  "updated": "2026-10-27T02:47:56.058Z",
+  "updated": "2026-10-28T02:55:45.167Z",
   "news": [
+    {
+      "title": "How AB InBev built a culture of creative effectiveness that drives growth",
+      "summary": "While AB InBev operates a global portfolio of more than 500 brands, not all beverages are created or treated equally. The company developed a process that assigns brands a different role in each marke",
+      "source": "Marketing Dive",
+      "date": "Oct 26, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.marketingdive.com/news/how-ab-inbev-built-a-culture-of-creative-effectiveness-that-drives-growth/833674/"
+    },
     {
       "title": "Home Depot IT chief says its digital price tags won't give consumers different prices",
       "summary": "Home Depot CIO Angie Brown tells Business Insider that its digital shelf labels won't bring dynamic pricing for consumers.",
       "source": "Business Insider",
       "date": "Oct 25, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/home-depot-no-dynamic-pricing-electronic-shelf-label-2026-10#article"
@@ -16,7 +26,7 @@
       "summary": "School of Hard Knocks cofounder James Dumoulin uses staged drama to hook viewers and sells consulting services and memberships.",
       "source": "Business Insider",
       "date": "Oct 23, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/school-of-hard-knocks-business-lessons-empire-2026-10#article"
@@ -26,7 +36,7 @@
       "summary": "Analysts estimate that almost two-thirds of announced data center capacity may never get built. Meet the industry's \"bragawatts.\"",
       "source": "Business Insider",
       "date": "Oct 22, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/ai-data-centers-never-built-bragawatts-kevin-oleary-2026-10#article"
@@ -36,7 +46,7 @@
       "summary": "Meta doesn't want TikTok's ads. ByteDance is putting its money toward YouTube and Pinterest instead.",
       "source": "Business Insider",
       "date": "Oct 21, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/tiktok-pivots-ad-dollars-youtube-and-pinterest-after-meta-ban-2026-10#article"
@@ -46,50 +56,40 @@
       "summary": "Jio Platforms’ IPO attracts rapid demand, signaling India’s largest listing yet, amid a cautious valuation shift and growth optimism.",
       "source": "Bloomberg",
       "date": "Oct 21, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.bloomberg.com/news/articles/2026-10-21/ambani-s-jio-seeks-historic-ipo-a-decade-after-disrupting-india-telecom"
     },
     {
-      "title": "The Wall Street Journal has been planning a big push into streaming TV, and courted Feed Me's Emily Sundberg for a show",
-      "summary": "The paper explored shows around its top editor, Emma Tucker, as well as external creators and media companies.",
-      "source": "Business Insider",
-      "date": "Oct 20, 2026",
-      "image": "blog-images/news_5.jpg",
+      "title": "Women in Jhapa’s Shivasatakshi earn income through collective flower farming",
+      "summary": "BHADRAPUR: A field transformed into a garden of blooming marigolds, with women busy tending to the flowers, presents a vibrant scene in Takram, Ward No. 10 of Shivasatakshi Municipality in Jhapa. The",
+      "source": "Khabarhub.com",
+      "date": "Oct 27, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/wsj-planning-big-push-into-streaming-tv-courted-emily-sundberg-2026-10#article"
+      "url": "https://english.khabarhub.com/2026/27/573294/"
     },
     {
-      "title": "evo-agents-core",
-      "summary": "The first-party core plugins of the evo-agents hub: Telegram, the chat history in the knowledge graph, crm, pm, marketing and editorial",
-      "source": "Pypi.org",
-      "date": "Oct 26, 2026",
-      "image": null,
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://pypi.org/project/evo-agents-core-plugins/2.1.0/"
-    },
-    {
-      "title": "Turmoil at ARA Group as leaked memo offers investors access to $1.6bn employee",
-      "summary": "The confidential memo suggested a pathway for outside investors into one of Australia's biggest employee-owned companies, despite company leaders insisting no sale process exists.",
-      "source": "Dailymail.com",
-      "date": "Oct 26, 2026",
+      "title": "Canva Japan　コミュニティの祭典「Canva Voyagers Marina 2026」を11月6日・7日に渋谷で開催",
+      "summary": "[Canva Japan株式会社]\n[画像1: https://prcdn.freetls.fastly.net/release_image/66101/70/66101-70-74c607112e0b679b2b552860afeda755-1920x1080.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&am...",
+      "source": "Prtimes.jp",
+      "date": "Oct 27, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.dailymail.com/news/article-16232053/ARA-group-investment-pitch-information-memorandum-JBS-Investments-Rivkin.html"
+      "url": "https://prtimes.jp/main/html/rd/p/000000070.000066101.html"
     },
     {
-      "title": "I Was Confused By Jessy's Anger About Vittorio's House On 90 Day Fiancé: The Other Way, But Wild New Info May Explain It All",
-      "summary": "It's all coming together now.",
-      "source": "CinemaBlend",
-      "date": "Oct 26, 2026",
-      "image": "blog-images/news_8.jpg",
+      "title": "Chrishell Stause feels like a ‘failure’ after G Flip split; ex",
+      "summary": "Chrishell Stause shared an emotional video on Instagram announcing her separation from G Flip after four years together. She expressed feeling like a failure while reflecting on their relationship and",
+      "source": "The Times of India",
+      "date": "Oct 27, 2026",
+      "image": "blog-images/news_8.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.cinemablend.com/television/90-day-fiance-the-other-way-jessy-angry-about-vittorio-house-wild-info-may-explain"
+      "url": "https://economictimes.indiatimes.com/magazines/panache/chrishell-stause-feels-like-a-failure-after-g-flip-split-ex-jason-oppenheim-steps-in-with-support/articleshow/135222662.cms"
     }
   ],
   "jobs": [
