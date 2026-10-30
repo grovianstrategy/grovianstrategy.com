@@ -1,12 +1,22 @@
 {
-  "updated": "2026-10-29T03:21:39.160Z",
+  "updated": "2026-10-30T03:23:26.422Z",
   "news": [
+    {
+      "title": "McDonald's surprise exit from the FIFA World Cup shows how big brands are rethinking sports sponsorships",
+      "summary": "McDonald's decision to leave FIFA shows how global brands are reassessing the cost, clutter and return on sport's biggest sponsorships.",
+      "source": "Business Insider",
+      "date": "Oct 28, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/mcdonalds-fifa-exit-tests-value-of-big-sports-sponsorships-2026-10#article"
+    },
     {
       "title": "Amazon weighed ‘difficult trade",
       "summary": "Amazon forecast a $612 million gross loss for its own devices as rising memory costs squeeze hardware margins, internal document shows.",
       "source": "Business Insider",
       "date": "Oct 27, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/amazon-alexia-memory-chip-costs-losses-2026-10#article"
@@ -16,7 +26,7 @@
       "summary": "While AB InBev operates a global portfolio of more than 500 brands, not all beverages are created or treated equally. The company developed a process that assigns brands a different role in each marke",
       "source": "Marketing Dive",
       "date": "Oct 26, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.marketingdive.com/news/how-ab-inbev-built-a-culture-of-creative-effectiveness-that-drives-growth/833674/"
@@ -26,7 +36,7 @@
       "summary": "Home Depot CIO Angie Brown tells Business Insider that its digital shelf labels won't bring dynamic pricing for consumers.",
       "source": "Business Insider",
       "date": "Oct 25, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/home-depot-no-dynamic-pricing-electronic-shelf-label-2026-10#article"
@@ -36,7 +46,7 @@
       "summary": "School of Hard Knocks cofounder James Dumoulin uses staged drama to hook viewers and sells consulting services and memberships.",
       "source": "Business Insider",
       "date": "Oct 23, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/school-of-hard-knocks-business-lessons-empire-2026-10#article"
@@ -46,50 +56,40 @@
       "summary": "Analysts estimate that almost two-thirds of announced data center capacity may never get built. Meet the industry's \"bragawatts.\"",
       "source": "Business Insider",
       "date": "Oct 22, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/ai-data-centers-never-built-bragawatts-kevin-oleary-2026-10#article"
     },
     {
-      "title": "TikTok is shifting advertising to YouTube after Meta says 'no thanks'",
-      "summary": "Meta doesn't want TikTok's ads. ByteDance is putting its money toward YouTube and Pinterest instead.",
-      "source": "Business Insider",
-      "date": "Oct 21, 2026",
-      "image": "blog-images/news_5.jpg",
+      "title": "Subscription Creative Team or Freelance Designer: Which Fits Your Work?",
+      "summary": "A freelance designer can be an excellent choice when you know the skill you need and can give that person a clear assignment. A subscription creative team becomes more useful when work recurs, discipl",
+      "source": "Designer-daily.com",
+      "date": "Oct 29, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/tiktok-pivots-ad-dollars-youtube-and-pinterest-after-meta-ban-2026-10#article"
+      "url": "https://www.designer-daily.com/subscription-creative-team-or-freelance-designer-which-fits-your-work-252657"
     },
     {
-      "title": "Maryland Giving Away Free Tuition For Students To Stay Until Fourth Quarter Of Football Game",
-      "summary": "Maryland is giving away tuition, or at least a chance at it, for students who stay until the fourth quarter of the game Saturday against Illinois.",
-      "source": "The Daily Caller",
-      "date": "Oct 28, 2026",
-      "image": "blog-images/news_6.jpg",
+      "title": "Quiz Week: Question #4",
+      "summary": "Database Marketing, Data Mining, Analytics, Big Data, Forecasting, Segmentation, Predictive Modeling, Measurement, Catalog, Business",
+      "source": "Minethatdata.com",
+      "date": "Oct 29, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://dailycaller.com/2026/10/27/maryland-terrapins-free-tuition-students-fourth-quarter-college-football"
+      "url": "https://blog.minethatdata.com/2026/10/quiz-week-question-4.html"
     },
     {
-      "title": "Maryland offering student free tuition under one condition — they stay for a full football game",
-      "summary": "A Maryland football game is a tough watch these days.",
-      "source": "New York Post",
-      "date": "Oct 28, 2026",
-      "image": "blog-images/news_7.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://nypost.com/2026/10/27/sports/maryland-offering-free-tuition-if-student-stays-an-entire-football-game/?utm_source=yahoo&amp;utm_campaign=nypost&amp;utm_medium=referral"
-    },
-    {
-      "title": "Simple Tips to Help Your Furnace Work Better",
-      "summary": "As winter approaches, making sure your furnace works well is important for homeowners. A good furnace keeps your home warm and saves money on heating bills. Many people may not know you can make simpl",
-      "source": "Addicted2success.com",
-      "date": "Oct 28, 2026",
+      "title": "US Health Secretary RFK Jr to expand access to unapproved peptides",
+      "summary": "Health experts have cautioned against use of the drugs, citing a lack of clinical trials for humans and the unknown long-term effects.",
+      "source": "BBC News",
+      "date": "Oct 29, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://addicted2success.com/tech/simple-tips-help-furnace-work-better/"
+      "url": "https://www.bbc.co.uk/news/articles/cmq8nwd748v3o"
     }
   ],
   "jobs": [
