@@ -1,12 +1,32 @@
 {
-  "updated": "2026-10-30T03:23:26.422Z",
+  "updated": "2026-10-31T03:08:06.048Z",
   "news": [
+    {
+      "title": "Barry Diller is 84 and says he has no plans to retire: 'I have a motor inside me.'",
+      "summary": "Barry Diller doesn't want to stop running companies like People Inc., saying he has a \"motor inside\" that can't stop.",
+      "source": "Business Insider",
+      "date": "Oct 29, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/barry-diller-age-84-life-career-wife-retirement-2026-10#article"
+    },
+    {
+      "title": "Avoiding The Ick Factor: Anthony Po and Lauren Probyn Aouad on Getting Authenticity Right",
+      "summary": "How creators are building real businesses, going from viral stunts to real connections.",
+      "source": "Adweek",
+      "date": "Oct 29, 2026",
+      "image": "blog-images/news_1.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/avoiding-the-ick-factor-anthony-po-and-lauren-probyn-aouad-on-getting-authenticity-right/"
+    },
     {
       "title": "McDonald's surprise exit from the FIFA World Cup shows how big brands are rethinking sports sponsorships",
       "summary": "McDonald's decision to leave FIFA shows how global brands are reassessing the cost, clutter and return on sport's biggest sponsorships.",
       "source": "Business Insider",
       "date": "Oct 28, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/mcdonalds-fifa-exit-tests-value-of-big-sports-sponsorships-2026-10#article"
@@ -16,7 +36,7 @@
       "summary": "Amazon forecast a $612 million gross loss for its own devices as rising memory costs squeeze hardware margins, internal document shows.",
       "source": "Business Insider",
       "date": "Oct 27, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/amazon-alexia-memory-chip-costs-losses-2026-10#article"
@@ -26,7 +46,7 @@
       "summary": "While AB InBev operates a global portfolio of more than 500 brands, not all beverages are created or treated equally. The company developed a process that assigns brands a different role in each marke",
       "source": "Marketing Dive",
       "date": "Oct 26, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.marketingdive.com/news/how-ab-inbev-built-a-culture-of-creative-effectiveness-that-drives-growth/833674/"
@@ -36,60 +56,40 @@
       "summary": "Home Depot CIO Angie Brown tells Business Insider that its digital shelf labels won't bring dynamic pricing for consumers.",
       "source": "Business Insider",
       "date": "Oct 25, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/home-depot-no-dynamic-pricing-electronic-shelf-label-2026-10#article"
     },
     {
-      "title": "How a 24-year",
-      "summary": "School of Hard Knocks cofounder James Dumoulin uses staged drama to hook viewers and sells consulting services and memberships.",
-      "source": "Business Insider",
-      "date": "Oct 23, 2026",
-      "image": "blog-images/news_4.jpg",
+      "title": "76ers’ Jaylen Brown Questions Who NBA Awards Really Reward",
+      "summary": "Philadelphia 76ers forward Jaylen Brown questioned the role of media preferences and player promotion in NBA award voting during an October 29 conversation with actor Daniel Radcliffe on The Young Man",
+      "source": "Heavy.com",
+      "date": "Oct 30, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/school-of-hard-knocks-business-lessons-empire-2026-10#article"
+      "url": "https://heavy.com/sports/nba/philadelphia-76ers/jaylen-brown-nba-awards-voting-2/"
     },
     {
-      "title": "Most AI data centers may never be built. Blame the 'bragawatts.'",
-      "summary": "Analysts estimate that almost two-thirds of announced data center capacity may never get built. Meet the industry's \"bragawatts.\"",
-      "source": "Business Insider",
-      "date": "Oct 22, 2026",
-      "image": "blog-images/news_5.jpg",
+      "title": "NASCAR Reveals Final Truck Series Inspection Results Before Martinsville Race",
+      "summary": "NASCAR releases final Craftsman Truck Series inspection results ahead of the Martinsville race. Here's the findings. The post NASCAR Reveals Final Truck Series Inspection Results Before Martinsville R",
+      "source": "Heavy.com",
+      "date": "Oct 30, 2026",
+      "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/ai-data-centers-never-built-bragawatts-kevin-oleary-2026-10#article"
+      "url": "https://heavy.com/sports/nascar/nascar-truck-series-inspection-results-martinsville/"
     },
     {
-      "title": "Subscription Creative Team or Freelance Designer: Which Fits Your Work?",
-      "summary": "A freelance designer can be an excellent choice when you know the skill you need and can give that person a clear assignment. A subscription creative team becomes more useful when work recurs, discipl",
-      "source": "Designer-daily.com",
-      "date": "Oct 29, 2026",
-      "image": null,
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.designer-daily.com/subscription-creative-team-or-freelance-designer-which-fits-your-work-252657"
-    },
-    {
-      "title": "Quiz Week: Question #4",
-      "summary": "Database Marketing, Data Mining, Analytics, Big Data, Forecasting, Segmentation, Predictive Modeling, Measurement, Catalog, Business",
-      "source": "Minethatdata.com",
-      "date": "Oct 29, 2026",
-      "image": null,
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://blog.minethatdata.com/2026/10/quiz-week-question-4.html"
-    },
-    {
-      "title": "US Health Secretary RFK Jr to expand access to unapproved peptides",
-      "summary": "Health experts have cautioned against use of the drugs, citing a lack of clinical trials for humans and the unknown long-term effects.",
-      "source": "BBC News",
-      "date": "Oct 29, 2026",
+      "title": "MLB Sees Record $2.12 Billion Team Sponsorship Revenues For 2026 Season",
+      "summary": "Major League Baseball continues to see revenue growth in the team sponsorship space. The league set a record for 2026. Here's the details.",
+      "source": "Forbes",
+      "date": "Oct 30, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.bbc.co.uk/news/articles/cmq8nwd748v3o"
+      "url": "https://www.forbes.com/sites/maurybrown/2026/10/29/mlb-sees-record-212-billion-team-sponsorship-revenues-for-2026-season/"
     }
   ],
   "jobs": [
