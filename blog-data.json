@@ -1,12 +1,32 @@
 {
-  "updated": "2026-11-03T04:28:40.695Z",
+  "updated": "2026-11-04T03:47:46.595Z",
   "news": [
+    {
+      "title": "Business Insider's 2026 Rising Stars of Wall Street",
+      "summary": "From financing the future of technology to building new businesses, here's why these young finance leaders are the ones to watch in 2026.",
+      "source": "Business Insider",
+      "date": "Nov 2, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/wall-street-rising-stars-finance-leaders-2026-11#article"
+    },
+    {
+      "title": "Anthropic's IPO is also a landmark event for ants",
+      "summary": "The elephantine AI company Anthropic, which calls its employees Ants, will list on the stock market as ANT. Ant biologists have some guidance.",
+      "source": "Business Insider",
+      "date": "Nov 2, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/anthropic-ipo-ant-stock-entomologists-2026-11#article"
+    },
     {
       "title": "Barry Diller is 84 and says he has no plans to retire: 'I have a motor inside me.'",
       "summary": "Barry Diller doesn't want to stop running companies like People Inc., saying he has a \"motor inside\" that can't stop.",
       "source": "Business Insider",
       "date": "Oct 29, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/barry-diller-age-84-life-career-wife-retirement-2026-10#article"
@@ -16,7 +36,7 @@
       "summary": "How creators are building real businesses, going from viral stunts to real connections.",
       "source": "Adweek",
       "date": "Oct 29, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_3.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/avoiding-the-ick-factor-anthony-po-and-lauren-probyn-aouad-on-getting-authenticity-right/"
@@ -26,7 +46,7 @@
       "summary": "McDonald's decision to leave FIFA shows how global brands are reassessing the cost, clutter and return on sport's biggest sponsorships.",
       "source": "Business Insider",
       "date": "Oct 28, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/mcdonalds-fifa-exit-tests-value-of-big-sports-sponsorships-2026-10#article"
@@ -36,60 +56,40 @@
       "summary": "Amazon forecast a $612 million gross loss for its own devices as rising memory costs squeeze hardware margins, internal document shows.",
       "source": "Business Insider",
       "date": "Oct 27, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/amazon-alexia-memory-chip-costs-losses-2026-10#article"
     },
     {
-      "title": "How AB InBev built a culture of creative effectiveness that drives growth",
-      "summary": "While AB InBev operates a global portfolio of more than 500 brands, not all beverages are created or treated equally. The company developed a process that assigns brands a different role in each marke",
-      "source": "Marketing Dive",
-      "date": "Oct 26, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.marketingdive.com/news/how-ab-inbev-built-a-culture-of-creative-effectiveness-that-drives-growth/833674/"
-    },
-    {
-      "title": "Home Depot IT chief says its digital price tags won't give consumers different prices",
-      "summary": "Home Depot CIO Angie Brown tells Business Insider that its digital shelf labels won't bring dynamic pricing for consumers.",
-      "source": "Business Insider",
-      "date": "Oct 25, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/home-depot-no-dynamic-pricing-electronic-shelf-label-2026-10#article"
-    },
-    {
-      "title": "Autumn Lighting Fair, Outdoor and Tech Light Expo, Eco Expo Asia draw some 62,000 buyers",
-      "summary": "The 28th Hong Kong International Lighting Fair (Autumn Edition) and the 11th Hong Kong International Outdoor and Tech Light Expo, both organised by the HKTDC, ...",
-      "source": "Antaranews.com",
-      "date": "Nov 2, 2026",
-      "image": "blog-images/news_6.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://en.antaranews.com/news/439387/autumn-lighting-fair-outdoor-and-tech-light-expo-eco-expo-asia-draw-some-62000-buyers"
-    },
-    {
-      "title": "Who is Melissa Rycroft? Ex",
-      "summary": "Melissa Rycroft, former 'Bachelor' star, has been arrested for her second Driving While Intoxicated charge. This latest incident occurred after she pleaded guilty to a previous DWI charge in September",
+      "title": "Wiscon Industries SME shares to list today: Check subscription status and key detail",
+      "summary": "Wiscon Industries will debut on the BSE SME platform on November 3, 2026, following its Rs 110-crore IPO, subscribed 88% overall. The Delhi-based consumer electronics supplier plans to use proceeds fo",
       "source": "The Times of India",
-      "date": "Nov 2, 2026",
+      "date": "Nov 3, 2026",
+      "image": "blog-images/news_6.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/wiscon-industries-sme-shares-to-list-today-check-subscription-status-and-key-detail/articleshow/135480715.cms"
+    },
+    {
+      "title": "Karnataka MSP row: Factory owners, unions to meet as sugarcane farmers turn up heat",
+      "summary": "Karnataka's factory owners association and unions are set to meet regarding the Minimum Support Price increase. State Minister Satish Jarkiholi stated that discussions will occur under the Deputy Comm",
+      "source": "The Times of India",
+      "date": "Nov 3, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/magazines/panache/who-is-melissa-rycroft-ex-bachelor-star-faces-fresh-dwi-arrest-months-after-pleading-guilty-to-previous-charges/articleshow/135420991.cms"
+      "url": "https://economictimes.indiatimes.com/news/india/karnataka-msp-row-factory-owners-unions-to-meet-as-sugarcane-farmers-turn-up-heat/articleshow/135480372.cms"
     },
     {
-      "title": "'Real One' No. 1: Lobo season starts with Uriah Tenette poised to run the show",
-      "summary": "Lobos Men’s Basketball Who: Utah Tech vs. UNM Lobos When: Monday, 7 p.m. Where: The Pit Broadcast: MW+ (online stream), 96.3 FM/770 AM (radio), ABQJournal pregame preview webcast, 6 p.m. (YouTube.com/",
-      "source": "Albuquerque Journal",
-      "date": "Nov 2, 2026",
+      "title": "Gap Year",
+      "summary": "Database Marketing, Data Mining, Analytics, Big Data, Forecasting, Segmentation, Predictive Modeling, Measurement, Catalog, Business",
+      "source": "Minethatdata.com",
+      "date": "Nov 3, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.abqjournal.com/sports/real-one-no-1-lobo-season-starts-with-uriah-tenette-poised-to-run-the-show/3153576"
+      "url": "https://blog.minethatdata.com/2026/11/gap-year.html"
     }
   ],
   "jobs": [
