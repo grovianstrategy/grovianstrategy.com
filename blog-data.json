@@ -1,12 +1,52 @@
 {
-  "updated": "2026-11-04T03:47:46.595Z",
+  "updated": "2026-11-05T04:05:48.912Z",
   "news": [
+    {
+      "title": "Meet the highest",
+      "summary": "See which staffers in Trump's White House earn up to $197,200, including top advisors and counsel, as revealed in the latest salary report.",
+      "source": "Business Insider",
+      "date": "Nov 3, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/white-house-highest-paid-staffers-salaries-2026#article"
+    },
+    {
+      "title": "The Gen Zers you call when the chatbots are talking smack",
+      "summary": "When the ultrarich want a reputation makeover, they call these Extremely Online Gen Zers.",
+      "source": "Business Insider",
+      "date": "Nov 3, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/online-reputation-managers-gen-z-ai-public-relations-stragey-geo-2026-11#article"
+    },
+    {
+      "title": "Investor of the Month: How a 36",
+      "summary": "Paul Wick has helmed the Columbia Seligman Technology and Innovation Fund for nearly four decades, delivering huge returns.",
+      "source": "Business Insider",
+      "date": "Nov 3, 2026",
+      "image": "blog-images/news_2.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/investor-of-the-month-columbia-threadneedle-paul-wick-tech-stocks-2026-10#article"
+    },
+    {
+      "title": "Hollywood’s King of Culture Is Building a Billion",
+      "summary": "Macro CEO Charles D. King is the 2027 ADWEEK | Adcolor Beacon Award winner.",
+      "source": "Adweek",
+      "date": "Nov 3, 2026",
+      "image": "blog-images/news_3.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/creativity/hollywood-king-of-culture-macro-charles-king-adcolor-beacon-award/"
+    },
     {
       "title": "Business Insider's 2026 Rising Stars of Wall Street",
       "summary": "From financing the future of technology to building new businesses, here's why these young finance leaders are the ones to watch in 2026.",
       "source": "Business Insider",
       "date": "Nov 2, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/wall-street-rising-stars-finance-leaders-2026-11#article"
@@ -16,80 +56,40 @@
       "summary": "The elephantine AI company Anthropic, which calls its employees Ants, will list on the stock market as ANT. Ant biologists have some guidance.",
       "source": "Business Insider",
       "date": "Nov 2, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/anthropic-ipo-ant-stock-entomologists-2026-11#article"
     },
     {
-      "title": "Barry Diller is 84 and says he has no plans to retire: 'I have a motor inside me.'",
-      "summary": "Barry Diller doesn't want to stop running companies like People Inc., saying he has a \"motor inside\" that can't stop.",
-      "source": "Business Insider",
-      "date": "Oct 29, 2026",
-      "image": "blog-images/news_2.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/barry-diller-age-84-life-career-wife-retirement-2026-10#article"
-    },
-    {
-      "title": "Avoiding The Ick Factor: Anthony Po and Lauren Probyn Aouad on Getting Authenticity Right",
-      "summary": "How creators are building real businesses, going from viral stunts to real connections.",
-      "source": "Adweek",
-      "date": "Oct 29, 2026",
-      "image": "blog-images/news_3.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/avoiding-the-ick-factor-anthony-po-and-lauren-probyn-aouad-on-getting-authenticity-right/"
-    },
-    {
-      "title": "McDonald's surprise exit from the FIFA World Cup shows how big brands are rethinking sports sponsorships",
-      "summary": "McDonald's decision to leave FIFA shows how global brands are reassessing the cost, clutter and return on sport's biggest sponsorships.",
-      "source": "Business Insider",
-      "date": "Oct 28, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/mcdonalds-fifa-exit-tests-value-of-big-sports-sponsorships-2026-10#article"
-    },
-    {
-      "title": "Amazon weighed ‘difficult trade",
-      "summary": "Amazon forecast a $612 million gross loss for its own devices as rising memory costs squeeze hardware margins, internal document shows.",
-      "source": "Business Insider",
-      "date": "Oct 27, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/amazon-alexia-memory-chip-costs-losses-2026-10#article"
-    },
-    {
-      "title": "Wiscon Industries SME shares to list today: Check subscription status and key detail",
-      "summary": "Wiscon Industries will debut on the BSE SME platform on November 3, 2026, following its Rs 110-crore IPO, subscribed 88% overall. The Delhi-based consumer electronics supplier plans to use proceeds fo",
-      "source": "The Times of India",
-      "date": "Nov 3, 2026",
-      "image": "blog-images/news_6.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/wiscon-industries-sme-shares-to-list-today-check-subscription-status-and-key-detail/articleshow/135480715.cms"
-    },
-    {
-      "title": "Karnataka MSP row: Factory owners, unions to meet as sugarcane farmers turn up heat",
-      "summary": "Karnataka's factory owners association and unions are set to meet regarding the Minimum Support Price increase. State Minister Satish Jarkiholi stated that discussions will occur under the Deputy Comm",
-      "source": "The Times of India",
-      "date": "Nov 3, 2026",
-      "image": "blog-images/news_7.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/news/india/karnataka-msp-row-factory-owners-unions-to-meet-as-sugarcane-farmers-turn-up-heat/articleshow/135480372.cms"
-    },
-    {
-      "title": "Gap Year",
-      "summary": "Database Marketing, Data Mining, Analytics, Big Data, Forecasting, Segmentation, Predictive Modeling, Measurement, Catalog, Business",
-      "source": "Minethatdata.com",
-      "date": "Nov 3, 2026",
+      "title": "(Q3 2026) Earnings Call Highlights: Record $193 Million Adjusted ..",
+      "summary": "This article first appeared on GuruFocus.\n- Infrastructure Adjusted EBITDA: Record $177 million, up from $154 million year-over-year; $8 million above prior record set last quarter.\n- Marketing Adjust",
+      "source": "Biztoc.com",
+      "date": "Nov 4, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://blog.minethatdata.com/2026/11/gap-year.html"
+      "url": "https://biztoc.com/x/e63b28318b964e26"
+    },
+    {
+      "title": "Q2 Results Today Live: BSE, Cummins, Zydus Lifesciences, Apollo, Lenskart, Nykaa, Aurobindo Pharma, NHPC, Dabur, Torrent Power, Biocon, Sundaram Finance, Premier Energies, Physicswallah Share to announce Q2 results, Bajaj Finserv, SBI, NSE, Lupin shares in focus",
+      "summary": "Q2 Results Today, 04th November 2026 Live Updates: Find all the latest Q2 results 2026 updates of 63 Moons Technologies, Aarvi Encon, Aayush Art And Bullion, Abans Enterprises, Abhinav Capital Service",
+      "source": "BusinessLine",
+      "date": "Nov 4, 2026",
+      "image": "blog-images/news_7.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.thehindubusinessline.com/markets/q2-results-today-live-updates-bse-cummins-zydus-apollo-lenskart-nykaa-aurobindo-nhpc-dabur-torrent-power-biocon-sundaram-premier-energies-physicswallah-nse-sbi-results-04-november-2026/article71660621.ece"
+    },
+    {
+      "title": "Caesars Republic Scottsdale names Ryan Kirby general manager and Tim Keough sales and marketing director",
+      "summary": "Two hospitality executives have assumed leadership roles at Caesars Republic Scottsdale, a Hilton Hotel, with Ryan Kirby serving as general manager and Tim Keough serving as director of sales and mark",
+      "source": "Arizonadigitalfreepress.com",
+      "date": "Nov 4, 2026",
+      "image": null,
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://arizonadigitalfreepress.com/caesars-republic-scottsdale-names-ryan-kirby-general-manager-and-tim-keough-sales-and-marketing-director/"
     }
   ],
   "jobs": [
