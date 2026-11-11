@@ -1,12 +1,22 @@
 {
-  "updated": "2026-11-10T05:05:39.152Z",
+  "updated": "2026-11-11T03:39:24.872Z",
   "news": [
+    {
+      "title": "An internal Disney presentation reveals its top streaming priorities, from creator content to a free tier",
+      "summary": "Disney tech execs unveiled their 2027 streaming priorities in a town hall. A presentation gives a clear view of CEO Josh D'Amaro's streaming vision.",
+      "source": "Business Insider",
+      "date": "Nov 9, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/disney-streaming-presentation-2027-priorities-free-tier-vertical-clips-2026-11#article"
+    },
     {
       "title": "A creator making 6 figures on TikTok uses 'hooks' to grab attention. How to use the strategy to earn extra cash.",
       "summary": "Talon Krebs earns six figures as a TikTok Shop affiliate. He shares how strong video hooks can turn views into sales.",
       "source": "Business Insider",
       "date": "Nov 8, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/how-to-create-viral-videos-earn-money-from-tiktok-shop-2026-11#article"
@@ -16,7 +26,7 @@
       "summary": "The head of growth for streetwear retailer All Star Elite says he's been optimizing his online catalog for a growing wave of shopping bots.",
       "source": "Business Insider",
       "date": "Nov 7, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/all-star-elite-streetwear-ai-agent-shopping-strategy-holidays-2026-11#article"
@@ -26,7 +36,7 @@
       "summary": "Roku will be folded into Fox Digital Platforms, which also houses Tubi, Fox One, and Red Seat Ventures.",
       "source": "Adweek",
       "date": "Nov 6, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/fox-corp-completes-22-billion-deal-for-roku/"
@@ -36,7 +46,7 @@
       "summary": "Comments have become a key area of activity on platforms like LinkedIn, TikTok, and Instagram as they look to boost engagement and time spent.",
       "source": "Business Insider",
       "date": "Nov 6, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/comments-section-social-medias-hottest-real-estate-linkedin-instagram-tiktok-2026-11#article"
@@ -46,50 +56,40 @@
       "summary": "The GOP's spending advantage didn't translate into votes. That could lead to a strategic rethink.",
       "source": "Adweek",
       "date": "Nov 6, 2026",
-      "image": "blog-images/news_4.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/political-campaigns-spent-a-near-record-331-per-voter-but-waste-forces-rethink/"
     },
     {
-      "title": "Anthropic Strikes Its First Licensing Deal, With the AP, for Election Coverage",
-      "summary": "The arrangement marks the first time the artificial intelligence firm has paid a digital news publisher to license its content.",
-      "source": "Adweek",
-      "date": "Nov 4, 2026",
-      "image": "blog-images/news_5.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/media/anthropic-licensing-deal-ap-election/"
-    },
-    {
-      "title": "Medusa bets on spirits to diversify beyond beer, ties up with Stranger & Sons maker",
-      "summary": "The beer maker has partnered with Third Eye Distillery to enter the spirits market and is targeting  ₹210 crore in gross revenue in FY27",
-      "source": "Livemint",
-      "date": "Nov 9, 2026",
+      "title": "Cisco to link all future products to its SaaS",
+      "summary": "Global rollout of unified portal finally happening in 2027",
+      "source": "Theregister.com",
+      "date": "Nov 10, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.livemint.com/companies/news/medusa-spirits-india-beer-market-stranger-sons-third-eye-distillery-11794023811143.html"
+      "url": "https://www.theregister.com/networks/2026/11/10/cisco-to-link-all-future-products-to-its-saas-y-cloud-control-management-tool/5308660"
     },
     {
-      "title": "I'm 22 and I bet $80,000 of my savings on an industrial AI startup. Now I'm dropping out of college to go all",
-      "summary": "The 22-year-old founder of Y Combinator-backed Operon says his youth has helped him attract clients in an industry dominated by older executives.",
-      "source": "Business Insider",
-      "date": "Nov 9, 2026",
-      "image": "blog-images/news_7.jpg",
+      "title": "A Dumb Mistake",
+      "summary": "Database Marketing, Data Mining, Analytics, Big Data, Forecasting, Segmentation, Predictive Modeling, Measurement, Catalog, Business",
+      "source": "Minethatdata.com",
+      "date": "Nov 10, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/ai-startup-founder-drop-out-college-degree-education-operon-industrial-2026-11#article"
+      "url": "https://blog.minethatdata.com/2026/11/a-dumb-mistake.html"
     },
     {
-      "title": "How performance metrics are rewriting creator rate cards",
-      "summary": "When it comes to influencer marketing, advertisers now demand creator metrics like cost per lead and conversions, not follower counts.",
-      "source": "Digiday",
-      "date": "Nov 9, 2026",
-      "image": "blog-images/news_8.jpg",
+      "title": "Blockskit Online Marketing",
+      "summary": "Blockskit Online Marketing is a modern, versatile FSE WordPress theme designed for digital marketing, online advertising, social media marketing, content marketing, email marketing, SEO, brand promoti",
+      "source": "Wordpress.org",
+      "date": "Nov 10, 2026",
+      "image": "blog-images/news_8.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "http://digiday.com/marketing/how-performance-metrics-are-rewriting-creator-rate-cards/"
+      "url": "https://wordpress.org/themes/blockskit-online-marketing/"
     }
   ],
   "jobs": [
