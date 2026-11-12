@@ -1,12 +1,32 @@
 {
-  "updated": "2026-11-11T03:39:24.872Z",
+  "updated": "2026-11-12T04:47:36.351Z",
   "news": [
+    {
+      "title": "Morgan Stanley shares a 3",
+      "summary": "AI stocks seem to be back in favor this week, and Morgan Stanley says it sees \"multiple buying opportunities\" for investors.",
+      "source": "Business Insider",
+      "date": "Nov 10, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/ai-stocks-where-to-invest-after-midterm-election-sell-off-2026-11#article"
+    },
+    {
+      "title": "Nelson Boyce Named Samsung Ads SVP Ad Sales",
+      "summary": "Boyce joins Samsung Ads from Google, where he was managing director of Americas, Large Customer Sales, Integrated Solutions Sector.",
+      "source": "Adweek",
+      "date": "Nov 10, 2026",
+      "image": "blog-images/news_1.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/agencies/nelson-boyce-named-samsung-ads-svp-ad-sales/"
+    },
     {
       "title": "An internal Disney presentation reveals its top streaming priorities, from creator content to a free tier",
       "summary": "Disney tech execs unveiled their 2027 streaming priorities in a town hall. A presentation gives a clear view of CEO Josh D'Amaro's streaming vision.",
       "source": "Business Insider",
       "date": "Nov 9, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/disney-streaming-presentation-2027-priorities-free-tier-vertical-clips-2026-11#article"
@@ -16,7 +36,7 @@
       "summary": "Talon Krebs earns six figures as a TikTok Shop affiliate. He shares how strong video hooks can turn views into sales.",
       "source": "Business Insider",
       "date": "Nov 8, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/how-to-create-viral-videos-earn-money-from-tiktok-shop-2026-11#article"
@@ -26,7 +46,7 @@
       "summary": "The head of growth for streetwear retailer All Star Elite says he's been optimizing his online catalog for a growing wave of shopping bots.",
       "source": "Business Insider",
       "date": "Nov 7, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/all-star-elite-streetwear-ai-agent-shopping-strategy-holidays-2026-11#article"
@@ -36,60 +56,40 @@
       "summary": "Roku will be folded into Fox Digital Platforms, which also houses Tubi, Fox One, and Red Seat Ventures.",
       "source": "Adweek",
       "date": "Nov 6, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/convergent-tv/fox-corp-completes-22-billion-deal-for-roku/"
     },
     {
-      "title": "The comments section is becoming social media’s hottest real estate",
-      "summary": "Comments have become a key area of activity on platforms like LinkedIn, TikTok, and Instagram as they look to boost engagement and time spent.",
-      "source": "Business Insider",
-      "date": "Nov 6, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/comments-section-social-medias-hottest-real-estate-linkedin-instagram-tiktok-2026-11#article"
-    },
-    {
-      "title": "Political Campaigns Spent a Near",
-      "summary": "The GOP's spending advantage didn't translate into votes. That could lead to a strategic rethink.",
-      "source": "Adweek",
-      "date": "Nov 6, 2026",
-      "image": "blog-images/news_5.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/convergent-tv/political-campaigns-spent-a-near-record-331-per-voter-but-waste-forces-rethink/"
-    },
-    {
-      "title": "Cisco to link all future products to its SaaS",
-      "summary": "Global rollout of unified portal finally happening in 2027",
-      "source": "Theregister.com",
-      "date": "Nov 10, 2026",
+      "title": "Kalyan Jewellers surges 10%, hits 52",
+      "summary": "The average trading volume at the Kalyan Jewellers' counter jumped 10-fold with a combined 17.37 million shares changing hands on the NSE and BSE till 09:32 AM on Wednesday.",
+      "source": "Business Standard",
+      "date": "Nov 11, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.theregister.com/networks/2026/11/10/cisco-to-link-all-future-products-to-its-saas-y-cloud-control-management-tool/5308660"
+      "url": "https://www.business-standard.com/markets/news/kalyan-jewellers-surges-10-hits-52-week-high-post-q2-results-126111100244_1.html"
     },
     {
-      "title": "A Dumb Mistake",
-      "summary": "Database Marketing, Data Mining, Analytics, Big Data, Forecasting, Segmentation, Predictive Modeling, Measurement, Catalog, Business",
-      "source": "Minethatdata.com",
-      "date": "Nov 10, 2026",
-      "image": null,
+      "title": "Dialled In Singapore debut at Esplanade Annexe Studio",
+      "summary": "Dialled In makes its Singapore debut at Esplanade with a nine-hour South Asian electronic and dance music showcase. Read more at straitstimes.com.",
+      "source": "The Straits Times",
+      "date": "Nov 11, 2026",
+      "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://blog.minethatdata.com/2026/11/a-dumb-mistake.html"
+      "url": "https://www.straitstimes.com/life/entertainment/music-collective-dialled-ins-singapore-debut-is-a-marathon-nine-hour-party-at-esplanade"
     },
     {
-      "title": "Blockskit Online Marketing",
-      "summary": "Blockskit Online Marketing is a modern, versatile FSE WordPress theme designed for digital marketing, online advertising, social media marketing, content marketing, email marketing, SEO, brand promoti",
-      "source": "Wordpress.org",
-      "date": "Nov 10, 2026",
-      "image": "blog-images/news_8.png",
+      "title": "From Bengaluru Metro to renewable energy infra: Projects worth over Rs 15,000 crore lined up for PM Modi's Karnataka visit",
+      "summary": "The project list includes Bengaluru Metro's Phase 2 elevated stretch, Bengaluru-Mangaluru-Madgaon Vande Bharat Express, transmission infrastructure for renewable energy and railway station redevelopme",
+      "source": "Moneycontrol",
+      "date": "Nov 11, 2026",
+      "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://wordpress.org/themes/blockskit-online-marketing/"
+      "url": "https://www.moneycontrol.com/news/business/from-bengaluru-metro-to-renewable-energy-infra-projects-worth-over-rs-15-000-crore-lined-up-for-pm-modi-s-karnataka-visit-14076774.html"
     }
   ],
   "jobs": [
