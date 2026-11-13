@@ -1,12 +1,52 @@
 {
-  "updated": "2026-11-12T04:47:36.351Z",
+  "updated": "2026-11-13T03:58:27.765Z",
   "news": [
+    {
+      "title": "The Washington Post Nears Breakeven After ‘Hundreds and Hundreds of Millions’ in Losses",
+      "summary": "This story was originally published in On Background with Mark Stenberg, a free, weekly newsletter that explores the key themes shaping the media industry. You can sign up for it here. […]",
+      "source": "Adweek",
+      "date": "Nov 11, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/media/the-washington-post-nears-breakeven-after-hundreds-and-hundreds-of-millions-in-losses/"
+    },
+    {
+      "title": "How New York or Nowhere has grown its brand without any paid ads",
+      "summary": "New York or Nowhere built a brand without buying ads, relying on brand collabs and social posts from store visitors to help spread the word.",
+      "source": "Business Insider",
+      "date": "Nov 11, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/new-york-or-nowhere-brand-growth-without-paid-ads-social-2026-11#article"
+    },
+    {
+      "title": "Meet the 2026 rising stars of real estate",
+      "summary": "From agents, to brokers, to fintech entrepreneurs, to public relations professionals, here are Business Insider's 2026 rising stars of real estate.",
+      "source": "Business Insider",
+      "date": "Nov 11, 2026",
+      "image": "blog-images/news_2.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/rising-stars-of-real-estate-2026#article"
+    },
+    {
+      "title": "I tried Wendy's new $8 value meal. I can see why the chain is struggling — and how it could make a comeback.",
+      "summary": "I recently visited my local Wendy's and was let down by the menu, which felt a bit stale.",
+      "source": "Business Insider",
+      "date": "Nov 11, 2026",
+      "image": "blog-images/news_3.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/review-wendys-meal-see-why-chain-is-struggling-2026-11#article"
+    },
     {
       "title": "Morgan Stanley shares a 3",
       "summary": "AI stocks seem to be back in favor this week, and Morgan Stanley says it sees \"multiple buying opportunities\" for investors.",
       "source": "Business Insider",
       "date": "Nov 10, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/ai-stocks-where-to-invest-after-midterm-election-sell-off-2026-11#article"
@@ -16,80 +56,40 @@
       "summary": "Boyce joins Samsung Ads from Google, where he was managing director of Americas, Large Customer Sales, Integrated Solutions Sector.",
       "source": "Adweek",
       "date": "Nov 10, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/agencies/nelson-boyce-named-samsung-ads-svp-ad-sales/"
     },
     {
-      "title": "An internal Disney presentation reveals its top streaming priorities, from creator content to a free tier",
-      "summary": "Disney tech execs unveiled their 2027 streaming priorities in a town hall. A presentation gives a clear view of CEO Josh D'Amaro's streaming vision.",
-      "source": "Business Insider",
-      "date": "Nov 9, 2026",
-      "image": "blog-images/news_2.jpg",
+      "title": "Who could potentially replace Jensen Huang if Nvidia ousts him?",
+      "summary": "Nvidia's board is reportedly discussing the future of CEO Jensen Huang due to recent controversies surrounding him. Huang has been linked to extramarital affairs, including a connection to an accused",
+      "source": "The Times of India",
+      "date": "Nov 12, 2026",
+      "image": "blog-images/news_6.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/disney-streaming-presentation-2027-priorities-free-tier-vertical-clips-2026-11#article"
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/who-could-potentially-replace-jensen-huang-if-nvidia-ousts-him/articleshow/135754480.cms"
     },
     {
-      "title": "A creator making 6 figures on TikTok uses 'hooks' to grab attention. How to use the strategy to earn extra cash.",
-      "summary": "Talon Krebs earns six figures as a TikTok Shop affiliate. He shares how strong video hooks can turn views into sales.",
-      "source": "Business Insider",
-      "date": "Nov 8, 2026",
-      "image": "blog-images/news_3.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/how-to-create-viral-videos-earn-money-from-tiktok-shop-2026-11#article"
-    },
-    {
-      "title": "A growing streetwear retailer reveals its AI agent shopping strategy ahead of the holidays",
-      "summary": "The head of growth for streetwear retailer All Star Elite says he's been optimizing his online catalog for a growing wave of shopping bots.",
-      "source": "Business Insider",
-      "date": "Nov 7, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/all-star-elite-streetwear-ai-agent-shopping-strategy-holidays-2026-11#article"
-    },
-    {
-      "title": "Fox Corp. Completes $22 Billion Deal for Roku",
-      "summary": "Roku will be folded into Fox Digital Platforms, which also houses Tubi, Fox One, and Red Seat Ventures.",
-      "source": "Adweek",
-      "date": "Nov 6, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/convergent-tv/fox-corp-completes-22-billion-deal-for-roku/"
-    },
-    {
-      "title": "Kalyan Jewellers surges 10%, hits 52",
-      "summary": "The average trading volume at the Kalyan Jewellers' counter jumped 10-fold with a combined 17.37 million shares changing hands on the NSE and BSE till 09:32 AM on Wednesday.",
-      "source": "Business Standard",
-      "date": "Nov 11, 2026",
-      "image": "blog-images/news_6.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.business-standard.com/markets/news/kalyan-jewellers-surges-10-hits-52-week-high-post-q2-results-126111100244_1.html"
-    },
-    {
-      "title": "Dialled In Singapore debut at Esplanade Annexe Studio",
-      "summary": "Dialled In makes its Singapore debut at Esplanade with a nine-hour South Asian electronic and dance music showcase. Read more at straitstimes.com.",
-      "source": "The Straits Times",
-      "date": "Nov 11, 2026",
+      "title": "CRAYON, the 1995 personalized news site, is back and says your 1990s password still works",
+      "summary": "Dave Maher rebuilt the site Jeff Boulter started as a Bucknell student. Every outlet's version of an event now sits in one story, ordered by who got there first, and the maker says an old login opens",
+      "source": "Lockergnome.com",
+      "date": "Nov 12, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.straitstimes.com/life/entertainment/music-collective-dialled-ins-singapore-debut-is-a-marathon-nine-hour-party-at-esplanade"
+      "url": "https://lockergnome.com/crayon-1995-personalized-newspaper-relaunch-90s-logins/"
     },
     {
-      "title": "From Bengaluru Metro to renewable energy infra: Projects worth over Rs 15,000 crore lined up for PM Modi's Karnataka visit",
-      "summary": "The project list includes Bengaluru Metro's Phase 2 elevated stretch, Bengaluru-Mangaluru-Madgaon Vande Bharat Express, transmission infrastructure for renewable energy and railway station redevelopme",
-      "source": "Moneycontrol",
-      "date": "Nov 11, 2026",
+      "title": "This ’90s Dark Fantasy Movie Had a Disturbing Underground World, And Fans Still Love It",
+      "summary": "When it comes to magical fantasy kingdoms, you’ll find countless flavors and styles. This film wants you to crawl underground and spend some time with a collection of creatures that are not too pleasa",
+      "source": "ComicBook.com",
+      "date": "Nov 12, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.moneycontrol.com/news/business/from-bengaluru-metro-to-renewable-energy-infra-projects-worth-over-rs-15-000-crore-lined-up-for-pm-modi-s-karnataka-visit-14076774.html"
+      "url": "http://comicbook.com/movies/feature/this-90s-dark-fantasy-movie-had-a-disturbing-underground-world-and-fans-still-love-it/"
     }
   ],
   "jobs": [
