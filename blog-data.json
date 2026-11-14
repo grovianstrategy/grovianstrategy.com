@@ -1,12 +1,22 @@
 {
-  "updated": "2026-11-13T03:58:27.765Z",
+  "updated": "2026-11-14T03:56:59.813Z",
   "news": [
+    {
+      "title": "Norwest pushes deeper into AI with new $4B fund",
+      "summary": "Norwest pushes deeper into AI with new $4B fund | TechCrunchtechcrunch.com",
+      "source": "TechCrunch",
+      "date": "Nov 12, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/"
+    },
     {
       "title": "The Washington Post Nears Breakeven After ‘Hundreds and Hundreds of Millions’ in Losses",
       "summary": "This story was originally published in On Background with Mark Stenberg, a free, weekly newsletter that explores the key themes shaping the media industry. You can sign up for it here. […]",
       "source": "Adweek",
       "date": "Nov 11, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_1.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/media/the-washington-post-nears-breakeven-after-hundreds-and-hundreds-of-millions-in-losses/"
@@ -16,7 +26,7 @@
       "summary": "New York or Nowhere built a brand without buying ads, relying on brand collabs and social posts from store visitors to help spread the word.",
       "source": "Business Insider",
       "date": "Nov 11, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/new-york-or-nowhere-brand-growth-without-paid-ads-social-2026-11#article"
@@ -26,7 +36,7 @@
       "summary": "From agents, to brokers, to fintech entrepreneurs, to public relations professionals, here are Business Insider's 2026 rising stars of real estate.",
       "source": "Business Insider",
       "date": "Nov 11, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/rising-stars-of-real-estate-2026#article"
@@ -36,7 +46,7 @@
       "summary": "I recently visited my local Wendy's and was let down by the menu, which felt a bit stale.",
       "source": "Business Insider",
       "date": "Nov 11, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/review-wendys-meal-see-why-chain-is-struggling-2026-11#article"
@@ -46,50 +56,40 @@
       "summary": "AI stocks seem to be back in favor this week, and Morgan Stanley says it sees \"multiple buying opportunities\" for investors.",
       "source": "Business Insider",
       "date": "Nov 10, 2026",
-      "image": "blog-images/news_4.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/ai-stocks-where-to-invest-after-midterm-election-sell-off-2026-11#article"
     },
     {
-      "title": "Nelson Boyce Named Samsung Ads SVP Ad Sales",
-      "summary": "Boyce joins Samsung Ads from Google, where he was managing director of Americas, Large Customer Sales, Integrated Solutions Sector.",
-      "source": "Adweek",
-      "date": "Nov 10, 2026",
-      "image": "blog-images/news_5.png",
+      "title": "New Photos Show The £164,420 BMW i7 M70 In Two",
+      "summary": "New photos from BMW UK’s media launch at give us a good look at the facelifted i7 M70 xDrive, the most powerful version of the electric 7 Series. It starts at £164,420 OTR, and this...\nFirst published",
+      "source": "BMWBLOG",
+      "date": "Nov 13, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.adweek.com/agencies/nelson-boyce-named-samsung-ads-svp-ad-sales/"
+      "url": "https://www.bmwblog.com/2026/11/12/bmw-i7-m70-vancouver-green-black-sapphire-two-tone-uk/"
     },
     {
-      "title": "Who could potentially replace Jensen Huang if Nvidia ousts him?",
-      "summary": "Nvidia's board is reportedly discussing the future of CEO Jensen Huang due to recent controversies surrounding him. Huang has been linked to extramarital affairs, including a connection to an accused",
-      "source": "The Times of India",
-      "date": "Nov 12, 2026",
-      "image": "blog-images/news_6.png",
+      "title": "Inside NAB’s Customer Brain: Scaling 1-to",
+      "summary": "Today’s episode of the Punk CX podcast features a chat I had with Jessica Cuthbertson, Executive, Data & Analytics at National Australia Bank (NAB), where she leads the team responsible for harnessing",
+      "source": "Customer Think",
+      "date": "Nov 13, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/who-could-potentially-replace-jensen-huang-if-nvidia-ousts-him/articleshow/135754480.cms"
+      "url": "https://customerthink.com/inside-nabs-customer-brain-scaling-1-to-1-personalisation-with-agentic-ai-interview-with-jessica-cuthbertson-of-nab/"
     },
     {
-      "title": "CRAYON, the 1995 personalized news site, is back and says your 1990s password still works",
-      "summary": "Dave Maher rebuilt the site Jeff Boulter started as a Bucknell student. Every outlet's version of an event now sits in one story, ordered by who got there first, and the maker says an old login opens",
-      "source": "Lockergnome.com",
-      "date": "Nov 12, 2026",
-      "image": "blog-images/news_7.jpg",
+      "title": "SpaceX To Invest $74 Billion Into Data Center Construction Projects In Texas, Arizona",
+      "summary": "An anonymous reader quotes a report from the Hill: Elon Musk's SpaceX plans to invest more than $74 billion into building two data centers in Texas and Arizona, the company announced Thursday, marketi",
+      "source": "Slashdot.org",
+      "date": "Nov 13, 2026",
+      "image": "blog-images/news_8.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://lockergnome.com/crayon-1995-personalized-newspaper-relaunch-90s-logins/"
-    },
-    {
-      "title": "This ’90s Dark Fantasy Movie Had a Disturbing Underground World, And Fans Still Love It",
-      "summary": "When it comes to magical fantasy kingdoms, you’ll find countless flavors and styles. This film wants you to crawl underground and spend some time with a collection of creatures that are not too pleasa",
-      "source": "ComicBook.com",
-      "date": "Nov 12, 2026",
-      "image": "blog-images/news_8.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "http://comicbook.com/movies/feature/this-90s-dark-fantasy-movie-had-a-disturbing-underground-world-and-fans-still-love-it/"
+      "url": "https://slashdot.org/story/26/11/13/0121210/spacex-to-invest-74-billion-into-data-center-construction-projects-in-texas-arizona"
     }
   ],
   "jobs": [
