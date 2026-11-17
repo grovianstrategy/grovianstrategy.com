@@ -1,12 +1,22 @@
 {
-  "updated": "2026-11-15T03:41:00.719Z",
+  "updated": "2026-11-17T05:37:42.152Z",
   "news": [
+    {
+      "title": "The AI graveyard: a running list of projects and startups that didn't make it",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "source": "TechCrunch",
+      "date": "Nov 14, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+    },
     {
       "title": "Home Depot, ESPN Among 2026 Brand Hall of Fame Inductees",
       "summary": "The One Club also honored Apple as the first brand to ever join its Creative Hall of Fame",
       "source": "Adweek",
       "date": "Nov 13, 2026",
-      "image": "blog-images/news_0.png",
+      "image": "blog-images/news_1.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/home-depot-espn-among-2026-one-club-brand-hall-of-fame-inductees/"
@@ -16,7 +26,7 @@
       "summary": "Emmy Brown Berlind on the forces reshaping the future of customer relationships.",
       "source": "Adweek",
       "date": "Nov 13, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_2.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/beyond-points-and-perks-how-sephora-makes-46-million-members-feel-known/"
@@ -26,7 +36,7 @@
       "summary": "Norwest pushes deeper into AI with new $4B fund | TechCrunchtechcrunch.com",
       "source": "TechCrunch",
       "date": "Nov 12, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/"
@@ -36,60 +46,50 @@
       "summary": "This story was originally published in On Background with Mark Stenberg, a free, weekly newsletter that explores the key themes shaping the media industry. You can sign up for it here. […]",
       "source": "Adweek",
       "date": "Nov 11, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/media/the-washington-post-nears-breakeven-after-hundreds-and-hundreds-of-millions-in-losses/"
     },
     {
-      "title": "How New York or Nowhere has grown its brand without any paid ads",
-      "summary": "New York or Nowhere built a brand without buying ads, relying on brand collabs and social posts from store visitors to help spread the word.",
-      "source": "Business Insider",
-      "date": "Nov 11, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.businessinsider.com/new-york-or-nowhere-brand-growth-without-paid-ads-social-2026-11#article"
-    },
-    {
-      "title": "Some Three",
-      "summary": "Some children born through three-parent IVF show mitochondrial reversion as clinics still market it to women over 40, STAT reports.",
-      "source": "Medical Daily",
-      "date": "Nov 14, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.medicaldaily.com/three-parent-ivf-reversion-children-mexico-bahamas-clinics-481233"
-    },
-    {
-      "title": "Sharper Image Tabletop Fire Pit Recall Covers 265,000 Units After Escaping Fuel Caused Third- and Fourth",
-      "summary": "About 265,000 Sharper Image tabletop fire pits are being recalled after escaping fuel caused severe burns. How to spot one and get a refund.",
-      "source": "Medical Daily",
-      "date": "Nov 14, 2026",
-      "image": "blog-images/news_6.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.medicaldaily.com/sharper-image-tabletop-fire-pit-recall-265000-burns-481230"
-    },
-    {
-      "title": "Scaling India’s agri",
-      "summary": "Organisations that proactively identify their regulatory obligations, implement appropriate compliance management systems, and invest in skilled human resources will be better positioned",
-      "source": "BusinessLine",
-      "date": "Nov 14, 2026",
-      "image": "blog-images/news_7.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/scaling-indias-agri-economy-why-compliance-processes-and-people-management-matter-as-much-as-technology/article71698271.ece"
-    },
-    {
-      "title": "Introduction to Self Promotion and Marketing for Fighters to Build Careers",
-      "summary": "Introduction to Self Promotion and Marketing for Fighters to Build Careersyoutube.com",
-      "source": "YouTube",
-      "date": "Nov 14, 2026",
+      "title": "Most Retail Media Networks Shouldn’t Exist. Here’s How They Can Prove Their Worth",
+      "summary": "We’re well past the point of oversaturation in ad tech. There are more than 175,000 software vendors listed on G2, over 15,000 marketing technology solutions and reportedly over 12,000 ad tech vendors",
+      "source": "AdExchanger",
+      "date": "Nov 16, 2026",
       "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.youtube.com/supported_browsers?next_url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D6iOFAOLDnkI"
+      "url": "http://www.adexchanger.com/data-driven-thinking/most-retail-media-networks-shouldnt-exist-heres-how-they-can-prove-their-worth/"
+    },
+    {
+      "title": "2027 DSF Board Nominations",
+      "summary": "The Django Software Foundation is inviting nominations for its 2027 Board of Directors. Five of the seven Board positions are open for election this year.\nThe Board of Directors play a central role in",
+      "source": "Djangoproject.com",
+      "date": "Nov 16, 2026",
+      "image": "blog-images/news_6.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.djangoproject.com/weblog/2026/nov/15/2027-dsf-board-nominations/"
+    },
+    {
+      "title": "Agoda's 2027 Asia Travel Pulse reveals appetite for all-in",
+      "summary": "Digital travel platform Agoda launches its 2027 Asia Travel Pulse, revealing that more than six in ten (61%) surveyed Asian travelers say they are open to ...",
+      "source": "Antaranews.com",
+      "date": "Nov 16, 2026",
+      "image": "blog-images/news_7.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://en.antaranews.com/news/442903/agodas-2027-asia-travel-pulse-reveals-appetite-for-all-in-one-booking"
+    },
+    {
+      "title": "When human judgment is not all it’s cracked up to be",
+      "summary": "The quality that sets us apart from machines has been absent during implosion by former Nvidia boss Jensen Huang",
+      "source": "The Irish Times",
+      "date": "Nov 16, 2026",
+      "image": "blog-images/news_8.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.irishtimes.com/business/work/2026/11/16/when-human-judgment-is-not-all-its-cracked-up-to-be/"
     }
   ],
   "jobs": [
