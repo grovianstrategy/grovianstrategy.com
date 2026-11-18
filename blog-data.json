@@ -1,12 +1,32 @@
 {
-  "updated": "2026-11-17T05:37:42.152Z",
+  "updated": "2026-11-18T05:00:39.711Z",
   "news": [
+    {
+      "title": "Why Your Brand Needs a Gaming Strategy",
+      "summary": "Your gaming strategy should be more than just jumping on the GTA VI bandwagon.",
+      "source": "Adweek",
+      "date": "Nov 16, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/why-your-brand-needs-a-gaming-strategy/"
+    },
+    {
+      "title": "The 7 young Wall Street dealmakers helping bankroll the AI infrastructure boom",
+      "summary": "The AI infrastructure boom is getting more complicated. Meet 7 young Wall Street bankers and investors finding new ways to finance the massive buildout.",
+      "source": "Business Insider",
+      "date": "Nov 16, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/wall-street-dealmakers-finance-ai-infrastructure-boom-2026-11#article"
+    },
     {
       "title": "The AI graveyard: a running list of projects and startups that didn't make it",
       "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
       "source": "TechCrunch",
       "date": "Nov 14, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
@@ -16,7 +36,7 @@
       "summary": "The One Club also honored Apple as the first brand to ever join its Creative Hall of Fame",
       "source": "Adweek",
       "date": "Nov 13, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_3.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/home-depot-espn-among-2026-one-club-brand-hall-of-fame-inductees/"
@@ -26,70 +46,50 @@
       "summary": "Emmy Brown Berlind on the forces reshaping the future of customer relationships.",
       "source": "Adweek",
       "date": "Nov 13, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/beyond-points-and-perks-how-sephora-makes-46-million-members-feel-known/"
     },
     {
-      "title": "Norwest pushes deeper into AI with new $4B fund",
-      "summary": "Norwest pushes deeper into AI with new $4B fund | TechCrunchtechcrunch.com",
-      "source": "TechCrunch",
-      "date": "Nov 12, 2026",
-      "image": "blog-images/news_3.jpg",
+      "title": "Luxury Bridge Lenders Are Having a Moment. Flatiron Realty Capital Tells Us Why.",
+      "summary": "Michael and Ed Ostad bring a unique perspective to commercial real estate. As founding partners of both private lender Flatiron Realty Capital and the property management firm TriStar Management, the",
+      "source": "Commercial Observer",
+      "date": "Nov 17, 2026",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/"
+      "url": "https://commercialobserver.com/2026/11/luxury-bridge-lenders-are-having-a-moment-flatiron-realty-capital-tells-us-why/"
     },
     {
-      "title": "The Washington Post Nears Breakeven After ‘Hundreds and Hundreds of Millions’ in Losses",
-      "summary": "This story was originally published in On Background with Mark Stenberg, a free, weekly newsletter that explores the key themes shaping the media industry. You can sign up for it here. […]",
-      "source": "Adweek",
-      "date": "Nov 11, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/media/the-washington-post-nears-breakeven-after-hundreds-and-hundreds-of-millions-in-losses/"
-    },
-    {
-      "title": "Most Retail Media Networks Shouldn’t Exist. Here’s How They Can Prove Their Worth",
-      "summary": "We’re well past the point of oversaturation in ad tech. There are more than 175,000 software vendors listed on G2, over 15,000 marketing technology solutions and reportedly over 12,000 ad tech vendors",
-      "source": "AdExchanger",
-      "date": "Nov 16, 2026",
-      "image": null,
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "http://www.adexchanger.com/data-driven-thinking/most-retail-media-networks-shouldnt-exist-heres-how-they-can-prove-their-worth/"
-    },
-    {
-      "title": "2027 DSF Board Nominations",
-      "summary": "The Django Software Foundation is inviting nominations for its 2027 Board of Directors. Five of the seven Board positions are open for election this year.\nThe Board of Directors play a central role in",
-      "source": "Djangoproject.com",
-      "date": "Nov 16, 2026",
+      "title": "Top 10 Holiday Gift Sets by Prestige Beauty Sales at Ulta and Sephora",
+      "summary": "Rhode and Tarte delivered bestsellers both online and in-store at Sephora over the past two months, according to new data from Daash.",
+      "source": "WWD",
+      "date": "Nov 17, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.djangoproject.com/weblog/2026/nov/15/2027-dsf-board-nominations/"
+      "url": "https://wwd.com/beauty-industry-news/products/top-holiday-gift-sets-beauty-ulta-sephora-1239413014/"
     },
     {
-      "title": "Agoda's 2027 Asia Travel Pulse reveals appetite for all-in",
-      "summary": "Digital travel platform Agoda launches its 2027 Asia Travel Pulse, revealing that more than six in ten (61%) surveyed Asian travelers say they are open to ...",
-      "source": "Antaranews.com",
-      "date": "Nov 16, 2026",
+      "title": "A disturbing federal and state case against a telehealth company",
+      "summary": "By Andrea WidburgThe FTC alleges that a telehealth company promising privacy shared patients’ sensitive medical information with advertising giants.",
+      "source": "Americanthinker.com",
+      "date": "Nov 17, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://en.antaranews.com/news/442903/agodas-2027-asia-travel-pulse-reveals-appetite-for-all-in-one-booking"
+      "url": "https://www.americanthinker.com/blog/2026/11/a-disturbing-federal-and-state-case-against-a-telehealth-company/"
     },
     {
-      "title": "When human judgment is not all it’s cracked up to be",
-      "summary": "The quality that sets us apart from machines has been absent during implosion by former Nvidia boss Jensen Huang",
-      "source": "The Irish Times",
-      "date": "Nov 16, 2026",
+      "title": "Ex-Nvidia CEO Jensen Huang’s daughter Madison allegedly berated Indian-origin exec Jay Puri",
+      "summary": "A New York Times report has shed light on Madison Huang’s growing influence at Nvidia, her alleged clashes with senior executives and concerns over her authority following the resignation of her fathe",
+      "source": "Livemint",
+      "date": "Nov 17, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.irishtimes.com/business/work/2026/11/16/when-human-judgment-is-not-all-its-cracked-up-to-be/"
+      "url": "https://www.livemint.com/companies/people/exnvidia-ceo-jensen-huang-s-daughter-madison-allegedly-berated-indian-origin-exec-jay-puri-here-s-how-he-responded-11794889927023.html"
     }
   ],
   "jobs": [
@@ -105,5 +105,17 @@
       "showSource": true
     }
   ],
-  "events": []
+  "events": [
+    {
+      "title": "Bengaluru Tech Summit 2026 begins Nov 17 with theme ‘AI & Beyond’",
+      "summary": "The conference programme at BTS 2026 will unfold across 13 stages, covering technology, entrepreneurship, global partnerships and sustainability",
+      "source": "BusinessLine",
+      "date": "Nov 16, 2026",
+      "image": "blog-images/events_0.jpg",
+      "category": "Events",
+      "emoji": "🎪",
+      "url": "https://www.thehindubusinessline.com/info-tech/bengaluru-tech-summit-2026-begins-nov-17-with-theme-ai-beyond/article71707297.ece",
+      "location": "🌐 Online/Global"
+    }
+  ]
 }
