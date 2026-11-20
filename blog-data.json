@@ -1,12 +1,32 @@
 {
-  "updated": "2026-11-19T04:55:40.513Z",
+  "updated": "2026-11-20T04:46:22.480Z",
   "news": [
+    {
+      "title": "Amazon puts Arnold Schwarzenegger in Santa suit to extend holiday push",
+      "summary": "The spot builds on a “Joy Delivered\" campaign and takes inspiration from an upcoming Prime Video original holiday movie starring the “Terminator” actor.",
+      "source": "Marketing Dive",
+      "date": "Nov 18, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.marketingdive.com/news/amazon-puts-arnold-schwarzenegger-in-santa-suit-to-extend-holiday-push/874675/"
+    },
+    {
+      "title": "Can Media Budgets Go Big on Brand Building and Still Drive Sales?",
+      "summary": "This post was created in partnership with Marketing ArchitectsKey takeaways Success means planning strategies for the present and the future. The channels and platforms brands need to understand how t",
+      "source": "Adweek",
+      "date": "Nov 18, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/commerce/can-media-budgets-go-big-on-brand-building-and-still-drive-sales/"
+    },
     {
       "title": "Ad Buyers Embrace Retail Media’s Honeymoon With Streaming",
       "summary": "TV deals with shopping data have created a powerful tool.",
       "source": "Adweek",
       "date": "Nov 17, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/commerce/ad-buyers-embrace-retail-medias-honeymoon-with-streaming/"
@@ -16,7 +36,7 @@
       "summary": "Plus, three more things the CPG giant's CMO, Leandro Barreto, revealed about its marketing transformation at a recent investor event in New York",
       "source": "Adweek",
       "date": "Nov 17, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_3.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/unilevers-creator-army-has-grown-from-75000-to-500000-in-two-years/"
@@ -26,7 +46,7 @@
       "summary": "You don’t transform by abandoning what made you good.",
       "source": "Adweek",
       "date": "Nov 17, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/why-great-leaders-clear-the-runway-ft-alaska-airlines-eric-edge/"
@@ -36,60 +56,40 @@
       "summary": "Your brand's biggest opportunity might be hiding in plain sight.",
       "source": "Adweek",
       "date": "Nov 17, 2026",
-      "image": "blog-images/news_3.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/the-second-half-of-life-is-the-most-creative-act-ft-anna-banks-of-aarp/"
     },
     {
-      "title": "Macaulay Culkin Is Home Alone Again, This Time in McDonald’s",
-      "summary": "Macaulay Culkin reprises his famous role as Kevin McCallister for McDonald’s global holiday campaign.",
-      "source": "Adweek",
-      "date": "Nov 17, 2026",
-      "image": "blog-images/news_4.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/creativity/macaulay-culkin-is-home-alone-again-this-time-in-mcdonalds/"
-    },
-    {
-      "title": "Why Your Brand Needs a Gaming Strategy",
-      "summary": "Your gaming strategy should be more than just jumping on the GTA VI bandwagon.",
-      "source": "Adweek",
-      "date": "Nov 16, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/why-your-brand-needs-a-gaming-strategy/"
-    },
-    {
-      "title": "Biocon’s Pebrilzo becomes first biosimilar approved under EMA’s tailored clinical pathway",
-      "summary": "Biocon’s Pebrilzo, a pertuzumab biosimilar for HER2-positive breast cancer, becomes the first to receive European Commission approval under the EMA’s tailored clinical pathway.",
-      "source": "BusinessLine",
-      "date": "Nov 18, 2026",
+      "title": "Alex Trebek's former 578",
+      "summary": "Creston Manor, a majestic estate formerly belonging to Alex Trebek, is now up for auction following an unsuccessful private sale. Spanning an impressive 577 acres, this property boasts vineyards and v",
+      "source": "The Times of India",
+      "date": "Nov 19, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.thehindubusinessline.com/companies/biocons-pebrilzo-becomes-first-biosimilar-approved-under-emas-tailored-clinical-pathway/article71714507.ece"
+      "url": "https://timesofindia.indiatimes.com/real-estate/news/in-1987-jeopardy-host-alex-trebek-became-a-partner-in-a-california-winery-on-a-nearly-578-acre-ranch-after-a-6-45-million-listing-failed-to-find-a-buyer-the-historic-property-is-heading-to-a-december-auction/articleshow/135962172.cms"
     },
     {
-      "title": "UltraTech, ABB India, Grasim, Amber, Eicher, OIL, Vi & Tata Motors PV: Which stocks to Buy, Hold or Sell After Q2 FY27 results",
-      "summary": "Sales growth YoY: +25% (estimate +19%)EBITDA growth YoY: +23% (estimate +17%)Profit growth YoY: +32% (estimate +21%)Sectors meeting or beating estimates: 28Across Motilal Oswal’s coverage universe, 2Q",
-      "source": "Economictimes.com",
-      "date": "Nov 18, 2026",
+      "title": "‘Risky’: Anthropic’s staggering market debut is the bubble’s biggest test yet",
+      "summary": "Australians have more riding on Anthropic’s US$81 billion float than they realise, with super funds heavily invested in US tech, and a data centre boom underway at home.\nThe post ‘Risky’: Anthropic’s",
+      "source": "Crikey",
+      "date": "Nov 19, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://m.economictimes.com/wealth/invest/ultratech-abb-india-grasim-amber-eicher-oil-vi-tata-motors-pv-which-stocks-to-buy-hold-or-sell-after-q2-fy27-results/india-inc-smashes-q2-fy27-profit-forecasts-as-earnings-jump-32/slideshow/135949228.cms"
+      "url": "https://www.crikey.com.au/2026/11/19/risky-anthropics-staggering-market-debut-is-the-bubbles-biggest-test-yet/"
     },
     {
-      "title": "Varuvaaiy becomes first Tamil song to get Grammy nomination",
-      "summary": "Chennai-based composer-singer Devan Ekambaram and vocalist Subiksha Rangarajan, aka Susha made history with their track Varuvaaiy becoming the first Tamil",
-      "source": "The Times of India",
-      "date": "Nov 18, 2026",
-      "image": "blog-images/news_8.jpg",
+      "title": "What happened to squirrel peanut butter?",
+      "summary": "What Happened to Squirrel Peanut Butter? A Nutty Disappearance The disappearance of commercially available “squirrel peanut butter” is a mystery solved by understanding evolving consumer preferences,",
+      "source": "Lifesciencesworld.com",
+      "date": "Nov 19, 2026",
+      "image": null,
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/varuvaaiy-become-first-tamil-song-to-get-grammy-nomination/articleshow/135948344.cms"
+      "url": "https://www.lifesciencesworld.com/what-happened-to-squirrel-peanut-butter/"
     }
   ],
   "jobs": [
