@@ -1,12 +1,42 @@
 {
-  "updated": "2026-11-20T04:46:22.480Z",
+  "updated": "2026-11-21T04:41:13.347Z",
   "news": [
+    {
+      "title": "Ashton Kutcher is Hollywood's most active Silicon Valley investor. Here's how he built a lucrative investing career, from Uber to Anthropic.",
+      "summary": "Investor and actor Ashton Kutcher is full of investing advice. His former firm could earn big from Anthropic's IPO.",
+      "source": "Business Insider",
+      "date": "Nov 19, 2026",
+      "image": "blog-images/news_0.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/ashton-kutcher-silicon-valley-investing-career-wealth"
+    },
+    {
+      "title": "Playing for More: How Purpose and Authenticity Build Stronger Brands",
+      "summary": "Going from one-off endorsements to partnerships with lasting impact.",
+      "source": "Adweek",
+      "date": "Nov 19, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/playing-for-more-how-purpose-and-authenticity-build-stronger-brands/"
+    },
+    {
+      "title": "Brands Must Sharpen Their Storytelling For Agentic Commerce",
+      "summary": "Agentic commerce will soon impact marketing the way social media has done — both having started with a sense of unknown until hitting critical mass.",
+      "source": "Adweek",
+      "date": "Nov 19, 2026",
+      "image": "blog-images/news_2.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/commerce/brands-must-sharpen-their-storytelling-for-agentic-commerce/"
+    },
     {
       "title": "Amazon puts Arnold Schwarzenegger in Santa suit to extend holiday push",
       "summary": "The spot builds on a “Joy Delivered\" campaign and takes inspiration from an upcoming Prime Video original holiday movie starring the “Terminator” actor.",
       "source": "Marketing Dive",
       "date": "Nov 18, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.marketingdive.com/news/amazon-puts-arnold-schwarzenegger-in-santa-suit-to-extend-holiday-push/874675/"
@@ -16,7 +46,7 @@
       "summary": "This post was created in partnership with Marketing ArchitectsKey takeaways Success means planning strategies for the present and the future. The channels and platforms brands need to understand how t",
       "source": "Adweek",
       "date": "Nov 18, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/commerce/can-media-budgets-go-big-on-brand-building-and-still-drive-sales/"
@@ -26,70 +56,40 @@
       "summary": "TV deals with shopping data have created a powerful tool.",
       "source": "Adweek",
       "date": "Nov 17, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/commerce/ad-buyers-embrace-retail-medias-honeymoon-with-streaming/"
     },
     {
-      "title": "Unilever’s Creator Army Has Grown From 75,000 to 500,000 in Two Years",
-      "summary": "Plus, three more things the CPG giant's CMO, Leandro Barreto, revealed about its marketing transformation at a recent investor event in New York",
-      "source": "Adweek",
-      "date": "Nov 17, 2026",
-      "image": "blog-images/news_3.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/unilevers-creator-army-has-grown-from-75000-to-500000-in-two-years/"
-    },
-    {
-      "title": "Why Great Leaders ‘Clear the Runway’ ft. Alaska Airlines’ Eric Edge",
-      "summary": "You don’t transform by abandoning what made you good.",
-      "source": "Adweek",
-      "date": "Nov 17, 2026",
-      "image": "blog-images/news_4.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/why-great-leaders-clear-the-runway-ft-alaska-airlines-eric-edge/"
-    },
-    {
-      "title": "The Second Half of Life Is the Most Creative Act ft. Anna Banks of AARP",
-      "summary": "Your brand's biggest opportunity might be hiding in plain sight.",
-      "source": "Adweek",
-      "date": "Nov 17, 2026",
-      "image": "blog-images/news_5.png",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/the-second-half-of-life-is-the-most-creative-act-ft-anna-banks-of-aarp/"
-    },
-    {
-      "title": "Alex Trebek's former 578",
-      "summary": "Creston Manor, a majestic estate formerly belonging to Alex Trebek, is now up for auction following an unsuccessful private sale. Spanning an impressive 577 acres, this property boasts vineyards and v",
-      "source": "The Times of India",
-      "date": "Nov 19, 2026",
+      "title": "Sorry Microsoft, Hybrid Intelligence Won't Make Me Buy a Copilot+ PC",
+      "summary": "Microsoft's latest Copilot upgrades feel years overdue, and they shouldn't be locked behind new hardware.\nDuring its business- and IT-focused Ignite conference this week, Microsoft published more deta",
+      "source": "PCMag.com",
+      "date": "Nov 20, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://timesofindia.indiatimes.com/real-estate/news/in-1987-jeopardy-host-alex-trebek-became-a-partner-in-a-california-winery-on-a-nearly-578-acre-ranch-after-a-6-45-million-listing-failed-to-find-a-buyer-the-historic-property-is-heading-to-a-december-auction/articleshow/135962172.cms"
+      "url": "https://me.pcmag.com/en/migrated-18166-windows-10/38660/sorry-microsoft-hybrid-intelligence-wont-make-me-buy-a-copilot-pc"
     },
     {
-      "title": "‘Risky’: Anthropic’s staggering market debut is the bubble’s biggest test yet",
-      "summary": "Australians have more riding on Anthropic’s US$81 billion float than they realise, with super funds heavily invested in US tech, and a data centre boom underway at home.\nThe post ‘Risky’: Anthropic’s",
-      "source": "Crikey",
-      "date": "Nov 19, 2026",
+      "title": "Maintenance Work Behind a Small Business Website",
+      "summary": "A small business website can look finished the day it goes live, with a clear...\nThe post Maintenance Work Behind a Small Business Website appeared first on Social Media Explorer.",
+      "source": "Socialmediaexplorer.com",
+      "date": "Nov 20, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.crikey.com.au/2026/11/19/risky-anthropics-staggering-market-debut-is-the-bubbles-biggest-test-yet/"
+      "url": "https://socialmediaexplorer.com/social-media-marketing/maintenance-work-behind-small-business-website/"
     },
     {
-      "title": "What happened to squirrel peanut butter?",
-      "summary": "What Happened to Squirrel Peanut Butter? A Nutty Disappearance The disappearance of commercially available “squirrel peanut butter” is a mystery solved by understanding evolving consumer preferences,",
-      "source": "Lifesciencesworld.com",
-      "date": "Nov 19, 2026",
-      "image": null,
+      "title": "Structuring Lifestyle Content Hubs for Broader Discovery",
+      "summary": "Modern online audiences rarely browse websites in a single, predictable line. A reader might arrive...\nThe post Structuring Lifestyle Content Hubs for Broader Discovery appeared first on Social Media",
+      "source": "Socialmediaexplorer.com",
+      "date": "Nov 20, 2026",
+      "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.lifesciencesworld.com/what-happened-to-squirrel-peanut-butter/"
+      "url": "https://socialmediaexplorer.com/social-media-marketing/structuring-lifestyle-content-hubs-broader-discovery/"
     }
   ],
   "jobs": [
