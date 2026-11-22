@@ -1,12 +1,32 @@
 {
-  "updated": "2026-11-21T04:41:13.347Z",
+  "updated": "2026-11-22T03:55:51.644Z",
   "news": [
+    {
+      "title": "6 Recent Marketer Moves to Know at Danone, Lululemon, and More",
+      "summary": "A roundup of the biggest marketing leadership moves from the last two weeks",
+      "source": "Adweek",
+      "date": "Nov 20, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/brand-marketing/6-recent-marketer-moves-to-know-at-danone-lululemon-and-more/"
+    },
+    {
+      "title": "Hearts United Wins $110M Pinterest Media AOR in First Pitch Since Launch",
+      "summary": "Following a competitive review, Hearts United will position Pinterest for the future in the U.S. and UK",
+      "source": "Adweek",
+      "date": "Nov 20, 2026",
+      "image": "blog-images/news_1.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/agencies/hearts-united-wins-110m-pinterest-media-aor-in-first-pitch-since-launch/"
+    },
     {
       "title": "Ashton Kutcher is Hollywood's most active Silicon Valley investor. Here's how he built a lucrative investing career, from Uber to Anthropic.",
       "summary": "Investor and actor Ashton Kutcher is full of investing advice. His former firm could earn big from Anthropic's IPO.",
       "source": "Business Insider",
       "date": "Nov 19, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_2.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.businessinsider.com/ashton-kutcher-silicon-valley-investing-career-wealth"
@@ -16,7 +36,7 @@
       "summary": "Going from one-off endorsements to partnerships with lasting impact.",
       "source": "Adweek",
       "date": "Nov 19, 2026",
-      "image": "blog-images/news_1.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/playing-for-more-how-purpose-and-authenticity-build-stronger-brands/"
@@ -26,7 +46,7 @@
       "summary": "Agentic commerce will soon impact marketing the way social media has done — both having started with a sense of unknown until hitting critical mass.",
       "source": "Adweek",
       "date": "Nov 19, 2026",
-      "image": "blog-images/news_2.jpg",
+      "image": "blog-images/news_4.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/commerce/brands-must-sharpen-their-storytelling-for-agentic-commerce/"
@@ -36,60 +56,40 @@
       "summary": "The spot builds on a “Joy Delivered\" campaign and takes inspiration from an upcoming Prime Video original holiday movie starring the “Terminator” actor.",
       "source": "Marketing Dive",
       "date": "Nov 18, 2026",
-      "image": "blog-images/news_3.jpg",
+      "image": "blog-images/news_5.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.marketingdive.com/news/amazon-puts-arnold-schwarzenegger-in-santa-suit-to-extend-holiday-push/874675/"
     },
     {
-      "title": "Can Media Budgets Go Big on Brand Building and Still Drive Sales?",
-      "summary": "This post was created in partnership with Marketing ArchitectsKey takeaways Success means planning strategies for the present and the future. The channels and platforms brands need to understand how t",
-      "source": "Adweek",
-      "date": "Nov 18, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/commerce/can-media-budgets-go-big-on-brand-building-and-still-drive-sales/"
-    },
-    {
-      "title": "Ad Buyers Embrace Retail Media’s Honeymoon With Streaming",
-      "summary": "TV deals with shopping data have created a powerful tool.",
-      "source": "Adweek",
-      "date": "Nov 17, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/commerce/ad-buyers-embrace-retail-medias-honeymoon-with-streaming/"
-    },
-    {
-      "title": "Sorry Microsoft, Hybrid Intelligence Won't Make Me Buy a Copilot+ PC",
-      "summary": "Microsoft's latest Copilot upgrades feel years overdue, and they shouldn't be locked behind new hardware.\nDuring its business- and IT-focused Ignite conference this week, Microsoft published more deta",
-      "source": "PCMag.com",
-      "date": "Nov 20, 2026",
+      "title": "GTA VI generates $3.79 bn, becomes biggest entertainment launch ever",
+      "summary": "Rockstar Games said the title sold 32.5 million units before release, with its first-day sales nearly five times the estimated $800 million earned by GTA V on its 2013 debut",
+      "source": "Business Standard",
+      "date": "Nov 21, 2026",
       "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://me.pcmag.com/en/migrated-18166-windows-10/38660/sorry-microsoft-hybrid-intelligence-wont-make-me-buy-a-copilot-pc"
+      "url": "https://www.business-standard.com/technology/tech-news/gta-vi-generates-3-79-bn-becomes-biggest-entertainment-launch-ever-126112100066_1.html"
     },
     {
-      "title": "Maintenance Work Behind a Small Business Website",
-      "summary": "A small business website can look finished the day it goes live, with a clear...\nThe post Maintenance Work Behind a Small Business Website appeared first on Social Media Explorer.",
-      "source": "Socialmediaexplorer.com",
-      "date": "Nov 20, 2026",
+      "title": "Give Me 10 Minutes and I’ll Make You Dangerously Smart (with AI)",
+      "summary": "Most entrepreneurs are using AI to get work done faster. But what if it’s moving their businesses in the wrong direction? AI can now help entrepreneurs produce marketing campaigns, research competitor",
+      "source": "Biztoc.com",
+      "date": "Nov 21, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://socialmediaexplorer.com/social-media-marketing/maintenance-work-behind-small-business-website/"
+      "url": "https://biztoc.com/x/4010155aee697c4b"
     },
     {
-      "title": "Structuring Lifestyle Content Hubs for Broader Discovery",
-      "summary": "Modern online audiences rarely browse websites in a single, predictable line. A reader might arrive...\nThe post Structuring Lifestyle Content Hubs for Broader Discovery appeared first on Social Media",
-      "source": "Socialmediaexplorer.com",
-      "date": "Nov 20, 2026",
+      "title": "HMD could bring Nokia's PureView branding back with a new phone",
+      "summary": "It's been a while since we last heard the PureView name, but a new report suggests it could be making a comeback. HMD Global is reportedly considering reviving the branding that Nokia once used for it",
+      "source": "GSMArena.com",
+      "date": "Nov 21, 2026",
       "image": "blog-images/news_8.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://socialmediaexplorer.com/social-media-marketing/structuring-lifestyle-content-hubs-broader-discovery/"
+      "url": "https://www.gsmarena.com/hmd_could_bring_nokias_pureview_branding_back_with_a_new_phone-news-75572.php"
     }
   ],
   "jobs": [
