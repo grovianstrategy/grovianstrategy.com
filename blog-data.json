@@ -1,12 +1,42 @@
 {
-  "updated": "2026-11-26T05:51:55.376Z",
+  "updated": "2026-11-27T05:44:46.426Z",
   "news": [
+    {
+      "title": "Want to Sell an Agency? Launch a Creator Marketing Firm",
+      "summary": "New buyers, new kinds of targets, and a fragmented market have made 2026 the busiest year on record for creator agency deals.",
+      "source": "Adweek",
+      "date": "Nov 25, 2026",
+      "image": "blog-images/news_0.png",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.adweek.com/agencies/creator-influencer-agency-mergers-acquisitions-2026/"
+    },
+    {
+      "title": "Holiday marketing hits inflection point in 2026: What brands need to know",
+      "summary": "Consumers’ push-pull relationship with buzzy tactics like AI and tried-and-true strategies like creator tie-ups is challenging brands to find the right balance.",
+      "source": "Marketing Dive",
+      "date": "Nov 25, 2026",
+      "image": "blog-images/news_1.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.marketingdive.com/news/holiday-marketing-hits-inflection-point-in-2026-what-brands-need-to-know/874758/"
+    },
+    {
+      "title": "Meta is a surprise winner in TikTok Shop's holiday push",
+      "summary": "Marketers are hoping to squeeze more value out of creator content this holiday season, and some are repurposing TikTok Shop videos into Meta ads.",
+      "source": "Business Insider",
+      "date": "Nov 25, 2026",
+      "image": "blog-images/news_2.jpg",
+      "category": "Industry News",
+      "emoji": "📰",
+      "url": "https://www.businessinsider.com/meta-is-a-surprise-winner-in-tiktok-shops-holiday-push-2026-11"
+    },
     {
       "title": "Mission Over Metrics: Rethinking the Shopper Journey with Liz Roche",
       "summary": "How connected campaigns transform retail media.",
       "source": "Adweek",
       "date": "Nov 24, 2026",
-      "image": "blog-images/news_0.jpg",
+      "image": "blog-images/news_3.jpg",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/mission-over-metrics-rethinking-the-shopper-journey-with-liz-roche/"
@@ -16,7 +46,7 @@
       "summary": "A roundup of the biggest marketing leadership moves from the last two weeks",
       "source": "Adweek",
       "date": "Nov 20, 2026",
-      "image": "blog-images/news_1.png",
+      "image": "blog-images/news_4.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/brand-marketing/6-recent-marketer-moves-to-know-at-danone-lululemon-and-more/"
@@ -26,70 +56,40 @@
       "summary": "Following a competitive review, Hearts United will position Pinterest for the future in the U.S. and UK",
       "source": "Adweek",
       "date": "Nov 20, 2026",
-      "image": "blog-images/news_2.png",
+      "image": "blog-images/news_5.png",
       "category": "Industry News",
       "emoji": "📰",
       "url": "https://www.adweek.com/agencies/hearts-united-wins-110m-pinterest-media-aor-in-first-pitch-since-launch/"
     },
     {
-      "title": "Ashton Kutcher is Hollywood's most active Silicon Valley investor. Here's how he built a lucrative investing career, from Uber to Anthropic.",
-      "summary": "Investor and actor Ashton Kutcher is full of investing advice. His former firm could earn big from Anthropic's IPO.",
-      "source": "Business Insider",
-      "date": "Nov 19, 2026",
-      "image": "blog-images/news_3.jpg",
+      "title": "Turkey Time with the Buccaneers O",
+      "summary": "In its 20th year, Turkey Time with the O-Line was another success. The annual event helps deserving families with Thanksgiving meals.",
+      "source": "Roundtable.io",
+      "date": "Nov 26, 2026",
+      "image": "blog-images/news_6.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://www.businessinsider.com/ashton-kutcher-silicon-valley-investing-career-wealth"
+      "url": "https://roundtable.io/sports/nfl/bucs/news/turkey-time-with-the-buccaneers-o-line-bucs-bigs-give-back"
     },
     {
-      "title": "Playing for More: How Purpose and Authenticity Build Stronger Brands",
-      "summary": "Going from one-off endorsements to partnerships with lasting impact.",
-      "source": "Adweek",
-      "date": "Nov 19, 2026",
-      "image": "blog-images/news_4.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/brand-marketing/playing-for-more-how-purpose-and-authenticity-build-stronger-brands/"
-    },
-    {
-      "title": "Brands Must Sharpen Their Storytelling For Agentic Commerce",
-      "summary": "Agentic commerce will soon impact marketing the way social media has done — both having started with a sense of unknown until hitting critical mass.",
-      "source": "Adweek",
-      "date": "Nov 19, 2026",
-      "image": "blog-images/news_5.jpg",
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://www.adweek.com/commerce/brands-must-sharpen-their-storytelling-for-agentic-commerce/"
-    },
-    {
-      "title": "Gen Z Creators Are Taking a Bigger Share of Black Friday Budgets, Collabstr Data Shows",
-      "summary": "Gen Z creators earned 38% of creator spend in the six weeks before Black Friday, up from 34% last year, as brands doubled their creator budgets",
-      "source": "Customer Think",
-      "date": "Nov 25, 2026",
-      "image": null,
-      "category": "Industry News",
-      "emoji": "📰",
-      "url": "https://customerthink.com/gen-z-creators-are-taking-a-bigger-share-of-black-friday-budgets-collabstr-data-shows/"
-    },
-    {
-      "title": "Essential Things You Must Know on Digital Marketing Course in Bangalore",
-      "summary": "Essential Things You Must Know on Digital Marketing Course in Bangaloreonesmablog.com",
-      "source": "Onesmablog.com",
-      "date": "Nov 25, 2026",
+      "title": "Comic: Wishful Thinking",
+      "summary": "Enjoy this weekly comic strip from AdExchanger.com that highlights the digital advertising ecosystem … and happy Thanksgiving, everyone!\nThe post Comic: Wishful Thinking appeared first on AdExchanger.",
+      "source": "AdExchanger",
+      "date": "Nov 26, 2026",
       "image": "blog-images/news_7.jpg",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://freshupdates-techwire393.onesmablog.com/essential-things-you-must-know-on-digital-marketing-course-in-bangalore-85580408"
+      "url": "http://www.adexchanger.com/comic-strip/comic-wishful-thinking/"
     },
     {
-      "title": "Don't Trust The Number, Understand the Number: Lessons from 100 Audits",
-      "summary": "Discover the accessibility challenges faced by screen reader users, from total blockers to mild barriers, and workarounds to enhance digital experiences.",
-      "source": "Usablenet.com",
-      "date": "Nov 25, 2026",
-      "image": "blog-images/news_8.jpg",
+      "title": "Is Gold Spot’s Comeback a New Beginning or Just Nostalgia?, ETBrandEquity",
+      "summary": "Coca-Cola is reintroducing Gold Spot after a 26-year hiatus, aiming for consumer interest through quick-commerce channels. The brand features a lower-sugar formulation to align with current beverage t",
+      "source": "The Times of India",
+      "date": "Nov 26, 2026",
+      "image": "blog-images/news_8.png",
       "category": "Industry News",
       "emoji": "📰",
-      "url": "https://blog.usablenet.com/dont-trust-the-number-understand-the-number-lessons-from-100-audits"
+      "url": "https://brandequity.economictimes.indiatimes.com/news/marketing/gold-spot-is-back-but-does-it-still-have-the-zing/136172334"
     }
   ],
   "jobs": [
